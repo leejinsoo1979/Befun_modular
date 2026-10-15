@@ -1,17 +1,20 @@
 /* Adapted from the supplied liveavatar package to the existing Verge3D scene.
- * Source media are byte-identical. World distances here are metres, Y is up.
+ * Source media are byte-identical. Avatar dimensions are nominal metres, Y is up;
+ * the native furniture's internal world units are calibrated against its displayed height.
  */
 (()=>{
  'use strict';
  const ASSETS='/three/reference-studio/person/',PREFERENCE='befun-viewer-avatar-v1';
- const FEMALE_SCALE=1.67/1522,FEMALE_VIDEO_SCALE=1.67/671,MALE_SCALE=1.83/585;
+ // Seat the photographic heels into the floor by 8 mm; retain the requested crown height.
+ const HEEL_CONTACT_DROP=.008;
+ const FEMALE_SCALE=(1.67+HEEL_CONTACT_DROP)/1522,FEMALE_VIDEO_SCALE=(1.67+HEEL_CONTACT_DROP)/671,MALE_SCALE=(1.83+HEEL_CONTACT_DROP)/585;
  const maleFeetPromise=fetch('/liveavatar/male-foot-anchors.json').then(r=>r.json());
  let stopped=false,controller=null,startFrame=0;
  const restore=()=>{try{const saved=JSON.parse(localStorage.getItem(PREFERENCE)||'{}');return {variant:(saved.state?.avatar||saved.avatar)==='male'?'male':'female',motion:saved.state?.motion!==false};}catch{return {variant:'female',motion:true};}};
  function boot(){
   if(stopped)return;
   const app=window.app,anchor=app?.scene?.getObjectByName('referenceFigurePlane'),floor=app?.scene?.getObjectByName('floorPlane');
-  if(!app||!anchor||!floor||!window.LiveAvatarControls){startFrame=requestAnimationFrame(boot);return;}
+  if(!app||!anchor||!floor||!window.LiveAvatarControls||!window.LiveAvatarCalibration){startFrame=requestAnimationFrame(boot);return;}
   controller=install(app,anchor,floor);
  }
  function install(app,anchor,floor){
@@ -19,6 +22,8 @@
   root.name='liveavatar';facing.name='liveavatar-upright';root.add(facing);app.scene.add(root);anchor.visible=false;
   const wall=app.scene.getObjectByName('wallShadowPlane'),light=app.scene.children.find(o=>o.isDirectionalLight&&o.castShadow),cameraPosition=new T.Vector3(),rootPosition=new T.Vector3(),lightPosition=new T.Vector3(),lightTarget=new T.Vector3();
   const controls=window.LiveAvatarControls.mount({container:window.FXC_SHADOW_ROOT.querySelector('#v3d-container'),onVariant:setVariant,onMotion:setMotion});
+  const calibration=window.LiveAvatarCalibration.create(app,T,floor);
+  let measurement={ready:false,factor:1},lastCalibration=-Infinity;
   let current=null,disposed=false,generation=0,footAnchors=null,lastMetrics=0;
   maleFeetPromise.then(data=>{footAnchors=data;}).catch(()=>{});
   function persist(){try{localStorage.setItem(PREFERENCE,JSON.stringify({state:{avatar:prefs.variant,motion:prefs.motion},version:0}));}catch{}}
@@ -78,7 +83,7 @@
    const {geometry,scale,pxHeight}=makeGeometry(male,video);resources.geometries.push(geometry);
    const material=new T.MeshBasicMaterial({map:texture,transparent:true,alphaTest:.03137255,depthWrite:false,toneMapped:false,side:T.DoubleSide});packedShader(material,video);resources.materials.push(material);
    const mesh=new T.Mesh(geometry,material);mesh.name=video?'liveavatar-video':'liveavatar-still';mesh.castShadow=true;mesh.customDepthMaterial=depthMaterial(texture,video,resources);mesh.raycast=()=>{};mesh.renderOrder=2;mesh.frustumCulled=false;mesh.userData.excludeFromAO=true;
-   mesh.position.set(male?0:video?-3*FEMALE_SCALE:-3*FEMALE_SCALE,male?((video?590:591)-304)*scale:video?(671-336)*scale:(1525-768)*scale,0);
+   mesh.position.set(male?0:-3*FEMALE_SCALE,(male?((video?590:591)-304)*scale:video?(671-336)*scale:(1525-768)*scale)-HEEL_CONTACT_DROP,0);
    mesh.userData={...mesh.userData,scale,pxHeight};facing.add(mesh);
    const shadow=makeWallShadow(geometry,texture,video,resources);shadow.position.copy(mesh.position);shadow.visible=false;
    return {mesh,shadow};
@@ -120,12 +125,13 @@
   }
   function update(dt,elapsed){
    if(disposed||!current)return;const r=current;anchor.visible=false;
+   if(elapsed-lastCalibration>=.2){measurement=calibration.measure();lastCalibration=elapsed;root.scale.setScalar(measurement.factor);}
    const wallZ=wall?.position.z??-.1,clearance=wallZ+.53;root.position.set(anchor.position.x,floor.position.y,clearance);
    app.camera.getWorldPosition(cameraPosition);root.getWorldPosition(rootPosition);const dx=cameraPosition.x-rootPosition.x,dz=cameraPosition.z-rootPosition.z;
    if(dx*dx+dz*dz>1e-8)facing.rotation.set(0,Math.atan2(dx,dz),0);
    if(r.mode==='video'&&r.video){
     r.videoTexture.needsUpdate=r.video.readyState>=2;
-    if(r.male&&footAnchors){const frame=Math.min(footAnchors.feet.length-1,Math.floor(r.video.currentTime*footAnchors.fps));r.motion.mesh.position.y=(footAnchors.feet[frame]-304)*MALE_SCALE;r.decoded=frame;}
+    if(r.male&&footAnchors){const frame=Math.min(footAnchors.feet.length-1,Math.floor(r.video.currentTime*footAnchors.fps));r.motion.mesh.position.y=(footAnchors.feet[frame]-304)*MALE_SCALE-HEEL_CONTACT_DROP;r.decoded=frame;}
     app.renderer.shadowMap.needsUpdate=true;
    }
    for(const item of [r.still,r.motion])if(item){item.shadow.position.copy(item.mesh.position);item.shadow.visible=item.mesh.visible&&!!wall?.visible;
@@ -134,15 +140,15 @@
    }
    if(elapsed-lastMetrics>.2||!lastMetrics){lastMetrics=elapsed;const element=controls.element;
     if(element){const active=r.mode==='video'?r.motion:r.still;let footError=0;
-     if(active&&r.male){const feet=r.mode==='video'&&footAnchors?footAnchors.feet[r.decoded]:591;footError=active.mesh.position.y+(304-feet)*MALE_SCALE;}else if(active){const motion=r.mode==='video',scale=motion?FEMALE_VIDEO_SCALE:FEMALE_SCALE,ratio=motion?672/1536:1;const soles=motion?[[210,663],[295,671]]:[[480,1507],[675,1525]];footError=Math.max(...soles.map(([x,y])=>Math.abs(active.mesh.position.y+((motion?336:768)-y)*scale-18*ratio*scale*(1-T.MathUtils.smoothstep(x,550*ratio,610*ratio))*T.MathUtils.smoothstep(y,1440*ratio,1507*ratio))));}
-     Object.assign(element.dataset,{mode:r.mode,variant:prefs.variant,videoTime:String(r.video?.currentTime||0),videoReady:String(r.video?.readyState||0),ground:String(floor.position.y),footError:String(footError),yaw:String(facing.rotation.y),pitch:String(facing.rotation.x),roll:String(facing.rotation.z),wallShadow:String(!!active?.shadow.visible),nativeCastShadow:String(!!active?.mesh.castShadow),source:'liveavatar.zip',reason:r.reason});
+     if(active&&r.male){const feet=r.mode==='video'&&footAnchors?footAnchors.feet[r.decoded]:591;footError=Math.abs(active.mesh.position.y+(304-feet)*MALE_SCALE);}else if(active){const motion=r.mode==='video',scale=motion?FEMALE_VIDEO_SCALE:FEMALE_SCALE,ratio=motion?672/1536:1;const soles=motion?[[210,663],[295,671]]:[[480,1507],[675,1525]];footError=Math.max(...soles.map(([x,y])=>Math.abs(active.mesh.position.y+((motion?336:768)-y)*scale-18*ratio*scale*(1-T.MathUtils.smoothstep(x,550*ratio,610*ratio))*T.MathUtils.smoothstep(y,1440*ratio,1507*ratio))));}
+     Object.assign(element.dataset,{mode:r.mode,variant:prefs.variant,videoTime:String(r.video?.currentTime||0),videoReady:String(r.video?.readyState||0),ground:String(floor.position.y),footError:String(footError),footErrorWorld:String(footError*root.scale.y),heelContactDropMetres:String(HEEL_CONTACT_DROP),yaw:String(facing.rotation.y),pitch:String(facing.rotation.x),roll:String(facing.rotation.z),wallShadow:String(!!active?.shadow.visible),nativeCastShadow:String(!!active?.mesh.castShadow),source:'liveavatar.zip',reason:r.reason,scaleCalibrated:String(measurement.ready),worldUnitsPerMetre:String(root.scale.y),furnitureNominalHeightCm:String(measurement.nominalHeightCm??''),furnitureWorldHeight:String(measurement.worldHeight??''),furnitureTopY:String(measurement.frameTopY??''),furnitureBottomY:String(measurement.frameBottomY??''),furnitureFrontZ:String(measurement.frontZ??''),frameCount:String(measurement.frameCount??0),referenceWorldHeight:String((prefs.variant==='male'?1.83:1.67)*root.scale.y)});
     }
    }
   }
   const visibility=()=>{if(document.hidden)current?.video?.pause();else current?.play?.();};document.addEventListener('visibilitychange',visibility);
   const motionPreference=()=>replace();reduced.addEventListener('change',motionPreference);
   app.renderCallbacks.push(update);replace();
-  return {dispose(){if(disposed)return;disposed=true;generation++;release();document.removeEventListener('visibilitychange',visibility);reduced.removeEventListener('change',motionPreference);const i=app.renderCallbacks.indexOf(update);if(i>=0)app.renderCallbacks.splice(i,1);controls.dispose();app.scene.remove(root);anchor.visible=true;}};
+  return {dispose(){if(disposed)return;disposed=true;generation++;release();calibration.dispose();document.removeEventListener('visibilitychange',visibility);reduced.removeEventListener('change',motionPreference);const i=app.renderCallbacks.indexOf(update);if(i>=0)app.renderCallbacks.splice(i,1);controls.dispose();app.scene.remove(root);anchor.visible=true;}};
  }
  window.addEventListener('pagehide',()=>{stopped=true;cancelAnimationFrame(startFrame);controller?.dispose();});
  window.addEventListener('pageshow',event=>{if(event.persisted){stopped=false;controller=null;boot();}});

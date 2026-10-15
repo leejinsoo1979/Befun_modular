@@ -9,6 +9,7 @@ import {fileURLToPath} from 'node:url';
 const project = new URL('../', import.meta.url);
 const read = path => fs.readFileSync(new URL(path, project));
 const feet = JSON.parse(read('public/liveavatar/male-foot-anchors.json'));
+const sourceScene = JSON.parse(read('public/original-configurator/configurator-scene.json'));
 
 // Use the captured renderer's actual CPU scene graph and geometry classes.
 // Only image/video I/O and the small host UI boundary are substituted here.
@@ -32,7 +33,46 @@ function eventTarget() {
  };
 }
 
-function harness({variant = 'female', motion = true, reduced = false, rejectPlay = false} = {}) {
+// Reconstruct only the source frame ownership/coordinates needed for height
+// calibration. Bounds and scales come from the captured glTF, not the adapter.
+function sourceFurniture(T, scene, floor, rowCount) {
+ const assembly = new T.Group(); assembly.name = 'source-furniture-fixture'; scene.add(assembly);
+ floor.position.y = -.047835713217155906;
+ let rows = rowCount;
+ class SourceCell {static getHeight() {return 2 + 3 + rows * 38;}}
+ function modelFromAsset(name) {
+  const node = sourceScene.nodes.find(node => node.name === name);
+  const primitive = sourceScene.meshes[node.mesh].primitives[0];
+  const {min, max} = sourceScene.accessors[primitive.attributes.POSITION];
+  const geometry = new T.BoxGeometry(...max.map((value, i) => value - min[i]));
+  geometry.translate(...max.map((value, i) => (value + min[i]) / 2));
+  const model = new T.Mesh(geometry);
+  if (node.scale) model.scale.fromArray(node.scale);
+  return model;
+ }
+ function configure(count) {
+  rows = count; assembly.clear();
+  const connectors = new Map();
+  for (let row = 0; row < rows; row++) {
+   const cell = new SourceCell(); cell.frame = new Map();
+   for (const level of [row, row + 1]) for (const x of [0, .775]) for (const z of [0, .41]) {
+    const key = `${level}:${x}:${z}`;
+    if (!connectors.has(key)) {
+     const model = modelFromAsset('frame_connector'); model.position.set(x, level * .41, z);
+     if (!level) model.add(modelFromAsset('legs'));
+     connectors.set(key, {model}); assembly.add(model);
+    }
+    cell.frame.set(key, connectors.get(key));
+   }
+   const selection = new T.Mesh(new T.BoxGeometry(100, 100, 100));
+   selection.userData.cell = cell; assembly.add(selection);
+  }
+ }
+ configure(rows);
+ return {assembly, configure};
+}
+
+function harness({variant = 'female', motion = true, reduced = false, rejectPlay = false, furnitureRows = null} = {}) {
  const T = engine(), videos = [], timerCallbacks = new Map(), elements = [];
  const storage = new Map([['furniture-saved-configuration', '{"preserve":"exactly"}'],
   ['befun-viewer-avatar-v1', JSON.stringify({state: {avatar: variant, motion}, version: 0})]]);
@@ -54,6 +94,7 @@ function harness({variant = 'female', motion = true, reduced = false, rejectPlay
  const wall = new T.Mesh(new T.PlaneGeometry(100, 5)); wall.name = 'wallShadowPlane';
  wall.position.z = -.1; scene.add(wall);
  const light = new T.DirectionalLight(); light.castShadow = true; light.position.set(-3, 5, 5); scene.add(light);
+ const furniture = furnitureRows === null ? null : sourceFurniture(T, scene, floor, furnitureRows);
  const app = {scene, camera, renderCallbacks: [], renderer: {shadowMap: {needsUpdate: false}}};
  const document = {...eventTarget(), hidden: false, createElement(type) {
   assert.equal(type, 'video');
@@ -81,8 +122,10 @@ function harness({variant = 'female', motion = true, reduced = false, rejectPlay
   setTimeout: fn => {timerCallbacks.set(++timerId, fn); return timerId;},
   clearTimeout: id => timerCallbacks.delete(id), requestAnimationFrame: () => 1, cancelAnimationFrame() {},
  };
- vm.runInNewContext(read('public/liveavatar/liveavatar.js').toString(), context);
- return {T, scene, camera, anchor, floor, wall, light, app, videos, storage, window, document, mediaQuery,
+ vm.createContext(context);
+ vm.runInContext(read('public/liveavatar/avatar-calibration.js').toString(), context);
+ vm.runInContext(read('public/liveavatar/liveavatar.js').toString(), context);
+ return {T, scene, camera, anchor, floor, wall, light, app, videos, storage, window, document, mediaQuery, furniture,
   get controls() {return callbacks;}, get state() {return elements.at(-1).dataset;},
   tick(elapsed = 1) {for (const callback of [...app.renderCallbacks]) callback(1 / 60, elapsed); scene.updateMatrixWorld(true);},
   playing() {const video = videos.at(-1); video.videoWidth = video.src.includes('male-motion') ? 992 : 896;
@@ -151,19 +194,21 @@ test('installed avatar media and frame anchors remain byte-identical to the supp
   read('vendor/liveavatar/src/components/three/display/male-foot-anchors.json'));
 });
 
-test('both female feet meet a nonzero scene floor using the actual deformed still/video meshes', async () => {
+test('female image toe endpoints receive the requested 8 mm seating drop while PNG/video heads remain 1.67 m', async () => {
  const h = harness(); await Promise.resolve();
  try {
   h.tick();
   const still = h.scene.getObjectByName('liveavatar-still');
   for (const [x, y] of [[480, 1507], [675, 1525]])
-   assert.ok(Math.abs(imagePointWorld(h.T, still, x, y, 1024, 1536).y - h.floor.position.y) < .001);
+   closeTo(imagePointWorld(h.T, still, x, y, 1024, 1536).y - h.floor.position.y, -.008,
+    'female PNG image toe seating; no anatomical heel pixel is inferred', .001);
   const stillHead = imagePointWorld(h.T, still, 515, 3, 1024, 1536);
   assert.ok(Math.abs(stillHead.y - h.floor.position.y - 1.67) < 1e-6, 'female still height is 1.67 m');
   h.playing(); h.tick(2);
   const motion = h.scene.getObjectByName('liveavatar-video');
   for (const [x, y] of [[210, 663], [295, 671]])
-   assert.ok(Math.abs(imagePointWorld(h.T, motion, x, y, 448, 672).y - h.floor.position.y) < .001);
+   closeTo(imagePointWorld(h.T, motion, x, y, 448, 672).y - h.floor.position.y, -.008,
+    'female video image toe seating retains the existing deformation tolerance', .001);
   const videoHead = imagePointWorld(h.T, motion, 224, 0, 448, 672);
   assert.ok(Math.abs(videoHead.y - h.floor.position.y - 1.67) < 1e-6, 'female video height is 1.67 m');
   assert.equal(still.visible, false); assert.equal(motion.visible, true);
@@ -195,26 +240,180 @@ test('video RGB passes through the actual Verge3D sRGB decode branch and round-t
  }
 });
 
-test('male video soles track all frames at 1.83 m; the grounded PNG opaque head is 1.83313 m', async () => {
+test('male source toe anchors retain an 8 mm seating drop for all 361 frames while the head remains 1.83 m', async () => {
  const h = harness({variant: 'male'}); await new Promise(resolve => setImmediate(resolve));
  try {
   h.tick();
   const still = h.scene.getObjectByName('liveavatar-still');
   const stillSole = imagePointWorld(h.T, still, 248, 591, 496, 608);
-  assert.ok(Math.abs(stillSole.y - h.floor.position.y) < 1e-6, 'the PNG alpha fringe meets the floor');
+  closeTo(stillSole.y - h.floor.position.y, -.008, 'the source PNG endpoint receives the requested seating drop');
   // PNG's faint sole reaches y591; its opaque head is y5. The video's
-  // tracked opaque sole is y590, accounting for the accepted 3.13 mm delta.
+  // tracked opaque sole is y590, accounting for the accepted 3.14 mm delta
+  // after seating. These source endpoints do not identify an anatomical heel.
   const stillHead = imagePointWorld(h.T, still, 248, 5, 496, 608);
-  assert.ok(Math.abs(stillHead.y - h.floor.position.y - 1.833128205128205) < 1e-6);
+  assert.ok(Math.abs(stillHead.y - h.floor.position.y - 1.8331418803418802) < 1e-6);
   h.playing(); const mesh = h.scene.getObjectByName('liveavatar-video');
   for (let frame = 0; frame < feet.feet.length; frame++) {
    h.videos[0].currentTime = (frame + .25) / feet.fps; h.tick(1 + frame / feet.fps);
    const sole = imagePointWorld(h.T, mesh, 248, feet.feet[frame], 496, 608);
-   assert.ok(Math.abs(sole.y - h.floor.position.y) < 1e-6, `frame ${frame}`);
+   closeTo(sole.y - h.floor.position.y, -.008, `requested source-anchor seating at frame ${frame}`);
   }
   h.videos[0].currentTime = 0; h.tick(20);
   const head = imagePointWorld(h.T, mesh, 248, 5, 496, 608);
   assert.ok(Math.abs(head.y - h.floor.position.y - 1.83) < 1e-6);
+ } finally {h.close();}
+});
+
+function closeTo(actual, expected, message, tolerance = 1e-7) {
+ assert.ok(Math.abs(actual - expected) < tolerance, `${message}: expected ${expected}, received ${actual}`);
+}
+
+function sourceHeightFactor(rows, ground) {
+ const connector = sourceScene.nodes.find(node => node.name === 'frame_connector');
+ const positions = sourceScene.meshes[connector.mesh].primitives[0].attributes.POSITION;
+ const topRadius = sourceScene.accessors[positions].max[1] * connector.scale[1];
+ return (rows * .41 + topRadius - ground) / ((5 + rows * 38) / 100);
+}
+
+function assertAuxiliaryScale(h, active, factor) {
+ const root = h.scene.getObjectByName('liveavatar'), scale = new h.T.Vector3();
+ const shadows = root.children[0].children.filter(object => object.name === 'liveavatar-wall-shadow');
+ const shadow = shadows.find(object => object.geometry === active.geometry);
+ assert.ok(shadow?.visible, 'the active source image also drives its wall shadow');
+ scale.setFromMatrixScale(shadow.matrixWorld);
+ for (const component of scale.toArray()) closeTo(component, factor, 'wall shadow inherits uniform scene calibration');
+ assert.equal(shadow.material.uniforms.ground.value, h.floor.position.y);
+ assert.equal(shadow.material.uniforms.wallZ.value, h.wall.position.z);
+ closeTo(shadow.material.uniforms.shadowGroundLocal.value, -active.position.y, 'wall shadow enlargement remains foot anchored');
+ closeTo(shadow.position.y, active.position.y, 'wall shadow follows the same tracked source sole');
+ const contacts = root.children[0].children.filter(object => object.name === 'liveavatar-foot-contact');
+ assert.equal(contacts.length, 2);
+ for (const contact of contacts) {
+  scale.setFromMatrixScale(contact.matrixWorld);
+  for (const component of scale.toArray()) closeTo(component, factor, 'contact shadow inherits uniform scene calibration');
+  closeTo(contact.getWorldPosition(new h.T.Vector3()).y - h.floor.position.y, .003 * factor,
+   'contact shadow remains at its scaled floor offset');
+ }
+}
+
+test('all four gender/media cases seat source endpoints 8 mm while floor/contact shadows remain in place', async () => {
+ // The request is a visual seating adjustment. These known source endpoints
+ // verify its magnitude; they are not a claim to locate anatomical heels.
+ for (const variant of ['female', 'male']) for (const motion of [false, true]) {
+  const h = harness({variant, motion, furnitureRows: variant === 'female' ? 4 : 5});
+  await new Promise(resolve => setImmediate(resolve));
+  try {
+   const ground = h.floor.position.y;
+   if (motion) h.playing();
+   h.tick(1);
+   const root = h.scene.getObjectByName('liveavatar'), factor = root.scale.y;
+   const mesh = h.scene.getObjectByName(motion ? 'liveavatar-video' : 'liveavatar-still');
+   const source = variant === 'male' ? [248, motion ? 590 : 591, 496, 608]
+    : motion ? [295, 671, 448, 672] : [675, 1525, 1024, 1536];
+   closeTo((imagePointWorld(h.T, mesh, ...source).y - ground) / factor, -.008,
+    `${variant} ${motion ? 'video' : 'PNG'} requested nominal seating`);
+   assert.equal(h.floor.position.y, ground, 'the native floor itself is not moved to meet the avatar');
+   assert.equal(root.position.y, ground, 'the avatar coordinate origin remains at the original floor');
+   assert.equal(h.state.heelContactDropMetres, '0.008');
+   assertAuxiliaryScale(h, mesh, factor);
+  } finally {h.close();}
+ }
+});
+
+test('runtime applies the source 157 cm calibration to both female PNG/video triangles and their shadows', async () => {
+ const h = harness({furnitureRows: 4}); await new Promise(resolve => setImmediate(resolve));
+ try {
+  const camera = {position: [...h.camera.position.toArray()], rotation: [...h.camera.rotation.toArray()],
+   projection: [...h.camera.projectionMatrix.elements]};
+  h.tick(1);
+  const factor = sourceHeightFactor(4, h.floor.position.y), root = h.scene.getObjectByName('liveavatar');
+  assert.equal(h.state.scaleCalibrated, 'true'); assert.equal(h.state.furnitureNominalHeightCm, '157');
+  assert.ok(factor > 1.08, 'fixture includes the original internal/nominal mismatch');
+  for (const component of root.scale.toArray()) closeTo(component, factor, 'runtime root applies measured conversion');
+  closeTo(Number(h.state.worldUnitsPerMetre), factor, 'reported units agree with applied scale');
+  closeTo(Number(h.state.referenceWorldHeight) / factor, 1.67, 'reported female physical height');
+  const still = h.scene.getObjectByName('liveavatar-still');
+  closeTo((imagePointWorld(h.T, still, 515, 3, 1024, 1536).y - h.floor.position.y) / factor, 1.67,
+   'PNG actual head triangle has 167 cm nominal height');
+  for (const [x, y] of [[480, 1507], [675, 1525]])
+   closeTo((imagePointWorld(h.T, still, x, y, 1024, 1536).y - h.floor.position.y) / factor, -.008,
+    'female calibrated PNG endpoint seats 8 mm below floor', .001);
+  assertAuxiliaryScale(h, still, factor);
+  h.playing(); h.tick(2);
+  const video = h.scene.getObjectByName('liveavatar-video');
+  closeTo((imagePointWorld(h.T, video, 224, 0, 448, 672).y - h.floor.position.y) / factor, 1.67,
+   'video actual head triangle has 167 cm nominal height');
+  for (const [x, y] of [[210, 663], [295, 671]])
+   closeTo((imagePointWorld(h.T, video, x, y, 448, 672).y - h.floor.position.y) / factor, -.008,
+    'female calibrated video endpoint seats 8 mm below floor', .001);
+  assertAuxiliaryScale(h, video, factor);
+  closeTo(Number(h.state.footErrorWorld), Number(h.state.footError) * factor, 'world foot diagnostic includes calibration');
+  assert.equal(still.visible, false); assert.equal(video.visible, true);
+  h.controls.onMotion(false); h.tick(3);
+  assert.equal(h.state.mode, 'still');
+  const paused = h.scene.getObjectByName('liveavatar-still');
+  closeTo((imagePointWorld(h.T, paused, 515, 3, 1024, 1536).y - h.floor.position.y) / factor, 1.67,
+   'returning to the source PNG preserves physical height');
+  assertAuxiliaryScale(h, paused, factor);
+  assert.deepEqual({position: [...h.camera.position.toArray()], rotation: [...h.camera.rotation.toArray()],
+   projection: [...h.camera.projectionMatrix.elements]}, camera, 'avatar calibration does not alter the furniture camera');
+ } finally {h.close();}
+});
+
+test('runtime calibrates the male to 195 cm furniture and preserves requested seating for all 361 frames', async () => {
+ const h = harness({variant: 'male', furnitureRows: 5}); await new Promise(resolve => setImmediate(resolve));
+ try {
+  h.tick(1);
+  const factor = sourceHeightFactor(5, h.floor.position.y), root = h.scene.getObjectByName('liveavatar');
+  assert.equal(h.state.scaleCalibrated, 'true'); assert.equal(h.state.furnitureNominalHeightCm, '195');
+  closeTo(root.scale.y, factor, 'male runtime calibration');
+  const still = h.scene.getObjectByName('liveavatar-still');
+  closeTo((imagePointWorld(h.T, still, 248, 591, 496, 608).y - h.floor.position.y) / factor, -.008,
+   'male PNG source endpoint seats 8 mm below the calibrated floor');
+  closeTo((imagePointWorld(h.T, still, 248, 5, 496, 608).y - h.floor.position.y) / factor, 1.8331418803418802,
+   'the source PNG retains its documented 3.14 mm opaque-height fringe');
+  assertAuxiliaryScale(h, still, factor);
+  h.playing(); const video = h.scene.getObjectByName('liveavatar-video');
+  for (let frame = 0; frame < feet.feet.length; frame++) {
+   h.videos[0].currentTime = (frame + .25) / feet.fps; h.tick(2 + frame / feet.fps);
+   closeTo(imagePointWorld(h.T, video, 248, feet.feet[frame], 496, 608).y - h.floor.position.y, -.008 * factor,
+    `calibrated world seating at source frame ${frame}`);
+  }
+  h.videos[0].currentTime = 0; h.tick(20);
+  closeTo((imagePointWorld(h.T, video, 248, 5, 496, 608).y - h.floor.position.y) / factor, 1.83,
+   'the calibrated first video frame has 183 cm nominal height');
+  assertAuxiliaryScale(h, video, factor);
+  closeTo(Number(h.state.footErrorWorld), .008 * factor, 'male source endpoint diagnostic reports the deliberate world inset');
+  assert.equal(h.state.heelContactDropMetres, '0.008');
+ } finally {h.close();}
+});
+
+test('runtime resamples changed source furniture and preserves calibration when gender or media changes', async () => {
+ const h = harness({furnitureRows: 4}); await new Promise(resolve => setImmediate(resolve));
+ try {
+  h.tick(1); const root = h.scene.getObjectByName('liveavatar'), before = root.scale.y;
+  h.furniture.configure(5); h.tick(1.1);
+  assert.equal(root.scale.y, before, 'sampling is bounded to the configured interval');
+  h.tick(1.3);
+  const factor = sourceHeightFactor(5, h.floor.position.y);
+  closeTo(root.scale.y, factor, 'new furniture dimensions replace the previous scale');
+  assert.equal(h.state.furnitureNominalHeightCm, '195');
+  h.controls.onVariant('male'); h.playing(); h.tick(1.6);
+  const male = h.scene.getObjectByName('liveavatar-video');
+  closeTo((imagePointWorld(h.T, male, 248, 5, 496, 608).y - h.floor.position.y) / factor, 1.83,
+   'gender change retains current furniture calibration');
+  h.videos.at(-1).emit('error'); h.tick(2);
+  assert.equal(h.state.mode, 'still'); closeTo(root.scale.y, factor, 'playback failure retains scene calibration');
+  assertAuxiliaryScale(h, h.scene.getObjectByName('liveavatar-still'), factor);
+ } finally {h.close();}
+});
+
+test('runtime reports uncalibrated factor one while source furniture has not become available', () => {
+ const h = harness({motion: false});
+ try {
+  h.tick(); assert.equal(h.state.scaleCalibrated, 'false');
+  assert.equal(h.state.worldUnitsPerMetre, '1');
+  assert.deepEqual([...h.scene.getObjectByName('liveavatar').scale.toArray()], [1, 1, 1]);
  } finally {h.close();}
 });
 
@@ -231,7 +430,7 @@ test('orbiting and changing floor/anchor positions preserve vertical world orien
   h.anchor.position.x -= .7; h.floor.position.y = -.23; h.tick(2);
   assert.equal(h.scene.getObjectByName('liveavatar').position.x, h.anchor.position.x);
   const sole = imagePointWorld(h.T, mesh, 675, 1525, 1024, 1536);
-  assert.ok(Math.abs(sole.y - h.floor.position.y) < 1e-6);
+  closeTo(sole.y - h.floor.position.y, -.008, 'requested seating follows a changed floor');
   assert.equal(h.anchor.visible, false);
  } finally {h.close();}
 });

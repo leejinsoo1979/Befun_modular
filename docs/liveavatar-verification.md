@@ -1,5 +1,7 @@
 # Live avatar verification — 2026-10-15
 
+**Subsequent correction:** the early avatar-only height checks below did not establish the scale relative to the original furniture's nominal dimensions. The current runtime calibrates against the actual frame and its displayed height, and includes the user's 8 mm heel-seating adjustment. See `avatar-scale-calibration.md` for the corrected measurements and current verification. Earlier zero-toe-offset observations remain historical evidence.
+
 ## Scope and implementation
 
 The user-provided package's README and APPLY-PROMPT were read before adaptation. Their integration examples were treated as source material and adapted to the current native Verge3D application. The original media and anchor data remain byte-identical. The old white silhouette is hidden; its position remains the furniture-width anchor for the new avatar. No second WebGL renderer, React Three Fiber, or additional dependencies were introduced.

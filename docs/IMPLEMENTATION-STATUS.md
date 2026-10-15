@@ -1,5 +1,10 @@
 # Implementation status
 
+## Avatar nominal-scale and heel-contact correction
+
+The original furniture uses internal row heights of 41 world cm while displaying 38 cm. The earlier avatar-only 167/183 cm tests missed that mismatch. The current native extension measures visible frame geometry and divides its floor-to-top height by the source's displayed height; the avatar, foot contacts and wall projection share that uniform conversion. Reproduced 157/195 cm configurations measured factors 1.0822639833021424 / 1.081617668607366. The user-requested 8 mm downward seating adjustment applies to both genders and PNG/video, with crown reference heights maintained and the floor/contact-shadow planes retained. See `avatar-scale-calibration.md`; earlier avatar scale/zero-toe-error entries below describe the earlier implementation.
+
+
 ## 2026-10-15 revision after visual feedback
 
 The first pass incorrectly substituted a custom React UI and a procedural Three.js model for the original configurator. It used real public catalogue and template data but **did not match the original UI or rendering**. It is retained as an unused prototype in `src/Configurator.jsx` and `src/FurnitureScene.jsx`; those files are not imported by the active app.

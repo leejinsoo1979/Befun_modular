@@ -1,5 +1,7 @@
 # Liveavatar original assets and integration measurements
 
+The source pixel measurements below are unchanged. The current runtime adds a nominal 8 mm heel-seating drop while preserving the crown reference: female still `(1.67 + .008) / 1522`, female video `(1.67 + .008) / 671`, male `(1.83 + .008) / 585` metres per pixel, with `.008` subtracted from body placement. The whole avatar is then calibrated to the source furniture's nominal display dimensions rather than assuming world units equal physical metres. See `avatar-scale-calibration.md` for the measured conversion and current browser evidence.
+
 The user supplied `/Users/jinsoolee/Downloads/liveavatar.zip`. The complete package is preserved in `vendor/liveavatar/`. README.md, APPLY-PROMPT.txt, StudioPerson.tsx and StudioPersonMotion.tsx were inspected before adaptation. Every one of the eleven `manifest.json` entries passed byte-count and SHA-256 verification on 2026-10-15. Source media were copied byte for byte; no original PNG or MP4 was re-encoded or edited.
 
 | Runtime media | Bytes | SHA-256 |
