@@ -1,0 +1,69 @@
+{
+  "createdAt": "2026-10-15",
+  "method": "Built-in image_gen tool. One separate generation per asset, using the captured photographs as references. No CLI/API fallback.",
+  "webExport": "cwebp -q 91 -m 6 -metadata icc. No semantic edits after generation. Original captured files and generated PNGs are preserved.",
+  "assets": [
+    {
+      "file": "public/assets/lifestyle/kr-couple-v1.webp",
+      "size": "1254x1254",
+      "placement": "Home: reason 2, object-position 100% center",
+      "reference": "public/assets/why-flexcube-2_fbb58f41-59e8-4938-aa79-fa6802bc0f30.webp",
+      "generatedPng": "/Users/jinsoolee/.codex/generated_images/01a13d64-42d0-75b1-b0cd-a11130e40435/exec-4e64ae1b-c2fd-4cc6-9d5f-5e301e7a6c5c.png",
+      "prompt": "Use case: style-transfer. Asset type: square editorial lifestyle photograph for a premium modular furniture website. Image 1 is the edit target and furniture reference. Reimagine this photo as a tasteful, hip contemporary Korean lifestyle campaign, with two fictional Korean adults in their early 30s, naturally spending time together on the sofa. Replace both original adult people with new Korean models: man in a relaxed charcoal overshirt over an ivory tee and softly pleated olive trousers; woman with a natural dark bob, a crisp ivory top and relaxed dark denim. Candid, subtle, confident Seoul creative-couple energy, looking at one another rather than posing at camera; natural hands, warm expressions, realistic skin and fabric. Keep the same chrome tubular modular bookcase at left and the low black chrome coffee table in front, their structure, modules, round joints, straight lines and scale faithful to the reference. Keep the dog, leather sofa, books, walls, perspective and basic room layout. Add polish through fresher soft daylight, crisp material texture, clean neutral film color with warm skin tones, richer but restrained contrast; not dark or hazy. The furniture must remain a real, prominent part of the composition. Premium interior magazine photography, physically plausible lighting, no illustration or artificial plastic skin. Square full-bleed image, sharp high resolution, with faces kept within the central area for responsive cropping. No overlay text, logos, watermark or collage.",
+      "bytes": 335232
+    },
+    {
+      "file": "public/assets/lifestyle/kr-design-studio-v2.webp",
+      "reference": "public/assets/product-sideboard-in-schwarz-mit-3-schubladen-klappen.webp",
+      "generatedPng": "/Users/jinsoolee/.codex/generated_images/01a13d64-42d0-75b1-b0cd-a11130e40435/exec-d9655b53-31bb-4b9d-8c4d-ce2f2e8b21b6.png",
+      "placement": "Home, fourth reason card. Replaces the grandfather/grandson photograph at the user's request.",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait 4:5 editorial campaign photograph for a premium modular furniture website, also cropped to a narrow vertical card.\nImage 1 is strictly a PRODUCT REFERENCE: preserve the design language and exact clean 3-column by 2-row black modular sideboard with six flat black metal panels, thin polished chrome tubes, spherical chrome joints, small circular handles and short slender feet. Do not copy the old room, wall decorations, mirror or styling. Make a completely new photograph with this elegant furniture prominently visible.\nScene: an art-directed contemporary Seoul design studio with a pale architectural concrete wall, warm grey microcement floor, clean side daylight from a large industrial window. A fictional Korean woman creative director in her early 30s, dark hair tied into a neat low bun, sculptural small silver earrings, an oversized pale-blue work shirt with casually rolled sleeves, charcoal wide-leg tailored trousers and clean white low sneakers. She stands naturally just behind the sideboard, relaxed, looking down at a large open photography book placed on its top; quiet confident expression, realistic face and hands, subtly hip Seoul fashion editorial sensibility.\nThe BLACK AND CHROME SIDEBOARD is the hero: realistic matte black lacquered panels and crisp, thin reflective chrome frame, flawless straight panel alignment and believable joints, photographed at a slight three-quarter angle so its depth and material quality are visible. It occupies the middle of the picture rather than being tiny in the background. Keep the person, face, most of the furniture and its best material details within the CENTRAL 60 percent of the composition for responsive cropping. Position the face around the upper third and cabinet around the middle; reserve the bottom 20 percent as quiet floor space for website overlay copy. Only a closed laptop, the open photography book and one small deep-red sculptural desk lamp on the sideboard, no clutter. No additional cabinet, furniture or extra people.\nStyle: high-end interior and fashion magazine photograph, crisp directional daylight and soft realistic shadows, subtle analog grain, cool neutral architectural tones balanced with natural warm skin, bold confident composition and expensive tactile materials, effortlessly contemporary. Real physical photograph, not a 3D render, generic stock family scene or beige living-room catalog. No grandfather, child, toys, sofas, text, labels, logos, watermark, collage, distorted furniture or extra limbs. Portrait 4:5, sharp high resolution.",
+      "bytes": 179830
+    },
+    {
+      "file": "public/assets/lifestyle/kr-creator-v1.webp",
+      "size": "1086x1448",
+      "placement": "Home: community gallery, second card",
+      "reference": "public/assets/flexcube_x_michaelepiney_cover.webp",
+      "generatedPng": "/Users/jinsoolee/.codex/generated_images/01a13d64-42d0-75b1-b0cd-a11130e40435/exec-cd460aec-93ce-41d4-8aa1-6daeab2cb4bb.png",
+      "prompt": "Use case: style-transfer. Asset type: portrait 3:4 lifestyle editorial photo for a premium modular furniture brand website community gallery. Image 1 is the edit target and product reference. Transform the scene into a stylish Seoul creative studio, replacing the original seated man with a fictional Korean male designer in his early 30s. He has naturally tousled black hair, understated thick black acetate eyeglasses, a relaxed black oversized tee with dark straight wide-leg jeans and clean off-white sneakers. Calm confident candid expression, a slight smile looking just away from camera, seated naturally on a stool with realistic hands resting on thighs. Contemporary creative professional, not idol glamour. Preserve the original thin polished chrome tubular modular storage units, their drawer and cabinet geometry, round joints, grey and white panels, placement and realistic proportions, plus the large window, warm wood floor and room perspective. Replace therapy-specific styling, oils, singing bowls and feathers with a few thoughtfully arranged vinyl records, design books, sculptural ceramics and a small record player. Replace treatment bed in back with a minimal studio work table. Sophisticated editorial interior photography, soft daylight and a little direct-flash clarity, warm white walls, charcoal and chrome, crisp natural skin pores and fabric texture, subtly tactile analog mood. Full bleed portrait with model and furniture clearly visible, model centrally framed for responsive crops. No in-image text, lettering, logos, watermark, collage, excessive retouching or malformed hands.",
+      "bytes": 260990
+    },
+    {
+      "file": "public/assets/lifestyle/kr-vinyl-home-v1.webp",
+      "size": "1086x1448",
+      "placement": "Home: community gallery, first card; replaces the hand-only poster",
+      "reference": "public/assets/hero-desktop.jpg",
+      "generatedPng": "/Users/jinsoolee/.codex/generated_images/01a13d64-42d0-75b1-b0cd-a11130e40435/exec-bfad3bcc-f511-499d-82ee-b7d7e33dae60.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: new portrait 3:4 Korean lifestyle campaign photograph for a premium modular furniture website gallery. Image 1 is a PRODUCT REFERENCE for the olive-green modular sideboard with polished tubular chrome frame and spherical joints; create a new portrait lifestyle photograph around this exact kind of cabinet rather than reproducing the original wide product photo. A fictional Korean woman designer in her late 20s, natural chin-length black bob, a black relaxed tee, ivory wide-leg jeans and understated silver earrings, is selecting a vinyl record beside the olive modular sideboard in a tastefully styled Seoul apartment. Her face is clearly visible with a natural quiet smile, not a stock pose; plausible hands holding the record sleeve, no text on the sleeve. She occupies the upper central part of the portrait, the cabinet spans the middle/lower area with its recognizable 2 by 2 olive panels, thin chrome tubes and four circular inset handles matching the product reference. Effortlessly hip creative-lifestyle energy, an uncluttered warm-white room, soft geometric daylight, walnut wood floor, one compact turntable and restrained ceramic objects on the cabinet. Crisp true photography with natural skin texture, clean warm-neutral colors and muted olive, tactile materials, subtle film character, editorial composition. Camera at human eye level, realistic scale, no furniture redesign, no fashion runway exaggeration. Full-bleed portrait, not a collage. No graphic overlay, readable text, logos, watermark or blurry faces.",
+      "bytes": 199246
+    }
+  ],
+  "verification": {
+    "originalAssets": "169 captured source asset hashes verified unchanged; 3 original-assets tests pass.",
+    "build": "npm run build passed.",
+    "videoAudit": "Hero desktop/mobile and service videos inspected at five time points; all show furniture/interiors without people. Kept unchanged.",
+    "context": "Generated gallery photographs are labelled lifestyle editorials. Existing customer review photographs and names are unchanged.",
+    "browser": "Desktop and 390x844 mobile: couple/family expanded cards and gallery photographs visually checked. Carousel Next changed scrollLeft from 48 to 435. Mobile document width 390 with no horizontal overflow. No browser errors. Viewport override reset.",
+    "screenshots": [
+      "docs/qa/home-lifestyle/desktop-couple.jpg",
+      "docs/qa/home-lifestyle/desktop-gallery.jpg",
+      "docs/qa/home-lifestyle/mobile-couple.jpg",
+      "docs/qa/home-lifestyle/mobile-family.jpg",
+      "docs/qa/home-lifestyle/mobile-gallery.jpg"
+    ],
+    "replacement": "Fourth reason card now uses kr-design-studio-v2.webp; grandfather/grandson scene is no longer referenced by the homepage."
+  },
+  "supersededAssets": [
+    {
+      "file": "public/assets/lifestyle/kr-generations-v1.webp",
+      "size": "1254x1254",
+      "placement": "Home: reason 4, object-position 70% center",
+      "reference": "public/assets/why-flexcube-4_2.webp",
+      "generatedPng": "/Users/jinsoolee/.codex/generated_images/01a13d64-42d0-75b1-b0cd-a11130e40435/exec-d00c46ca-7bc2-4a02-a9a4-b0013ec676fd.png",
+      "prompt": "Use case: style-transfer. Asset type: square premium furniture lifestyle photograph. Image 1 is the edit target and exact furniture reference. Replace the original grandfather and child with a fictional Korean grandfather about 65 and his Korean grandson about 6, having a warm candid moment building the wooden toy on the rug. Give the scene a hip, understated contemporary Korean interiors editorial mood: grandfather with naturally silver dark hair, a clean charcoal relaxed knit, tasteful khaki trousers; child in a simple cream cotton shirt and muted green trousers, age-appropriate natural everyday clothing. Keep the original black modular cabinet with chrome tubular frame behind them EXACTLY recognizable, the same configuration and round connectors, open upper modules and black lower drawers. Preserve the room geometry, perspective, furniture size, rug, low shelf-top styling and wooden toy activity. Both people must have believable hands and relaxed body anatomy, natural Korean facial features, realistic skin texture. Crisp soft side daylight, clean warm ivory and charcoal color grade, subtle analog photographic texture, premium magazine quality, authentic intimate family moment rather than a generic posed stock image. Main subjects remain within the central 60 percent of the square for tall crop. No text, logos, watermark, collage, blurry faces or invented furniture shapes.",
+      "bytes": 140146,
+      "status": "Superseded at user request; not displayed on Home."
+    }
+  ]
+}

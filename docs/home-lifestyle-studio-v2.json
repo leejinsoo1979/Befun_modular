@@ -1,0 +1,19 @@
+{
+  "createdAt": "2026-10-15",
+  "method": "Built-in image_gen tool, new photograph using the original product photograph as furniture reference; not CLI/API fallback.",
+  "file": "public/assets/lifestyle/kr-design-studio-v2.webp",
+  "reference": "public/assets/product-sideboard-in-schwarz-mit-3-schubladen-klappen.webp",
+  "generatedPng": "/Users/jinsoolee/.codex/generated_images/01a13d64-42d0-75b1-b0cd-a11130e40435/exec-d9655b53-31bb-4b9d-8c4d-ce2f2e8b21b6.png",
+  "placement": "Home, fourth reason card. Replaces the grandfather/grandson photograph at the user's request.",
+  "prompt": "Use case: photorealistic-natural. Asset type: portrait 4:5 editorial campaign photograph for a premium modular furniture website, also cropped to a narrow vertical card.\nImage 1 is strictly a PRODUCT REFERENCE: preserve the design language and exact clean 3-column by 2-row black modular sideboard with six flat black metal panels, thin polished chrome tubes, spherical chrome joints, small circular handles and short slender feet. Do not copy the old room, wall decorations, mirror or styling. Make a completely new photograph with this elegant furniture prominently visible.\nScene: an art-directed contemporary Seoul design studio with a pale architectural concrete wall, warm grey microcement floor, clean side daylight from a large industrial window. A fictional Korean woman creative director in her early 30s, dark hair tied into a neat low bun, sculptural small silver earrings, an oversized pale-blue work shirt with casually rolled sleeves, charcoal wide-leg tailored trousers and clean white low sneakers. She stands naturally just behind the sideboard, relaxed, looking down at a large open photography book placed on its top; quiet confident expression, realistic face and hands, subtly hip Seoul fashion editorial sensibility.\nThe BLACK AND CHROME SIDEBOARD is the hero: realistic matte black lacquered panels and crisp, thin reflective chrome frame, flawless straight panel alignment and believable joints, photographed at a slight three-quarter angle so its depth and material quality are visible. It occupies the middle of the picture rather than being tiny in the background. Keep the person, face, most of the furniture and its best material details within the CENTRAL 60 percent of the composition for responsive cropping. Position the face around the upper third and cabinet around the middle; reserve the bottom 20 percent as quiet floor space for website overlay copy. Only a closed laptop, the open photography book and one small deep-red sculptural desk lamp on the sideboard, no clutter. No additional cabinet, furniture or extra people.\nStyle: high-end interior and fashion magazine photograph, crisp directional daylight and soft realistic shadows, subtle analog grain, cool neutral architectural tones balanced with natural warm skin, bold confident composition and expensive tactile materials, effortlessly contemporary. Real physical photograph, not a 3D render, generic stock family scene or beige living-room catalog. No grandfather, child, toys, sofas, text, labels, logos, watermark, collage, distorted furniture or extra limbs. Portrait 4:5, sharp high resolution.",
+  "webExport": "cwebp -q 91 -m 6 -metadata icc; no semantic edits after generation.",
+  "verification": {
+    "desktop": "New fourth card photograph loads at 1122x1402; model and black/chrome furniture visually checked.",
+    "mobile": "390x844, face and furniture remain visible, no page horizontal overflow. Viewport reset.",
+    "build": "npm run build passed.",
+    "screenshots": [
+      "docs/qa/home-lifestyle/desktop-studio-v2.jpg",
+      "docs/qa/home-lifestyle/mobile-studio-v2.jpg"
+    ]
+  }
+}
