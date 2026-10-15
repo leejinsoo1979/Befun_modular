@@ -35,7 +35,7 @@ The extension corrects the host engine's missing video sRGB decode define to pre
 
 ## Korean interface
 
-The active marketing pages, catalog, product details, search, cart, help and embedded configurator use Korean copy. Brand names, RAL color references and familiar technical labels such as 3D/PDF retain their original names. Prices remain in CHF and the market remains Switzerland.
+The active marketing pages, catalog, product details, search, cart, help and embedded configurator use Korean copy. Brand names, RAL color references and familiar technical labels such as 3D/PDF retain their original names. Prices are displayed in KRW using the pinned 2026-10-14 exchange rate; the original CHF calculations and saved configurations are preserved. See `docs/krw-pricing.md` for conversion and rounding details.
 
 `src/locales/names.ko.json` contains display names for all 54 presets and 12 catalog products. Search matches both Korean and original English names. `src/locales/configurator.ko.json` supplies embedded UI translations at build time; captured source assets remain unchanged. `public/original-configurator/styles/korean.css` applies Hangul font fallbacks and word wrapping inside the ShadowRoot.
 
