@@ -1,0 +1,1522 @@
+{
+  "checkedAt": "2026-10-15",
+  "source": "https://flexcube.ch/en/pages/konfigurator",
+  "runtimeEngine": "Verge3D 4.1.1",
+  "originalRuntimeFilesUnmodified": true,
+  "assets": [
+    {
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/configurator.js?v=59525409401430670271791791437",
+      "path": "configurator.js",
+      "kind": "runtime",
+      "bytes": 3436173,
+      "sha256": "ce742a3f54620baa1b8ffcc097fea23211ba81d3a79ce77443f0c76e2235645c",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/v3d.js?v=160173461860661030221767690361",
+      "path": "v3d.js",
+      "kind": "runtime",
+      "bytes": 1495628,
+      "sha256": "511e19c437361e6289466be8e78d97496715ed39478af81b31fd6281f5ea77fd",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/configurator-scene.json?v=62752250576742739911791384326",
+      "path": "configurator-scene.json",
+      "kind": "runtime",
+      "bytes": 2623503,
+      "sha256": "77b51cdcecee1f2263b3e0630bd2842060dfb47285271955e806bc434090fdab",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-italic-latin-ext.woff2?v=68548976693590438861770330503",
+      "path": "fonts/dm-sans-italic-latin-ext.woff2",
+      "kind": "font",
+      "bytes": 40880,
+      "sha256": "c34301ff2989cd3bae2c557b1bcab88d826be1357da17ebf8e158a773853b5a1",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-italic-latin.woff2?v=154187375790739033151770330505",
+      "path": "fonts/dm-sans-italic-latin.woff2",
+      "kind": "font",
+      "bytes": 76176,
+      "sha256": "06596e93170b0e13b8f1b60b93774c4d317e4a15c83ce106634090c603142d2f",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-normal-latin-ext.woff2?v=18922701788474200421770330505",
+      "path": "fonts/dm-sans-normal-latin-ext.woff2",
+      "kind": "font",
+      "bytes": 31312,
+      "sha256": "0d0609aee778d21b40bda1d27b7e6b5b3cb1a3e96b90b8831c681aca097c2219",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-normal-latin.woff2?v=148504964029627875591770330507",
+      "path": "fonts/dm-sans-normal-latin.woff2",
+      "kind": "font",
+      "bytes": 62556,
+      "sha256": "aa530716b0d351866af7dbfa3eee4120fb36f2d071baff8c234185141865c7ff",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinPetrolmit2Klappen-5_7f3f984b-dba3-435f-97cc-a3c61ab1683e.webp?v=1763210650&width=400",
+      "path": "templates/sideboard-1-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 28282,
+      "sha256": "bb72328156c25c54f54506dab1d69bd217649d4e510ce1f58311bcf9158a7f43",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinPetrolmit2Klappen-5_7f3f984b-dba3-435f-97cc-a3c61ab1683e.webp?v=1763210650&width=800",
+      "path": "templates/sideboard-1-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 94962,
+      "sha256": "01c403f7a67338c8a600b2d10392e6eb87a6027368ad3e16b2d94f1fe4cd3fa2",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/302d3e5660ee8a13055efdd680dfa1e3354c3649",
+      "path": "configurations/302d3e5660ee8a13055efdd680dfa1e3354c3649.json",
+      "kind": "public-template-config",
+      "bytes": 5281,
+      "sha256": "5b6de45e7d83c4a6073d30dd619b6d9444c57cdbb56647894dc4f852acfe7d20",
+      "status": "downloaded",
+      "capturedResponseSha256": "2c2da0eefbabd412cd953b0531f530cfe0654f6bd475b6ba710c8a1e1a36ef96",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinSchwarzmit2Schubladen-Klappen-3_ae61890f-6cd9-40f1-bc4a-0764a58b0c6a.webp?v=1763210651&width=400",
+      "path": "templates/sideboard-2-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 37510,
+      "sha256": "ad6454183b2f88bdf6b2a609023743d40f786c2d1ca70ae4833cad3fb70791e7",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinSchwarzmit2Schubladen-Klappen-3_ae61890f-6cd9-40f1-bc4a-0764a58b0c6a.webp?v=1763210651&width=800",
+      "path": "templates/sideboard-2-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 118449,
+      "sha256": "962ac02da19973b006287c72c5a57af6de5f7ca0d4c4a73c4595e353b1fec842",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/0d30384308426373a38b99ece480fc2a5a53e172",
+      "path": "configurations/0d30384308426373a38b99ece480fc2a5a53e172.json",
+      "kind": "public-template-config",
+      "bytes": 7255,
+      "sha256": "8df7039f554ea84e91fe12614cd16d03aae9b08cebfefe0ed8093f1e2c11e541",
+      "status": "downloaded",
+      "capturedResponseSha256": "ccfbd0cb9f668781108f0f7219ae536099c4e67339295929f30e8b977e300d56",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Sideboard_in_Weiss_mit_4_Klappen_-_2.webp?v=1763210655&width=400",
+      "path": "templates/sideboard-3-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 22630,
+      "sha256": "bb42b625d1cc71fe14b4d5642d7daab605624e928116bc2a9c7dfa05269825d8",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Sideboard_in_Weiss_mit_4_Klappen_-_2.webp?v=1763210655&width=800",
+      "path": "templates/sideboard-3-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 79045,
+      "sha256": "425d04ee5f01b87d2d1fc00312b2a8155f3b4c9df3b1174fddaf51273251c63d",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/756cce3657535c6615dbeb8b2735c6151f494e6d",
+      "path": "configurations/756cce3657535c6615dbeb8b2735c6151f494e6d.json",
+      "kind": "public-template-config",
+      "bytes": 5274,
+      "sha256": "2b3e2074e62fe3fa84381087af3c23cbdd7151e5b2691e31d9cbddeec59a349e",
+      "status": "downloaded",
+      "capturedResponseSha256": "982ad141c1f19ce1fb829c90d258c55545674cc0159c125db330b4a5c7cb86da",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinWeissmit4Klappen_Rosegold-Finish-4.webp?v=1763210715&width=400",
+      "path": "templates/sideboard-4-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 30779,
+      "sha256": "0d714533f1285c6439ece4b41b74c15b0a7b9e4896772b3ce77872f5b7f03abb",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinWeissmit4Klappen_Rosegold-Finish-4.webp?v=1763210715&width=800",
+      "path": "templates/sideboard-4-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 93651,
+      "sha256": "18f6257d4aec718cb5735b5352ad76b67925890709de21f8ac201bed17749d85",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/e6f6a8db68bbb43eaeb5183d3938c959c53c4568",
+      "path": "configurations/e6f6a8db68bbb43eaeb5183d3938c959c53c4568.json",
+      "kind": "public-template-config",
+      "bytes": 5278,
+      "sha256": "1f5944cf89b52430a02203d2edc196a84c2c113cb35b8773d545b76d546acfc1",
+      "status": "downloaded",
+      "capturedResponseSha256": "237fefae823fcf58d459eae2b48807461f6cf84c5d9af538e7789c9f0cf4ddee",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinWeissmit2Klappen_1Schublade-4_9f816d46-9db0-4ebb-bd00-9c43a8bbc5c2.webp?v=1763210657&width=400",
+      "path": "templates/sideboard-5-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 29727,
+      "sha256": "6fff60c92f00dae8171f18379a1397e3fc5c10abb2eb5c638fd6463072bf1204",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinWeissmit2Klappen_1Schublade-4_9f816d46-9db0-4ebb-bd00-9c43a8bbc5c2.webp?v=1763210657&width=800",
+      "path": "templates/sideboard-5-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 89593,
+      "sha256": "7bd4fd8e087e6e5bd6921bd39858fa4537c9c96d5a85cd975d0aa8c0e989a53b",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/6d322c913fbe834739c0e7cae60fd5bbac659d18",
+      "path": "configurations/6d322c913fbe834739c0e7cae60fd5bbac659d18.json",
+      "kind": "public-template-config",
+      "bytes": 10080,
+      "sha256": "59b82930450ccc959f66177e44c6358ed60ba68ff58f08d9033dab5fe9ed5249",
+      "status": "downloaded",
+      "capturedResponseSha256": "e00c3aaabb9f34b812ee51cbd011a79ddd2f183b93fa0ac0fa133c226a1d7b9d",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinRotmit2Schubladen-Klappen-3_01304a0a-521c-43dc-9c84-2011664065ec.webp?v=1763210652&width=400",
+      "path": "templates/sideboard-6-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 31270,
+      "sha256": "95ae97270c316a709428aa9acd9d46846426a42eafe7e94691b4c883fb7aceff",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinRotmit2Schubladen-Klappen-3_01304a0a-521c-43dc-9c84-2011664065ec.webp?v=1763210652&width=800",
+      "path": "templates/sideboard-6-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 100977,
+      "sha256": "d59417f7c082e352627f36a403c333f555291d522118f3800a5fd2c03f7649f6",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/307c9936375a853ff3d25f876df38381f72d903e",
+      "path": "configurations/307c9936375a853ff3d25f876df38381f72d903e.json",
+      "kind": "public-template-config",
+      "bytes": 7193,
+      "sha256": "abaab2cd6b0becec010d5b9c7f81fc201ee17bd046bbc318e526a8d0238b5053",
+      "status": "downloaded",
+      "capturedResponseSha256": "2fefe3419725c5203fb80b942666561589ad27e7cd923372bcc7a7233cbce376",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Sideboard_in_Schwarz_mit_3_Schubladen-Klappen_-_5.webp?v=1767694972&width=400",
+      "path": "templates/sideboard-7-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 26576,
+      "sha256": "76e549efd9f8a63bbeb04edfe87d0b4e4ab787d2b08e0ce8daa5b0cef31ef469",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Sideboard_in_Schwarz_mit_3_Schubladen-Klappen_-_5.webp?v=1767694972&width=800",
+      "path": "templates/sideboard-7-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 75956,
+      "sha256": "220f92bfd410e3897935c95ce0e54e11cbcd0583df4762d91a2003237c687180",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/902de2808c5abf1b1ad1222c637db614ae86a285",
+      "path": "configurations/902de2808c5abf1b1ad1222c637db614ae86a285.json",
+      "kind": "public-template-config",
+      "bytes": 7253,
+      "sha256": "89ce6337cc8fb09cccb2d97d88a9d8f6758c9b3e06b62a88d1d628a47d000096",
+      "status": "downloaded",
+      "capturedResponseSha256": "b9c11daf1c7c3dffefbefeebce7b0fbd388a0479276bab96c750aa5091410ddc",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinHellgraumit2Klappen-1.webp?v=1763210671&width=400",
+      "path": "templates/lowboard-1-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 30368,
+      "sha256": "19cd7657eb7313cb93a802ebb7a168f7141aedc686cb4285c14635964366b6c6",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinHellgraumit2Klappen-1.webp?v=1763210671&width=800",
+      "path": "templates/lowboard-1-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 97770,
+      "sha256": "3cb8982bf9c79581cd265ad5fa228732693bffb39b4215048f04ac76ac9e6714",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/539919840475394dd4d7389350354b06d0154cb8",
+      "path": "configurations/539919840475394dd4d7389350354b06d0154cb8.json",
+      "kind": "public-template-config",
+      "bytes": 3367,
+      "sha256": "d31045bdcb4c741bafc24f95efa27e923742a30d823e9de5430b75f0624b16c4",
+      "status": "downloaded",
+      "capturedResponseSha256": "85c370af647135a41161bd7106463934859e5b020e90985d01219916c80cdb3f",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinWeissmit2Klappen-1.webp?v=1763210669&width=400",
+      "path": "templates/lowboard-2-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 24270,
+      "sha256": "357908f277d86d7a2017a5a67b5a0a8016efb68532565a9cbaffc4ec2429d20a",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinWeissmit2Klappen-1.webp?v=1763210669&width=800",
+      "path": "templates/lowboard-2-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 80961,
+      "sha256": "59f7e7dc1bd24d06fbbf9bef3d221d1320b607e770a7f9f64f12a1b9cf9c8ad4",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/cedfb924e60869d209d726e2716a387107077e75",
+      "path": "configurations/cedfb924e60869d209d726e2716a387107077e75.json",
+      "kind": "public-template-config",
+      "bytes": 5380,
+      "sha256": "b0522670d66eefbec77e288894813790b7c0d2273886a5a73fba20ad84522cfb",
+      "status": "downloaded",
+      "capturedResponseSha256": "9159cb07c8f3e241c58f58e3623d7125a374efda72574e9a133cf16c1bd78e02",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinPetrolmit4Schubladen2Klappen-4_a5cf6404-1ef8-4cf0-ba72-205e11c9e787.webp?v=1763210666&width=400",
+      "path": "templates/lowboard-3-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 28223,
+      "sha256": "2d1dec9d8c1a14a7bfeb4a3488464bc8ff3da05686017e9f287356cfe7b959ec",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinPetrolmit4Schubladen2Klappen-4_a5cf6404-1ef8-4cf0-ba72-205e11c9e787.webp?v=1763210666&width=800",
+      "path": "templates/lowboard-3-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 80752,
+      "sha256": "afb06acf83d6e17d9b26c83dd9b73959a92a0725b80ec185ca34b44a1be99600",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/85ee48ab44790132c7d17974e37e8b0b442bdba6",
+      "path": "configurations/85ee48ab44790132c7d17974e37e8b0b442bdba6.json",
+      "kind": "public-template-config",
+      "bytes": 10259,
+      "sha256": "f6f8a35074569364acf3d7a9581eedae6c294363c06cdb6cf1779ee6bc5514aa",
+      "status": "downloaded",
+      "capturedResponseSha256": "5ba42c1c9cf89755db76ce8f2ff2b371032705a6094bfb3676c8e6c66d2eb2da",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinTaupemit2Klappen-1_f48e1a75-487d-4dc4-86fa-4896de361d61.webp?v=1763210676&width=400",
+      "path": "templates/lowboard-4-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 22070,
+      "sha256": "21eab14cf560b3be7ca8c20470d5291eacd75f05569325d741ade520236a00f5",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinTaupemit2Klappen-1_f48e1a75-487d-4dc4-86fa-4896de361d61.webp?v=1763210676&width=800",
+      "path": "templates/lowboard-4-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 79468,
+      "sha256": "e54d9c647e1a50ba11fd32e50988bd954989ea7e1ea0fe4ec880b9e9e2aa0f9b",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/9c343cd5400553cd93e6d1c2f8c721669a81b44f",
+      "path": "configurations/9c343cd5400553cd93e6d1c2f8c721669a81b44f.json",
+      "kind": "public-template-config",
+      "bytes": 4250,
+      "sha256": "a2cdd90f2fa2431ce90eaa51e262aadc862bf9e63ab95ad6ebe189ab7d6b1f22",
+      "status": "downloaded",
+      "capturedResponseSha256": "e469dc33af0b22668717ea9a62dc99aac6a0fd2b000077886a91da7b7b335802",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinTaupemit2Klappen_Rosegold-Finish-1.webp?v=1763210718&width=400",
+      "path": "templates/lowboard-5-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 23341,
+      "sha256": "367d376127ccd1dda790015292bbed4b9f676f1b12115f7c82ffac706290ff8e",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinTaupemit2Klappen_Rosegold-Finish-1.webp?v=1763210718&width=800",
+      "path": "templates/lowboard-5-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 82375,
+      "sha256": "85fad61ada84b9f489311543812f599021158576df0abfa79119aff3880246a7",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/b38aa9eb3a11f9d81fae8a1ef05745590f8138b1",
+      "path": "configurations/b38aa9eb3a11f9d81fae8a1ef05745590f8138b1.json",
+      "kind": "public-template-config",
+      "bytes": 4247,
+      "sha256": "f072bba7fe44ddacea72d2c1de00b14eb172b33c382422519a42fcb5bbc71e9c",
+      "status": "downloaded",
+      "capturedResponseSha256": "799f69729b7ae85f2301411bdfd369a0a9b7f4169d6a70f7a0b8ab5679722a96",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinPetrolmit2Schubladen-1_3da84b40-fa97-4840-935e-f3fa6fa5c9e7.webp?v=1763210673&width=400",
+      "path": "templates/lowboard-6-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 30328,
+      "sha256": "d90ec1ed282f41d33dcbf66c389bcfbb1bac574c32b2f4605e60a27bfe8c71ea",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinPetrolmit2Schubladen-1_3da84b40-fa97-4840-935e-f3fa6fa5c9e7.webp?v=1763210673&width=800",
+      "path": "templates/lowboard-6-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 99964,
+      "sha256": "0c0d79ad95392e755fb8d86d0f1f7b39d57b481e9e4124a2f21d1fd9519ced8f",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/d304f5bd40bcbfd8122409af001440b611b72caa",
+      "path": "configurations/d304f5bd40bcbfd8122409af001440b611b72caa.json",
+      "kind": "public-template-config",
+      "bytes": 7141,
+      "sha256": "6cc0319efbe92ac8344551c61d77a4b58863a5515ff19b67972b9f2db519ffb7",
+      "status": "downloaded",
+      "capturedResponseSha256": "8eb67f615c222ec39e5bea3a2670468e2554a5ccc86b572eb8619f832940e09b",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinRotmit3Klappen-1_867db891-e20c-4983-81c4-0e1c18fc7854.webp?v=1763210675&width=400",
+      "path": "templates/lowboard-7-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 33028,
+      "sha256": "74dc7a3559bf64cc8a937aad5d88e0e58e22ce9c7d1bc7f8393cec4eb3d52f44",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinRotmit3Klappen-1_867db891-e20c-4983-81c4-0e1c18fc7854.webp?v=1763210675&width=800",
+      "path": "templates/lowboard-7-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 103414,
+      "sha256": "8ad02dfeb3fe5a752c59811dfc4bb1cc3a3220561693c4c3ea80bdb5a9db79dc",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/2fe3791113dbfdf0ccd7315432a2c469a9e6a205",
+      "path": "configurations/2fe3791113dbfdf0ccd7315432a2c469a9e6a205.json",
+      "kind": "public-template-config",
+      "bytes": 4292,
+      "sha256": "cf13b344d1bfc24c6a11b6f30c37698711a294a90aca428409166a51665bf2cc",
+      "status": "downloaded",
+      "capturedResponseSha256": "fd13a41b93cf827344d442d83649bdb93d50d40a28dd494a1bbb32888db79652",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kommode_in_Mint_mit_4_Schubladen_-_5.webp?v=1763210660&width=400",
+      "path": "templates/kommode-1-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 32083,
+      "sha256": "e31c4c50b66554283d7db3106b3179b37ae1d0bd535e1138314b83c47c9adbee",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kommode_in_Mint_mit_4_Schubladen_-_5.webp?v=1763210660&width=800",
+      "path": "templates/kommode-1-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 97220,
+      "sha256": "68ac92b14418d30c4552309fcc07e27a69477487d2e0baeb8027a394bf34e1b2",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/5521bbf1f9d3abbf9db22876485ce7be18b9b10c",
+      "path": "configurations/5521bbf1f9d3abbf9db22876485ce7be18b9b10c.json",
+      "kind": "public-template-config",
+      "bytes": 4480,
+      "sha256": "8f2631703b07b873ef1290e06c5617fcde48831834be4e40a790aa3f57d64af0",
+      "status": "downloaded",
+      "capturedResponseSha256": "59d1e8b327661444d9285fd6029f3548171f0e535c653a3fd99c63f43221956a",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinWeissmit3Schubladen-5_8c55b199-d39f-420d-bba9-10ebfdc2968a.webp?v=1763210658&width=400",
+      "path": "templates/kommode-2-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 31212,
+      "sha256": "97400a189db4c0e6d09a84a29c5d3526cfa0d83516ebf8fda645c2001507df00",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinWeissmit3Schubladen-5_8c55b199-d39f-420d-bba9-10ebfdc2968a.webp?v=1763210658&width=800",
+      "path": "templates/kommode-2-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 93191,
+      "sha256": "e51254dee02dd2789ee460fad994833c9333f07a9d69bfb81bad147c7b4f91da",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/ef97e3463fd309ed8fb7004bf6920ec284706a01",
+      "path": "configurations/ef97e3463fd309ed8fb7004bf6920ec284706a01.json",
+      "kind": "public-template-config",
+      "bytes": 4257,
+      "sha256": "e03d0c1a441974f68ffaed6607b66d1ca93da868c9b2673c8d84cd919074bcdf",
+      "status": "downloaded",
+      "capturedResponseSha256": "cffe025369215c26ecb8193c49b553b46ed483c55b4ac2a0f9bdae7892a14175",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinWeissmit3Schubladen_SchwarzemChrom-5.webp?v=1763210716&width=400",
+      "path": "templates/kommode-3-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 32015,
+      "sha256": "286d0138fb27ca07e1f4e8f8bd0fb8a4c1652a7490bc09af98fd5568dbce4cfe",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinWeissmit3Schubladen_SchwarzemChrom-5.webp?v=1763210716&width=800",
+      "path": "templates/kommode-3-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 96336,
+      "sha256": "1b1cfa9a2c22792f687bdf8146bd8ba5449ddfd19841a1ff0de3f912bd4163e1",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/9190d561bdd14fad7bc43aba02b82e0c26018b3e",
+      "path": "configurations/9190d561bdd14fad7bc43aba02b82e0c26018b3e.json",
+      "kind": "public-template-config",
+      "bytes": 4252,
+      "sha256": "a658ba2ca3fd6beb73494221f1d4beadb48256964c3448d9f1348880fed8a361",
+      "status": "downloaded",
+      "capturedResponseSha256": "4a26cfee17488f933871c0fe8481c0aa4979a1be3e8852586a5afe8f122c765b",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinSchwarzmit6Schubladen-5_f3bd45e7-e51d-4f7b-b180-55cddcd75f98.webp?v=1763210663&width=400",
+      "path": "templates/kommode-4-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 29353,
+      "sha256": "b8ed759cf312c3e63805ea5ec9b934da834bc9da49ca423d61c927bd6c15fb4c",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinSchwarzmit6Schubladen-5_f3bd45e7-e51d-4f7b-b180-55cddcd75f98.webp?v=1763210663&width=800",
+      "path": "templates/kommode-4-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 88400,
+      "sha256": "e99099045b81fdc41dac3bc105e86f12295f015a47ec3fc1d0d0c7e4cdd7cb77",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/004ae59185703547824aedd25c229515f9e91c0d",
+      "path": "configurations/004ae59185703547824aedd25c229515f9e91c0d.json",
+      "kind": "public-template-config",
+      "bytes": 7442,
+      "sha256": "0bc4eda1b44a89a6afaba495894ba3be845d69bcb40d00dce38d0b269d817579",
+      "status": "downloaded",
+      "capturedResponseSha256": "326a5ee01ac277f7058b44028fb2fca7aa35789a9f6fa826ef26da0b6a5b2a11",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinRotmit6Schubladen-5_2b36ae64-ba2f-45c3-b0bd-006d4edf6375.webp?v=1763210661&width=400",
+      "path": "templates/kommode-5-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 35006,
+      "sha256": "1c525e7a6bfa7c3e40742501107fc7575c725bb246475c69c4391e8cde15fd50",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinRotmit6Schubladen-5_2b36ae64-ba2f-45c3-b0bd-006d4edf6375.webp?v=1763210661&width=800",
+      "path": "templates/kommode-5-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 101303,
+      "sha256": "d223af211cd3857a6b604a046f11b12b637abe39a7beefadadae3f132b0c389c",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/17a8fdae8d29f3e43bfd09b1345ad97460710616",
+      "path": "configurations/17a8fdae8d29f3e43bfd09b1345ad97460710616.json",
+      "kind": "public-template-config",
+      "bytes": 7210,
+      "sha256": "fab6741284c03f0cf6c77e99acd9f591f3d20ff4435aa1431ffda5a495d85ae2",
+      "status": "downloaded",
+      "capturedResponseSha256": "8b6b117937cdd6beec438feb3d5b8935f649dcc6359d1c3fd6255e6f6be5eb32",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kommode_in_Hellgrau_mit_6_Schubladen_-_5.webp?v=1767853128&width=400",
+      "path": "templates/kommode-6-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 29749,
+      "sha256": "9b6cd22451107c3f53beb70610c6f2192de1996d8699356bdac689a47eeeb786",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kommode_in_Hellgrau_mit_6_Schubladen_-_5.webp?v=1767853128&width=800",
+      "path": "templates/kommode-6-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 88872,
+      "sha256": "111e28d5b5a88b941752b213b748d4cb6cdd645d0b31fa4496f434b3c226f37f",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/3b0e5da95b1707ba0d12465e22c547639f9fda76",
+      "path": "configurations/3b0e5da95b1707ba0d12465e22c547639f9fda76.json",
+      "kind": "public-template-config",
+      "bytes": 10162,
+      "sha256": "0c5c437fc3dab86272f9d0ee175d2d2f1eaa3efca8586fac09522c83f77c4a04",
+      "status": "downloaded",
+      "capturedResponseSha256": "486dbfcd33af51029b8f44e0ab4fa029150812012f1312452752ae36fca3f475",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinTaupemit2Klappen-2.webp?v=1763210686&width=400",
+      "path": "templates/regal-1-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 36628,
+      "sha256": "ec779d395345039fadd40dd43fa880feb37403d311f3dd3735c32cf9918ed935",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinTaupemit2Klappen-2.webp?v=1763210686&width=800",
+      "path": "templates/regal-1-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 108550,
+      "sha256": "71fc17ea177a7f3f36abe7080a4af4993da57f4019ecc9e7c10afad3a811d299",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/96bc4df739f65c8c3db2006c11f6480b31bf7316",
+      "path": "configurations/96bc4df739f65c8c3db2006c11f6480b31bf7316.json",
+      "kind": "public-template-config",
+      "bytes": 7179,
+      "sha256": "857e8bf526a1eba4ddc3ee50d47fa4db49ca210f918d287e4590f86a291d6adc",
+      "status": "downloaded",
+      "capturedResponseSha256": "038fc1c6573a180a7ed2bfaf9eb03e098f02217ed1eb961517cff807ca798bcf",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit2Schubladen-Klappen-4.webp?v=1763210679&width=400",
+      "path": "templates/regal-2-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 36219,
+      "sha256": "edd0e47b26a4ab2718fca84f229baf43f9b69c010e74d405596f89fcc46dcf52",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit2Schubladen-Klappen-4.webp?v=1763210679&width=800",
+      "path": "templates/regal-2-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 113806,
+      "sha256": "5543f4462d1ca1a6c18fe8b57dc5a741dd462b40b8f5f95692d35512748a9d13",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/f5f174e70d3e623f3d371cd65b3e25f236d3e76e",
+      "path": "configurations/f5f174e70d3e623f3d371cd65b3e25f236d3e76e.json",
+      "kind": "public-template-config",
+      "bytes": 11027,
+      "sha256": "dda084de7ba6b30d99ee017acf83c8dade8a2758edb0b4d2cf6f97a1fb8a9c40",
+      "status": "downloaded",
+      "capturedResponseSha256": "a1debccaadf635b4afeed44bc8967d6d0fc816bb5ecbc3bfbe42ad6afb99003f",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinSchwarzmit2Schublden-Klappen-4.webp?v=1763210682&width=400",
+      "path": "templates/regal-3-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 34994,
+      "sha256": "f13a3d10725c948fb0adc5924c2dc00aff6b88b9cf7ddf6975abd53fbdb27eec",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinSchwarzmit2Schublden-Klappen-4.webp?v=1763210682&width=800",
+      "path": "templates/regal-3-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 106715,
+      "sha256": "a70ad45414d3959f5f7a3717c77372afdf690dff4a05fd851b211347b8f2fc52",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/1681cbf1c205a5c8217bbb94d3bdadf14892960f",
+      "path": "configurations/1681cbf1c205a5c8217bbb94d3bdadf14892960f.json",
+      "kind": "public-template-config",
+      "bytes": 9140,
+      "sha256": "bd188d65582bf5e63b2e11b7f18a06179f51fa57c0402068445552c528e0fc76",
+      "status": "downloaded",
+      "capturedResponseSha256": "1dee70b2d71ae92a8256c03e0007991b1d305f4118b75764ab25e6a52e858718",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmitVitrinenfunktion-4.webp?v=1763210677&width=400",
+      "path": "templates/regal-4-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 49227,
+      "sha256": "5844b82ec9af3e34d52aad5bf8646f078c6fab767eaf4f8eed6f4e8cd2411edd",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmitVitrinenfunktion-4.webp?v=1763210677&width=800",
+      "path": "templates/regal-4-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 144795,
+      "sha256": "d411c093685e98f6338d58954bc2f691254d5331a6b1304941c682e096c976fc",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/7c638a403aeec514e46dc3bb15057ceec6d66db8",
+      "path": "configurations/7c638a403aeec514e46dc3bb15057ceec6d66db8.json",
+      "kind": "public-template-config",
+      "bytes": 13239,
+      "sha256": "9c5966f36ed11a4973b44f4656e68988e7366c8a5181bf95d665e8214094e36e",
+      "status": "downloaded",
+      "capturedResponseSha256": "1c892fd2ee370d69461277ce22b36d064e4da921d85d707fc5d871eff0225dbe",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinPetrolmit3Klappen-4.webp?v=1763210681&width=400",
+      "path": "templates/regal-5-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 43666,
+      "sha256": "d71e4ef65fc8603a8f5d637f7ed7baf94d21a0d307a61ffd2ecc91a4c026d718",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinPetrolmit3Klappen-4.webp?v=1763210681&width=800",
+      "path": "templates/regal-5-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 130701,
+      "sha256": "a4f715999cb4e2cd838f5c366cffd6b7f74df8ce928c15cfc6748dc23a0bd4c0",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/4f29fac447ee230c422009ea8894f207f70c5d44",
+      "path": "configurations/4f29fac447ee230c422009ea8894f207f70c5d44.json",
+      "kind": "public-template-config",
+      "bytes": 15658,
+      "sha256": "b6af09972cd60fa25a7d384a04b61793881154c443b8dafe78f13d17484e8187",
+      "status": "downloaded",
+      "capturedResponseSha256": "a0dfa6267b7a0971b47ce87df8051c4ffffe63564216bf3d73fc8a03e6144b5a",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit3Klappen-5.webp?v=1763210684&width=400",
+      "path": "templates/regal-6-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 30396,
+      "sha256": "71d1ccd77c7b78b9ab1aa7599c7bfa4a945fcc2bd833bd510c437b5ad79655b6",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit3Klappen-5.webp?v=1763210684&width=800",
+      "path": "templates/regal-6-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 88324,
+      "sha256": "018e3b9fd9d2b6153462afdd733eaf6cdab4d9a432b7cd55cdc00662caaeafac",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/0422d8fd5f44d878a2a34d85a1e5fdbfedc9d916",
+      "path": "configurations/0422d8fd5f44d878a2a34d85a1e5fdbfedc9d916.json",
+      "kind": "public-template-config",
+      "bytes": 9997,
+      "sha256": "59f3420b52fab3201d2a2754f5eeaa5520f6e4cd639ec7cfc5f5c65ce7a8bb43",
+      "status": "downloaded",
+      "capturedResponseSha256": "f8abe4fa8b0018b27ef7a9ffac534e2d1d8c4facb6439595b52e15ff7003e2d9",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit3Klappen_Rosegold-Finish-5.webp?v=1763210720&width=400",
+      "path": "templates/regal-7-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 40344,
+      "sha256": "f837743e07a54fe133baf55756d3f52549884eb63e475e4574e62269c67fd1d8",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit3Klappen_Rosegold-Finish-5.webp?v=1763210720&width=800",
+      "path": "templates/regal-7-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 124434,
+      "sha256": "cc04d21961dd3e4283e186b5e75a54f6b59473179f769001bc615a6a83ccaca9",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/e6689fe16ecd7bd9bb104d22235efc07434f095c",
+      "path": "configurations/e6689fe16ecd7bd9bb104d22235efc07434f095c.json",
+      "kind": "public-template-config",
+      "bytes": 9999,
+      "sha256": "3a589979e71226f16eea86d4f9cbedb545fdc07d9c07bc6c8957e38e0aaeae09",
+      "status": "downloaded",
+      "capturedResponseSha256": "c6c9185a0d54155527120037f4853e8f40085669218fc839e1475536d1741fc2",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeintrendigemMint-3.webp?v=1763210705&width=400",
+      "path": "templates/garderobe-1-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 28867,
+      "sha256": "0f351a1d9a3adabeae2237123e80ef94ec98f322b64fb41be816c1c5e8a3bfd2",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeintrendigemMint-3.webp?v=1763210705&width=800",
+      "path": "templates/garderobe-1-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 88351,
+      "sha256": "ab4c51ef5bd0f6bbf8ffb880f7198fffe6ac741b402cda2de2d46312331e6473",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/8243bb219556709c68811897350a54e08690b71f",
+      "path": "configurations/8243bb219556709c68811897350a54e08690b71f.json",
+      "kind": "public-template-config",
+      "bytes": 6511,
+      "sha256": "618a130f9b4861cdb095f7ef055015c7656ecebf6b406f00bd85a6fec5888ccf",
+      "status": "downloaded",
+      "capturedResponseSha256": "6ac49a78bc009f701dfb3f920d3dcb94b4e4283d808d2ca7759c245e56816347",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemHellgrau-4.webp?v=1763210701&width=400",
+      "path": "templates/garderobe-2-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 40434,
+      "sha256": "2e4f7b37c0491f6fefb6d86f73ff555f0f0ffe69bb69dbb35a9d1830df8a7d4d",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemHellgrau-4.webp?v=1763210701&width=800",
+      "path": "templates/garderobe-2-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 126410,
+      "sha256": "6a8f44eeb3ce8f7c9b07557b56bfa619da8ad6f8520514920d98017f54f215bc",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/3acfd128e18e7f36ac9729c5f0d8513fca8ae963",
+      "path": "configurations/3acfd128e18e7f36ac9729c5f0d8513fca8ae963.json",
+      "kind": "public-template-config",
+      "bytes": 11264,
+      "sha256": "0aeace2c973f8faed16ed58e27b6d3551612097b6c75a3f20f399261ee9a8109",
+      "status": "downloaded",
+      "capturedResponseSha256": "e381602f2206fbfdbce6c48446b4f830b30ab7a0fd70b0b27808c8e42a7e9151",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeintrendigemPetrol-4.webp?v=1763210703&width=400",
+      "path": "templates/garderobe-3-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 41356,
+      "sha256": "e43057913c6efe177e9d7dc64455df75b8c05edd27646073615fd84bcbd3d6b7",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeintrendigemPetrol-4.webp?v=1763210703&width=800",
+      "path": "templates/garderobe-3-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 134185,
+      "sha256": "0800f0e38b7dbb03421e417e0c08d8228a94861ff61fff00a370fa7a56b70f41",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/024ea3f9130dfbc7e88215a63f02a124f13cf3af",
+      "path": "configurations/024ea3f9130dfbc7e88215a63f02a124f13cf3af.json",
+      "kind": "public-template-config",
+      "bytes": 11233,
+      "sha256": "943283a101fff928f307b7bcf7a77403d22f335d73d4ada02bc6207d5bf40b42",
+      "status": "downloaded",
+      "capturedResponseSha256": "8aa2478883ce3f0ef5563d1687f295f74963edddc62a2a60f0f2190b55c309ff",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinklassischemSchwarz-3.webp?v=1763210700&width=400",
+      "path": "templates/garderobe-4-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 40956,
+      "sha256": "fd53e34c5da32b8b283200baba52315b9480da5a47228098f54cc4f6adb0605a",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinklassischemSchwarz-3.webp?v=1763210700&width=800",
+      "path": "templates/garderobe-4-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 132588,
+      "sha256": "3020a393a9c82e13f35461b90d75cf8509fbc66196f61ab0fb3b57d9e519ddd5",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/6245a9271718318a9230acb4e532bbfe96c9d27f",
+      "path": "configurations/6245a9271718318a9230acb4e532bbfe96c9d27f.json",
+      "kind": "public-template-config",
+      "bytes": 11062,
+      "sha256": "8078a40318c167dd746ab8248343638f1905a29f82e552cda91dec228c443ee2",
+      "status": "downloaded",
+      "capturedResponseSha256": "e324bea389c070d32e56cb166c20c7dd77f6f2bfe7dca6814c0dede144002686",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemDunkelgrau-3.webp?v=1763210698&width=400",
+      "path": "templates/garderobe-5-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 32874,
+      "sha256": "b89644209582763fc90066699ab847901f62351e00d4e8da2f69447f3ab63d32",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemDunkelgrau-3.webp?v=1763210698&width=800",
+      "path": "templates/garderobe-5-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 105834,
+      "sha256": "a1df9254adea92154796f1ba3e35803b48b6c159d0404127b891ef4828c1be24",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/86b8c20747b4b67690d3b5986b6fcbaedfdbce98",
+      "path": "configurations/86b8c20747b4b67690d3b5986b6fcbaedfdbce98.json",
+      "kind": "public-template-config",
+      "bytes": 15767,
+      "sha256": "73e5244274b26b0425f3a6e200b2f5825f2fe519c573df01614e3a701c57528f",
+      "status": "downloaded",
+      "capturedResponseSha256": "f9de978776721aeec89bd6fb566b8725e4676bb58f89beba46895f3a99053a48",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemTaupe-3.webp?v=1763210697&width=400",
+      "path": "templates/garderobe-6-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 45362,
+      "sha256": "0d36f9edfd7fe1914201f1f9f67807838ed16a10e0a3c23bf9aad20f976390c8",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemTaupe-3.webp?v=1763210697&width=800",
+      "path": "templates/garderobe-6-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 159814,
+      "sha256": "2ad2196d35117ce7a918f4909a0b52d345a1eefae4faa599c715e718dfaf564c",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/ebbb3dfc25fa752d8453eb89695e9bcc6a10daf6",
+      "path": "configurations/ebbb3dfc25fa752d8453eb89695e9bcc6a10daf6.json",
+      "kind": "public-template-config",
+      "bytes": 15853,
+      "sha256": "971250e18f75202eccadbb4cf74596df5570c663a3496f82f0fd15229ef3bce6",
+      "status": "downloaded",
+      "capturedResponseSha256": "3e529f76fabb4d2837ac5dbd1b238d28f50f3238c80f8b7005a49b790f3bdd02",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/008v2_3.jpg?v=1780994003&width=400",
+      "path": "templates/ecksideboard-1-1x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 31760,
+      "sha256": "e0597e2fa1417f0b91b63763b2596a240334a07b15cb4f2c46961b169b810eec",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/008v2_3.jpg?v=1780994003&width=800",
+      "path": "templates/ecksideboard-1-2x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 102253,
+      "sha256": "427965b783813780515826864f34e0c07d4bf2c5e496be13482b081adb9bb20f",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/520e6c3023e6a93c134744003fb7fac23eb94651",
+      "path": "configurations/520e6c3023e6a93c134744003fb7fac23eb94651.json",
+      "kind": "public-template-config",
+      "bytes": 11082,
+      "sha256": "112da07d385d3fbee173c08827ffd8fd3cb0267d51c821d0415e15c36e218a88",
+      "status": "downloaded",
+      "capturedResponseSha256": "53e7104bcb3c357f0677896e59d2b0ae081360c702f5ef9f3b42c62029d89b41",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/001_2.jpg?v=1780993720&width=400",
+      "path": "templates/ecksideboard-2-1x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 25031,
+      "sha256": "68cb83deb29b837c3c2a36f226e2898d4335bef7dfd68e789b9c55a22871c32e",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/001_2.jpg?v=1780993720&width=800",
+      "path": "templates/ecksideboard-2-2x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 76318,
+      "sha256": "5b3cd6ddbdbc4a54d889aeee9cca2dfbeb2369783bcdff126fea6dbf4e761ac6",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/57b135f9d4392c5a2fe0ffe0538e2eee690125f2",
+      "path": "configurations/57b135f9d4392c5a2fe0ffe0538e2eee690125f2.json",
+      "kind": "public-template-config",
+      "bytes": 7151,
+      "sha256": "42b35b620d2fcea286a64177ad819798279511f8b86936a5ad2c509076f1507e",
+      "status": "downloaded",
+      "capturedResponseSha256": "1c6a5515b58f5663863254ded8b69f1f83dfda444ed5cf467373e7b2ef25dfcc",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/011v2_4.jpg?v=1780994063&width=400",
+      "path": "templates/ecksideboard-3-1x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 25461,
+      "sha256": "364384b888032c8842f34f1b9a023e40f22e0bc74a95d98d540f64bd5abebecf",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/011v2_4.jpg?v=1780994063&width=800",
+      "path": "templates/ecksideboard-3-2x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 75636,
+      "sha256": "25a578f1bff9b6e860c73ff93979a4b845fd26d9be569e89fa5a6b9c0a56b200",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/bbe6fcf091c1547acdc677207bb9d6510592728b",
+      "path": "configurations/bbe6fcf091c1547acdc677207bb9d6510592728b.json",
+      "kind": "public-template-config",
+      "bytes": 15792,
+      "sha256": "88754a95065562706bde96bd1ac2dc9d7df04d3c6387b7976af8215daae7aa9f",
+      "status": "downloaded",
+      "capturedResponseSha256": "643754933bb7d102e5cac9639b59846060f44067b4f1a1abaa9d76072161d8ea",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/006_3.jpg?v=1779368982&width=400",
+      "path": "templates/ecksideboard-4-1x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 34340,
+      "sha256": "7a3f1eb455fad1ec1f75eec65fc3512dc23f85184c979e8181782943cf9769ab",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/006_3.jpg?v=1779368982&width=800",
+      "path": "templates/ecksideboard-4-2x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 110096,
+      "sha256": "e5af3d9627ccd32cd7c5238e169c17f8799ab7980cd29c6b016baa594c318e7b",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/31fd93525066cc95c434366dddbab28cf54013ce",
+      "path": "configurations/31fd93525066cc95c434366dddbab28cf54013ce.json",
+      "kind": "public-template-config",
+      "bytes": 9087,
+      "sha256": "8620543feefe32ba2bb482d0374e12fd391d8b68ef204d9dbbb7ca5d7665b87f",
+      "status": "downloaded",
+      "capturedResponseSha256": "6e9e9cebc9cc01ffaaec12bbe38ab78117340c76291a1a35586a6b096e8ec81d",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/003_v2_3.jpg?v=1779885783&width=400",
+      "path": "templates/ecksideboard-5-1x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 27690,
+      "sha256": "0af3579e17ca6622560dc888811faa1059342ca571898a7beac23fe38d9aa5ed",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/003_v2_3.jpg?v=1779885783&width=800",
+      "path": "templates/ecksideboard-5-2x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 85108,
+      "sha256": "b4f356be318d86b0af0bd740dd265afd594645f6b6db28150489f94a5cbc0566",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/1f13f57823d298a6ad4d7bdc36357154e92cbf03",
+      "path": "configurations/1f13f57823d298a6ad4d7bdc36357154e92cbf03.json",
+      "kind": "public-template-config",
+      "bytes": 8932,
+      "sha256": "93a6f59e474ce4d0a973cb4869d9c0856da9ad65be66d9287e66a56f4918069c",
+      "status": "downloaded",
+      "capturedResponseSha256": "7c733a648d3dbab07cfd4270cdb19b22a2993f6cf64901e503b642084f80303c",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/004v3_1.jpg?v=1780993887&width=400",
+      "path": "templates/ecksideboard-6-1x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 31591,
+      "sha256": "a4400e89c6480c4b152b9e60c4e50cd704158a362cb6461638dde70d758aa85d",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/004v3_1.jpg?v=1780993887&width=800",
+      "path": "templates/ecksideboard-6-2x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 101030,
+      "sha256": "5ddf60089197046c5b94d97b9e98835b9b572f84252032b42e21a3baef53dd71",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/7b84abbe7ff70074b305e0fd1cdd179c7e20b6ae",
+      "path": "configurations/7b84abbe7ff70074b305e0fd1cdd179c7e20b6ae.json",
+      "kind": "public-template-config",
+      "bytes": 12724,
+      "sha256": "0cbc31f94b4d50c3b6e8aa6d6b91c4c3997ec65023619de0f6f58bb5929072fd",
+      "status": "downloaded",
+      "capturedResponseSha256": "46d6a28ee6408f29bedd0071cda80db8f4cfd058aac81c17571d92e1ac1a2ed0",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/009_1.jpg?v=1779368839&width=400",
+      "path": "templates/ecksideboard-7-1x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 36987,
+      "sha256": "9a9e6254169d953700ac3421c84459ef48e92bdb15a72d6ff29a578e3bd8c7cf",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/009_1.jpg?v=1779368839&width=800",
+      "path": "templates/ecksideboard-7-2x.jpg",
+      "kind": "template-thumbnail",
+      "bytes": 125276,
+      "sha256": "565d6f9af46ef80bf1d569088f10affdba922d2a817763a007a3d05e17c2c404",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/d4087ffe5e10f005b5c3d13db27afefbe913fe03",
+      "path": "configurations/d4087ffe5e10f005b5c3d13db27afefbe913fe03.json",
+      "kind": "public-template-config",
+      "bytes": 28856,
+      "sha256": "6917d97e3bf79500879a208880308bb85312de0dd5a7789648cffd6501526796",
+      "status": "downloaded",
+      "capturedResponseSha256": "c3b9605104cecf6b407a6be613d93f6a27a7092419617654507bc34ca49aa8ca",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Rollcontainermit2Schubladen-2.webp?v=1763210691&width=400",
+      "path": "templates/container-1-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 32481,
+      "sha256": "2fd1384ee588ee78fcd60e94a464410069e4650a454479a4641cbf904f8d5878",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Rollcontainermit2Schubladen-2.webp?v=1763210691&width=800",
+      "path": "templates/container-1-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 119854,
+      "sha256": "b53a9b26c69c29b26f902d1c63f5feab5c036c745cb9d5fd645dce283313fb7e",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/c534890d891d5c3d2f53205316049cc3739c72e4",
+      "path": "configurations/c534890d891d5c3d2f53205316049cc3739c72e4.json",
+      "kind": "public-template-config",
+      "bytes": 3332,
+      "sha256": "44484468c376a64de53684e956d49f9ae2f7ca19ea686c06d723df9c4c472e3f",
+      "status": "downloaded",
+      "capturedResponseSha256": "b2372a9cd2419732c633522f07500db36b1b40d0dba6705500a8162d0afdbf6b",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Rollcontainermit2SchubladenundAblagefach-2.webp?v=1763210694&width=400",
+      "path": "templates/container-2-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 34514,
+      "sha256": "08777effbf9076d25628caa05cc47b31d8211208d41455497c06624b58223c5f",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Rollcontainermit2SchubladenundAblagefach-2.webp?v=1763210694&width=800",
+      "path": "templates/container-2-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 125274,
+      "sha256": "1ed71b2badc9c4fe6d7ba36f5afc08ab95f2ec47fc3317bfc8fa15cb4bd623a9",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/126dd7416584a036da0e75b632eab69f42281dd1",
+      "path": "configurations/126dd7416584a036da0e75b632eab69f42281dd1.json",
+      "kind": "public-template-config",
+      "bytes": 3258,
+      "sha256": "e205b909ea2a42bc9d6494cb6072a4547c87422b618ae8170c86fb333b174da4",
+      "status": "downloaded",
+      "capturedResponseSha256": "6205b15a0fbb947b6b06fd88ac78ffbc97674b2686d2a4972d0da00242587d59",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinWeissmit2Schubladen-2.webp?v=1763210687&width=400",
+      "path": "templates/container-3-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 33740,
+      "sha256": "a3e364c4c009061e1fb3aaca9395cc2610f2f7c63dd32c56b09c357590871957",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinWeissmit2Schubladen-2.webp?v=1763210687&width=800",
+      "path": "templates/container-3-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 123283,
+      "sha256": "2043e3b372302c39800b299ed91519dfc76d77c49a935f0318e79185924e47d5",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/d2763ccd3fe36b1ca70801e66f33717a8551b384",
+      "path": "configurations/d2763ccd3fe36b1ca70801e66f33717a8551b384.json",
+      "kind": "public-template-config",
+      "bytes": 3366,
+      "sha256": "f7cfa4dd2ca482518f6c45df4de69129cf41e3cf1bee89e37f89976f0213fbff",
+      "status": "downloaded",
+      "capturedResponseSha256": "6fa2e92afddabed0810ab6bba06066bd75bdc18afba1a1a9bffef68550c2124b",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinWeissmit2Schubladen_SchwarzemChrom-2.webp?v=1763210722&width=400",
+      "path": "templates/container-4-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 33387,
+      "sha256": "f52a941c5d7248d3857e5128c8d1648ec60ff4333f992cfe2a4c6ca620a6f6e1",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinWeissmit2Schubladen_SchwarzemChrom-2.webp?v=1763210722&width=800",
+      "path": "templates/container-4-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 121900,
+      "sha256": "c33d476921d9941fb298c5eacebf8785ef9a780cc5d3b15a399a7cff13df43b1",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/483954b95aaa9856e7994201cefe9dabfb113971",
+      "path": "configurations/483954b95aaa9856e7994201cefe9dabfb113971.json",
+      "kind": "public-template-config",
+      "bytes": 3361,
+      "sha256": "274939d57e45e9a07b294678251f7679e1df5d3593ac4761c7417475c337e81b",
+      "status": "downloaded",
+      "capturedResponseSha256": "eeb5edb99dd672bbe3909327f7f911f1b65e11d0031a66a8e7011b4d680f268b",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Schreibtischcontainer_in_Petrol_mit_3_Schubladen_-_2.webp?v=1763210688&width=400",
+      "path": "templates/container-5-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 34032,
+      "sha256": "d4107c85dbc3f0e22216c3808368d038e4b9fcbf1ef4dd60e1f1b34b97752892",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Schreibtischcontainer_in_Petrol_mit_3_Schubladen_-_2.webp?v=1763210688&width=800",
+      "path": "templates/container-5-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 123178,
+      "sha256": "bc1400bde4444852b72222266bc247d4ad65308c084cd5fcc2a353eeb84cfcfa",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/d3ffc5609e1576f79796dfb2eeb70d9735eb684a",
+      "path": "configurations/d3ffc5609e1576f79796dfb2eeb70d9735eb684a.json",
+      "kind": "public-template-config",
+      "bytes": 3322,
+      "sha256": "01c28be0549ccca977ece8eaf44dd930a4d48ad477a326506f5c195522eb004b",
+      "status": "downloaded",
+      "capturedResponseSha256": "a246850d8aad0c4b25d3dbfa0810cde24376f6eecf92d4bc6f89e79fc88e5275",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/BeistellmobelmitSchublade-3.webp?v=1763210695&width=400",
+      "path": "templates/container-6-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 38653,
+      "sha256": "69b68f1256e2717bae82be2be180841fb72e164cebb9678735bfd17e8a6e341d",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/BeistellmobelmitSchublade-3.webp?v=1763210695&width=800",
+      "path": "templates/container-6-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 127337,
+      "sha256": "26030028a32e75016e677daaa4e11a0a507e0fcc926f9d81b378d8358c8d46e3",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/599834cbca8c9026fd4eefd380ff3353481da94e",
+      "path": "configurations/599834cbca8c9026fd4eefd380ff3353481da94e.json",
+      "kind": "public-template-config",
+      "bytes": 3419,
+      "sha256": "a5fad008335695dca8588506ee5cdb26b9e81fd8916cf33816399bc48108bb61",
+      "status": "downloaded",
+      "capturedResponseSha256": "964b8f691156f2729fd9d6c5a5f4d6d39a61a45e22fcbd274b1152a2970dd59a",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KleineEmpfangsthekeinPetrolmit2FachernfurWarenprasentation-4.webp?v=1763210632&width=400",
+      "path": "templates/empfangstheke-1-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 20571,
+      "sha256": "5780c3caf6a17682c902ddc1f8b99d1f333ffa7e91bad78fa65a211ff8de21a6",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KleineEmpfangsthekeinPetrolmit2FachernfurWarenprasentation-4.webp?v=1763210632&width=800",
+      "path": "templates/empfangstheke-1-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 55856,
+      "sha256": "856c2fa0bced3d23c2d4848ead02b6c40de481225ce3f45f205d0a52ef383cdf",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/242e9e0a6660275f8b16d376e2ebc1b2db9d450b",
+      "path": "configurations/242e9e0a6660275f8b16d376e2ebc1b2db9d450b.json",
+      "kind": "public-template-config",
+      "bytes": 7151,
+      "sha256": "3385f3bfa002d0ec0accdd70677ea6ab7689ab6518054da692283b751fc8caa5",
+      "status": "downloaded",
+      "capturedResponseSha256": "4adaa8b5f8bf4790af1cda0080a8cdab4a78ed7f2b02703057ac3d8ef8167846",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-1.webp?v=1770163156&width=400",
+      "path": "templates/empfangstheke-2-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 22296,
+      "sha256": "3d76f6b19696454c6ed1acef6880563a6bfe391f5304d626c5a49fd6c364e9c7",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-1.webp?v=1770163156&width=800",
+      "path": "templates/empfangstheke-2-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 59954,
+      "sha256": "e1631e1b147acabd5560b1e863c344c1f899f1ad3117a5dfda62fe6392d0b288",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/606ec4ae4cb14c3ed8611539fa4d6c6f4b772ac9",
+      "path": "configurations/606ec4ae4cb14c3ed8611539fa4d6c6f4b772ac9.json",
+      "kind": "public-template-config",
+      "bytes": 13069,
+      "sha256": "2b10fae1897737cb8686f14c6b9ce53fac0209934fb24d41b7ad67017b9a1556",
+      "status": "downloaded",
+      "capturedResponseSha256": "b6769e97a03fddbd16ed84aaa16048eae723c27866558438a485e662d87cf902",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KompakteEmpfangsthekeinChromschwarz-4.webp?v=1763210629&width=400",
+      "path": "templates/empfangstheke-3-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 17970,
+      "sha256": "144a43fcb6706e7643e1f65ac2d309f8ffb32a76d178ff96869498f3655dab88",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KompakteEmpfangsthekeinChromschwarz-4.webp?v=1763210629&width=800",
+      "path": "templates/empfangstheke-3-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 49756,
+      "sha256": "c40cb6168a236ff5c7b85be750fa52079ee525272ab56d7f080b55682acd7717",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/6ca350af5c77ecc82b54aedacb6f45669f7e129e",
+      "path": "configurations/6ca350af5c77ecc82b54aedacb6f45669f7e129e.json",
+      "kind": "public-template-config",
+      "bytes": 12646,
+      "sha256": "b9d317fa2710b46cf055a7ded61f751a525ca7967c3e6fcf407a05197d177b2e",
+      "status": "downloaded",
+      "capturedResponseSha256": "a4207470fda3a107a9b720f92933c0afd0601d27df1fe0c28fd51a8fd87e9830",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kompakte_Empfangstheke_in_L-Form_-_4.webp?v=1763210631&width=400",
+      "path": "templates/empfangstheke-4-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 19759,
+      "sha256": "32e39131ecdefa32f4ff7c1e707e0de6c87d892522d90fc1f160a22ce2cf19b6",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kompakte_Empfangstheke_in_L-Form_-_4.webp?v=1763210631&width=800",
+      "path": "templates/empfangstheke-4-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 53427,
+      "sha256": "f388fcb96512e94c1f41d66b32e28bb963a815870498848b3de2abb1b5260bee",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/948f802b6ab6657d585d76b9ad1a008254e508aa",
+      "path": "configurations/948f802b6ab6657d585d76b9ad1a008254e508aa.json",
+      "kind": "public-template-config",
+      "bytes": 12652,
+      "sha256": "815fcc96eaa625710c28dedcfeff49ea89677142261f5f272e799c6aeb81eb58",
+      "status": "downloaded",
+      "capturedResponseSha256": "f5f5ccefc2c40160a7fc2da1298fc2b8f69743518757aa715df5c5d63eb5bb6c",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empang-image-2.webp?v=1770162788&width=400",
+      "path": "templates/empfangstheke-5-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 29183,
+      "sha256": "6826104b1fef0b990f0102f62978c7b01e0b25d1656d09d85664d041d14eb7e7",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empang-image-2.webp?v=1770162788&width=800",
+      "path": "templates/empfangstheke-5-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 78537,
+      "sha256": "b2778f6d9a7ea5d6821fa1e5693c67a290887bf733759b27cf3cc5ece92ce73a",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/e6f0d73473826f021c489c4bf54d9069144a70d8",
+      "path": "configurations/e6f0d73473826f021c489c4bf54d9069144a70d8.json",
+      "kind": "public-template-config",
+      "bytes": 9844,
+      "sha256": "50b5db2c2b15d5f8a7ea0218fc9269b6ac85989c5b3dd05902b9e78f1f62e428",
+      "status": "downloaded",
+      "capturedResponseSha256": "114d99f801babccce840dc6920302255a5c98c3bab330b00af0ee2c8c2de9261",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-3.webp?v=1770165640&width=400",
+      "path": "templates/empfangstheke-6-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 27989,
+      "sha256": "afbc2b0e134db1a5d73cadacbc2336dbe9695f89c82ea5b5b811a3c4f9281ff6",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-3.webp?v=1770165640&width=800",
+      "path": "templates/empfangstheke-6-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 73199,
+      "sha256": "484937102562cd1d2ac4df442e2f8f4f985e4c61c49121b8bd4fe8aa9319d7b8",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/7a684644447573658ffeb2b66567f927fe0e8bd9",
+      "path": "configurations/7a684644447573658ffeb2b66567f927fe0e8bd9.json",
+      "kind": "public-template-config",
+      "bytes": 9846,
+      "sha256": "8a64ab66498d0802bb6c3c78491121eeaef9959b0e1237a13a91359efb95d817",
+      "status": "downloaded",
+      "capturedResponseSha256": "19b4d091b0ca41b3818af4630086715649ac5e1a4138789aa20bfe9e974371ab",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GrosszugigeEmpfangsthekeinL-Form-2.webp?v=1763210634&width=400",
+      "path": "templates/empfangstheke-7-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 25277,
+      "sha256": "8312606dda3457c87b2e9922a9a2adb3cb3b90ef454cd0defac2348a37312f8c",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GrosszugigeEmpfangsthekeinL-Form-2.webp?v=1763210634&width=800",
+      "path": "templates/empfangstheke-7-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 72215,
+      "sha256": "43d42350bde39892039c21fb51c16fff9b90adc69e372c92f751ec651014bd1e",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/a10d09705779d5f185f311ee1401034654d703a4",
+      "path": "configurations/a10d09705779d5f185f311ee1401034654d703a4.json",
+      "kind": "public-template-config",
+      "bytes": 20262,
+      "sha256": "654229c78cc3299b53f63f68555871c2d004861e1ba13a2bfce85188a58aa0b2",
+      "status": "downloaded",
+      "capturedResponseSha256": "27dda0747e14e6974d43c8b50c00e2cadc9978b6ad85922cbe126d1078096c2a",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-4.webp?v=1770163971&width=400",
+      "path": "templates/empfangstheke-8-1x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 22789,
+      "sha256": "2e8a07d29ba6be7f05360bc613f33ddfb814ae1bdf62f4552937983c8c04bb8e",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-4.webp?v=1770163971&width=800",
+      "path": "templates/empfangstheke-8-2x.webp",
+      "kind": "template-thumbnail",
+      "bytes": 61591,
+      "sha256": "c66d8cdbd0d4b766fe8c8e569d1f19b0016d03e3a40622ade55cc723a4d0633d",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://configurator-api.flexcube.ch/v1/configurations/c293d6563f953ec36fa6fcbc3959599399dba80c",
+      "path": "configurations/c293d6563f953ec36fa6fcbc3959599399dba80c.json",
+      "kind": "public-template-config",
+      "bytes": 16466,
+      "sha256": "5714cc3167881cc2702cc2cc2a6f716349dd5cb3e6555e7f31f0966da2609a38",
+      "status": "downloaded",
+      "capturedResponseSha256": "2488c2c2203ec5b467031702c9101ce9ee63aeea867a76b32db734d1751ea9cd",
+      "localTransformation": "Lossless JSON reserialization; runtime and scene are unchanged."
+    }
+  ],
+  "runtimeExternalDependencies": [
+    {
+      "kind": "template-thumbnail",
+      "note": "Unmodified application image literals still point to public Shopify URLs; local copies are mapped in assets."
+    },
+    {
+      "kind": "font",
+      "note": "Use host-local.css to load the mirrored DM Sans font files."
+    }
+  ],
+  "observedScene": {
+    "buffers": 1,
+    "images": 3,
+    "textures": 3,
+    "materials": 27,
+    "meshes": 48,
+    "nodes": 104,
+    "cameras": 1,
+    "accessors": 313,
+    "extensionsUsed": [
+      "S8S_v3d_texture",
+      "S8S_v3d_materials",
+      "S8S_v3d_camera",
+      "S8S_v3d_lights",
+      "S8S_v3d_mesh",
+      "S8S_v3d_node",
+      "S8S_v3d_scene"
+    ],
+    "externalUris": []
+  },
+  "externalServiceBoundaries": {
+    "readOnly": "https://configurator-api.flexcube.ch/v1/configurations/<public-template-id>",
+    "mutations": [
+      "PUT /v1/configurations/update",
+      "POST /v1/configurations/user/add",
+      "POST /v1/products/create",
+      "POST /cart/add.js"
+    ],
+    "localIntegration": "Redirect or block mutations before exercising purchase/save controls."
+  },
+  "derivedFiles": [
+    {
+      "path": "host-original.css",
+      "note": "Styles extracted from original public host HTML.",
+      "bytes": 4892,
+      "sha256": "f7d7173ae5069dd0f1c0f268958384d5fbea3a88ae8ec224cb4962e7fbaa6492"
+    },
+    {
+      "path": "host-local.css",
+      "note": "Only font URLs changed to local mirrored paths.",
+      "bytes": 4742,
+      "sha256": "a3291edc30dc64487a16b2293063ddf7518247e64152cff78413d2552f52f8b0"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+.liveavatar-controls {
+  position: absolute;
+  z-index: 18;
+  right: 20px;
+  left: auto;
+  top: 65px;
+  bottom: auto;
+  max-width: calc(100% - 40px);
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, .82);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, .94);
+  box-shadow: 0 3px 18px rgba(43, 42, 37, .10);
+  color: #35352f;
+  font: 12px/1.2 "DM Sans", Arial, sans-serif;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  touch-action: manipulation;
+  user-select: none;
+}
+.liveavatar-controls *, .liveavatar-controls *::before, .liveavatar-controls *::after { box-sizing: border-box; }
+.liveavatar-controls__buttons { display: flex; align-items: center; gap: 4px; }
+.liveavatar-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-width: 61px;
+  min-height: 36px;
+  margin: 0;
+  padding: 8px 11px;
+  border: 0;
+  border-radius: 19px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.liveavatar-controls button:hover { background: #f5f3ef; }
+.liveavatar-controls button[aria-pressed="true"].liveavatar-controls__variant { background: #ed702b; color: #fff; }
+.liveavatar-controls button:focus-visible { outline: 2px solid #c64c12; outline-offset: 2px; }
+.liveavatar-controls .liveavatar-controls__motion {
+  min-width: 96px;
+  margin-left: 3px;
+  border-left: 1px solid #e9e7e2;
+  border-radius: 0 19px 19px 0;
+}
+.liveavatar-controls__motion svg { width: 12px; height: 12px; flex: 0 0 12px; fill: currentColor; }
+.liveavatar-controls__status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-height: 18px;
+  margin: 3px 6px 0;
+  color: #77776e;
+  font-size: 10px;
+  letter-spacing: .02em;
+}
+.liveavatar-controls__status::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: #aaa99f; }
+.liveavatar-controls[data-mode="video"] .liveavatar-controls__status::before { background: #78966d; }
+.liveavatar-controls[data-mode="loading"] .liveavatar-controls__status::before { background: #ed702b; }
+@media (max-width: 767px) {
+  .liveavatar-controls { right: 12px; left: auto; top: 62px; bottom: auto; padding: 5px; font-size: 11px; border-radius: 22px; }
+  .liveavatar-controls button { min-width: 56px; padding: 7px 9px; }
+  .liveavatar-controls .liveavatar-controls__motion { min-width: 89px; }
+  .liveavatar-controls__status { margin-top: 2px; font-size: 9px; }
+}

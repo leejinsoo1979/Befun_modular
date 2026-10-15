@@ -1,0 +1,1073 @@
+{
+  "tab1": {
+    "structure_header": {
+      "en": "Structure",
+      "de": "Struktur",
+      "fr": "Structure"
+    },
+    "structure_more": {
+      "en": "advanced settings",
+      "de": "erweiterte einstellungen",
+      "fr": "paramètres avancés"
+    },
+    "structurestyle": {
+      "en": "Style",
+      "de": "Stil",
+      "fr": "Style"
+    },
+    "front_depth_20cm": {
+      "en": "20cm",
+      "de": "20cm",
+      "fr": "20cm"
+    },
+    "front_depth_40cm": {
+      "en": "40cm",
+      "de": "40cm",
+      "fr": "40cm"
+    },
+    "back_depth_20cm": {
+      "en": "20cm",
+      "de": "20cm",
+      "fr": "20cm"
+    },
+    "back_depth_40cm": {
+      "en": "40cm",
+      "de": "40cm",
+      "fr": "40cm"
+    },
+    "left": {
+      "en": "Left",
+      "de": "Links",
+      "fr": "Gauche"
+    },
+    "right": {
+      "en": "Right",
+      "de": "Rechts",
+      "fr": "Droite"
+    },
+    "front": {
+      "en": "Front",
+      "de": "Front",
+      "fr": "De face"
+    },
+    "back": {
+      "en": "Back",
+      "de": "Back",
+      "fr": "Arrière"
+    },
+    "width": {
+      "en": "Width",
+      "de": "Breite",
+      "fr": "Largeur"
+    },
+    "height": {
+      "en": "Height",
+      "de": "Höhe",
+      "fr": "Hauteur"
+    },
+    "depth": {
+      "en": "Depth",
+      "de": "Tiefe",
+      "fr": "Prof."
+    },
+    "size_title": {
+      "en": "Size",
+      "de": "Größe",
+      "fr": "Taille"
+    },
+    "size_description": {
+      "en": "(Tap above to unlock the size)",
+      "de": "(Tippe oben, um die Größe freizuschalten)",
+      "fr": "(Appuyez ci-dessus pour déverrouiller la taille)"
+    }
+  },
+  "tab2": {
+    "elements_header": {
+      "en": "Functions",
+      "de": "Funktionen",
+      "fr": "Functions"
+    },
+    "elements_filters_header": {
+      "en": "Filters",
+      "de": "Filters",
+      "fr": "Filtres"
+    },
+    "open_elements_header": {
+      "en": "Elements",
+      "de": "Offene Elemente",
+      "fr": "Éléments ouverts"
+    },
+    "open_elements_more": {
+      "en": "see all elements",
+      "de": "Alle Elemente anzeigen",
+      "fr": "voir tous les éléments"
+    },
+    "filters": {
+      "filter1": {
+        "en": "All",
+        "de": "Alle",
+        "fr": "Tous"
+      },
+      "filter2": {
+        "en": "Open",
+        "de": "Offnen",
+        "fr": "Ouvrir"
+      },
+      "filter3": {
+        "en": "Flap",
+        "de": "Klappe",
+        "fr": "Rabat"
+      },
+      "filter4": {
+        "en": "Drawer",
+        "de": "Schublade",
+        "fr": "Tiroir"
+      },
+      "filter5": {
+        "en": "Door",
+        "de": "Tür",
+        "fr": "Porte"
+      },
+      "filter6": {
+        "en": "Glass",
+        "de": "Glas",
+        "fr": "Verre"
+      }
+    },
+    "functions": {
+      "function1": {
+        "en": "Open element",
+        "de": "Offenes Element",
+        "fr": "Élément ouvert"
+      },
+      "function2": {
+        "en": "Open with back panel",
+        "de": "Offen mit Rückwand",
+        "fr": "Ouvert avec paroi arrière"
+      },
+      "function3": {
+        "en": "Open with side panel",
+        "de": "Offen mit Seitenwand",
+        "fr": "Ouvert avec paroi latérale"
+      },
+      "function4": {
+        "en": "Open with back/side panel",
+        "de": "Offen mit Seiten-& Rückwand",
+        "fr": "Ouvert avec paroi arrière et latérale"
+      },
+      "function5": {
+        "en": "Close element",
+        "de": "Element schließen",
+        "fr": "Fermer l'élément"
+      },
+      "function6": {
+        "en": "Delete Panel",
+        "de": "Panel löschen",
+        "fr": "Supprimer le panneau"
+      },
+      "function7": {
+        "en": "Delete Bar",
+        "de": "Stange löschen",
+        "fr": "Supprimer la barre"
+      }
+    },
+    "flaps_header": {
+      "en": "Flaps",
+      "de": "Klappen",
+      "fr": "Portes abattantes"
+    },
+    "flaps": {
+      "flap1": {
+        "en": "Flap down",
+        "de": "Klappe unten",
+        "fr": "Rabat baissé"
+      },
+      "flap2": {
+        "en": "Flap down handle",
+        "de": "Klappe nach unten mit Griff",
+        "fr": "Abattante vers"
+      },
+      "flap3": {
+        "en": "Flap down handle/key",
+        "de": "Klappe  nach unten/Griff mit Schloss",
+        "fr": "Abattante vers le bas avec serrure "
+      },
+      "flap4": {
+        "en": "Flap upwards",
+        "de": "Klappe nach oben",
+        "fr": "Rabat vers le haut"
+      },
+      "flap5": {
+        "en": "Flap upwards handle",
+        "de": "Klappe nach oben mit Griff",
+        "fr": "Abattante en haut/Poignée"
+      }
+    },
+    "glass_doors_header": {
+      "en": "Glass Doors",
+      "de": "Glastüren",
+      "fr": "Portes vitrées"
+    },
+    "glass_doors": {
+      "doors1": {
+        "en": "Double glass doors",
+        "de": "Doppelglastüren",
+        "fr": "Portes vitrées doubles"
+      },
+      "doors2": {
+        "en": "Glass door right",
+        "de": "Glastür rechts",
+        "fr": "Porte vitrée à droite"
+      },
+      "doors3": {
+        "en": "Glass door left",
+        "de": "Glastür links",
+        "fr": "Porte vitrée à gauche"
+      }
+    },
+    "metal_doors": {
+      "doors1": {
+        "en": "Double doors/Handle",
+        "de": "Doppeltür/Griffe",
+        "fr": "Double porte/Poignée"
+      },
+      "doors2": {
+        "en": "Door/Handle right",
+        "de": "Tür/Griff rechts",
+        "fr": "Porte/ Poignée droite"
+      },
+      "doors3": {
+        "en": "Door/Handle left",
+        "de": "Tür/Griff links",
+        "fr": "Porte/ Poignée gauche"
+      },
+      "doors4": {
+        "en": "Double door",
+        "de": "Doppeltür",
+        "fr": "Double porte"
+      },
+      "doors5": {
+        "en": "Door right",
+        "de": "Tür rechts",
+        "fr": "Porte droite"
+      },
+      "doors6": {
+        "en": "Door left",
+        "de": "Tür links",
+        "fr": "Porte gauche"
+      }
+    },
+    "metal_doors_header": {
+      "en": "Doors",
+      "de": "Türen",
+      "fr": "Portes"
+    },
+    "drawer_header": {
+      "en": "Drawers",
+      "de": "Schubladen",
+      "fr": "Tiroirs"
+    },
+    "drawers": {
+      "drawer1": {
+        "en": "Drawer",
+        "de": "Schublade",
+        "fr": "Tiroir"
+      },
+      "drawer2": {
+        "en": "Drawer handle",
+        "de": "Schublade mit Griff",
+        "fr": "Tiroir avec poignée"
+      },
+      "drawer3": {
+        "en": "Drawer handle/key",
+        "de": "Schublade mit Griff/Schloss",
+        "fr": "Tiroir avec serrure"
+      },
+      "drawer4": {
+        "en": "Double drawer",
+        "de": "Doppelschublade",
+        "fr": "Tirois double"
+      },
+      "drawer5": {
+        "en": "Double drawer handle",
+        "de": "Doppelschublade mit Griffen",
+        "fr": "Tiroir double avec poignées"
+      }
+    },
+    "grips_header": {
+      "en": "Handles",
+      "de": "Griffe",
+      "fr": "Poignées"
+    },
+    "grips": {
+      "grip1": {
+        "en": "Hole",
+        "de": "Loch",
+        "fr": "Trou"
+      },
+      "grip2": {
+        "en": "Handle",
+        "de": "Griff",
+        "fr": "Poignée"
+      },
+      "grip3": {
+        "en": "Handle Key",
+        "de": "Griffschlüssel",
+        "fr": "Clé de poignée"
+      }
+    },
+    "one_key_header": {
+      "en": "One key",
+      "de": "Ein Schlüssel",
+      "fr": "Une clé"
+    },
+    "one_key_sub": {
+      "en": "Identical key for all locks",
+      "de": "Gleicher Schlüssel für alle Schlösser",
+      "fr": "Clé identique pour toutes les serrures"
+    },
+    "open_fronts_text": {
+      "en": "Open fronts",
+      "de": "Fronten öffnen",
+      "fr": "Ouvrir les façades"
+    },
+    "soft_closing_header": {
+      "en": "Add Softclose to all drawers",
+      "de": "Softclose für alle Schubladen hinzufügen",
+      "fr": "Ajouter fermeture en douceur pour tous les tiroirs"
+    },
+    "soft_closing_sub": {
+      "en": "with soft close drawer opens only to 23.5cm instead of 30.5cm",
+      "de": "Mit Softclose verringert sich die Öffnungstiefe von 30.5cm auf 23.5cm!",
+      "fr": "Avec Softclose, la profondeur d'ouverture est réduite de 30.5 cm à 23.5 cm!"
+    }
+  },
+  "tab3": {
+    "colors_header": {
+      "en": "Colors",
+      "de": "Farben",
+      "fr": "Couleurs"
+    },
+    "panel_colour_header": {
+      "en": "Panel colour",
+      "de": "Farbe",
+      "fr": "Couleur du panneau"
+    },
+    "frame_finish_header": {
+      "en": "Frame finish",
+      "de": "Rahmenfarbe",
+      "fr": "Finition du cadre"
+    },
+    "colors_more": {
+      "en": "see all colors",
+      "de": "alle Farben anzeigen",
+      "fr": "voir toutes les couleurs"
+    },
+    "colors_apply_header": {
+      "en": "Apply to",
+      "de": "Anwenden auf",
+      "fr": "Appliquer à"
+    },
+    "colors_apply_info": {
+      "en": "select a part to apply color",
+      "de": "Wählen Sie einen Teil aus, um Farbe anzuwenden",
+      "fr": "Sélectionnez une partie pour appliquer la couleur"
+    },
+    "colors_title_1": {
+      "en": "All Elements",
+      "de": "Alle Elemente",
+      "fr": "Tous les éléments"
+    },
+    "model_selected": {
+      "en": "",
+      "de": "",
+      "fr": ""
+    },
+    "all_model": {
+      "en": "All",
+      "de": "Alle",
+      "fr": "Tous"
+    },
+    "all_back_panel": {
+      "en": "Back",
+      "de": "Rücken",
+      "fr": "Dos"
+    },
+    "all_front_panel": {
+      "en": "Front",
+      "de": "Fronten",
+      "fr": "Façades"
+    },
+    "individual_parts": {
+      "en": "Individual",
+      "de": "Einzeln",
+      "fr": "Individuel"
+    },
+    "new_color_label": {
+      "en": "NEW",
+      "de": "NEU",
+      "fr": "NOUVEAU"
+    },
+    "main_colors": {
+      "#ffffff": {
+        "en": "White",
+        "de": "Weiß",
+        "fr": "Blanche"
+      },
+      "#937a76": {
+        "en": "Taupe",
+        "de": "Taupe",
+        "fr": "Taupe"
+      },
+      "#c5c4c0": {
+        "en": "Light Grey",
+        "de": "Hellgrau",
+        "fr": "Gris clair"
+      },
+      "#797a7f": {
+        "en": "Gray",
+        "de": "Grau",
+        "fr": "Grise"
+      },
+      "#84aeac": {
+        "en": "Mint",
+        "de": "Mint",
+        "fr": "Minze"
+      },
+      "#356071": {
+        "en": "Petrol",
+        "de": "Petrol",
+        "fr": "Essence"
+      },
+      "#7f0000": {
+        "en": "Red",
+        "de": "Rot",
+        "fr": "Rouge"
+      },
+      "#000000": {
+        "en": "Black",
+        "de": "Schwarz",
+        "fr": "Noire"
+      },
+      "glass": {
+        "en": "Glass",
+        "de": "Glas",
+        "fr": "Verre"
+      },
+      "#6F6D4E": {
+        "en": "Olive Green",
+        "de": "Olivgrün",
+        "fr": "Vert olive"
+      },
+      "pure_orange": {
+        "en": "Pure orange",
+        "de": "Rein orange",
+        "fr": "Orangé pur"
+      },
+      "gentian_blue": {
+        "en": "Gentian blue",
+        "de": "Enzian blau",
+        "fr": "bleu gentiane"
+      },
+      "traffic_yellow": {
+        "en": "Traffic yellow",
+        "de": "verkehrsgelb",
+        "fr": "jaune signalisation"
+      }
+    },
+    "frame_header": {
+      "en": "Frame Colors",
+      "de": "Gestell",
+      "fr": "Cadre"
+    },
+    "frames": {
+      "#fefefe": {
+        "en": "Chrome",
+        "de": "Chrom",
+        "fr": "Chrome"
+      },
+      "#252425": {
+        "en": "Black",
+        "de": "Schwarz",
+        "fr": "Noire"
+      },
+      "#f1bb9f": {
+        "en": "Copper",
+        "de": "Kupfer",
+        "fr": "Le cuivre"
+      }
+    },
+    "open_ral": {
+      "en": "Editor RAL colour",
+      "de": "Editor RAL-Farbe",
+      "fr": "Editeur Couleur RAL"
+    },
+    "close_ral": {
+      "en": "Close RAL editor",
+      "de": "RAL-Editor schließen",
+      "fr": "Fermer l'éditeur RAL"
+    },
+    "ral_color_text": {
+      "en": "RAL colour",
+      "de": "RAL-Farbe",
+      "fr": "Couleur RAL"
+    },
+    "ral_surcharge_text": {
+      "en": "+30% surcharge",
+      "de": "+30% zuschlag",
+      "fr": "+30% supplément"
+    },
+    "ral_surcharge_badge": {
+      "en": "+30%",
+      "de": "+30%",
+      "fr": "+30%"
+    },
+    "ral_disclaimer_description": {
+      "en": "Furniture in RAL colors is custom-made and therefore excluded from exchange. The colors shown are for reference only. Please use original RAL color charts to select your desired color.",
+      "de": "Möbel in RAL-Farbe sind Einzelanfertigungen und sind deshalb vom Umtausch ausgeschlossen. Die dargestellten Farben dienen nur als Orientierung. Nutzen Sie original RAL-Farbkarten, für die Auswahl Ihrer Wunschfarbe.",
+      "fr": "Les meubles en couleurs RAL sont des fabrications sur mesure et ne peuvent donc pas être échangés. Les couleurs affichées ne servent qu’à titre indicatif. Veuillez utiliser des nuanciers RAL originaux pour choisir la couleur de votre choix."
+    },
+    "shades_yellow": {
+      "en": "Yellow Shades",
+      "de": "Gelbtöne",
+      "fr": "Nuances de jaune"
+    },
+    "shades_orange": {
+      "en": "Orange Shades",
+      "de": "Orangetöne",
+      "fr": "Nuances d'orange"
+    },
+    "shades_red": {
+      "en": "Red Shades",
+      "de": "Rottöne",
+      "fr": "Nuances de rouge"
+    },
+    "shades_violet": {
+      "en": "Voilet Shades",
+      "de": "Violetttöne",
+      "fr": "Nuances de violet"
+    },
+    "shades_blue": {
+      "en": "Blue Shades",
+      "de": "Blautöne",
+      "fr": "Nuances de bleu"
+    },
+    "shades_green": {
+      "en": "Green Shades",
+      "de": "Die Grüntöne",
+      "fr": "Nuances de vert"
+    },
+    "shades_gray": {
+      "en": "Gray Shades",
+      "de": "Grautöne",
+      "fr": "Nuances de gris"
+    },
+    "shades_brown": {
+      "en": "Brown Shades",
+      "de": "Brauntöne",
+      "fr": "Nuances de brun"
+    },
+    "shades_white_black": {
+      "en": "White & Black Shades",
+      "de": "Weiß- und Schwarztöne",
+      "fr": "Nuances de blanc et noir"
+    },
+    "show_ral_text": {
+      "en": "Show RAL colors",
+      "de": "RAL-Farben anzeigen",
+      "fr": "Afficher les couleurs RAL"
+    },
+    "hide_ral_text": {
+      "en": "Hide RAL colors",
+      "de": "RAL-Farben ausblenden",
+      "fr": "Masquer les couleurs RAL"
+    }
+  },
+  "tab4": {
+    "accessories_header": {
+      "en": "Accessories",
+      "de": "Zubehör",
+      "fr": "Accessoires"
+    },
+    "legs_header": {
+      "en": "Legs",
+      "de": "Füsse",
+      "fr": "Pieds"
+    },
+    "accessories": {
+      "accessories1": {
+        "en": "Insert file cabinet",
+        "de": "Einsatz für Hängeregister",
+        "fr": "Insert pour dossiers suspendu"
+      },
+      "accessories2": {
+        "en": "Insert file cabinet",
+        "de": "Einsatz für Hängeregister",
+        "fr": "Insert pour dossiers suspendu"
+      },
+      "accessories3": {
+        "en": "Flat drawer",
+        "de": "Auszugschublade",
+        "fr": "Tiroir plat"
+      },
+      "accessories4": {
+        "en": "Brochure holder",
+        "de": "Prospekthalter",
+        "fr": "Porte-brochures"
+      },
+      "accessories5": {
+        "en": "Brochure holder",
+        "de": "Prospekthalter",
+        "fr": "Porte-brochures"
+      },
+      "accessories6": {
+        "en": "Pen tray",
+        "de": "Stiftablage",
+        "fr": "Insert pour tiroir"
+      },
+      "accessories7": {
+        "en": "Stackable tray 1 pcs",
+        "de": "Schrägablage 1 Stück",
+        "fr": "Plateau empilable (1 pcs)"
+      },
+      "accessories8": {
+        "en": "Delete accessory",
+        "de": "Zubehör löschen",
+        "fr": "Supprimer accessory"
+      }
+    },
+    "legs_castors_header": {
+      "en": "Legs or Castors",
+      "de": "Füsse oder Rollen",
+      "fr": "Pieds ou Roulettes"
+    },
+    "legs_castors": {
+      "legs1": {
+        "en": "Castors",
+        "de": "Rollen",
+        "fr": "Roulettes"
+      },
+      "legs2": {
+        "en": "Legs",
+        "de": "Füsse",
+        "fr": "Pieds"
+      }
+    },
+    "fixtures_header": {
+      "en": "Fixtures",
+      "de": "Garderobenstange",
+      "fr": "Tringle à vêtements"
+    },
+    "fixtures": {
+      "fixtures1": {
+        "en": "Clothes rail",
+        "de": "Garderobenstange",
+        "fr": "Tringle à vêtements"
+      }
+    }
+  },
+  "tab5": {
+    "overview_header": {
+      "en": "Overview",
+      "de": "Übersicht",
+      "fr": "Aperçu"
+    },
+    "overview_title": {
+      "en": "Almost done - add your furniture piece to the cart now.",
+      "de": "Fast fertig - legen Sie Ihr Möbelstück jetzt in den Warenkorb.",
+      "fr": "Presque terminé - ajoutez votre pièce de meubler au panier maintenant."
+    },
+    "dimensions_title": {
+      "en": "Dimensions:",
+      "de": "Abmessungen:",
+      "fr": "Dimensions:"
+    },
+    "quantity_title": {
+      "en": "Quantity",
+      "de": "Menge",
+      "fr": "Quantité"
+    },
+    "trust_badge_title": {
+      "en": "10,000+ customers trust us",
+      "de": "10.000+ kunden vertrauen uns",
+      "fr": "10 000+ clients nous font confiance"
+    }
+  },
+  "disclaimer_title": {
+    "en": "Important Notice",
+    "de": "Wichtiger Hinweis",
+    "fr": "Avis important"
+  },
+  "disclaimer_button": {
+    "en": "I understand",
+    "de": "Ich verstehe",
+    "fr": "Je comprends"
+  },
+  "save": {
+    "en": "Save",
+    "de": "Speichern",
+    "fr": "Sauvegarder"
+  },
+  "download_quotation": {
+    "en": "Save as PDF",
+    "de": "Als PDF speichern",
+    "fr": "Enregistrer en PDF"
+  },
+  "export_model": {
+    "en": "Model",
+    "de": "Modell",
+    "fr": "Modèle"
+  },
+  "toolbar_templates": {
+    "en": "Templates",
+    "de": "Vorlagen",
+    "fr": "Modèles"
+  },
+  "toolbar_undo": {
+    "en": "Undo",
+    "de": "Rückgängig machen",
+    "fr": "Annuler"
+  },
+  "toolbar_redo": {
+    "en": "Redo",
+    "de": "Wiederholen",
+    "fr": "Refaire"
+  },
+  "toolbar_reset": {
+    "en": "Start new",
+    "de": "Neu starten",
+    "fr": "Commencer nouveau"
+  },
+  "toolbar_hide_fronts": {
+    "en": "Hide/show front panel",
+    "de": "Fronten aus-/einblenden",
+    "fr": "Masquer/afficher le panneau avant"
+  },
+  "toolbar_open_fronts": {
+    "en": "Open/close fronts",
+    "de": "Fronten öffnen/schließen",
+    "fr": "Ouvrir/fermer les façades"
+  },
+  "toolbar_ruler": {
+    "en": "Measurements",
+    "de": "Masse",
+    "fr": "Des mesures"
+  },
+  "toolbar_zoom_out": {
+    "en": "Zoom out",
+    "de": "Verkleinern",
+    "fr": "Dézoomer"
+  },
+  "toolbar_save_pdf": {
+    "en": "Save as PDF",
+    "de": "Als PDF speichern",
+    "fr": "Enregistrer en PDF"
+  },
+  "export_format_label": {
+    "en": "Format",
+    "de": "Format",
+    "fr": "Format"
+  },
+  "toolbar_export_model": {
+    "en": "Export 3D model",
+    "de": "3D-Modell exportieren",
+    "fr": "Exporter le modèle 3D"
+  },
+  "view_articles_list": {
+    "en": "Articles list",
+    "de": "Artikelliste",
+    "fr": "Liste des articles"
+  },
+  "view_weights_list": {
+    "en": "Weights list",
+    "de": "Gewichtsliste",
+    "fr": "Liste des poids"
+  },
+  "add_card": {
+    "en": "Add to cart",
+    "de": "In den Warenkorb",
+    "fr": "Dans le panier"
+  },
+  "taxes_included_sub": {
+    "en": "VAT included",
+    "de": "inklusive MwSt",
+    "fr": "TVA incluse"
+  },
+  "taxes_excluded_sub": {
+    "en": "(excl. VAT)",
+    "de": "(exkl. MwSt)",
+    "fr": "(excl. TVA)"
+  },
+  "grossprice_label": {
+    "en": "Gross Price",
+    "de": "Bruttopreis",
+    "fr": "Prix brut"
+  },
+  "netprice_label": {
+    "en": "Net Price",
+    "de": "Nettopreis",
+    "fr": "Prix net"
+  },
+  "discount_short_ch": {
+    "en": "SME",
+    "de": "KMU",
+    "fr": "PME"
+  },
+  "discount_short_de": {
+    "en": "B2B",
+    "de": "B2B",
+    "fr": "B2B"
+  },
+  "discount_long_ch": {
+    "en": "SME Discount",
+    "de": "KMU-Rabatt",
+    "fr": "de réduction PME"
+  },
+  "discount_long_de": {
+    "en": "B2B Discount",
+    "de": "B2B-Rabatt",
+    "fr": "de réduction B2B"
+  },
+  "buy": {
+    "en": "Buy Now",
+    "de": "Jetzt Kaufen",
+    "fr": "Acheter Maintenant"
+  },
+  "grip_mismatch_title": {
+    "en": "Different handles selected",
+    "de": "Unterschiedliche Griffe ausgewählt",
+    "fr": "Poignées différentes sélectionnées"
+  },
+  "grip_mismatch_confirm": {
+    "en": "Proceed",
+    "de": "Fortfahren",
+    "fr": "Continuer"
+  },
+  "review_order": {
+    "en": "Review order",
+    "de": "Bestellung überprüfen",
+    "fr": "Vérifier la commande"
+  },
+  "mobile_tab_general": {
+    "en": "Whole Furniture",
+    "de": "Ganzes Möbel",
+    "fr": "Meuble Entier"
+  },
+  "mobile_tab_module": {
+    "en": "Module",
+    "de": "Modul",
+    "fr": "Module"
+  },
+  "mobile_review_button": {
+    "en": "Proceed to Order",
+    "de": "Weiter zur Bestellung",
+    "fr": "Passer à la commande"
+  },
+  "mobile_review_title": {
+    "en": "Review design",
+    "de": "Design überprüfen",
+    "fr": "Aperçu du design"
+  },
+  "mobile_review_multi_colors": {
+    "en": "Multi colors",
+    "de": "Mehrfarbig",
+    "fr": "Multicolore"
+  },
+  "mobile_review_price": {
+    "en": "Price",
+    "de": "Preis",
+    "fr": "Prix"
+  },
+  "mobile_review_dimensions": {
+    "en": "Dimensions",
+    "de": "Abmessungen",
+    "fr": "Dimensions"
+  },
+  "mobile_review_size": {
+    "en": "Size",
+    "de": "Grösse",
+    "fr": "Taille"
+  },
+  "mobile_review_design": {
+    "en": "Design",
+    "de": "Design",
+    "fr": "Design"
+  },
+  "mobile_review_style": {
+    "en": "Style",
+    "de": "Stil",
+    "fr": "Style"
+  },
+  "mobile_review_panel_color": {
+    "en": "Colour",
+    "de": "Farbe",
+    "fr": "Couleur"
+  },
+  "mobile_review_frame": {
+    "en": "Frame",
+    "de": "Gestell",
+    "fr": "Cadre"
+  },
+  "mobile_review_elements": {
+    "en": "Elements",
+    "de": "Elemente",
+    "fr": "Éléments"
+  },
+  "mobile_review_rating": {
+    "en": "4.9 / 5 Rating",
+    "de": "4,9 / 5 Bewertung",
+    "fr": "4,9 / 5 Avis"
+  },
+  "mobile_review_built_to_order": {
+    "en": "Swiss manufacturer",
+    "de": "Schweizer Hersteller",
+    "fr": "Fabricant suisse"
+  },
+  "mobile_review_expandable": {
+    "en": "Expandable anytime",
+    "de": "Jederzeit erweiterbar",
+    "fr": "Extensible à tout moment"
+  },
+  "mobile_review_save": {
+    "en": "Save design",
+    "de": "Design speichern",
+    "fr": "Enregistrer"
+  },
+  "mobile_review_add_to_cart": {
+    "en": "Add to cart",
+    "de": "In den Warenkorb",
+    "fr": "Ajouter au panier"
+  },
+  "mobile_module_empty_title": {
+    "en": "Tap a module",
+    "de": "Modul antippen",
+    "fr": "Appuyez sur un module"
+  },
+  "mobile_module_empty_desc": {
+    "en": "Tap any module of your furniture above to customise it.",
+    "de": "Tippen Sie auf ein beliebiges Modul Ihres Möbelstücks oben, um es anzupassen.",
+    "fr": "Appuyez sur n'importe quel module de votre meuble ci-dessus pour le personnaliser."
+  },
+  "mobile_module_step_size": {
+    "en": "Size",
+    "de": "Größe",
+    "fr": "Taille"
+  },
+  "mobile_module_step_element_type": {
+    "en": "Element type",
+    "de": "Elementtyp",
+    "fr": "Type d'élément"
+  },
+  "mobile_module_step_accessories": {
+    "en": "Accessories",
+    "de": "Zubehör",
+    "fr": "Accessoires"
+  },
+  "mobile_module_step_panels": {
+    "en": "Panels",
+    "de": "Paneele",
+    "fr": "Panneaux"
+  },
+  "mobile_module_element_none": {
+    "en": "None",
+    "de": "Keines",
+    "fr": "Aucun"
+  },
+  "mobile_module_panel_top": {
+    "en": "Top",
+    "de": "Oben",
+    "fr": "Haut"
+  },
+  "mobile_module_panel_bottom": {
+    "en": "Bottom",
+    "de": "Unten",
+    "fr": "Bas"
+  },
+  "mobile_module_panel_left": {
+    "en": "Left",
+    "de": "Links",
+    "fr": "Gauche"
+  },
+  "mobile_module_panel_right": {
+    "en": "Right",
+    "de": "Rechts",
+    "fr": "Droite"
+  },
+  "mobile_module_panel_back": {
+    "en": "Back",
+    "de": "Hinten",
+    "fr": "Arrière"
+  },
+  "mobile_module_panel_front": {
+    "en": "Front",
+    "de": "Vorne",
+    "fr": "Devant"
+  },
+  "mobile_accessory_level_header": {
+    "en": "LEVEL",
+    "de": "EBENE",
+    "fr": "NIVEAU"
+  },
+  "mobile_accessory_level_top": {
+    "en": "Middle",
+    "de": "Mitte",
+    "fr": "Milieu"
+  },
+  "mobile_accessory_level_bottom": {
+    "en": "Bottom",
+    "de": "Unten",
+    "fr": "Bas"
+  },
+  "mobile_accessory_level_both": {
+    "en": "Both",
+    "de": "Beide",
+    "fr": "Les deux"
+  },
+  "mobile_accessory_pieces_header": {
+    "en": "PIECES",
+    "de": "STÜCK",
+    "fr": "PIÈCES"
+  },
+  "mobile_module_panels_filled": {
+    "en": "filled",
+    "de": "belegt",
+    "fr": "remplis"
+  },
+  "mobile_module_panels_empty": {
+    "en": "empty",
+    "de": "leer",
+    "fr": "vides"
+  },
+  "mobile_module_panel_empty": {
+    "en": "Empty",
+    "de": "Leer",
+    "fr": "Vide"
+  },
+  "mobile_module_panel_empty_add": {
+    "en": "Empty — add?",
+    "de": "Leer — hinzufügen?",
+    "fr": "Vide — ajouter ?"
+  },
+  "footer": {
+    "save": {
+      "en": "Save",
+      "de": "Speichern",
+      "fr": "Sauvegarder"
+    },
+    "next": {
+      "en": "Continue",
+      "de": "Weiter",
+      "fr": "Continuer"
+    },
+    "taxes_included": {
+      "en": "incl. VAT",
+      "de": "inkl. MwSt",
+      "fr": "TVA incl."
+    },
+    "taxes_excluded": {
+      "en": "excl. VAT",
+      "de": "exkl. MwSt",
+      "fr": "TVA excl."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+/* Applied inside the original UI's ShadowRoot, after the captured styles. */
+:host,button,input,select,textarea{font-family:'DM Sans','Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+:host{word-break:keep-all;overflow-wrap:break-word;line-break:strict}
+h1,h2,h3,p,button,label{word-break:keep-all;overflow-wrap:break-word}

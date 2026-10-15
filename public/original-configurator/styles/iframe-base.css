@@ -1,0 +1,2 @@
+/* Local iframe document reset only; application UI is the unchanged original bundle. */
+html,body{margin:0;padding:0;width:100%;min-height:100%;background:#f1f1f2;}

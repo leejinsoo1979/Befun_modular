@@ -1,0 +1,416 @@
+{
+  "source": {
+    "url": "https://flexcube.ch/en/pages/konfigurator",
+    "checkedAt": "2026-10-15",
+    "method": "Public HTML, bundled data constants and read-only configuration GET responses. No original executable code is retained."
+  },
+  "market": {
+    "id": "ch",
+    "currency": "CHF",
+    "taxRate": 8.1,
+    "taxIncluded": true,
+    "smeDiscountPercent": 25,
+    "standardDelivery": 98,
+    "assemblyPercent": 15,
+    "ralSurchargePercent": 30,
+    "maxDistinctRalColors": 2
+  },
+  "panelColors": [
+    {
+      "id": "#000000",
+      "name": {
+        "en": "Black",
+        "de": "Schwarz",
+        "fr": "Noire"
+      },
+      "hex": "#000000",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#ffffff",
+      "name": {
+        "en": "White",
+        "de": "Weiß",
+        "fr": "Blanche"
+      },
+      "hex": "#ffffff",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#937a76",
+      "name": {
+        "en": "Taupe",
+        "de": "Taupe",
+        "fr": "Taupe"
+      },
+      "hex": "#937a76",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#c5c4c0",
+      "name": {
+        "en": "Light Grey",
+        "de": "Hellgrau",
+        "fr": "Gris clair"
+      },
+      "hex": "#c5c4c0",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#797a7f",
+      "name": {
+        "en": "Gray",
+        "de": "Grau",
+        "fr": "Grise"
+      },
+      "hex": "#797a7f",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#84aeac",
+      "name": {
+        "en": "Mint",
+        "de": "Mint",
+        "fr": "Minze"
+      },
+      "hex": "#84aeac",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#356071",
+      "name": {
+        "en": "Petrol",
+        "de": "Petrol",
+        "fr": "Essence"
+      },
+      "hex": "#356071",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#7f0000",
+      "name": {
+        "en": "Red",
+        "de": "Rot",
+        "fr": "Rouge"
+      },
+      "hex": "#7f0000",
+      "transparent": false,
+      "new": false
+    },
+    {
+      "id": "#6F6D4E",
+      "name": {
+        "en": "Olive Green",
+        "de": "Olivgrün",
+        "fr": "Vert olive"
+      },
+      "hex": "#6F6D4E",
+      "transparent": false,
+      "new": true
+    },
+    {
+      "id": "glass",
+      "name": {
+        "en": "Glass",
+        "de": "Glas",
+        "fr": "Verre"
+      },
+      "hex": "#d8e3e4",
+      "transparent": true,
+      "new": false
+    }
+  ],
+  "frameColors": [
+    {
+      "id": "#fefefe",
+      "hex": "#fefefe",
+      "name": {
+        "en": "Chrome",
+        "de": "Chrom",
+        "fr": "Chrome"
+      }
+    },
+    {
+      "id": "#252425",
+      "hex": "#252425",
+      "name": {
+        "en": "Black",
+        "de": "Schwarz",
+        "fr": "Noire"
+      }
+    },
+    {
+      "id": "#f1bb9f",
+      "hex": "#f1bb9f",
+      "name": {
+        "en": "Copper",
+        "de": "Kupfer",
+        "fr": "Le cuivre"
+      }
+    }
+  ],
+  "styles": [
+    {
+      "id": "unilateral",
+      "label": "Single-sided",
+      "cabinetMode": 0
+    },
+    {
+      "id": "bilateral",
+      "label": "Double-sided",
+      "cabinetMode": 1
+    },
+    {
+      "id": "corner",
+      "label": "Corner",
+      "cabinetMode": 2
+    }
+  ],
+  "moduleSizesCm": {
+    "width": [
+      19,
+      41,
+      77.5
+    ],
+    "height": [
+      6,
+      20,
+      41
+    ],
+    "depth": [
+      20,
+      41
+    ]
+  },
+  "displayDepthCm": {
+    "20": 20,
+    "41": 40
+  },
+  "elementTypes": [
+    {
+      "id": "Open",
+      "label": "Open element",
+      "group": "open"
+    },
+    {
+      "id": "OpenWithBack",
+      "label": "Open with back panel",
+      "group": "open"
+    },
+    {
+      "id": "OpenWithSides",
+      "label": "Open with side panel",
+      "group": "open"
+    },
+    {
+      "id": "OpenWithBackAndSides",
+      "label": "Open with back/side panel",
+      "group": "open"
+    },
+    {
+      "id": "Close",
+      "label": "Close element",
+      "group": "open"
+    },
+    {
+      "id": "FlapDown",
+      "label": "Flap down",
+      "group": "flap"
+    },
+    {
+      "id": "FlapUp",
+      "label": "Flap upwards",
+      "group": "flap"
+    },
+    {
+      "id": "Drawer",
+      "label": "Drawer",
+      "group": "drawer"
+    },
+    {
+      "id": "DrawerDouble",
+      "label": "Double drawer",
+      "group": "drawer"
+    },
+    {
+      "id": "DoorDouble",
+      "label": "Double doors",
+      "group": "door"
+    },
+    {
+      "id": "DoorSingleLeft",
+      "label": "Door left",
+      "group": "door"
+    },
+    {
+      "id": "DoorSingleRight",
+      "label": "Door right",
+      "group": "door"
+    },
+    {
+      "id": "GlassDouble",
+      "label": "Double glass doors",
+      "group": "glass"
+    },
+    {
+      "id": "GlassSingleLeft",
+      "label": "Glass door left",
+      "group": "glass"
+    },
+    {
+      "id": "GlassSingleRight",
+      "label": "Glass door right",
+      "group": "glass"
+    },
+    {
+      "id": "PanelRemoving",
+      "label": "Delete Panel",
+      "group": "advanced"
+    },
+    {
+      "id": "BarRemoving",
+      "label": "Delete Bar",
+      "group": "advanced"
+    }
+  ],
+  "grips": [
+    {
+      "id": "ring",
+      "label": "Hole"
+    },
+    {
+      "id": "handle",
+      "label": "Handle"
+    },
+    {
+      "id": "key",
+      "label": "Handle Key"
+    }
+  ],
+  "legs": [
+    {
+      "id": 0,
+      "label": "Legs"
+    },
+    {
+      "id": 1,
+      "label": "Castors"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "hangers",
+      "label": "Clothes rail"
+    },
+    {
+      "id": "brochureHolder",
+      "label": "Brochure holder"
+    },
+    {
+      "id": "shelf",
+      "label": "Flat drawer",
+      "levels": [
+        "top",
+        "bottom",
+        "both"
+      ]
+    },
+    {
+      "id": "penTray",
+      "label": "Pen tray",
+      "levels": [
+        "top",
+        "bottom",
+        "both"
+      ]
+    },
+    {
+      "id": "stackableTray",
+      "label": "Stackable tray",
+      "levels": [
+        "top",
+        "bottom",
+        "both"
+      ],
+      "quantity": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "fileCabinet",
+      "label": "Insert file cabinet"
+    }
+  ],
+  "panelIndices": {
+    "0": "left",
+    "1": "right",
+    "2": "top",
+    "3": "bottom",
+    "4": "back",
+    "5": "front"
+  },
+  "cellTypeIndices": {
+    "0": "turned",
+    "1": "corner",
+    "2": "front",
+    "3": "back"
+  },
+  "frontEnums": {
+    "flap": {
+      "0": "downRing",
+      "1": "downHandle",
+      "2": "upLock",
+      "3": "upRing",
+      "4": "upHandle"
+    },
+    "drawer": {
+      "0": "singleRing",
+      "1": "singleLock",
+      "2": "singleHandle",
+      "3": "doubleRing",
+      "4": "doubleHandle",
+      "5": "doubleLock"
+    },
+    "glassDoor": {
+      "0": "double",
+      "1": "right",
+      "2": "left"
+    },
+    "metalDoor": {
+      "0": "leftRing",
+      "1": "rightRing",
+      "2": "leftLock",
+      "3": "rightLock",
+      "4": "leftHandle",
+      "5": "rightHandle"
+    }
+  },
+  "paintModes": [
+    "all",
+    "back",
+    "front",
+    "individual"
+  ],
+  "nominalSizeCm": {
+    "19": 19,
+    "20": 20,
+    "41": 38,
+    "77.5": 75,
+    "6": 6
+  },
+  "displayDimensions": {
+    "correction": 2,
+    "legsHeight": 3,
+    "castorsHeight": 9
+  }
+}

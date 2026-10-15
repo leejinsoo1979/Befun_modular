@@ -1,0 +1,841 @@
+{
+  "source_page": "https://flexcube.ch/en",
+  "retrieved_at": "2026-10-15T02:30:53.138812+00:00",
+  "assets": [
+    {
+      "file": "logo-black.svg",
+      "url": "https://flexcube.ch/cdn/shop/files/FLEX_LOGO_small_black.svg",
+      "kind": "image",
+      "alt": "",
+      "bytes": 2571
+    },
+    {
+      "file": "logo-white.svg",
+      "url": "https://flexcube.ch/cdn/shop/files/download_ebb072ee-1632-4f08-90cd-ce2cfae7f1fc.svg",
+      "kind": "image",
+      "alt": "",
+      "bytes": 2690
+    },
+    {
+      "file": "hero-mobile.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/preview_images/2eff95b0b6f14c718311141816a3e0a4.thumbnail.0000000000.jpg?v=1791304868&width=1080",
+      "kind": "image",
+      "alt": "Load video: ",
+      "bytes": 105959
+    },
+    {
+      "file": "hero-desktop.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/preview_images/ff712de30611461c815af01adefbaf48.thumbnail.0000000000.jpg?v=1791304714&width=1920",
+      "kind": "image",
+      "alt": "Load video: ",
+      "bytes": 161277
+    },
+    {
+      "file": "logo--01.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/logo--01.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 71726
+    },
+    {
+      "file": "logo-02.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/logo-02.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 14645
+    },
+    {
+      "file": "focus-logo-no-bg.png",
+      "url": "https://flexcube.ch/cdn/shop/files/focus-logo-no-bg.png?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 12698
+    },
+    {
+      "file": "logo-04.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/logo-04.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 11240
+    },
+    {
+      "file": "why-flexcube-1.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/why-flexcube-1.webp?width=1600",
+      "kind": "image",
+      "alt": "Modular, Not Disposable",
+      "bytes": 334304
+    },
+    {
+      "file": "why-flexcube-2_fbb58f41-59e8-4938-aa79-fa6802bc0f30.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/why-flexcube-2_fbb58f41-59e8-4938-aa79-fa6802bc0f30.webp?width=1600",
+      "kind": "image",
+      "alt": "Beauty and Value That Last",
+      "bytes": 257434
+    },
+    {
+      "file": "why-flexcube-3.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/why-flexcube-3.webp?width=1600",
+      "kind": "image",
+      "alt": "Unrivaled Colors",
+      "bytes": 121330
+    },
+    {
+      "file": "why-flexcube-4_2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/why-flexcube-4_2.webp?width=1600",
+      "kind": "image",
+      "alt": "Built for Generations",
+      "bytes": 142950
+    },
+    {
+      "file": "KommodeinPetrolmit4Schubladen2Klappen-5_b1d282bd-866a-427d-b452-e0f0ed949b69.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/KommodeinPetrolmit4Schubladen2Klappen-5_b1d282bd-866a-427d-b452-e0f0ed949b69.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 224267
+    },
+    {
+      "file": "flexcube_x_michaelepiney_cover.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/flexcube_x_michaelepiney_cover.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 243748
+    },
+    {
+      "file": "Prazise_Verarbeitung.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Prazise_Verarbeitung.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 174740
+    },
+    {
+      "file": "VIEW_1CoronaCamera009.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/VIEW_1CoronaCamera009.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 259020
+    },
+    {
+      "file": "GarderobeinklassischemSchwarz-4.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/GarderobeinklassischemSchwarz-4.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 206729
+    },
+    {
+      "file": "SideboardinOlivgrunmit3Schubladen-Klappen-3.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/SideboardinOlivgrunmit3Schubladen-Klappen-3.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 119244
+    },
+    {
+      "file": "service-video-poster.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/preview_images/a9cab0dbc9fb4129b12028de52c48e58.thumbnail.0000000000.jpg?v=1767730398&width=2560",
+      "kind": "image",
+      "alt": "Load video: ",
+      "bytes": 194285
+    },
+    {
+      "file": "sideboard-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/sideboard-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 149812
+    },
+    {
+      "file": "sideboard-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/sideboard-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 256189
+    },
+    {
+      "file": "regal-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/regal-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 136349
+    },
+    {
+      "file": "regal-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/regal-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 238551
+    },
+    {
+      "file": "kommoden-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/kommoden-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 118108
+    },
+    {
+      "file": "kommoden-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/kommoden-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 248553
+    },
+    {
+      "file": "lowboard-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/lowboard-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 106638
+    },
+    {
+      "file": "lowboard-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/lowboard-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 176180
+    },
+    {
+      "file": "garderoben-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/garderoben-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 189497
+    },
+    {
+      "file": "garderoben-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/garderoben-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 243437
+    },
+    {
+      "file": "table-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/table-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 86542
+    },
+    {
+      "file": "table-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/table-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 93400
+    },
+    {
+      "file": "reception-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/reception-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 122936
+    },
+    {
+      "file": "reception-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/reception-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 74566
+    },
+    {
+      "file": "container-desktop-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/container-desktop-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 86635
+    },
+    {
+      "file": "container-desktop-hover-v2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/container-desktop-hover-v2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 89425
+    },
+    {
+      "file": "search.svg",
+      "url": "https://flexcube.ch/cdn/shop/files/search.svg?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 1457
+    },
+    {
+      "file": "TS.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/TS.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 22216
+    },
+    {
+      "file": "download_1.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/download_1.jpg?width=1600",
+      "kind": "image",
+      "alt": "Really great! The furniture is excellent and the assembly was perfect.",
+      "bytes": 80100
+    },
+    {
+      "file": "unnamed_5.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/unnamed_5.jpg?width=1600",
+      "kind": "image",
+      "alt": "Christian Jungk",
+      "bytes": 40898
+    },
+    {
+      "file": "download_2.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/download_2.jpg?width=1600",
+      "kind": "image",
+      "alt": "Dirk G.",
+      "bytes": 72161
+    },
+    {
+      "file": "unnamed_4.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/unnamed_4.jpg?width=1600",
+      "kind": "image",
+      "alt": "Dirk G.",
+      "bytes": 79630
+    },
+    {
+      "file": "download_3.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/download_3.jpg?width=1600",
+      "kind": "image",
+      "alt": "USM or Flexcube?",
+      "bytes": 74097
+    },
+    {
+      "file": "unnamed.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/unnamed.webp?width=1600",
+      "kind": "image",
+      "alt": "My new Flexcube shelf is a real highlight.",
+      "bytes": 327158
+    },
+    {
+      "file": "unnamed_1.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/unnamed_1.webp?width=1600",
+      "kind": "image",
+      "alt": "From ordering to assembly, the process was flawless.",
+      "bytes": 31650
+    },
+    {
+      "file": "unnamed_2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/unnamed_2.webp?width=1600",
+      "kind": "image",
+      "alt": "Many thanks for the delivery and installation of our shelf.",
+      "bytes": 216175
+    },
+    {
+      "file": "unnamed_3.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/unnamed_3.webp?width=1600",
+      "kind": "image",
+      "alt": "Very pleasant showroom",
+      "bytes": 298845
+    },
+    {
+      "file": "unnamed_3.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/unnamed_3.jpg?width=1600",
+      "kind": "image",
+      "alt": "Selimah Alasiya",
+      "bytes": 50783
+    },
+    {
+      "file": "73x73_1.png",
+      "url": "https://flexcube.ch/cdn/shop/files/73x73_1.png?width=1600",
+      "kind": "image",
+      "alt": "Mark Balke",
+      "bytes": 9838
+    },
+    {
+      "file": "73x73.png",
+      "url": "https://flexcube.ch/cdn/shop/files/73x73.png?width=1600",
+      "kind": "image",
+      "alt": "A. M. Forster",
+      "bytes": 9748
+    },
+    {
+      "file": "community-video-poster.jpg",
+      "url": "https://flexcube.ch/cdn/shop/files/preview_images/800aa0ce28ee4c84bb5589de1831b075.thumbnail.0000000000.jpg?v=1767631945&width=720",
+      "kind": "image",
+      "alt": "Load video: ",
+      "bytes": 51917
+    },
+    {
+      "file": "Vitrine_Glas_Black_Chrome_8971KB.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Vitrine_Glas_Black_Chrome_8971KB.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 77151
+    },
+    {
+      "file": "Wohnzimmer_mit_Home_Office_orange___Farbe_andern.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Wohnzimmer_mit_Home_Office_orange___Farbe_andern.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 156865
+    },
+    {
+      "file": "269726980_617246432865244_6438696726586391251_n.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/269726980_617246432865244_6438696726586391251_n.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 319802
+    },
+    {
+      "file": "Bild_Laptop_Arbeitsplatz.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Bild_Laptop_Arbeitsplatz.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 463023
+    },
+    {
+      "file": "MESSX_3125KB.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/MESSX_3125KB.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 225857
+    },
+    {
+      "file": "IMG_6869.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/IMG_6869.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 268301
+    },
+    {
+      "file": "Glasregal_1_626KB.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Glasregal_1_626KB.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 175016
+    },
+    {
+      "file": "flexcube_instagram_2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/flexcube_instagram_2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 104092
+    },
+    {
+      "file": "flexcube_x__neufoctobre.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/flexcube_x__neufoctobre.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 204050
+    },
+    {
+      "file": "Wohnzimmer_2_FR_9913_KB_935e49ed-8b89-40b7-955a-153da20133ef.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Wohnzimmer_2_FR_9913_KB_935e49ed-8b89-40b7-955a-153da20133ef.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 178048
+    },
+    {
+      "file": "flexcube_x_rbc_nimes.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/flexcube_x_rbc_nimes.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 169627
+    },
+    {
+      "file": "DSC_0842.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/DSC_0842.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 284445
+    },
+    {
+      "file": "flexcube_x_interieurlittoz.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/flexcube_x_interieurlittoz.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 117300
+    },
+    {
+      "file": "Regal_mit_Pflanzen.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Regal_mit_Pflanzen.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 675280
+    },
+    {
+      "file": "Buro20210417_060328_002.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Buro20210417_060328_002.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 83569
+    },
+    {
+      "file": "Kundenbild_Wohnen_1.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Kundenbild_Wohnen_1.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 311516
+    },
+    {
+      "file": "Lorenz_Buro_Von_oben_2.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Lorenz_Buro_Von_oben_2.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 168000
+    },
+    {
+      "file": "IMG_0351.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/IMG_0351.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 150086
+    },
+    {
+      "file": "DSC_8461.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/DSC_8461.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 220035
+    },
+    {
+      "file": "Regal_schmal.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Regal_schmal.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 356007
+    },
+    {
+      "file": "Bild_Kunde_Herr_Fetz_3f1c58c0-9cbf-428c-8edc-afdf0b1cdc69.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Bild_Kunde_Herr_Fetz_3f1c58c0-9cbf-428c-8edc-afdf0b1cdc69.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 247313
+    },
+    {
+      "file": "Regal.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Regal.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 317758
+    },
+    {
+      "file": "Mobiles_Home_Office.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Mobiles_Home_Office.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 205953
+    },
+    {
+      "file": "Servierwagen_chrome_taupe_650KB.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Servierwagen_chrome_taupe_650KB.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 171617
+    },
+    {
+      "file": "Unser_Buro_1764_KB.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Unser_Buro_1764_KB.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 191397
+    },
+    {
+      "file": "IMG_3511.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/IMG_3511.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 315077
+    },
+    {
+      "file": "Kundenbild_Sideboard_dunkelgrau_a_la_USM.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Kundenbild_Sideboard_dunkelgrau_a_la_USM.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 119145
+    },
+    {
+      "file": "Bild2_Garderobe_schwarz.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Bild2_Garderobe_schwarz.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 241780
+    },
+    {
+      "file": "Dianas_Fusspflege_ca4f7a0e-a81b-4100-b2e6-00ef84cf0f33.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Dianas_Fusspflege_ca4f7a0e-a81b-4100-b2e6-00ef84cf0f33.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 90809
+    },
+    {
+      "file": "60cm_Mobile_fur_Drucker.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/60cm_Mobile_fur_Drucker.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 304126
+    },
+    {
+      "file": "Download-8.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Download-8.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 10706
+    },
+    {
+      "file": "logo_animaldoc_neu.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/logo_animaldoc_neu.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 37717
+    },
+    {
+      "file": "Download-9.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Download-9.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 8077
+    },
+    {
+      "file": "image-36.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/image-36.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 32708
+    },
+    {
+      "file": "Download-4.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Download-4.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 12636
+    },
+    {
+      "file": "Download-5.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Download-5.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 13804
+    },
+    {
+      "file": "xundhait_logo_retina.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/xundhait_logo_retina.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 21524
+    },
+    {
+      "file": "johanniter-logo-u42150_2x_31ad6420-326f-429e-bcaa-f80fc529c84f.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/johanniter-logo-u42150_2x_31ad6420-326f-429e-bcaa-f80fc529c84f.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 40698
+    },
+    {
+      "file": "logo-skp-ag_1.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/logo-skp-ag_1.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 27931
+    },
+    {
+      "file": "Download.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Download.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 13974
+    },
+    {
+      "file": "Logo_Neu_2015_11_23_1.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Logo_Neu_2015_11_23_1.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 16733
+    },
+    {
+      "file": "sap.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/sap.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 36938
+    },
+    {
+      "file": "infoma_logo.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/infoma_logo.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 21347
+    },
+    {
+      "file": "Download-7-removebg-preview.png",
+      "url": "https://flexcube.ch/cdn/shop/files/Download-7-removebg-preview.png?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 26199
+    },
+    {
+      "file": "GigerCom_Logor-5f77df2b-300x172.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/GigerCom_Logor-5f77df2b-300x172.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 31677
+    },
+    {
+      "file": "1664789020609-100x100.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/1664789020609-100x100.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 4898
+    },
+    {
+      "file": "Logo_Human_Care-300x125.png",
+      "url": "https://flexcube.ch/cdn/shop/files/Logo_Human_Care-300x125.png?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 3801
+    },
+    {
+      "file": "Logex-300x180.png",
+      "url": "https://flexcube.ch/cdn/shop/files/Logex-300x180.png?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 1941
+    },
+    {
+      "file": "Download-1.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/Download-1.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 24508
+    },
+    {
+      "file": "flex-white.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/flex-white.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 13970
+    },
+    {
+      "file": "mono-logo.webp",
+      "url": "https://flexcube.ch/cdn/shop/files/mono-logo.webp?width=1600",
+      "kind": "image",
+      "alt": "",
+      "bytes": 167213
+    },
+    {
+      "file": "hero-mobile.mp4",
+      "url": "https://flexcube.ch/cdn/shop/videos/c/vp/2eff95b0b6f14c718311141816a3e0a4/2eff95b0b6f14c718311141816a3e0a4.HD-1080p-2.5Mbps-96593878.mp4?v=0",
+      "kind": "video",
+      "alt": "",
+      "bytes": 10473248
+    },
+    {
+      "file": "hero-desktop.mp4",
+      "url": "https://flexcube.ch/cdn/shop/videos/c/vp/ff712de30611461c815af01adefbaf48/ff712de30611461c815af01adefbaf48.HD-1080p-4.8Mbps-96593292.mp4?v=0",
+      "kind": "video",
+      "alt": "",
+      "bytes": 20122549
+    },
+    {
+      "file": "service-video.mp4",
+      "url": "https://flexcube.ch/cdn/shop/videos/c/vp/a9cab0dbc9fb4129b12028de52c48e58/a9cab0dbc9fb4129b12028de52c48e58.HD-1080p-7.2Mbps-66478321.mp4?v=0",
+      "kind": "video",
+      "alt": "",
+      "bytes": 27697664
+    },
+    {
+      "file": "jost-400.woff2",
+      "url": "https://flexcube.ch/cdn/fonts/jost/jost_n4.d47a1b6347ce4a4c9f437608011273009d91f2b7.woff2",
+      "kind": "font",
+      "alt": "",
+      "bytes": 11824
+    },
+    {
+      "file": "jost-500.woff2",
+      "url": "https://flexcube.ch/cdn/fonts/jost/jost_n5.7c8497861ffd15f4e1284cd221f14658b0e95d61.woff2",
+      "kind": "font",
+      "alt": "",
+      "bytes": 13264
+    },
+    {
+      "file": "jost-700.woff2",
+      "url": "https://flexcube.ch/cdn/fonts/jost/jost_n7.921dc18c13fa0b0c94c5e2517ffe06139c3615a3.woff2",
+      "kind": "font",
+      "alt": "",
+      "bytes": 13276
+    },
+    {
+      "file": "reference-theme.css",
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/theme.css?v=143726746392146111291791472248",
+      "kind": "reference-css",
+      "alt": "",
+      "bytes": 301159
+    },
+    {
+      "file": "reference-styles.css",
+      "url": "https://flexcube.ch/cdn/shop/t/5/compiled_assets/styles.css?v=172384117669159984071776020631",
+      "kind": "reference-css",
+      "alt": "",
+      "bytes": 682
+    },
+    {
+      "file": "product-kommode-in-hellgrau-mit-6-schubladen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kommode_in_Hellgrau_mit_6_Schubladen_-_5.webp?v=1767853128",
+      "kind": "product-image",
+      "alt": "Light grey chest of drawers with 6 drawers"
+    },
+    {
+      "file": "product-kommode-in-mint-mit-4-schubladen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kommode_in_Mint_mit_4_Schubladen_-_5.webp?v=1763210660",
+      "kind": "product-image",
+      "alt": "Chest of drawers in mint green with 4 drawers"
+    },
+    {
+      "file": "product-kommode-in-olivgruen-mit-6-schubladen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinOlivgrunmit6Schubladen-2.webp?v=1763210712",
+      "kind": "product-image",
+      "alt": "Chest of drawers in olive green with 6 drawers"
+    },
+    {
+      "file": "product-kommode-in-petrol-mit-4-schubladen-2-klappen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinPetrolmit4Schubladen2Klappen-4_a5cf6404-1ef8-4cf0-ba72-205e11c9e787.webp?v=1763210666",
+      "kind": "product-image",
+      "alt": "Chest of drawers in petrol blue with 4 drawers / 2 doors"
+    },
+    {
+      "file": "product-kommode-in-rot-mit-6-schubladen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinRotmit6Schubladen-5_2b36ae64-ba2f-45c3-b0bd-006d4edf6375.webp?v=1763210661",
+      "kind": "product-image",
+      "alt": "Red chest of drawers with 6 drawers"
+    },
+    {
+      "file": "product-kommode-in-schwarz-mit-6-schubladen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinSchwarzmit6Schubladen-5_f3bd45e7-e51d-4f7b-b180-55cddcd75f98.webp?v=1763210663",
+      "kind": "product-image",
+      "alt": "Black chest of drawers with 6 drawers"
+    },
+    {
+      "file": "product-sideboard-in-olivgruen-mit-3-schubladen-klappen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinOlivgrunmit3Schubladen-Klappen-5.webp?v=1763210706",
+      "kind": "product-image",
+      "alt": "Sideboard in olive green with 3 drawers / flaps"
+    },
+    {
+      "file": "product-sideboard-in-petrol-mit-2-klappen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinPetrolmit2Klappen-5_7f3f984b-dba3-435f-97cc-a3c61ab1683e.webp?v=1763210650",
+      "kind": "product-image",
+      "alt": "Sideboard in petrol blue with 2 doors"
+    },
+    {
+      "file": "product-sideboard-in-rot-mit-2-schubladen-klappen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinRotmit2Schubladen-Klappen-3_01304a0a-521c-43dc-9c84-2011664065ec.webp?v=1763210652",
+      "kind": "product-image",
+      "alt": "Red sideboard with 2 drawers/flaps"
+    },
+    {
+      "file": "product-sideboard-in-schwarz-mit-2-schubladen-klappen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinSchwarzmit2Schubladen-Klappen-3_ae61890f-6cd9-40f1-bc4a-0764a58b0c6a.webp?v=1763210651",
+      "kind": "product-image",
+      "alt": "Black sideboard with 2 drawers/flaps"
+    },
+    {
+      "file": "product-sideboard-in-schwarz-mit-3-schubladen-klappen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Sideboard_in_Schwarz_mit_3_Schubladen-Klappen_-_5.webp?v=1767694972",
+      "kind": "product-image",
+      "alt": "Black sideboard with 3 drawers/flaps"
+    },
+    {
+      "file": "product-lowboard-in-schwarz-mit-2-klappen.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinSchwarzmit2Klappen-1_247b52bf-2b7a-45b8-a4cc-dd25109ab57f.webp?v=1763210669",
+      "kind": "product-image",
+      "alt": "Black lowboard with 2 doors"
+    }
+  ]
+}

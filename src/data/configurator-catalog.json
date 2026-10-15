@@ -1,0 +1,2402 @@
+[
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel black 193x375",
+      "de": "Metall Paneel schwarz 193x375",
+      "fr": "Panneau en métal noir 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030100604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel black 193x750",
+      "de": "Metall Paneel schwarz 193x750",
+      "fr": "Panneau en métal noir 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030100605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel black 375x375",
+      "de": "Metall Paneel schwarz 375x375",
+      "fr": "Panneau en métal noir 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030100606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel black 375x750",
+      "de": "Metall Paneel schwarz 375x750",
+      "fr": "Panneau en métal noir 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030100607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel black 193x193",
+      "de": "Metall Paneel schwarz 193x193",
+      "fr": "Panneau en métal noir 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030100608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel white 193x375",
+      "de": "Metall Paneel weiss 193x375",
+      "fr": "Panneau en métal blanc 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030200604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel white 193x750",
+      "de": "Metall Paneel weiss 193x750",
+      "fr": "Panneau en métal blanc 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030200605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel white 375x375",
+      "de": "Metall Paneel weiss 375x375",
+      "fr": "Panneau en métal blanc 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030200606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel white 375x750",
+      "de": "Metall Paneel weiss 375x750",
+      "fr": "Panneau en métal blanc 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030200607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel white 193x193",
+      "de": "Metall Paneel weiss 193x193",
+      "fr": "Panneau en métal blanc 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030200608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel red 193x375",
+      "de": "Metall Paneel rot 193x375",
+      "fr": "Panneau en métal bordeaux 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030300604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel red 193x750",
+      "de": "Metall Paneel rot 193x750",
+      "fr": "Panneau en métal bordeaux 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030300605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel red 375x375",
+      "de": "Metall Paneel rot 375x375",
+      "fr": "Panneau en métal bordeaux 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030300606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel red 375x750",
+      "de": "Metall Paneel rot 375x750",
+      "fr": "Panneau en métal bordeaux 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030300607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel red 193x193",
+      "de": "Metall Paneel rot 193x193",
+      "fr": "Panneau en métal bordeaux 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030300608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel taupe 193x375",
+      "de": "Metall Paneel taupe 193x375",
+      "fr": "Panneau en métal taupe 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030400604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel taupe 193x750",
+      "de": "Metall Paneel taupe 193x750",
+      "fr": "Panneau en métal taupe 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030400605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel taupe 375x375",
+      "de": "Metall Paneel taupe 375x375",
+      "fr": "Panneau en métal taupe 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030400606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel taupe 375x750",
+      "de": "Metall Paneel taupe 375x750",
+      "fr": "Panneau en métal taupe 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030400607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel taupe 193x193",
+      "de": "Metall Paneel taupe 193x193",
+      "fr": "Panneau en métal taupe 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030400608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel dark grey 193x375",
+      "de": "Metall Paneel dunkelgrau 193x375",
+      "fr": "Panneau en métal gris 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030500604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel dark grey 193x750",
+      "de": "Metall Paneel dunkelgrau 193x750",
+      "fr": "Panneau en métal gris 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030500605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel dark grey 375x375",
+      "de": "Metall Paneel dunkelgrau 375x375",
+      "fr": "Panneau en métal gris 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030500606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel dark grey 375x750",
+      "de": "Metall Paneel dunkelgrau 375x750",
+      "fr": "Panneau en métal gris 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030500607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel dark grey 193x193",
+      "de": "Metall Paneel dunkelgrau 193x193",
+      "fr": "Panneau en métal gris 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030500608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel petrol 193x375",
+      "de": "Metall Paneel petrol 193x375",
+      "fr": "Panneau en métal petrole 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030700604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel petrol 193x750",
+      "de": "Metall Paneel petrol 193x750",
+      "fr": "Panneau en métal petrole 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030700605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel petrol 375x375",
+      "de": "Metall Paneel petrol 375x375",
+      "fr": "Panneau en métal petrole 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030700606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel petrol 375x750",
+      "de": "Metall Paneel petrol 375x750",
+      "fr": "Panneau en métal petrole 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030700607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel petrol 193x193",
+      "de": "Metall Paneel petrol 193x193",
+      "fr": "Panneau en métal petrole 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030700608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel light grey 193x375",
+      "de": "Metall Paneel hellgrau 193x375",
+      "fr": "Panneau en métal argent 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030800604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel light grey 193x750",
+      "de": "Metall Paneel hellgrau 193x750",
+      "fr": "Panneau en métal argent 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030800605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel light grey 375x375",
+      "de": "Metall Paneel hellgrau 375x375",
+      "fr": "Panneau en métal argent 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030800606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel light grey 375x750",
+      "de": "Metall Paneel hellgrau 375x750",
+      "fr": "Panneau en métal argent 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030800607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel light grey 193x193",
+      "de": "Metall Paneel hellgrau 193x193",
+      "fr": "Panneau en métal argent 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030800608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel mint 193x375",
+      "de": "Metall Paneel mint 193x375",
+      "fr": "Panneau en métal menthe 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030900604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel mint 193x750",
+      "de": "Metall Paneel mint 193x750",
+      "fr": "Panneau en métal menthe 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030900605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel mint 375x375",
+      "de": "Metall Paneel mint 375x375",
+      "fr": "Panneau en métal menthe 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030900606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel mint 375x750",
+      "de": "Metall Paneel mint 375x750",
+      "fr": "Panneau en métal menthe 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030900607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel mint 193x193",
+      "de": "Metall Paneel mint 193x193",
+      "fr": "Panneau en métal menthe 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030900608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel olive green 193x375",
+      "de": "Metall Paneel olivgrün 193x375",
+      "fr": "Panneau en métal vert olive 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030750604"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel olive green 193x750",
+      "de": "Metall Paneel olivgrün 193x750",
+      "fr": "Panneau en métal vert olive 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030750605"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel olive green 375x375",
+      "de": "Metall Paneel olivgrün 375x375",
+      "fr": "Panneau en métal vert olive 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030750606"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel olive green 375x750",
+      "de": "Metall Paneel olivgrün 375x750",
+      "fr": "Panneau en métal vert olive 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030750607"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel olive green 193x193",
+      "de": "Metall Paneel olivgrün 193x193",
+      "fr": "Panneau en métal vert olive 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030750608"
+  },
+  {
+    "item": "G1937",
+    "name": {
+      "en": "Glass Panel 193x375",
+      "de": "",
+      "fr": ""
+    },
+    "price": 10,
+    "weight": 0.8,
+    "sku": "1050210001604"
+  },
+  {
+    "item": "G1975",
+    "name": {
+      "en": "Glass Panel 193x750",
+      "de": "",
+      "fr": ""
+    },
+    "price": 17,
+    "weight": 1.8,
+    "sku": "1050210001605"
+  },
+  {
+    "item": "G3737",
+    "name": {
+      "en": "Glass Panel 375x375",
+      "de": "Glas Paneel 375x375",
+      "fr": "Panneau en verre 375x375"
+    },
+    "price": 17,
+    "weight": 1.8,
+    "sku": "1050210001606"
+  },
+  {
+    "item": "G3775",
+    "name": {
+      "en": "Glass Panel 375x750",
+      "de": "Glas Paneel 375x750",
+      "fr": "Panneau en verre 375x750"
+    },
+    "price": 23,
+    "weight": 3.7,
+    "sku": "1050210001607"
+  },
+  {
+    "name": {
+      "en": "Glass Panel 193x193",
+      "de": "Glas Paneel 193x193",
+      "fr": "Panneau en verre 193x193"
+    },
+    "price": 7,
+    "sku": "1050210001608"
+  },
+  {
+    "item": "P1937",
+    "name": {
+      "en": "Steel Panel ral 193x375",
+      "de": "Metall Paneel ral 193x375",
+      "fr": "Panneau en métal ral 193x375"
+    },
+    "price": 12,
+    "weight": 0.54,
+    "sku": "1050030200604_0_37x19"
+  },
+  {
+    "item": "P1975",
+    "name": {
+      "en": "Steel Panel ral 193x750",
+      "de": "Metall Paneel ral 193x750",
+      "fr": "Panneau en métal ral 193x750"
+    },
+    "price": 19,
+    "weight": 1.1,
+    "sku": "1050030200605_0_75x19"
+  },
+  {
+    "item": "P3737",
+    "name": {
+      "en": "Steel Panel ral 375x375",
+      "de": "Metall Paneel ral 375x375",
+      "fr": "Panneau en métal ral 375x375"
+    },
+    "price": 18,
+    "weight": 1.03,
+    "sku": "1050030200606_0_37x37"
+  },
+  {
+    "item": "P3775",
+    "name": {
+      "en": "Steel Panel ral 375x750",
+      "de": "Metall Paneel ral 375x750",
+      "fr": "Panneau en métal ral 375x750"
+    },
+    "price": 29,
+    "weight": 2.05,
+    "sku": "1050030200607_0_75x37"
+  },
+  {
+    "item": "P1919",
+    "name": {
+      "en": "Steel Panel ral 193x193",
+      "de": "Metall Paneel ral 193x193",
+      "fr": "Panneau en métal ral 193x193"
+    },
+    "price": 9,
+    "weight": 0.26,
+    "sku": "1050030200608_0_19x19"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front black 193x375",
+      "de": "Front Schublade schwarz 193x375",
+      "fr": "Façade de tiroir noir 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060100604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front black 193x750",
+      "de": "Front Schublade schwarz 193x750",
+      "fr": "Façade de tiroir noir 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060100605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front black 375x375",
+      "de": "Front Schublade schwarz 375x375",
+      "fr": "Façade de tiroir noir 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060100606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front black 375x750",
+      "de": "Front Schublade schwarz 375x750",
+      "fr": "Façade de tiroir noir 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060100607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front white 193x375",
+      "de": "Front Schublade weiss 193x375",
+      "fr": "Façade de tiroir blanc 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060200604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front white 193x750",
+      "de": "Front Schublade weiss 193x750",
+      "fr": "Façade de tiroir blanc 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060200605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front white 375x375",
+      "de": "Front Schublade weiss 375x375",
+      "fr": "Façade de tiroir blanc 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060200606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front white 375x750",
+      "de": "Front Schublade weiss 375x750",
+      "fr": "Façade de tiroir blanc 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060200607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front red 193x375",
+      "de": "Front Schublade rot 193x375",
+      "fr": "Façade de tiroir bordeaux 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060300604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front red 193x750",
+      "de": "Front Schublade rot 193x750",
+      "fr": "Façade de tiroir bordeaux 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060300605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front red 375x375",
+      "de": "Front Schublade rot 375x375",
+      "fr": "Façade de tiroir bordeaux 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060300606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front red 375x750",
+      "de": "Front Schublade rot 375x750",
+      "fr": "Façade de tiroir bordeaux 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060300607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front taupe 193x375",
+      "de": "Front Schublade taupe 193x375",
+      "fr": "Façade de tiroir taupe 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060400604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front taupe 193x750",
+      "de": "Front Schublade taupe 193x750",
+      "fr": "Façade de tiroir taupe 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060400605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front taupe 375x375",
+      "de": "Front Schublade taupe 375x375",
+      "fr": "Façade de tiroir taupe 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060400606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front taupe 375x750",
+      "de": "Front Schublade taupe 375x750",
+      "fr": "Façade de tiroir taupe 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060400607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front dark grey 193x375",
+      "de": "Front Schublade dunkelgrau 193x375",
+      "fr": "Façade de tiroir gris 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060500604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front dark grey 193x750",
+      "de": "Front Schublade dunkelgrau 193x750",
+      "fr": "Façade de tiroir gris 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060500605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front dark grey 375x375",
+      "de": "Front Schublade dunkelgrau 375x375",
+      "fr": "Façade de tiroir gris 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060500606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front dark grey 375x750",
+      "de": "Front Schublade dunkelgrau 375x750",
+      "fr": "Façade de tiroir gris 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060500607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front petrol 193x375",
+      "de": "Front Schublade petrol 193x375",
+      "fr": "Façade de tiroir petrole 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060700604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front petrol 193x750",
+      "de": "Front Schublade petrol 193x750",
+      "fr": "Façade de tiroir petrole 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060700605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front petrol 375x375",
+      "de": "Front Schublade petrol 375x375",
+      "fr": "Façade de tiroir petrole 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060700606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front petrol 375x750",
+      "de": "Front Schublade petrol 375x750",
+      "fr": "Façade de tiroir petrole 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060700607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front light grey 193x375",
+      "de": "Front Schublade hellgrau 193x375",
+      "fr": "Façade de tiroir argent 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060800604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front light grey 193x750",
+      "de": "Front Schublade hellgrau 193x750",
+      "fr": "Façade de tiroir argent 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060800605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front light grey 375x375",
+      "de": "Front Schublade hellgrau 375x375",
+      "fr": "Façade de tiroir argent 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060800606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front light grey 375x750",
+      "de": "Front Schublade hellgrau 375x750",
+      "fr": "Façade de tiroir argent 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060800607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front mint 193x375",
+      "de": "Front Schublade mint 193x375",
+      "fr": "Façade de tiroir menthe 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060900604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front mint 193x750",
+      "de": "Front Schublade mint 193x750",
+      "fr": "Façade de tiroir menthe 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060900605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front mint 375x375",
+      "de": "Front Schublade mint 375x375",
+      "fr": "Façade de tiroir menthe 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060900606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front mint 375x750",
+      "de": "Front Schublade mint 375x750",
+      "fr": "Façade de tiroir menthe 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060900607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front olive green 193x375",
+      "de": "Front Schublade olivgrün 193x375",
+      "fr": "Façade de tiroir vert olive 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060750604"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front olive green 193x750",
+      "de": "Front Schublade olivgrün 193x750",
+      "fr": "Façade de tiroir vert olive 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060750605"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front olive green 375x375",
+      "de": "Front Schublade olivgrün 375x375",
+      "fr": "Façade de tiroir vert olive 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060750606"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front olive green 375x750",
+      "de": "Front Schublade olivgrün 375x750",
+      "fr": "Façade de tiroir vert olive 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060750607"
+  },
+  {
+    "item": "W1937",
+    "name": {
+      "en": "Drawer front ral 193x375",
+      "de": "Front Schublade ral 193x375",
+      "fr": "Façade de tiroir ral 193x375"
+    },
+    "price": 15,
+    "weight": 0.7,
+    "sku": "1050060200604_1_37x19"
+  },
+  {
+    "item": "W1975",
+    "name": {
+      "en": "Drawer front ral 193x750",
+      "de": "Front Schublade ral 193x750",
+      "fr": "Façade de tiroir ral 193x750"
+    },
+    "price": 24,
+    "weight": 1.3,
+    "sku": "1050060200605_1_75x19"
+  },
+  {
+    "item": "W3737",
+    "name": {
+      "en": "Drawer front ral 375x375",
+      "de": "Front Schublade ral 375x375",
+      "fr": "Façade de tiroir ral 375x375"
+    },
+    "price": 23,
+    "weight": 1.38,
+    "sku": "1050060200606_1_37x37"
+  },
+  {
+    "item": "W3775",
+    "name": {
+      "en": "Drawer front ral 375x750",
+      "de": "Front Schublade ral 375x750",
+      "fr": "Façade de tiroir ral 375x750"
+    },
+    "price": 37,
+    "weight": 2.35,
+    "sku": "1050060200607_1_75x37"
+  },
+  {
+    "item": "B1937A",
+    "name": {
+      "en": "Drawer inner black 19x37",
+      "de": "Schublade Innenleben schwarz 19x37 ",
+      "fr": "Tiroir intérieur noir 19x37"
+    },
+    "price": 52,
+    "weight": 3.08,
+    "sku": "1050070100604"
+  },
+  {
+    "item": "B1975A",
+    "name": {
+      "en": "Drawer inner black 19x75",
+      "de": "Schublade Innenleben schwarz 19x75",
+      "fr": "Tiroir intérieur noir 19x75"
+    },
+    "price": 72,
+    "weight": 5,
+    "sku": "1050070100605"
+  },
+  {
+    "item": "HS375",
+    "name": {
+      "en": "Horizontal tube 375 chrome",
+      "de": "Horizontale Stange 375 chrom",
+      "fr": "Pôle horizontal 375 chromé"
+    },
+    "price": 6.5,
+    "weight": 0.14,
+    "sku": "1050010100600"
+  },
+  {
+    "item": "HS750",
+    "name": {
+      "en": "Horizontal tube 750 chrome",
+      "de": "Horizontale Stange 750 chrom",
+      "fr": "Pôle horizontal 750 chromé"
+    },
+    "price": 11.5,
+    "weight": 0.3,
+    "sku": "1050010100601"
+  },
+  {
+    "item": "HS193",
+    "name": {
+      "en": "Horizontal tube 193 chrome",
+      "de": "Horizontale Stange 193 chrom",
+      "fr": "Pôle horizontal 193 chromé"
+    },
+    "price": 4.5,
+    "weight": 0.07,
+    "sku": "1050010100602"
+  },
+  {
+    "item": "HS375",
+    "name": {
+      "en": "Horizontal tube 375 black",
+      "de": "Horizontale Stange 375 schwarz",
+      "fr": "Pôle horizontal 375 noir"
+    },
+    "price": 13,
+    "weight": 0.14,
+    "sku": "1050010110600"
+  },
+  {
+    "item": "HS750",
+    "name": {
+      "en": "Horizontal tube 750 black",
+      "de": "Horizontale Stange 750 schwarz",
+      "fr": "Pôle horizontal 750 noir"
+    },
+    "price": 22,
+    "weight": 0.3,
+    "sku": "1050010110601"
+  },
+  {
+    "item": "HS193",
+    "name": {
+      "en": "Horizontal tube 193 black",
+      "de": "Horizontale Stange 193 schwarz ",
+      "fr": "Pôle horizontal 193 noir"
+    },
+    "price": 9,
+    "weight": 0.07,
+    "sku": "1050010110602"
+  },
+  {
+    "item": "HS375",
+    "name": {
+      "en": "Horizontal tube 375 copper",
+      "de": "Horizontale Stange 375 kupferfarben",
+      "fr": "Pôle horizontal 375 cuivré"
+    },
+    "price": 13,
+    "weight": 0.14,
+    "sku": "1050010101600"
+  },
+  {
+    "item": "HS750",
+    "name": {
+      "en": "Horizontal tube 750 copper",
+      "de": "Horizontale Stange 750 kupferfarben",
+      "fr": "Pôle horizontal 750 cuivré"
+    },
+    "price": 22,
+    "weight": 0.3,
+    "sku": "1050010101601"
+  },
+  {
+    "item": "HS193",
+    "name": {
+      "en": "Horizontal tube 193 copper",
+      "de": "Horizontale Stange 193 kupferfarben",
+      "fr": "Pôle horizontal 193 cuivré"
+    },
+    "price": 9,
+    "weight": 0.07,
+    "sku": "1050010101602"
+  },
+  {
+    "item": "VS375",
+    "name": {
+      "en": "Vertical tube 375 chrome",
+      "de": "Vertikale Stange 375 chrom",
+      "fr": "Pôle vertical 375 chromé"
+    },
+    "price": 6.5,
+    "weight": 0.16,
+    "sku": "1050010200600"
+  },
+  {
+    "item": "VS193",
+    "name": {
+      "en": "Verticale tube 193 chrome",
+      "de": "Vertikale Stange 193 chrom",
+      "fr": "Pôle vertical 193 chromé"
+    },
+    "price": 4.5,
+    "weight": 0.1,
+    "sku": "1050010200602"
+  },
+  {
+    "item": "VS060",
+    "name": {
+      "en": "Verticale tube 60 chrome",
+      "de": "Vertikale Stange 60 chrom",
+      "fr": "Pôle vertical 60 chromé"
+    },
+    "price": 4.5,
+    "weight": 0.05,
+    "sku": "1050010200603"
+  },
+  {
+    "item": "VS375",
+    "name": {
+      "en": "Vertical tube 375 black",
+      "de": "Vertikale Stange 375 schwarz",
+      "fr": "Pôle vertical 375 noir"
+    },
+    "price": 13.5,
+    "weight": 0.16,
+    "sku": "1050010210600"
+  },
+  {
+    "item": "VS193",
+    "name": {
+      "en": "Verticale tube 193 black",
+      "de": "Vertikale Stange 193 schwarz",
+      "fr": "Pôle vertical 193 noir"
+    },
+    "price": 9.5,
+    "weight": 0.1,
+    "sku": "1050010210602"
+  },
+  {
+    "item": "VS060",
+    "name": {
+      "en": "Verticale tube 60 black",
+      "de": "Vertikale Stange 60 schwarz",
+      "fr": "Pôle vertical 60 noir"
+    },
+    "price": 8,
+    "weight": 0.05,
+    "sku": "1050010210603"
+  },
+  {
+    "item": "VS375",
+    "name": {
+      "en": "Vertical tube 375 copper",
+      "de": "Vertikale Stange 375 kupferfarben",
+      "fr": "Pôle vertical 375 cuivré"
+    },
+    "price": 13.5,
+    "weight": 0.16,
+    "sku": "1050010201600"
+  },
+  {
+    "item": "VS193",
+    "name": {
+      "en": "Verticale tube 193 copper",
+      "de": "Vertikale Stange 193 kupferfarben",
+      "fr": "Pôle vertical 193 cuivré"
+    },
+    "price": 9.5,
+    "weight": 0.1,
+    "sku": "1050010201602"
+  },
+  {
+    "item": "VS060",
+    "name": {
+      "en": "Verticale tube 60 copper",
+      "de": "Vertikale Stange 60 kupferfarben ",
+      "fr": "Pole vertical 60 cuivré"
+    },
+    "price": 8,
+    "weight": 0.05,
+    "sku": "1050010201603"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap black 375x375",
+      "de": "Klappe schwarz 375x375",
+      "fr": "Porte abattante noire 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080100608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap black 375x750",
+      "de": "Klappe schwarz 375x750",
+      "fr": "Porte abattante noire 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080100607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap white 375x375",
+      "de": "Klappe weiss 375x375",
+      "fr": "Porte abattante blanche 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080200608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap white 375x750",
+      "de": "Klappe weiss 375x750",
+      "fr": "Porte abattante blanche 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080200607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap red 375x375",
+      "de": "Klappe rot 375x375",
+      "fr": "Porte abattante bordeaux 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080300608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap red 375x750",
+      "de": "Klappe rot 375x750",
+      "fr": "Porte abattante bordeaux 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080300607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap taupe 375x375",
+      "de": "Klappe taupe 375x375",
+      "fr": "Porte abattante taupe 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080400608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap taupe 375x750",
+      "de": "Klappe taupe 375x750",
+      "fr": "Porte abattante taupe 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080400607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap dark grey 375x375",
+      "de": "Klappe dunkelgrau 375x375",
+      "fr": "Porte abattante grise 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080500608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap dark grey 375x750",
+      "de": "Klappe dunkelgrau 375x750",
+      "fr": "Porte abattante grise 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080500607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap petrol 375x375",
+      "de": "Klappe petrol 375x375",
+      "fr": "Porte abattante petrole 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080700608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap petrol 375x750",
+      "de": "Klappe petrol 375x750",
+      "fr": "Porte abattante petrole 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080700607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap light grey 375x375",
+      "de": "Klappe hellgrau 375x375",
+      "fr": "Porte abattante argent 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080800608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap light grey 375x750",
+      "de": "Klappe hellgrau 375x750",
+      "fr": "Porte abattante argent 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080800607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap mint 375x375",
+      "de": "Klappe mint 375x375",
+      "fr": "Porte abattante menthe 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080900608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap mint 375x750",
+      "de": "Klappe mint 375x750",
+      "fr": "Porte abattante menthe 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080900607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap olive green 375x375",
+      "de": "Klappe olivgrün 375x375",
+      "fr": "Porte abattante vert olive 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080750608"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap olive green 375x750",
+      "de": "Klappe olivgrün 375x750",
+      "fr": "Porte abattante vert olive 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080750607"
+  },
+  {
+    "item": "D3737",
+    "name": {
+      "en": "Flap ral 375x375",
+      "de": "Klappe ral 375x375",
+      "fr": "Porte abattante ral 375x375"
+    },
+    "price": 38,
+    "weight": 2.15,
+    "sku": "1050080200608_2_small"
+  },
+  {
+    "item": "D3775",
+    "name": {
+      "en": "Flap ral 375x750",
+      "de": "Klappe ral 375x750",
+      "fr": "Porte abattante ral 375x750"
+    },
+    "price": 50,
+    "weight": 4.3,
+    "sku": "1050080200607_2_big"
+  },
+  {
+    "item": "A1033",
+    "name": {
+      "en": "Hinges Glass Door chrome",
+      "de": "Glas Tür Scharnier chrom",
+      "fr": "Charnière porte vitrée chromé"
+    },
+    "price": 23,
+    "weight": 0.3,
+    "sku": "1050330001610"
+  },
+  {
+    "item": "A1033",
+    "name": {
+      "en": "Hinges Glass Door black",
+      "de": "Glas Tür Scharnier schwarz",
+      "fr": "Charnière porte vitrée noir"
+    },
+    "price": 54,
+    "weight": 0.3,
+    "sku": "1050330003610"
+  },
+  {
+    "item": "A1033",
+    "name": {
+      "en": "Hinges Glass Door copper",
+      "de": "Glas Tür Scharnier kupferfarben",
+      "fr": "Charnière porte vitrée cuivré"
+    },
+    "price": 54,
+    "weight": 0.3,
+    "sku": "1050330002610"
+  },
+  {
+    "item": "GD3737",
+    "name": {
+      "en": "Glass Door 37x37",
+      "de": "Glas Tür 37x37",
+      "fr": "Porte vitrée 37x37"
+    },
+    "price": 75,
+    "weight": 1.8,
+    "sku": "1050320001606"
+  },
+  {
+    "item": "GT3737",
+    "name": {
+      "en": "Glass Double Door 2x37x37",
+      "de": "Glas Doppeltüre 2x37x37",
+      "fr": "Double porte vitrée 2x37x37"
+    },
+    "price": 150,
+    "weight": 3.5,
+    "sku": "1050320001616"
+  },
+  {
+    "item": "GI3737",
+    "name": {
+      "en": "Mounting Plate for Glass Door",
+      "de": "Montageplatte für Glas Tür",
+      "fr": "Plaque de montage pour porte vitrée"
+    },
+    "price": 10,
+    "weight": 1.8,
+    "sku": "1050350001610"
+  },
+  {
+    "item": "A1020",
+    "name": {
+      "en": "Hinges Door",
+      "de": "Türe Scharnier",
+      "fr": "Charnière porte"
+    },
+    "price": 0,
+    "weight": 0.28,
+    "sku": "1050100002611"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_white",
+      "de": "Türe_softclose_37x37cm_weiss",
+      "fr": "Porte_softclose_37x37cm_blanc"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080200609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_black",
+      "de": "Türe_softclose_37x37cm_schwarz",
+      "fr": "Porte_softclose_37x37cm_noir"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080100609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_red",
+      "de": "Türe_softclose_37x37cm_rot",
+      "fr": "Porte_softclose_37x37cm_rouge"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080300609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_mint",
+      "de": "Türe_softclose_37x37cm_mint",
+      "fr": "Porte_softclose_37x37cm_menthe"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080900609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_olive_green",
+      "de": "Türe_softclose_37x37cm_olivgrün",
+      "fr": "Porte_softclose_37x37cm_vert_olive"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080750609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_petrol",
+      "de": "Türe_softclose_37x37cm_petrol",
+      "fr": "Porte_softclose_37x37cm_pétrole"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080700609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_grey",
+      "de": "Türe_softclose_37x37cm_grau",
+      "fr": "Porte_softclose_37x37cm_gris"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080500609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_light grey",
+      "de": "Türe_softclose_37x37cm_h'grau",
+      "fr": "Porte_softclose_37x37cm_gris_clair"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080800609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_taupe",
+      "de": "Türe_softclose_37x37cm_taupe",
+      "fr": "Porte_softclose_37x37cm_taupe"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080400609"
+  },
+  {
+    "item": "S3737",
+    "name": {
+      "en": "Door_softclose_37x37cm_ral",
+      "de": "Türe_softclose_37x37cm_ral",
+      "fr": "Porte_softclose_37x37cm_ral"
+    },
+    "price": 75,
+    "weight": 2.12,
+    "sku": "1050080200609_s_m_d_37x37"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door white",
+      "de": "Zusatzpanel für Doppeltüre weiss",
+      "fr": "Panneau supplémentaire pour double porte blanc"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080200999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door black",
+      "de": "Zusatzpanel für Doppeltüre schwarz",
+      "fr": "Panneau supplémentaire pour double porte noir"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080100999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door red",
+      "de": "Zusatzpanel für Doppeltüre rot",
+      "fr": "Panneau supplémentaire pour double porte rouge"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080300999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door mint",
+      "de": "Zusatzpanel für Doppeltüre mint",
+      "fr": "Panneau supplémentaire pour double porte menthe"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080900999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door olive green",
+      "de": "Zusatzpanel für Doppeltüre olivgrün",
+      "fr": "Panneau supplémentaire pour double porte vert olive"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080750999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door petrol",
+      "de": "Zusatzpanel für Doppeltüre petrol",
+      "fr": "Panneau supplémentaire pour double porte pétrole"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080700999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door grey",
+      "de": "Zusatzpanel für Doppeltüre grau",
+      "fr": "Panneau supplémentaire pour double porte gris"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080500999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door light grey",
+      "de": "Zusatzpanel für Doppeltüre hellgrau",
+      "fr": "Panneau supplémentaire pour double porte gris clair"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080800999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door taupe",
+      "de": "Zusatzpanel für Doppeltüre taupe",
+      "fr": "Panneau supplémentaire pour double porte taupe"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080400999"
+  },
+  {
+    "item": "A1010",
+    "name": {
+      "en": "Additional Panel for Double Door ral",
+      "de": "Zusatzpanel für Doppeltüre ral",
+      "fr": "Panneau supplémentaire pour double porte ral"
+    },
+    "price": 0,
+    "weight": 0.2,
+    "sku": "1050080200999_d_m_d_37x37"
+  },
+  {
+    "item": "B1937As",
+    "name": {
+      "en": "Drawers_inside narrow softclose",
+      "de": "Schubladen_Innenleben schmal softclose",
+      "fr": "Tiroirs_intérieurs étroits softclose"
+    },
+    "price": 90,
+    "weight": 2.9,
+    "sku": "1050070100608"
+  },
+  {
+    "item": "B1975As",
+    "name": {
+      "en": "Drawers_inside wide softclose",
+      "de": "Schubladen_Innenleben breit softclose",
+      "fr": "Tiroirs_intérieur large softclose"
+    },
+    "price": 110,
+    "weight": 4.6,
+    "sku": "1050070100609"
+  },
+  {
+    "item": "A1062 & A1120",
+    "name": {
+      "en": "Lock with key, chrome",
+      "de": "Schloss mit Schlüssel, chrom",
+      "fr": "Serrure à clé chromée"
+    },
+    "price": 26,
+    "weight": 0.24,
+    "sku": "1050120001610"
+  },
+  {
+    "item": "A1062 & A1120",
+    "name": {
+      "en": "Lock with key, black",
+      "de": "Schloss mit Schlüssel, schwarz",
+      "fr": "Serrure à clé noire"
+    },
+    "price": 49,
+    "weight": 0.24,
+    "sku": "1050120006630"
+  },
+  {
+    "item": "A1062 & A1120",
+    "name": {
+      "en": "Lock with key, copper",
+      "de": "Schloss mit Schlüssel, kupferfarben",
+      "fr": "Serrure à clé cuivrée"
+    },
+    "price": 49,
+    "weight": 0.24,
+    "sku": "1050120007610"
+  },
+  {
+    "item": "A1063",
+    "name": {
+      "en": "Handle with hole/ring, chrome",
+      "de": "Lochgriff, chrom",
+      "fr": "Poignée perforée, chromée"
+    },
+    "price": 12,
+    "weight": 0.09,
+    "sku": "1050120002610"
+  },
+  {
+    "item": "A1063",
+    "name": {
+      "en": "Handle with hole/ring, black",
+      "de": "Lochgriff, schwarz",
+      "fr": "Poignée perforée, noire"
+    },
+    "price": 21,
+    "weight": 0.09,
+    "sku": "1050120002630"
+  },
+  {
+    "item": "A1063",
+    "name": {
+      "en": "Handle with hole, copper",
+      "de": "Lochgriff, kupferfarben",
+      "fr": "Poignée perforée, cuivrée"
+    },
+    "price": 21,
+    "weight": 0.09,
+    "sku": "1050120006610"
+  },
+  {
+    "item": "A1061",
+    "name": {
+      "en": "Handle, chrome",
+      "de": "Griff, chrom",
+      "fr": "Poignée chromée"
+    },
+    "price": 16,
+    "weight": 0.2,
+    "sku": "1050120005610"
+  },
+  {
+    "item": "A1061",
+    "name": {
+      "en": "Handle, black",
+      "de": "Griff, schwarz",
+      "fr": "Poignée noire"
+    },
+    "price": 29,
+    "weight": 0.2,
+    "sku": "1050120005630"
+  },
+  {
+    "item": "A1061",
+    "name": {
+      "en": "Handle, copper",
+      "de": "Griff, kupferfarben",
+      "fr": "Poignée cuivrée"
+    },
+    "price": 29,
+    "weight": 0.2,
+    "sku": "1050120005620"
+  },
+  {
+    "item": "A1200",
+    "name": {
+      "en": "Handle for Glass Door chrome",
+      "de": "Griff für Glas Tür chrom",
+      "fr": "Poignée pour porte vitrée chromée"
+    },
+    "price": 12,
+    "weight": 0.076,
+    "sku": "1050340001610"
+  },
+  {
+    "item": "A1200",
+    "name": {
+      "en": "Handle for Glass Door black",
+      "de": "Griff für Glas Tür schwarz",
+      "fr": "Poignée pour porte vitrée noire"
+    },
+    "price": 21,
+    "weight": 0.076,
+    "sku": "1050340003610"
+  },
+  {
+    "item": "A1200",
+    "name": {
+      "en": "Handle for Glass Door copper",
+      "de": "Griff für Glas Tür kupferfarben",
+      "fr": "Poignée pour porte vitrée cuivrée"
+    },
+    "price": 21,
+    "weight": 0.076,
+    "sku": "1050340002610"
+  },
+  {
+    "item": "F3775",
+    "name": {
+      "en": "Flat drawer black 750x375",
+      "de": "Auszugschublade schwarz 750x375",
+      "fr": "Tiroir plat noir 750x375"
+    },
+    "price": 80,
+    "weight": 3.2,
+    "sku": "1050070100606"
+  },
+  {
+    "item": "A1031",
+    "name": {
+      "en": "Hinges Flap 37x75 (Down)",
+      "de": "Klappe Scharnier 37x75 (Down)",
+      "fr": "Charnières porte abattante vers le bas 37x75"
+    },
+    "price": 80,
+    "weight": 2.3,
+    "sku": "1050100001610"
+  },
+  {
+    "item": "A1030",
+    "name": {
+      "en": "Hinges Flap 37x37 (Down)",
+      "de": "Klappe Scharnier 37x37 (Down)",
+      "fr": "Charnières porte abattante vers le bas 37x37"
+    },
+    "price": 80,
+    "weight": 2.3,
+    "sku": "1050100002610"
+  },
+  {
+    "item": "A1028/A1029",
+    "name": {
+      "en": "Hinges Flap upwards",
+      "de": "Klappe Scharnier (Up)",
+      "fr": "Charnières porte abattante vers le haut"
+    },
+    "price": 99,
+    "weight": 2.3,
+    "sku": "1050100003610"
+  },
+  {
+    "item": "A1150",
+    "name": {
+      "en": "Flexcube Tool kit",
+      "de": "Flexcube Werkzeug",
+      "fr": "Outils Flexcube"
+    },
+    "price": 2.5,
+    "weight": 0.17,
+    "sku": "1050160001610"
+  },
+  {
+    "item": "A1130",
+    "name": {
+      "en": "Anti-tipping device (set of 2)",
+      "de": "Kippschutz (2er Set)",
+      "fr": "Dispositif anti-basculement (lot de 2)"
+    },
+    "price": 3.5,
+    "weight": 0.05,
+    "sku": "1050200001100"
+  },
+  {
+    "name": {
+      "en": "Pen tray",
+      "de": "Materialschale / Stiftablage",
+      "fr": "Insert pour tiroir"
+    },
+    "price": 14,
+    "weight": 0.265,
+    "sku": "201001050010124"
+  },
+  {
+    "name": {
+      "en": "Stackable tray (1 pcs)",
+      "de": "Schrägablage 1 Stück",
+      "fr": "Plateau empilable (1 pcs)"
+    },
+    "price": 14,
+    "weight": 0.2,
+    "sku": "201001050010125"
+  },
+  {
+    "item": "A1041",
+    "name": {
+      "en": "Insert for hanging files, large",
+      "de": "Einsatz für Hängeregister, gross",
+      "fr": "Insert pour dossiers suspendus, grand"
+    },
+    "price": 69,
+    "weight": 0.55,
+    "sku": "1050180002610"
+  },
+  {
+    "item": "A1040",
+    "name": {
+      "en": "Insert for hanging files, small",
+      "de": "Einsatz für Hängeregister, klein",
+      "fr": "Insert pour dossiers suspendus, petit"
+    },
+    "price": 35,
+    "weight": 0.25,
+    "sku": "1050180001610"
+  },
+  {
+    "item": "A1090",
+    "name": {
+      "en": "Glass Holder/Clip, chrome",
+      "de": "Glas Clip chrom",
+      "fr": "Clip de verre chromé"
+    },
+    "price": 5.5,
+    "weight": 0.037,
+    "sku": "1050220001610"
+  },
+  {
+    "item": "A1090",
+    "name": {
+      "en": "Glass Holder/Clip, black",
+      "de": "Glas Clip schwarz",
+      "fr": "Clip de verre noir"
+    },
+    "price": 8.5,
+    "weight": 0.037,
+    "sku": "1050220003610"
+  },
+  {
+    "item": "A1090",
+    "name": {
+      "en": "Glass Holder/Clip, copper",
+      "de": "Glas Clip kupferfarben",
+      "fr": "Clip de verre cuivré"
+    },
+    "price": 8.5,
+    "weight": 0.037,
+    "sku": "1050220002610"
+  },
+  {
+    "item": "I1937",
+    "name": {
+      "en": "Insert panel black 19x37",
+      "de": "Innenwand schwarz 19x37",
+      "fr": "Panneau d'insertion noir 19x37"
+    },
+    "price": 13,
+    "weight": 0.55,
+    "sku": "1050040100607"
+  },
+  {
+    "item": "I3737",
+    "name": {
+      "en": "Insert panel black 37x37",
+      "de": "Innenwand schwarz 37x37",
+      "fr": "Panneau d'insertion noir 37x37"
+    },
+    "price": 20,
+    "weight": 1.06,
+    "sku": "1050040100608"
+  },
+  {
+    "item": "M1937",
+    "name": {
+      "en": "Middle panel black 19x37 ",
+      "de": "Mittelwand schwarz 19x37 ",
+      "fr": "Panneau central noir 19x37 "
+    },
+    "price": 12,
+    "weight": 0.53,
+    "sku": "1050050200604"
+  },
+  {
+    "item": "M3737",
+    "name": {
+      "en": "Middle panel black 37x37",
+      "de": "Mittelwand schwarz 37x37",
+      "fr": "Panneau central noir 37x37"
+    },
+    "price": 20,
+    "weight": 1,
+    "sku": "1050050200606"
+  },
+  {
+    "item": "C0110",
+    "name": {
+      "en": "1-Way Connector chrome",
+      "de": "1-Wege Verbindung chrom",
+      "fr": "Connecteur 1 voies chromé"
+    },
+    "price": 5,
+    "weight": 0.03,
+    "sku": "1050020400610"
+  },
+  {
+    "item": "C0110",
+    "name": {
+      "en": "1-Way Connector black",
+      "de": "1-Wege Verbindung schwarz",
+      "fr": "Connecteur 1 voies noir"
+    },
+    "price": 8,
+    "weight": 0.03,
+    "sku": "1050020402610"
+  },
+  {
+    "item": "C0110",
+    "name": {
+      "en": "1-Way Connector copper",
+      "de": "1-Wege Verbindung kupferfarben",
+      "fr": "Connecteur 1 voies cuivré"
+    },
+    "price": 8,
+    "weight": 0.03,
+    "sku": "1050020401610"
+  },
+  {
+    "item": "C0210",
+    "name": {
+      "en": "2-Way Connector chrome",
+      "de": "2-Wege Verbindung chrom",
+      "fr": "Connecteur 2 voies chromé"
+    },
+    "price": 5,
+    "weight": 0.04,
+    "sku": "1050020100610"
+  },
+  {
+    "item": "C0210",
+    "name": {
+      "en": "2-Way Connector black",
+      "de": "2-Wege Verbindung schwarz",
+      "fr": "Connecteur 2 voies noir"
+    },
+    "price": 8,
+    "weight": 0.04,
+    "sku": "1050020102610"
+  },
+  {
+    "item": "C0210",
+    "name": {
+      "en": "2-Way Connector copper",
+      "de": "2-Wege Verbindung kupferfarben",
+      "fr": "Connecteur 2 voies cuivré"
+    },
+    "price": 8,
+    "weight": 0.04,
+    "sku": "1050020101610"
+  },
+  {
+    "item": "C0310",
+    "name": {
+      "en": "3-Way Connector chrome",
+      "de": "3-Wege Verbindung chrom",
+      "fr": "Connecteur 3 voies chromé"
+    },
+    "price": 6,
+    "weight": 0.05,
+    "sku": "1050020200610"
+  },
+  {
+    "item": "C0310",
+    "name": {
+      "en": "3-Way Connector black",
+      "de": "3-Wege Verbindung schwarz",
+      "fr": "Connecteur 3 voies noir"
+    },
+    "price": 10,
+    "weight": 0.05,
+    "sku": "1050020202610"
+  },
+  {
+    "item": "C0310",
+    "name": {
+      "en": "3-Way Connector copper",
+      "de": "3-Wege Verbindung kupferfarben",
+      "fr": "Connecteur 3 voies cuivré"
+    },
+    "price": 10,
+    "weight": 0.05,
+    "sku": "1050020201610"
+  },
+  {
+    "item": "C0410",
+    "name": {
+      "en": "4-Way Connector chrome",
+      "de": "4-Wege Verbindung chrom",
+      "fr": "Connecteur 4 voies chromé"
+    },
+    "price": 11,
+    "weight": 0.06,
+    "sku": "1050020300610"
+  },
+  {
+    "item": "C0410",
+    "name": {
+      "en": "4-Way Connector black",
+      "de": "4-Wege Verbindung schwarz",
+      "fr": "Connecteur 4 voies noir"
+    },
+    "price": 20,
+    "weight": 0.06,
+    "sku": "1050020302610"
+  },
+  {
+    "item": "C0410",
+    "name": {
+      "en": "4-Way Connector copper",
+      "de": "4-Wege Verbindung kupferfarben",
+      "fr": "Connecteur 4 voies cuivré"
+    },
+    "price": 20,
+    "weight": 0.06,
+    "sku": "1050020301610"
+  },
+  {
+    "item": "A1140",
+    "name": {
+      "en": "Endcaps chrom (Set of 2)",
+      "de": "Abschlussklappen chrom (2er Set)",
+      "fr": "Embouts (Ensemble de 2) chromés"
+    },
+    "price": 2,
+    "weight": 0.01,
+    "sku": "1050150001610"
+  },
+  {
+    "item": "A1140",
+    "name": {
+      "en": "Endcaps black (Set of 2)",
+      "de": "Abschlussklappen schwarz (2er Set)",
+      "fr": "Embouts (Ensemble de 2) noirs"
+    },
+    "price": 3,
+    "weight": 0.01,
+    "sku": "1050150003610"
+  },
+  {
+    "item": "A1140",
+    "name": {
+      "en": "Endcaps copper (Set of 2)",
+      "de": "Abschlussklappen kupferfarben (2er Set)",
+      "fr": "Embouts (Ensemble de 2) cuivrés"
+    },
+    "price": 3,
+    "weight": 0.01,
+    "sku": "1050150002610"
+  },
+  {
+    "item": "A1111",
+    "name": {
+      "en": "Castors chrom (Set of 2)",
+      "de": "Rollen chrom (2er Set)",
+      "fr": "Roulettes chromées (Ensemble de 2)"
+    },
+    "price": 20,
+    "weight": 0.26,
+    "sku": "1050090001610"
+  },
+  {
+    "item": "A1111",
+    "name": {
+      "en": "Castors copper (Set of 2)",
+      "de": "Rollen kupferfarben (2er Set)",
+      "fr": "Roulettes cuivres (Ensemble de 2)"
+    },
+    "price": 25,
+    "weight": 0.26,
+    "sku": "1050090001620"
+  },
+  {
+    "item": "A1111",
+    "name": {
+      "en": "Castors black (Set of 2)",
+      "de": "Rollen schwarz (2er Set)",
+      "fr": "Roulettes noires (Ensemble de 2)"
+    },
+    "price": 25,
+    "weight": 0.26,
+    "sku": "1050090001630"
+  },
+  {
+    "item": "A1100 (0.14) + A1160 (0.001)",
+    "name": {
+      "en": "Feet incl. floor protector (Set of 2) chrom",
+      "de": "Füsse mit Gleitschutz (2er Set) chrom",
+      "fr": "Pieds incl. protecteur de sol (Lot de 2) chromés"
+    },
+    "price": 9.5,
+    "weight": 0.141,
+    "sku": "1050140001610"
+  },
+  {
+    "item": "A1100 (0.14) + A1160 (0.001)",
+    "name": {
+      "en": "Feet incl. floor protector (Set of 2) black",
+      "de": "Füsse mit Gleitschutz (2er Set) schwarz",
+      "fr": "Pieds incl. protecteur de sol (Lot de 2) noirs"
+    },
+    "price": 19.5,
+    "weight": 0.141,
+    "sku": "1050140003610"
+  },
+  {
+    "item": "A1100 (0.14) + A1160 (0.001)",
+    "name": {
+      "en": "Feet incl. floor protector (Set of 2) copper",
+      "de": "Füsse mit Gleitschutz (2er Set) kupferfarben",
+      "fr": "Pieds incl. protecteur de sol (Lot de 2) cuivrés"
+    },
+    "price": 19.5,
+    "weight": 0.141,
+    "sku": "1050140002610"
+  },
+  {
+    "item": "A1042",
+    "name": {
+      "en": "Brochure holder small, white",
+      "de": "Prospekthalter klein, weiss",
+      "fr": "Porte-brochures petit, blanc"
+    },
+    "price": 65,
+    "weight": 2.14,
+    "sku": "201001050100300"
+  },
+  {
+    "item": "A1043",
+    "name": {
+      "en": "Brochure holder large, white",
+      "de": "Prospekthalter gross, weiss",
+      "fr": "Porte-brochures grand, blanc"
+    },
+    "price": 119,
+    "weight": 4.43,
+    "sku": "201001050100301"
+  },
+  {
+    "name": {
+      "en": "Clothes rail",
+      "de": "Garderobenstange",
+      "fr": "Tringle à vêtements"
+    },
+    "price": 259,
+    "weight": 0.547,
+    "sku": "1050090100100"
+  },
+  {
+    "name": {
+      "en": "Assembly Service",
+      "de": "Montageservice",
+      "fr": "Service d'assemblage"
+    },
+    "price": "+15%",
+    "sku": "assembly_service"
+  },
+  {
+    "name": {
+      "en": "Surcharge RAL",
+      "de": "Zuschlag RAL",
+      "fr": "Supplément RAL"
+    },
+    "price": "+30%",
+    "sku": "ral_article"
+  }
+]

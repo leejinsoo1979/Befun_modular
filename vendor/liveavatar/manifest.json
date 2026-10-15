@@ -1,0 +1,57 @@
+[
+  {
+    "path": "src/components/three/StudioPerson.tsx",
+    "bytes": 4983,
+    "sha256": "2cc1b6352c97b676949c4fe49a6b1dc3d364d24bf27a7ab248c25241f61f6fbb"
+  },
+  {
+    "path": "src/components/three/StudioPersonMotion.tsx",
+    "bytes": 6102,
+    "sha256": "5f2d5c4aeaf38b4949ef9c7e7037bdcbe22d1570866098ab93b2ebc0a9f6aca2"
+  },
+  {
+    "path": "src/components/three/display/avatarStore.ts",
+    "bytes": 673,
+    "sha256": "6a36457d1f917e84d355d1167fc53a6554c34e1ee2b7b70b124e61af05d66d5c"
+  },
+  {
+    "path": "src/components/three/display/avatarScale.ts",
+    "bytes": 325,
+    "sha256": "38f7760696253b0cffb742c803f71864e0f2b34cbdc21e238085650799e59eba"
+  },
+  {
+    "path": "src/components/three/display/male-foot-anchors.json",
+    "bytes": 1827,
+    "sha256": "00996f4178a942e422ae385abe1fae59935bbc1e9f2fe43d4f21cc6b44f51e1a"
+  },
+  {
+    "path": "src/components/three/display/AvatarSelector.tsx",
+    "bytes": 848,
+    "sha256": "9502b3df6d44a365636e2cc832ac8fddd83714c3db297d7eaa530fbfe3b4b015"
+  },
+  {
+    "path": "src/components/three/display/display.module.css",
+    "bytes": 6747,
+    "sha256": "7ab3a669f5f027d940d08751623a927337b77223fca6c8826711e828f7f95499"
+  },
+  {
+    "path": "public/three/reference-studio/person/ivory-linen-motion-packed.mp4",
+    "bytes": 1515360,
+    "sha256": "bba95de702eed1f0c54a2084e08bfd4b82adc141d02b43d067cde29b9594f6dc"
+  },
+  {
+    "path": "public/three/reference-studio/person/ivory-linen-woman.png",
+    "bytes": 1441608,
+    "sha256": "879e6ab85c1499a23c24c0f44f4b5b9195481c6ba1b4f3ffe9b4d0988a573f63"
+  },
+  {
+    "path": "public/three/reference-studio/person/male-motion-packed.mp4",
+    "bytes": 1275923,
+    "sha256": "7fe10e09fcbed4a13f5982b1e9f4cdd02ffad74ab13343104ffb0f522cd6088c"
+  },
+  {
+    "path": "public/three/reference-studio/person/male-still.png",
+    "bytes": 110706,
+    "sha256": "aaff5bbf43e5e601db52f30ff69bae20a702c5ba8cfe4eaac6dfbd4328108c8d"
+  }
+]

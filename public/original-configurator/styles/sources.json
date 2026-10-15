@@ -1,0 +1,59 @@
+{
+  "source_page": "https://flexcube.ch/en/pages/konfigurator",
+  "source_bundle": "https://flexcube.ch/cdn/shop/t/5/assets/configurator.js?v=59525409401430670271791791437",
+  "retrieved_at_utc": "2026-10-15T02:46:53.321564+00:00",
+  "bundle_source_sha256": "ce742a3f54620baa1b8ffcc097fea23211ba81d3a79ce77443f0c76e2235645c",
+  "css_extraction": "First script-injected template literal; literal decoded without evaluating application code.",
+  "files": [
+    {
+      "file": "configurator.raw.css",
+      "bytes": 122267,
+      "sha256": "b61d3157f399e2e25e63b50b6c24b32884001e661db45772664549961d65abc3",
+      "adapted": false
+    },
+    {
+      "file": "configurator.host.css",
+      "bytes": 4892,
+      "sha256": "f7d7173ae5069dd0f1c0f268958384d5fbea3a88ae8ec224cb4962e7fbaa6492",
+      "adapted": false
+    },
+    {
+      "file": "configurator.host.local.css",
+      "bytes": 4634,
+      "sha256": "5973908198413cdad777585d84f8d7cbf6392005f626d49eda362e3bb368e646",
+      "adapted": true
+    },
+    {
+      "file": "iframe-base.css",
+      "bytes": 166,
+      "sha256": "a4bf970aa0ebae6098f0021da11ba1db865ab7e4684ccb79c62980a1688d4226",
+      "adapted": true
+    }
+  ],
+  "fonts": [
+    {
+      "file": "dm-sans-italic-latin-ext.woff2",
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-italic-latin-ext.woff2?v=68548976693590438861770330503",
+      "bytes": 40880,
+      "sha256": "c34301ff2989cd3bae2c557b1bcab88d826be1357da17ebf8e158a773853b5a1"
+    },
+    {
+      "file": "dm-sans-italic-latin.woff2",
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-italic-latin.woff2?v=154187375790739033151770330505",
+      "bytes": 76176,
+      "sha256": "06596e93170b0e13b8f1b60b93774c4d317e4a15c83ce106634090c603142d2f"
+    },
+    {
+      "file": "dm-sans-normal-latin-ext.woff2",
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-normal-latin-ext.woff2?v=18922701788474200421770330505",
+      "bytes": 31312,
+      "sha256": "0d0609aee778d21b40bda1d27b7e6b5b3cb1a3e96b90b8831c681aca097c2219"
+    },
+    {
+      "file": "dm-sans-normal-latin.woff2",
+      "url": "https://flexcube.ch/cdn/shop/t/5/assets/dm-sans-normal-latin.woff2?v=148504964029627875591770330507",
+      "bytes": 62556,
+      "sha256": "aa530716b0d351866af7dbfa3eee4120fb36f2d071baff8c234185141865c7ff"
+    }
+  ]
+}
