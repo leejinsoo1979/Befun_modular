@@ -37,10 +37,12 @@ The extension corrects the host engine's missing video sRGB decode define to pre
 
 The active marketing pages, catalog, product details, search, cart, help and embedded configurator use Korean copy. Brand names, RAL color references and familiar technical labels such as 3D/PDF retain their original names. Prices are displayed in KRW using the pinned 2026-10-14 exchange rate; the original CHF calculations and saved configurations are preserved. See `docs/krw-pricing.md` for conversion and rounding details.
 
-`src/locales/names.ko.json` contains display names for all 54 presets and 12 catalog products. Search matches both Korean and original English names. `src/locales/configurator.ko.json` supplies embedded UI translations at build time; captured source assets remain unchanged. `public/original-configurator/styles/korean.css` applies Hangul font fallbacks and word wrapping inside the ShadowRoot.
+`src/locales/names.ko.json` contains preset and product display names. Search matches both Korean and original English names. `src/locales/configurator.ko.json` supplies embedded UI translations at build time; captured source assets remain unchanged. `public/original-configurator/styles/korean.css` applies Hangul font fallbacks and word wrapping inside the ShadowRoot.
 
 ## Other pages
 
 The marketing site, product list/detail, and informational pages are React reconstructions using public reference content and assets. They are not exact copies of every Shopify route. See `docs/IMPLEMENTATION-STATUS.md` for the distinction.
+
+The collection page now uses all 11 original collection categories and 85 unique products, including the full 13-item bestseller collection. Category thumbnails, order, spacing, title/rating placement and the first product row were checked against the original in a real desktop browser; mobile navigation, reload and product-detail routing were also verified. See `docs/catalog-verification.md` for the measurements and screenshots.
 
 The earlier independent configurator prototype is unused. `src/Configurator.jsx`, `src/FurnitureScene.jsx` and its CSS are not imported by the active app.

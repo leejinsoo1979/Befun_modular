@@ -1,0 +1,6516 @@
+{
+  "source": "https://flexcube.ch/en/collections/tische",
+  "retrievedAt": "2026-10-15T04:57:44Z",
+  "collections": [
+    {
+      "slug": "alle-bestseller",
+      "source": "https://flexcube.ch/en/collections/alle-bestseller/products.json?limit=250",
+      "productIds": [
+        15715614851452,
+        15715614720380,
+        15715616784764,
+        15715614916988,
+        15715614753148,
+        15715614785916,
+        15715616686460,
+        15715614228860,
+        15715614327164,
+        15715614294396,
+        15715614425468,
+        15715615179132,
+        15715616391548
+      ]
+    },
+    {
+      "slug": "sideboards",
+      "source": "https://flexcube.ch/en/collections/sideboards/products.json?limit=250",
+      "productIds": [
+        15715616686460,
+        15715614228860,
+        15715614327164,
+        15715614294396,
+        15715614425468,
+        15715614622076,
+        15715614491004,
+        15715616850300
+      ]
+    },
+    {
+      "slug": "lowboards",
+      "source": "https://flexcube.ch/en/collections/lowboards/products.json?limit=250",
+      "productIds": [
+        15715615080828,
+        15715615375740,
+        15715616751996,
+        15715615506812,
+        15715615670652,
+        15715615179132,
+        15715615736188,
+        15715616948604
+      ]
+    },
+    {
+      "slug": "kommoden",
+      "source": "https://flexcube.ch/en/collections/kommoden/products.json?limit=250",
+      "productIds": [
+        15715614851452,
+        15715614720380,
+        15715616784764,
+        15715614916988,
+        15715614753148,
+        15715614785916,
+        15715614687612,
+        15715616915836
+      ]
+    },
+    {
+      "slug": "regale",
+      "source": "https://flexcube.ch/en/collections/regale/products.json?limit=250",
+      "productIds": [
+        15715616719228,
+        15715616227708,
+        15715615867260,
+        15715615801724,
+        15715615998332,
+        15715615768956,
+        15715616096636,
+        15715617014140
+      ]
+    },
+    {
+      "slug": "tische",
+      "source": "https://flexcube.ch/en/collections/tische/products.json?limit=250",
+      "productIds": [
+        15715611738492,
+        15715611705724,
+        15715612033404,
+        15715611771260,
+        15715611902332,
+        15715611836796,
+        15715612000636,
+        15715611804028,
+        15882015244668
+      ]
+    },
+    {
+      "slug": "container",
+      "source": "https://flexcube.ch/en/collections/container/products.json?limit=250",
+      "productIds": [
+        15715616457084,
+        15715616391548,
+        15715616424316,
+        15715616817532,
+        15715616326012,
+        15715616358780,
+        15715616293244,
+        15715617079676
+      ]
+    },
+    {
+      "slug": "empfangstheken",
+      "source": "https://flexcube.ch/en/collections/empfangstheken/products.json?limit=250",
+      "productIds": [
+        15715613999484,
+        15715613966716,
+        15715613933948,
+        15715613901180,
+        15715613868412,
+        15715613835644,
+        15715613802876,
+        15715613770108
+      ]
+    },
+    {
+      "slug": "garderoben",
+      "source": "https://flexcube.ch/en/collections/garderoben/products.json?limit=250",
+      "productIds": [
+        15715616522620,
+        15715616588156,
+        15715616489852,
+        15715616555388,
+        15715616653692,
+        15715616620924
+      ]
+    },
+    {
+      "slug": "ecksideboard",
+      "source": "https://flexcube.ch/en/collections/ecksideboard/products.json?limit=250",
+      "productIds": [
+        15991394566524,
+        15991392010620,
+        15991395516796,
+        15991397712252,
+        15991398728060,
+        15991400530300,
+        15991403708796
+      ]
+    },
+    {
+      "slug": "sale",
+      "source": "https://flexcube.ch/en/collections/sale/products.json?limit=250",
+      "productIds": [
+        16110758003068,
+        16150422815100,
+        16138337452412,
+        16138317824380,
+        16138330702204,
+        16138371006844,
+        16138424091004,
+        16138376511868,
+        16138452205948,
+        15715612393852,
+        15926804382076,
+        15926050914684,
+        15925095039356,
+        15926048883068,
+        15995033190780
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 15715614851452,
+      "handle": "kommode-in-hellgrau-mit-6-schubladen",
+      "description": "Chest of drawers in elegant light grey. 6 tall drawers with handles, 3 open storage compartments.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070366588,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2437.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000035",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936870326652,
+          "src": "/assets/products/14cbed5176eaa7b0091afe7f.webp",
+          "alt": "Light grey chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870359420,
+          "src": "/assets/products/b9fed6915f4fc100bb7535c9.webp",
+          "alt": "Light grey chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870392188,
+          "src": "/assets/products/7354946a42f4e2c702f38bb5.webp",
+          "alt": "Light grey chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870424956,
+          "src": "/assets/products/356f36e800e4ce96a42d6a1f.webp",
+          "alt": "Light grey chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870457724,
+          "src": "/assets/products/061be493da79bc3b91fa6800.webp",
+          "alt": "Light grey chest of drawers with 6 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715614720380,
+      "handle": "kommode-in-mint-mit-4-schubladen",
+      "description": "Chest of drawers in trendy mint color. 3 shallow and 1 deep drawer with handle.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070202748,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1179.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000038",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936869802364,
+          "src": "/assets/products/05e747b9dc6a37da97459adb.webp",
+          "alt": "Chest of drawers in mint green with 4 drawers"
+        },
+        {
+          "id": 77936869704060,
+          "src": "/assets/products/797f0e899d62c8a36302f289.webp",
+          "alt": "Chest of drawers in mint green with 4 drawers"
+        },
+        {
+          "id": 77936869736828,
+          "src": "/assets/products/17f4e8518f8561c5149713bf.webp",
+          "alt": "Chest of drawers in mint green with 4 drawers"
+        },
+        {
+          "id": 77936869769596,
+          "src": "/assets/products/b54517b8e91f19b57095ef06.webp",
+          "alt": "Chest of drawers in mint green with 4 drawers"
+        },
+        {
+          "id": 77936869671292,
+          "src": "/assets/products/6b9c8ff5d5975171e03bd89e.webp",
+          "alt": "Chest of drawers in mint green with 4 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715616784764,
+      "handle": "kommode-in-olivgruen-mit-6-schubladen",
+      "description": "Chest of drawers in trendy olive green. 4 low, 2 high drawers with handles, 2 open compartments with side and back panels.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071546236,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1937.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000041",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936875831676,
+          "src": "/assets/products/2553a2dfeb8fa96860223825.webp",
+          "alt": "Chest of drawers in olive green with 6 drawers"
+        },
+        {
+          "id": 77936875864444,
+          "src": "/assets/products/566a9d0a6809d28b947a2db0.webp",
+          "alt": "Chest of drawers in olive green with 6 drawers"
+        },
+        {
+          "id": 77936875897212,
+          "src": "/assets/products/1ded3acbb4abcbc4d6468b14.webp",
+          "alt": "Chest of drawers in olive green with 6 drawers"
+        },
+        {
+          "id": 77936875929980,
+          "src": "/assets/products/a52fd96a03720b5b28ba3c5a.webp",
+          "alt": "Chest of drawers in olive green with 6 drawers"
+        },
+        {
+          "id": 77936875798908,
+          "src": "/assets/products/c8f3634db27dffa2d13f26c6.webp",
+          "alt": "Chest of drawers in olive green with 6 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715614916988,
+      "handle": "kommode-in-petrol-mit-4-schubladen-2-klappen",
+      "description": "Chest of drawers in trendy petrol blue. 4 drawers and 2 flaps with handles, 3 open storage compartments.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070399356,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2384.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000034",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936870588796,
+          "src": "/assets/products/e380bd7affac7457bbdbfaf5.webp",
+          "alt": "Chest of drawers in petrol blue with 4 drawers / 2 doors"
+        },
+        {
+          "id": 77936870523260,
+          "src": "/assets/products/384c55fd48e40a29ba340e36.webp",
+          "alt": "Chest of drawers in petrol blue with 4 drawers / 2 doors"
+        },
+        {
+          "id": 77936870556028,
+          "src": "/assets/products/677d41bee5a38509c1a0f7d1.webp",
+          "alt": "Chest of drawers in petrol blue with 4 drawers / 2 doors"
+        },
+        {
+          "id": 77936870621564,
+          "src": "/assets/products/5f634cd0b630bb22b3022ace.webp",
+          "alt": "Chest of drawers in petrol blue with 4 drawers / 2 doors"
+        },
+        {
+          "id": 77936870490492,
+          "src": "/assets/products/2f953e13e62079fc0efc1a51.webp",
+          "alt": "Chest of drawers in petrol blue with 4 drawers / 2 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715614753148,
+      "handle": "kommode-in-rot-mit-6-schubladen",
+      "description": "Chest of drawers in trendy red. 4 low, 2 high drawers with handles, 2 open compartments with side and back panels.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070235516,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1937.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000037",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936869998972,
+          "src": "/assets/products/fb0ba07f961c8a836fcaa26a.webp",
+          "alt": "Red chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936869900668,
+          "src": "/assets/products/a0063e6727efaf1bc29b2526.webp",
+          "alt": "Red chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936869933436,
+          "src": "/assets/products/ee25d26beb59effb319b84f3.webp",
+          "alt": "Red chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936869966204,
+          "src": "/assets/products/49177e7b37f94e16d1d9fea6.webp",
+          "alt": "Red chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936869867900,
+          "src": "/assets/products/c548be440f5942804c58d9c2.webp",
+          "alt": "Red chest of drawers with 6 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715614785916,
+      "handle": "kommode-in-schwarz-mit-6-schubladen",
+      "description": "Chest of drawers in timeless black. 4 tall and 2 short drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070268284,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1952.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000036",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936870195580,
+          "src": "/assets/products/d03e6bb11e5eb049a3d67bc2.webp",
+          "alt": "Black chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870097276,
+          "src": "/assets/products/dfd2364eee369d3243b8c82a.webp",
+          "alt": "Black chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870130044,
+          "src": "/assets/products/a819919ce7b60fe2dc214635.webp",
+          "alt": "Black chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870162812,
+          "src": "/assets/products/b94f19e8e3962d563a3531d4.webp",
+          "alt": "Black chest of drawers with 6 drawers"
+        },
+        {
+          "id": 77936870064508,
+          "src": "/assets/products/e2515725658022dbdc7a5805.webp",
+          "alt": "Black chest of drawers with 6 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715616686460,
+      "handle": "sideboard-in-olivgruen-mit-3-schubladen-klappen",
+      "description": "Sideboard in timeless olive green. Flaps and drawers with handles, but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071447932,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2133.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000044",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936875274620,
+          "src": "/assets/products/c7eb007253c7f0746497243c.webp",
+          "alt": "Sideboard in olive green with 3 drawers / flaps"
+        },
+        {
+          "id": 77936875176316,
+          "src": "/assets/products/9e966b54bf49737c77246c4f.webp",
+          "alt": "Sideboard in olive green with 3 drawers / flaps"
+        },
+        {
+          "id": 77936875209084,
+          "src": "/assets/products/32dae468d60d06b47d9ba07e.webp",
+          "alt": "Sideboard in olive green with 3 drawers / flaps"
+        },
+        {
+          "id": 77936875241852,
+          "src": "/assets/products/a4da502bcb680ed6dc6a5bf1.webp",
+          "alt": "Sideboard in olive green with 3 drawers / flaps"
+        },
+        {
+          "id": 77936875143548,
+          "src": "/assets/products/20b1f6068826e3b6c2f419f2.webp",
+          "alt": "Sideboard in olive green with 3 drawers / flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715614228860,
+      "handle": "sideboard-in-petrol-mit-2-klappen",
+      "description": "Sideboard in trendy petrol blue, drawers with handles but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069907836,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1163.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000064",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936863478140,
+          "src": "/assets/products/7968bbd056330c51cd4c26b8.webp",
+          "alt": "Sideboard in petrol blue with 2 doors"
+        },
+        {
+          "id": 77936863379836,
+          "src": "/assets/products/ec3f1f6feb5cfbdc25ef489e.webp",
+          "alt": "Sideboard in petrol blue with 2 doors"
+        },
+        {
+          "id": 77936863412604,
+          "src": "/assets/products/075330fd34819e3ce5f7c100.webp",
+          "alt": "Sideboard in petrol blue with 2 doors"
+        },
+        {
+          "id": 77936863445372,
+          "src": "/assets/products/f10fc9f7ea4bfbad124f9ced.webp",
+          "alt": "Sideboard in petrol blue with 2 doors"
+        },
+        {
+          "id": 77936863347068,
+          "src": "/assets/products/b4e835f244c018415c997342.webp",
+          "alt": "Sideboard in petrol blue with 2 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715614327164,
+      "handle": "sideboard-in-rot-mit-2-schubladen-klappen",
+      "description": "Sideboard in trendy red. Flaps/drawers with handles, but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069973372,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1769.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000066",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936865378684,
+          "src": "/assets/products/dbfdf50812acb37a07eca3f0.webp",
+          "alt": "Red sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936865345916,
+          "src": "/assets/products/a8fa53b9c9ca5df9191a0657.webp",
+          "alt": "Red sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936865411452,
+          "src": "/assets/products/1d836f0eb0b197074f5848b6.webp",
+          "alt": "Red sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936865444220,
+          "src": "/assets/products/a138c5b99fdb3b1c68f1fe95.webp",
+          "alt": "Red sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936865313148,
+          "src": "/assets/products/77bdef8e17591ce5a2d21f4d.webp",
+          "alt": "Red sideboard with 2 drawers/flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715614294396,
+      "handle": "sideboard-in-schwarz-mit-2-schubladen-klappen",
+      "description": "Sideboard in timeless black. Flaps and drawers with handles, but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069940604,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1781.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000065",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936864592252,
+          "src": "/assets/products/90a8c3e054f04d3b6bb4af75.webp",
+          "alt": "Black sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936864559484,
+          "src": "/assets/products/0d51e250c79b4a9c388e7091.webp",
+          "alt": "Black sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936864625020,
+          "src": "/assets/products/be0c8f4b6ed411972dc0cac4.webp",
+          "alt": "Black sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936864657788,
+          "src": "/assets/products/4b5dc429af7a9f42dba59cf2.webp",
+          "alt": "Black sideboard with 2 drawers/flaps"
+        },
+        {
+          "id": 77936864526716,
+          "src": "/assets/products/9827c655d0c5ee02ba3f8c98.webp",
+          "alt": "Black sideboard with 2 drawers/flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715614425468,
+      "handle": "sideboard-in-schwarz-mit-3-schubladen-klappen",
+      "description": "Sideboard in timeless black. Flaps and drawers with handles, but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070038908,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2133.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000067",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936866656636,
+          "src": "/assets/products/7f56a4613846b79e12cf134a.webp",
+          "alt": "Black sideboard with 3 drawers/flaps"
+        },
+        {
+          "id": 77936866558332,
+          "src": "/assets/products/c71c19bbd7fd2cc1dc587200.webp",
+          "alt": "Black sideboard with 3 drawers/flaps"
+        },
+        {
+          "id": 77936866591100,
+          "src": "/assets/products/b199197a3c6579fc45134c0b.webp",
+          "alt": "Black sideboard with 3 drawers/flaps"
+        },
+        {
+          "id": 77936866623868,
+          "src": "/assets/products/c6d495018f6b53ec9fd7a94f.webp",
+          "alt": "Black sideboard with 3 drawers/flaps"
+        },
+        {
+          "id": 77936866525564,
+          "src": "/assets/products/e2cd110c64764a0da6058fe5.webp",
+          "alt": "Black sideboard with 3 drawers/flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715615179132,
+      "handle": "lowboard-in-schwarz-mit-2-klappen",
+      "description": "Lowboard in timeless black. Doors with recessed handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070563196,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1035.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000012",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936871113084,
+          "src": "/assets/products/02988dc8145879b1963c7b6f.webp",
+          "alt": "Black lowboard with 2 doors"
+        },
+        {
+          "id": 77936871145852,
+          "src": "/assets/products/abacdc4d21f1095866cae1ad.webp",
+          "alt": "Black lowboard with 2 doors"
+        },
+        {
+          "id": 77936871178620,
+          "src": "/assets/products/3341021dabe52c75de64a543.webp",
+          "alt": "Black lowboard with 2 doors"
+        },
+        {
+          "id": 77936871211388,
+          "src": "/assets/products/c81f0a7e05f2d19e8e427f44.webp",
+          "alt": "Black lowboard with 2 doors"
+        },
+        {
+          "id": 77936871244156,
+          "src": "/assets/products/f8589841c518892b705b9431.webp",
+          "alt": "Black lowboard with 2 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715616391548,
+      "handle": "rollcontainer-mit-2-schubladen-2",
+      "description": "Rolling container in timeless black. 2 drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071153020,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "612.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000015",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936873832828,
+          "src": "/assets/products/b5aae2d9f925fee6c4407520.webp",
+          "alt": "Rolling container with 2 drawers"
+        },
+        {
+          "id": 77936873865596,
+          "src": "/assets/products/f61c790acc1876474e66898d.webp",
+          "alt": "Rolling container with 2 drawers"
+        },
+        {
+          "id": 77936873898364,
+          "src": "/assets/products/93f1c56f5abba16b580f7fd6.webp",
+          "alt": "Rolling container with 2 drawers"
+        },
+        {
+          "id": 77936873931132,
+          "src": "/assets/products/c45f6441ec73b757d7b4eaa3.webp",
+          "alt": "Rolling container with 2 drawers"
+        },
+        {
+          "id": 77936873963900,
+          "src": "/assets/products/931466480b08e36ecf57307f.webp",
+          "alt": "Rolling container with 2 drawers"
+        },
+        {
+          "id": 77936873800060,
+          "src": "/assets/products/8f9e2be72a4e33c58b9ef9e7.webp",
+          "alt": "Rolling container with 2 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715614622076,
+      "handle": "sideboard-in-weiss-mit-2-klappen-1-schublade",
+      "description": "Sideboard in timeless white. Flaps and drawer with handles, but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070137212,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1892.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000069",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936869212540,
+          "src": "/assets/products/dd2c9d025bac27b87df95e1c.webp",
+          "alt": "White sideboard with 2 doors and 1 drawer"
+        },
+        {
+          "id": 77936869147004,
+          "src": "/assets/products/93ae4d9090356fd3147af310.webp",
+          "alt": "White sideboard with 2 doors and 1 drawer"
+        },
+        {
+          "id": 77936869179772,
+          "src": "/assets/products/c8d21b7c1893f62ff6243894.webp",
+          "alt": "White sideboard with 2 doors and 1 drawer"
+        },
+        {
+          "id": 77936869245308,
+          "src": "/assets/products/7010fd796c45f46f357b3f79.webp",
+          "alt": "White sideboard with 2 doors and 1 drawer"
+        },
+        {
+          "id": 77936869114236,
+          "src": "/assets/products/e64dff76f7bfd09dfae045d0.webp",
+          "alt": "White sideboard with 2 doors and 1 drawer"
+        }
+      ]
+    },
+    {
+      "id": 15715614491004,
+      "handle": "sideboard-in-weiss-mit-4-klappen",
+      "description": "Sideboard in timeless white. Flaps with handles, but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070071676,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1517.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000068",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936867737980,
+          "src": "/assets/products/f9c5ed927b2414682f7498a8.webp",
+          "alt": "White sideboard with 4 doors"
+        },
+        {
+          "id": 77936867770748,
+          "src": "/assets/products/608968a5366b7d708aa9cd96.webp",
+          "alt": "White sideboard with 4 doors"
+        },
+        {
+          "id": 77936867803516,
+          "src": "/assets/products/9990effb06439d4abe5de42a.webp",
+          "alt": "White sideboard with 4 doors"
+        },
+        {
+          "id": 77936867836284,
+          "src": "/assets/products/dd35796d648f9038def9bab4.webp",
+          "alt": "White sideboard with 4 doors"
+        },
+        {
+          "id": 77936867705212,
+          "src": "/assets/products/ace7fd8c6284d26fb7c54d2e.webp",
+          "alt": "White sideboard with 4 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715616850300,
+      "handle": "sideboard-in-weiss-mit-4-klappen-rosegold-finish",
+      "description": "Sideboard with rose gold finish. Flaps with handles, but no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071611772,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1930.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000076",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936876257660,
+          "src": "/assets/products/8d2c89306d915205b4f18b6e.webp",
+          "alt": "White sideboard with 4 doors – rose gold finish"
+        },
+        {
+          "id": 77936876290428,
+          "src": "/assets/products/7ff336ba348100a336651182.webp",
+          "alt": "White sideboard with 4 doors – rose gold finish"
+        },
+        {
+          "id": 77936876192124,
+          "src": "/assets/products/65f8eb1a8b0628be837d396c.webp",
+          "alt": "White sideboard with 4 doors – rose gold finish"
+        },
+        {
+          "id": 77936876224892,
+          "src": "/assets/products/aa59da1195a82b4b83c9af9c.webp",
+          "alt": "White sideboard with 4 doors – rose gold finish"
+        },
+        {
+          "id": 77936876159356,
+          "src": "/assets/products/7a0bc8f6d463445b69025058.webp",
+          "alt": "White sideboard with 4 doors – rose gold finish"
+        }
+      ]
+    },
+    {
+      "id": 15715615080828,
+      "handle": "lowboard-in-weiss-mit-2-klappen",
+      "description": "Lowboard in timeless white. Doors with recessed handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070497660,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1101.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000007",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936870883708,
+          "src": "/assets/products/acd3661d7d7d64044ff56f8e.webp",
+          "alt": "White lowboard with 2 doors"
+        },
+        {
+          "id": 77936870916476,
+          "src": "/assets/products/a676cde6dc32dc31b2972b33.webp",
+          "alt": "White lowboard with 2 doors"
+        },
+        {
+          "id": 77936870949244,
+          "src": "/assets/products/42aea5407c60e5c8b90d2208.webp",
+          "alt": "White lowboard with 2 doors"
+        },
+        {
+          "id": 77936870982012,
+          "src": "/assets/products/c1ac44b4c6c2daa8b83f6663.webp",
+          "alt": "White lowboard with 2 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715615375740,
+      "handle": "lowboard-in-hellgrau-mit-2-klappen",
+      "description": "Lowboard in a subtle light grey. Doors with recessed handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070661500,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "845.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000011",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936871473532,
+          "src": "/assets/products/9e00af073cfb89a3ed2af443.webp",
+          "alt": "Lowboard in light grey with 2 doors"
+        },
+        {
+          "id": 77936871506300,
+          "src": "/assets/products/8cc4340e7f9b12be2b5cbca7.webp",
+          "alt": "Lowboard in light grey with 2 doors"
+        },
+        {
+          "id": 77936871539068,
+          "src": "/assets/products/2f20354d55040e6d9cf0502d.webp",
+          "alt": "Lowboard in light grey with 2 doors"
+        },
+        {
+          "id": 77936871571836,
+          "src": "/assets/products/03118330a4e20fc224dccd87.webp",
+          "alt": "Lowboard in light grey with 2 doors"
+        },
+        {
+          "id": 77936871604604,
+          "src": "/assets/products/f39f1c8fda834f5702516c8f.webp",
+          "alt": "Lowboard in light grey with 2 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715616751996,
+      "handle": "lowboard-in-olivgruen-mit-2-klappen",
+      "description": "Lowboard in timeless olive green. Flaps with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071513468,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1035.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000042",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936875635068,
+          "src": "/assets/products/e0fa45e1c3130bd21cc00ad2.webp",
+          "alt": "Lowboard in olive green with 2 flaps"
+        },
+        {
+          "id": 77936875733372,
+          "src": "/assets/products/a2ee1ddfdd03fb7b17bc44fc.webp",
+          "alt": "Lowboard in olive green with 2 flaps"
+        },
+        {
+          "id": 77936875667836,
+          "src": "/assets/products/757de6f7c9acbb9454bb76c3.webp",
+          "alt": "Lowboard in olive green with 2 flaps"
+        },
+        {
+          "id": 77936875700604,
+          "src": "/assets/products/e1c243c11f4f69d92be021dd.webp",
+          "alt": "Lowboard in olive green with 2 flaps"
+        },
+        {
+          "id": 77936875602300,
+          "src": "/assets/products/379b126fdeb8f22c43cffe71.webp",
+          "alt": "Lowboard in olive green with 2 flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715615506812,
+      "handle": "lowboard-in-petrol-mit-2-schubladen",
+      "description": "Sideboard in trendy petrol blue. Drawers with hole handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070727036,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1276.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000010",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936871702908,
+          "src": "/assets/products/64fb906e82b03470e77a0784.webp",
+          "alt": "Lowboard in petrol blue with 2 drawers"
+        },
+        {
+          "id": 77936871735676,
+          "src": "/assets/products/fe5f506fb9081118ddcdc4ec.webp",
+          "alt": "Lowboard in petrol blue with 2 drawers"
+        },
+        {
+          "id": 77936871768444,
+          "src": "/assets/products/abf4cb13d8a417cddd4776f4.webp",
+          "alt": "Lowboard in petrol blue with 2 drawers"
+        },
+        {
+          "id": 77936871801212,
+          "src": "/assets/products/d07310152a5d25e8d07b0cc9.webp",
+          "alt": "Lowboard in petrol blue with 2 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715615670652,
+      "handle": "lowboard-in-rot-mit-3-klappen",
+      "description": "Lowboard in trendy red. 3 doors with recessed handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070792572,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1221.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000009",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936872030588,
+          "src": "/assets/products/0fd3e353012734174943a08d.webp",
+          "alt": "Lowboard in red with 3 doors"
+        },
+        {
+          "id": 77936872063356,
+          "src": "/assets/products/90c6bf53d3ef61f8db712aab.webp",
+          "alt": "Lowboard in red with 3 doors"
+        },
+        {
+          "id": 77936872096124,
+          "src": "/assets/products/8efbd0a8dc6e6f8ed7220a86.webp",
+          "alt": "Lowboard in red with 3 doors"
+        },
+        {
+          "id": 77936872128892,
+          "src": "/assets/products/6aa501e46af44f5653e47dee.webp",
+          "alt": "Lowboard in red with 3 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715615736188,
+      "handle": "lowboard-in-taupe-mit-2-klappen",
+      "description": "Lowboard in elegant taupe. Flaps with recessed handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070825340,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1004.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000008",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936872161660,
+          "src": "/assets/products/e9cde9fa9b26cefe57627868.webp",
+          "alt": "Lowboard in taupe with 2 flaps"
+        },
+        {
+          "id": 77936872194428,
+          "src": "/assets/products/3b622c749d40cae18cacd56e.webp",
+          "alt": "Lowboard in taupe with 2 flaps"
+        },
+        {
+          "id": 77936872227196,
+          "src": "/assets/products/95489cb8f0c47c0f9874bde9.webp",
+          "alt": "Lowboard in taupe with 2 flaps"
+        },
+        {
+          "id": 77936872259964,
+          "src": "/assets/products/cd3d62d89d57e8d8905ea820.webp",
+          "alt": "Lowboard in taupe with 2 flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715616948604,
+      "handle": "lowboard-in-taupe-mit-2-klappen-rosegold-finish",
+      "description": "Lowboard with rose gold finish. Doors with recessed handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071677308,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1340.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000078",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936876552572,
+          "src": "/assets/products/cac1c43aba4dedd2aa14ac21.webp",
+          "alt": "Lowboard in taupe with 2 doors – rose gold finish"
+        },
+        {
+          "id": 77936876585340,
+          "src": "/assets/products/318c419c60cbf17b9841d9f5.webp",
+          "alt": "Lowboard in taupe with 2 doors – rose gold finish"
+        },
+        {
+          "id": 77936876618108,
+          "src": "/assets/products/50b1c3314f5ca8536eca4fc0.webp",
+          "alt": "Lowboard in taupe with 2 doors – rose gold finish"
+        },
+        {
+          "id": 77936876650876,
+          "src": "/assets/products/cc71af34d1c7ff0b548e3725.webp",
+          "alt": "Lowboard in taupe with 2 doors – rose gold finish"
+        }
+      ]
+    },
+    {
+      "id": 15715614687612,
+      "handle": "kommode-in-weiss-mit-3-schubladen",
+      "description": "Chest of drawers in timeless white. 3 tall drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070169980,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1137.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000039",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936869441916,
+          "src": "/assets/products/7294e7b1d15f211a0435dbc3.webp",
+          "alt": "White chest of drawers with 3 drawers"
+        },
+        {
+          "id": 77936869409148,
+          "src": "/assets/products/71024b2d1a635dd35af3a240.webp",
+          "alt": "White chest of drawers with 3 drawers"
+        },
+        {
+          "id": 77936869343612,
+          "src": "/assets/products/55b62f0db687aa0aa276cf80.webp",
+          "alt": "White chest of drawers with 3 drawers"
+        },
+        {
+          "id": 77936869376380,
+          "src": "/assets/products/97a35549f3f33d58ce21617d.webp",
+          "alt": "White chest of drawers with 3 drawers"
+        },
+        {
+          "id": 77936869310844,
+          "src": "/assets/products/c14e494c0747643529a38649.webp",
+          "alt": "White chest of drawers with 3 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715616915836,
+      "handle": "kommode-in-weiss-mit-3-schubladen-schwarzem-chrom",
+      "description": "Chest of drawers with black chrome. 3 tall drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071644540,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1466.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000077",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936876454268,
+          "src": "/assets/products/0907c396bd9fd2a8291fec4f.webp",
+          "alt": "White chest of drawers with 3 drawers – Black chrome"
+        },
+        {
+          "id": 77936876388732,
+          "src": "/assets/products/b20b0f6cc835ede3e5224411.webp",
+          "alt": "White chest of drawers with 3 drawers – Black chrome"
+        },
+        {
+          "id": 77936876355964,
+          "src": "/assets/products/756f07a0189dbfa28f11f2c1.webp",
+          "alt": "White chest of drawers with 3 drawers – Black chrome"
+        },
+        {
+          "id": 77936876421500,
+          "src": "/assets/products/a563e06f38ce790d4ce844c6.webp",
+          "alt": "White chest of drawers with 3 drawers – Black chrome"
+        },
+        {
+          "id": 77936876323196,
+          "src": "/assets/products/42dee1067d97ff7e5e8de7c3.webp",
+          "alt": "White chest of drawers with 3 drawers – Black chrome"
+        }
+      ]
+    },
+    {
+      "id": 15715616719228,
+      "handle": "regal-in-olivgruen-mit-2-schublden-klappen",
+      "description": "Shelf in timeless olive green. 2 doors / 2 drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071480700,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2088.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000043",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936875536764,
+          "src": "/assets/products/4fbc30158f93acb5ae8955b2.webp",
+          "alt": "Shelf in olive green with 2 drawers / flaps"
+        },
+        {
+          "id": 77936875471228,
+          "src": "/assets/products/6348369ab15553314524e6ff.webp",
+          "alt": "Shelf in olive green with 2 drawers / flaps"
+        },
+        {
+          "id": 77936875503996,
+          "src": "/assets/products/b3f1e16e0353397e0b35ee0d.webp",
+          "alt": "Shelf in olive green with 2 drawers / flaps"
+        },
+        {
+          "id": 77936875569532,
+          "src": "/assets/products/2bfef42ec4338118197ceb5e.webp",
+          "alt": "Shelf in olive green with 2 drawers / flaps"
+        },
+        {
+          "id": 77936875438460,
+          "src": "/assets/products/c41b490f1fea0dcda66aeeb5.webp",
+          "alt": "Shelf in olive green with 2 drawers / flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715616227708,
+      "handle": "regal-in-taupe-mit-2-klappen",
+      "description": "Shelf in elegant taupe. 2 doors with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071021948,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1245.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000001",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936873144700,
+          "src": "/assets/products/2506ddafa029e2f1ed75a679.webp",
+          "alt": "Shelf in taupe with 2 doors"
+        },
+        {
+          "id": 77936873177468,
+          "src": "/assets/products/78ccd6fcc9dc9e786ed0a993.webp",
+          "alt": "Shelf in taupe with 2 doors"
+        },
+        {
+          "id": 77936873210236,
+          "src": "/assets/products/ae45aeb48c6ec7bfb65ca71d.webp",
+          "alt": "Shelf in taupe with 2 doors"
+        },
+        {
+          "id": 77936873243004,
+          "src": "/assets/products/60f033cfbb0a6845f503c996.webp",
+          "alt": "Shelf in taupe with 2 doors"
+        },
+        {
+          "id": 77936873111932,
+          "src": "/assets/products/a7fa2cdac9ecbce2c29f6ca6.webp",
+          "alt": "Shelf in taupe with 2 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715615867260,
+      "handle": "regal-in-petrol-mit-3-klappen",
+      "description": "Shelf in trendy petrol blue. 3 doors with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070923644,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2985.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000005",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936872718716,
+          "src": "/assets/products/c3820be9dca91af4ef12ba86.webp",
+          "alt": "Shelf in petrol blue with 3 doors"
+        },
+        {
+          "id": 77936872653180,
+          "src": "/assets/products/ed17b3e070acbb34eca43626.webp",
+          "alt": "Shelf in petrol blue with 3 doors"
+        },
+        {
+          "id": 77936872685948,
+          "src": "/assets/products/d22b6a32d0bdd2c8527351fa.webp",
+          "alt": "Shelf in petrol blue with 3 doors"
+        },
+        {
+          "id": 77936872751484,
+          "src": "/assets/products/3a0e47f2391a87513f7a404f.webp",
+          "alt": "Shelf in petrol blue with 3 doors"
+        },
+        {
+          "id": 77936872620412,
+          "src": "/assets/products/40d6e68746d5ccb42e05b66e.webp",
+          "alt": "Shelf in petrol blue with 3 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715615801724,
+      "handle": "regal-in-weiss-mit-2-schubladen-klappen",
+      "description": "Shelf in timeless white. 2 doors / 2 drawers with handles, no lock.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070890876,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2394.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000004",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936872554876,
+          "src": "/assets/products/e59ee5d36d0f035f41639c4b.webp",
+          "alt": "White shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872489340,
+          "src": "/assets/products/aadd2003457352c6168a9bef.webp",
+          "alt": "White shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872522108,
+          "src": "/assets/products/b308184352d027f2b3799cb8.webp",
+          "alt": "White shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872587644,
+          "src": "/assets/products/f50a7bc1a9f7b32ea671ff90.webp",
+          "alt": "White shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872456572,
+          "src": "/assets/products/17b0bc75fb669c9276900762.webp",
+          "alt": "White shelf with 2 drawers/flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715615998332,
+      "handle": "regal-in-schwarz-mit-2-schublden-klappen",
+      "description": "Shelf in timeless black. 2 doors / 2 drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070956412,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2088.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000003",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936872882556,
+          "src": "/assets/products/fe93e92786b3183f3526b43c.webp",
+          "alt": "Black shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872817020,
+          "src": "/assets/products/0025249a78c255db89fa218b.webp",
+          "alt": "Black shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872849788,
+          "src": "/assets/products/dfdffa76de0ab498e93d98bf.webp",
+          "alt": "Black shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872915324,
+          "src": "/assets/products/577a5f9e49f8b06a768584ac.webp",
+          "alt": "Black shelf with 2 drawers/flaps"
+        },
+        {
+          "id": 77936872784252,
+          "src": "/assets/products/136859d21b3386f2351a3be4.webp",
+          "alt": "Black shelf with 2 drawers/flaps"
+        }
+      ]
+    },
+    {
+      "id": 15715615768956,
+      "handle": "regal-in-weiss-mit-vitrinenfunktion",
+      "description": "Shelf/display case in timeless white/glass. 3 doors/4 drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070858108,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "3267.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000006",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936872391036,
+          "src": "/assets/products/c5c04ec3810114b75b53420d.webp",
+          "alt": "White shelf with display case function"
+        },
+        {
+          "id": 77936872325500,
+          "src": "/assets/products/b713f43267b9b21537a9e89e.webp",
+          "alt": "White shelf with display case function"
+        },
+        {
+          "id": 77936872358268,
+          "src": "/assets/products/65cb6ff634beb4acf9226ede.webp",
+          "alt": "White shelf with display case function"
+        },
+        {
+          "id": 77936872423804,
+          "src": "/assets/products/a940bde09fc80305f671a4e0.webp",
+          "alt": "White shelf with display case function"
+        },
+        {
+          "id": 77936872292732,
+          "src": "/assets/products/c182e1d7e922b7e68bec5868.webp",
+          "alt": "White shelf with display case function"
+        }
+      ]
+    },
+    {
+      "id": 15715616096636,
+      "handle": "regal-in-weiss-mit-3-klappen",
+      "description": "Shelf in timeless white. 3 doors with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982070989180,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2111.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000002",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936873013628,
+          "src": "/assets/products/54751207f26d8471085258a7.webp",
+          "alt": "White shelf with 3 doors"
+        },
+        {
+          "id": 77936872980860,
+          "src": "/assets/products/2bc90c0700dfa5e9b95df001.webp",
+          "alt": "White shelf with 3 doors"
+        },
+        {
+          "id": 77936873046396,
+          "src": "/assets/products/e12a545a9b62c5d8c83f975b.webp",
+          "alt": "White shelf with 3 doors"
+        },
+        {
+          "id": 77936873079164,
+          "src": "/assets/products/5ab81b0bd25f6106aec21444.webp",
+          "alt": "White shelf with 3 doors"
+        },
+        {
+          "id": 77936872948092,
+          "src": "/assets/products/377e6d4f5f649298ec30de00.webp",
+          "alt": "White shelf with 3 doors"
+        }
+      ]
+    },
+    {
+      "id": 15715617014140,
+      "handle": "regal-in-weiss-mit-3-klappen-rosegold-finish",
+      "description": "Shelf with rose gold finish. 3 doors with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071710076,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2830.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000079",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936876847484,
+          "src": "/assets/products/df6df2e1c4d3f2d8f5d44f39.webp",
+          "alt": "White shelf with 3 doors – rose gold finish"
+        },
+        {
+          "id": 77936876749180,
+          "src": "/assets/products/85979041b982650555b3afd4.webp",
+          "alt": "White shelf with 3 doors – rose gold finish"
+        },
+        {
+          "id": 77936876814716,
+          "src": "/assets/products/d0690280981c51b838dae2f7.webp",
+          "alt": "White shelf with 3 doors – rose gold finish"
+        },
+        {
+          "id": 77936876781948,
+          "src": "/assets/products/50487060cb795c86de52e6a1.webp",
+          "alt": "White shelf with 3 doors – rose gold finish"
+        },
+        {
+          "id": 77936876716412,
+          "src": "/assets/products/c4ce533de68e14f56b426470.webp",
+          "alt": "White shelf with 3 doors – rose gold finish"
+        }
+      ]
+    },
+    {
+      "id": 15715611738492,
+      "handle": "hoehenverstellbarer-schreibtisch-home",
+      "description": "Electrically height-adjustable desk. Infinitely adjustable height from 65-130cm. Up/down control, soft start/stop function and anti-collision protection. Motors with a 5-year warranty.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer oak",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "frame",
+          "position": 2,
+          "values": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 3,
+          "values": [
+            "140x80cm",
+            "160x80cm",
+            "180x80cm",
+            "200x80cm"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982065320316,
+          "title": "Black / Black / 140x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000031",
+          "image": "/assets/products/5059695dd736c95b7e6685a3.webp"
+        },
+        {
+          "id": 55982065353084,
+          "title": "Black / Black / 160x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/5059695dd736c95b7e6685a3.webp"
+        },
+        {
+          "id": 55982065385852,
+          "title": "Black / Black / 180x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "869.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/5059695dd736c95b7e6685a3.webp"
+        },
+        {
+          "id": 55982065418620,
+          "title": "Black / Black / 200x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "889.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/5059695dd736c95b7e6685a3.webp"
+        },
+        {
+          "id": 55982065451388,
+          "title": "Black / White / 140x80cm",
+          "options": [
+            "Black",
+            "White",
+            "140x80cm"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/1f0d01eb69c72c65bc01fdee.webp"
+        },
+        {
+          "id": 55982065484156,
+          "title": "Black / White / 160x80cm",
+          "options": [
+            "Black",
+            "White",
+            "160x80cm"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/1f0d01eb69c72c65bc01fdee.webp"
+        },
+        {
+          "id": 55982065516924,
+          "title": "Black / White / 180x80cm",
+          "options": [
+            "Black",
+            "White",
+            "180x80cm"
+          ],
+          "price": "869.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/1f0d01eb69c72c65bc01fdee.webp"
+        },
+        {
+          "id": 55982065549692,
+          "title": "Black / White / 200x80cm",
+          "options": [
+            "Black",
+            "White",
+            "200x80cm"
+          ],
+          "price": "889.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/1f0d01eb69c72c65bc01fdee.webp"
+        },
+        {
+          "id": 55982065582460,
+          "title": "Real wood veneer oak / Black / 140x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "1029.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/77f01742e986af4b84e782cc.webp"
+        },
+        {
+          "id": 55982065615228,
+          "title": "Real wood veneer oak / Black / 160x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "1089.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/77f01742e986af4b84e782cc.webp"
+        },
+        {
+          "id": 55982065647996,
+          "title": "Real wood veneer oak / Black / 180x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "1129.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/77f01742e986af4b84e782cc.webp"
+        },
+        {
+          "id": 55982065680764,
+          "title": "Real wood veneer oak / Black / 200x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/77f01742e986af4b84e782cc.webp"
+        },
+        {
+          "id": 55982065713532,
+          "title": "Real wood veneer oak / White / 140x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "140x80cm"
+          ],
+          "price": "1029.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/f4ccc7f024ed712527969c2e.webp"
+        },
+        {
+          "id": 55982065746300,
+          "title": "Real wood veneer oak / White / 160x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "160x80cm"
+          ],
+          "price": "1089.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/f4ccc7f024ed712527969c2e.webp"
+        },
+        {
+          "id": 55982065779068,
+          "title": "Real wood veneer oak / White / 180x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "180x80cm"
+          ],
+          "price": "1129.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/f4ccc7f024ed712527969c2e.webp"
+        },
+        {
+          "id": 55982065811836,
+          "title": "Real wood veneer oak / White / 200x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "200x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/f4ccc7f024ed712527969c2e.webp"
+        },
+        {
+          "id": 55982065844604,
+          "title": "Real wood veneer walnut / Black / 140x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "1089.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bce3bcf6a6a23e323faec683.webp"
+        },
+        {
+          "id": 55982065877372,
+          "title": "Real wood veneer walnut / Black / 160x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "1129.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bce3bcf6a6a23e323faec683.webp"
+        },
+        {
+          "id": 55982065910140,
+          "title": "Real wood veneer walnut / Black / 180x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bce3bcf6a6a23e323faec683.webp"
+        },
+        {
+          "id": 55982065942908,
+          "title": "Real wood veneer walnut / Black / 200x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "1229.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bce3bcf6a6a23e323faec683.webp"
+        },
+        {
+          "id": 55982065975676,
+          "title": "Real wood veneer walnut / White / 140x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "140x80cm"
+          ],
+          "price": "1089.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/95fd87a759db676c92cb0081.webp"
+        },
+        {
+          "id": 55982066008444,
+          "title": "Real wood veneer walnut / White / 160x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "160x80cm"
+          ],
+          "price": "1129.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/95fd87a759db676c92cb0081.webp"
+        },
+        {
+          "id": 55982066041212,
+          "title": "Real wood veneer walnut / White / 180x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "180x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/95fd87a759db676c92cb0081.webp"
+        },
+        {
+          "id": 55982066073980,
+          "title": "Real wood veneer walnut / White / 200x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "200x80cm"
+          ],
+          "price": "1229.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/95fd87a759db676c92cb0081.webp"
+        },
+        {
+          "id": 55982066106748,
+          "title": "White / Black / 140x80cm",
+          "options": [
+            "White",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c8e30d2745e4a5fe29a4f05e.webp"
+        },
+        {
+          "id": 55982066139516,
+          "title": "White / Black / 160x80cm",
+          "options": [
+            "White",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c8e30d2745e4a5fe29a4f05e.webp"
+        },
+        {
+          "id": 55982066172284,
+          "title": "White / Black / 180x80cm",
+          "options": [
+            "White",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "869.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c8e30d2745e4a5fe29a4f05e.webp"
+        },
+        {
+          "id": 55982066205052,
+          "title": "White / Black / 200x80cm",
+          "options": [
+            "White",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "889.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c8e30d2745e4a5fe29a4f05e.webp"
+        },
+        {
+          "id": 55982066237820,
+          "title": "White / White / 140x80cm",
+          "options": [
+            "White",
+            "White",
+            "140x80cm"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/279392ed77c76fd7355662f9.webp"
+        },
+        {
+          "id": 55982066270588,
+          "title": "White / White / 160x80cm",
+          "options": [
+            "White",
+            "White",
+            "160x80cm"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/279392ed77c76fd7355662f9.webp"
+        },
+        {
+          "id": 55982066303356,
+          "title": "White / White / 180x80cm",
+          "options": [
+            "White",
+            "White",
+            "180x80cm"
+          ],
+          "price": "869.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/279392ed77c76fd7355662f9.webp"
+        },
+        {
+          "id": 55982066336124,
+          "title": "White / White / 200x80cm",
+          "options": [
+            "White",
+            "White",
+            "200x80cm"
+          ],
+          "price": "889.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/279392ed77c76fd7355662f9.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 77936852566396,
+          "src": "/assets/products/77f01742e986af4b84e782cc.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        },
+        {
+          "id": 77936852599164,
+          "src": "/assets/products/f4ccc7f024ed712527969c2e.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        },
+        {
+          "id": 77936852631932,
+          "src": "/assets/products/bce3bcf6a6a23e323faec683.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        },
+        {
+          "id": 77936852664700,
+          "src": "/assets/products/95fd87a759db676c92cb0081.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        },
+        {
+          "id": 77936852697468,
+          "src": "/assets/products/c8e30d2745e4a5fe29a4f05e.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        },
+        {
+          "id": 77936852730236,
+          "src": "/assets/products/279392ed77c76fd7355662f9.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        },
+        {
+          "id": 77936852763004,
+          "src": "/assets/products/5059695dd736c95b7e6685a3.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        },
+        {
+          "id": 77936852795772,
+          "src": "/assets/products/1f0d01eb69c72c65bc01fdee.webp",
+          "alt": "Height-adjustable desk Flexcube Home"
+        }
+      ]
+    },
+    {
+      "id": 15715611705724,
+      "handle": "hoehenverstellbarer-schreibtisch-profi",
+      "description": "Electrically height-adjustable desk. Infinitely adjustable height from 65-130cm. 4-position memory function, soft start/stop function and anti-collision protection. Motors with a 5-year warranty.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer oak",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "frame",
+          "position": 2,
+          "values": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 3,
+          "values": [
+            "140x80cm",
+            "160x80cm",
+            "180x80cm",
+            "200x80cm"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982064271740,
+          "title": "Black / Black / 140x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "929.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000033",
+          "image": "/assets/products/520b0c12221cd56abd564454.webp"
+        },
+        {
+          "id": 55982064304508,
+          "title": "Black / Black / 160x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/520b0c12221cd56abd564454.webp"
+        },
+        {
+          "id": 55982064337276,
+          "title": "Black / Black / 180x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "969.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/520b0c12221cd56abd564454.webp"
+        },
+        {
+          "id": 55982064370044,
+          "title": "Black / Black / 200x80cm",
+          "options": [
+            "Black",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "989.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/520b0c12221cd56abd564454.webp"
+        },
+        {
+          "id": 55982064402812,
+          "title": "Black / White / 140x80cm",
+          "options": [
+            "Black",
+            "White",
+            "140x80cm"
+          ],
+          "price": "929.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc98ac441063c34c67b60acc.webp"
+        },
+        {
+          "id": 55982064435580,
+          "title": "Black / White / 160x80cm",
+          "options": [
+            "Black",
+            "White",
+            "160x80cm"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc98ac441063c34c67b60acc.webp"
+        },
+        {
+          "id": 55982064468348,
+          "title": "Black / White / 180x80cm",
+          "options": [
+            "Black",
+            "White",
+            "180x80cm"
+          ],
+          "price": "969.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc98ac441063c34c67b60acc.webp"
+        },
+        {
+          "id": 55982064501116,
+          "title": "Black / White / 200x80cm",
+          "options": [
+            "Black",
+            "White",
+            "200x80cm"
+          ],
+          "price": "989.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc98ac441063c34c67b60acc.webp"
+        },
+        {
+          "id": 55982064533884,
+          "title": "Real wood veneer oak / Black / 140x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "1129.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/d8236fcdb43ca8232bcefc6d.webp"
+        },
+        {
+          "id": 55982064566652,
+          "title": "Real wood veneer oak / Black / 160x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/d8236fcdb43ca8232bcefc6d.webp"
+        },
+        {
+          "id": 55982064599420,
+          "title": "Real wood veneer oak / Black / 180x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "1229.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/d8236fcdb43ca8232bcefc6d.webp"
+        },
+        {
+          "id": 55982064632188,
+          "title": "Real wood veneer oak / Black / 200x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "1289.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/d8236fcdb43ca8232bcefc6d.webp"
+        },
+        {
+          "id": 55982064664956,
+          "title": "Real wood veneer oak / White / 140x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "140x80cm"
+          ],
+          "price": "1129.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2ae8be5ee07e8809d3dbdbd6.webp"
+        },
+        {
+          "id": 55982064697724,
+          "title": "Real wood veneer oak / White / 160x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "160x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2ae8be5ee07e8809d3dbdbd6.webp"
+        },
+        {
+          "id": 55982064730492,
+          "title": "Real wood veneer oak / White / 180x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "180x80cm"
+          ],
+          "price": "1229.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2ae8be5ee07e8809d3dbdbd6.webp"
+        },
+        {
+          "id": 55982064763260,
+          "title": "Real wood veneer oak / White / 200x80cm",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "200x80cm"
+          ],
+          "price": "1289.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2ae8be5ee07e8809d3dbdbd6.webp"
+        },
+        {
+          "id": 55982064796028,
+          "title": "Real wood veneer walnut / Black / 140x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/5a97ff185f90f4b6843c0530.webp"
+        },
+        {
+          "id": 55982064828796,
+          "title": "Real wood veneer walnut / Black / 160x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "1229.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/5a97ff185f90f4b6843c0530.webp"
+        },
+        {
+          "id": 55982064861564,
+          "title": "Real wood veneer walnut / Black / 180x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "1289.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/5a97ff185f90f4b6843c0530.webp"
+        },
+        {
+          "id": 55982064894332,
+          "title": "Real wood veneer walnut / Black / 200x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "1329.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/5a97ff185f90f4b6843c0530.webp"
+        },
+        {
+          "id": 55982064927100,
+          "title": "Real wood veneer walnut / White / 140x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "140x80cm"
+          ],
+          "price": "1189.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/252a29c64f9727b7142fd2a1.webp"
+        },
+        {
+          "id": 55982064959868,
+          "title": "Real wood veneer walnut / White / 160x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "160x80cm"
+          ],
+          "price": "1229.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/252a29c64f9727b7142fd2a1.webp"
+        },
+        {
+          "id": 55982064992636,
+          "title": "Real wood veneer walnut / White / 180x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "180x80cm"
+          ],
+          "price": "1289.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/252a29c64f9727b7142fd2a1.webp"
+        },
+        {
+          "id": 55982065025404,
+          "title": "Real wood veneer walnut / White / 200x80cm",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "200x80cm"
+          ],
+          "price": "1329.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/252a29c64f9727b7142fd2a1.webp"
+        },
+        {
+          "id": 55982065058172,
+          "title": "White / Black / 140x80cm",
+          "options": [
+            "White",
+            "Black",
+            "140x80cm"
+          ],
+          "price": "928.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/11b03740d2f30e86260255fa.webp"
+        },
+        {
+          "id": 55982065090940,
+          "title": "White / Black / 160x80cm",
+          "options": [
+            "White",
+            "Black",
+            "160x80cm"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/11b03740d2f30e86260255fa.webp"
+        },
+        {
+          "id": 55982065123708,
+          "title": "White / Black / 180x80cm",
+          "options": [
+            "White",
+            "Black",
+            "180x80cm"
+          ],
+          "price": "969.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/11b03740d2f30e86260255fa.webp"
+        },
+        {
+          "id": 55982065156476,
+          "title": "White / Black / 200x80cm",
+          "options": [
+            "White",
+            "Black",
+            "200x80cm"
+          ],
+          "price": "989.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/11b03740d2f30e86260255fa.webp"
+        },
+        {
+          "id": 55982065189244,
+          "title": "White / White / 140x80cm",
+          "options": [
+            "White",
+            "White",
+            "140x80cm"
+          ],
+          "price": "928.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc7d259f8854c7c59097c25c.webp"
+        },
+        {
+          "id": 55982065222012,
+          "title": "White / White / 160x80cm",
+          "options": [
+            "White",
+            "White",
+            "160x80cm"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc7d259f8854c7c59097c25c.webp"
+        },
+        {
+          "id": 55982065254780,
+          "title": "White / White / 180x80cm",
+          "options": [
+            "White",
+            "White",
+            "180x80cm"
+          ],
+          "price": "989.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc7d259f8854c7c59097c25c.webp"
+        },
+        {
+          "id": 55982065287548,
+          "title": "White / White / 200x80cm",
+          "options": [
+            "White",
+            "White",
+            "200x80cm"
+          ],
+          "price": "989.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bc7d259f8854c7c59097c25c.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 77936852304252,
+          "src": "/assets/products/520b0c12221cd56abd564454.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        },
+        {
+          "id": 77936852337020,
+          "src": "/assets/products/bc98ac441063c34c67b60acc.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        },
+        {
+          "id": 77936852369788,
+          "src": "/assets/products/d8236fcdb43ca8232bcefc6d.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        },
+        {
+          "id": 77936852402556,
+          "src": "/assets/products/2ae8be5ee07e8809d3dbdbd6.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        },
+        {
+          "id": 77936852435324,
+          "src": "/assets/products/5a97ff185f90f4b6843c0530.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        },
+        {
+          "id": 77936852468092,
+          "src": "/assets/products/252a29c64f9727b7142fd2a1.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        },
+        {
+          "id": 77936852500860,
+          "src": "/assets/products/11b03740d2f30e86260255fa.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        },
+        {
+          "id": 77936852533628,
+          "src": "/assets/products/bc7d259f8854c7c59097c25c.webp",
+          "alt": "Height-adjustable desk Flexcube Profi"
+        }
+      ]
+    },
+    {
+      "id": 15715612033404,
+      "handle": "besprechungstisch-flexcube-klassik",
+      "description": "Request our special SME conditions and save on the purchase of this table.\nThe product is currently in stock in all configurations.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer oak",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "160x80x75cm",
+            "180x80x75cm",
+            "200x80x75cm"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982068203900,
+          "title": "Black / 160x80x75cm",
+          "options": [
+            "Black",
+            "160x80x75cm"
+          ],
+          "price": "498.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000061",
+          "image": "/assets/products/b199d0612fcf037ebbff8203.webp"
+        },
+        {
+          "id": 55982068236668,
+          "title": "Black / 180x80x75cm",
+          "options": [
+            "Black",
+            "180x80x75cm"
+          ],
+          "price": "548.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/b199d0612fcf037ebbff8203.webp"
+        },
+        {
+          "id": 55982068269436,
+          "title": "Black / 200x80x75cm",
+          "options": [
+            "Black",
+            "200x80x75cm"
+          ],
+          "price": "598.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/b199d0612fcf037ebbff8203.webp"
+        },
+        {
+          "id": 55982068302204,
+          "title": "Real wood veneer oak / 160x80x75cm",
+          "options": [
+            "Real wood veneer oak",
+            "160x80x75cm"
+          ],
+          "price": "738.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/86fb8a2ffcc7c68339f640f0.webp"
+        },
+        {
+          "id": 55982068334972,
+          "title": "Real wood veneer oak / 180x80x75cm",
+          "options": [
+            "Real wood veneer oak",
+            "180x80x75cm"
+          ],
+          "price": "808.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/86fb8a2ffcc7c68339f640f0.webp"
+        },
+        {
+          "id": 55982068367740,
+          "title": "Real wood veneer oak / 200x80x75cm",
+          "options": [
+            "Real wood veneer oak",
+            "200x80x75cm"
+          ],
+          "price": "898.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/86fb8a2ffcc7c68339f640f0.webp"
+        },
+        {
+          "id": 55982068400508,
+          "title": "Real wood veneer walnut / 160x80x75cm",
+          "options": [
+            "Real wood veneer walnut",
+            "160x80x75cm"
+          ],
+          "price": "778.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2d30df7aea9f88f2080ba0ae.webp"
+        },
+        {
+          "id": 55982068433276,
+          "title": "Real wood veneer walnut / 180x80x75cm",
+          "options": [
+            "Real wood veneer walnut",
+            "180x80x75cm"
+          ],
+          "price": "868.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2d30df7aea9f88f2080ba0ae.webp"
+        },
+        {
+          "id": 55982068466044,
+          "title": "Real wood veneer walnut / 200x80x75cm",
+          "options": [
+            "Real wood veneer walnut",
+            "200x80x75cm"
+          ],
+          "price": "938.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2d30df7aea9f88f2080ba0ae.webp"
+        },
+        {
+          "id": 55982068498812,
+          "title": "White / 160x80x75cm",
+          "options": [
+            "White",
+            "160x80x75cm"
+          ],
+          "price": "498.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/42faed209c4dd6075bc0ba89.webp"
+        },
+        {
+          "id": 55982068531580,
+          "title": "White / 180x80x75cm",
+          "options": [
+            "White",
+            "180x80x75cm"
+          ],
+          "price": "548.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/42faed209c4dd6075bc0ba89.webp"
+        },
+        {
+          "id": 55982068564348,
+          "title": "White / 200x80x75cm",
+          "options": [
+            "White",
+            "200x80x75cm"
+          ],
+          "price": "598.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/42faed209c4dd6075bc0ba89.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 78322131173756,
+          "src": "/assets/products/7b2454115cd5f139d7ff11b6.webp",
+          "alt": "Flexcube Classic conference table"
+        },
+        {
+          "id": 77936854401404,
+          "src": "/assets/products/b199d0612fcf037ebbff8203.webp",
+          "alt": "Flexcube Classic conference table"
+        },
+        {
+          "id": 77936854434172,
+          "src": "/assets/products/86fb8a2ffcc7c68339f640f0.webp",
+          "alt": "Flexcube Classic conference table"
+        },
+        {
+          "id": 77936854466940,
+          "src": "/assets/products/2d30df7aea9f88f2080ba0ae.webp",
+          "alt": "Flexcube Classic conference table"
+        },
+        {
+          "id": 77936854499708,
+          "src": "/assets/products/42faed209c4dd6075bc0ba89.webp",
+          "alt": "Flexcube Classic conference table"
+        }
+      ]
+    },
+    {
+      "id": 15715611771260,
+      "handle": "hoehenverstellbarer-schreibtisch-ecktisch",
+      "description": "Electrically height-adjustable L-shaped desk. Infinitely adjustable height from 65-130cm at the touch of a button. 4-position memory function, soft start/stop function, and anti-collision protection. Motors with a 5-year warranty. Overall dimensions of the desk: 180 x 170cm.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "name": "frame",
+          "position": 2,
+          "values": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 3,
+          "values": [
+            "180x90cm (left) - 170x60cm (right)",
+            "170x60cm (left) - 180x90cm (right)"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982066368892,
+          "title": "Black / Black / 180x90cm (left) - 170x60cm (right)",
+          "options": [
+            "Black",
+            "Black",
+            "180x90cm (left) - 170x60cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000030",
+          "image": "/assets/products/4921025b2a21d9b6b2a7e8c6.webp"
+        },
+        {
+          "id": 55982066401660,
+          "title": "Black / Black / 170x60cm (left) - 180x90cm (right)",
+          "options": [
+            "Black",
+            "Black",
+            "170x60cm (left) - 180x90cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/4921025b2a21d9b6b2a7e8c6.webp"
+        },
+        {
+          "id": 55982066434428,
+          "title": "Black / White / 180x90cm (left) - 170x60cm (right)",
+          "options": [
+            "Black",
+            "White",
+            "180x90cm (left) - 170x60cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/51c7fcbce09bf7e3dec104d7.webp"
+        },
+        {
+          "id": 55982066467196,
+          "title": "Black / White / 170x60cm (left) - 180x90cm (right)",
+          "options": [
+            "Black",
+            "White",
+            "170x60cm (left) - 180x90cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/51c7fcbce09bf7e3dec104d7.webp"
+        },
+        {
+          "id": 55982066499964,
+          "title": "White / Black / 180x90cm (left) - 170x60cm (right)",
+          "options": [
+            "White",
+            "Black",
+            "180x90cm (left) - 170x60cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2f8cc68aac293896666471d2.webp"
+        },
+        {
+          "id": 55982066532732,
+          "title": "White / Black / 170x60cm (left) - 180x90cm (right)",
+          "options": [
+            "White",
+            "Black",
+            "170x60cm (left) - 180x90cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/2f8cc68aac293896666471d2.webp"
+        },
+        {
+          "id": 55982066565500,
+          "title": "White / White / 180x90cm (left) - 170x60cm (right)",
+          "options": [
+            "White",
+            "White",
+            "180x90cm (left) - 170x60cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/414cf0c0d2b0c1e7b1d477b4.webp"
+        },
+        {
+          "id": 55982066598268,
+          "title": "White / White / 170x60cm (left) - 180x90cm (right)",
+          "options": [
+            "White",
+            "White",
+            "170x60cm (left) - 180x90cm (right)"
+          ],
+          "price": "2399.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/414cf0c0d2b0c1e7b1d477b4.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 83370970448252,
+          "src": "/assets/products/51c7fcbce09bf7e3dec104d7.webp",
+          "alt": "Height-adjustable desk Flexcube professional corner desk"
+        },
+        {
+          "id": 83370982343036,
+          "src": "/assets/products/4921025b2a21d9b6b2a7e8c6.webp",
+          "alt": "Height-adjustable desk Flexcube professional corner desk"
+        },
+        {
+          "id": 83370989781372,
+          "src": "/assets/products/2f8cc68aac293896666471d2.webp",
+          "alt": "Height-adjustable desk Flexcube professional corner desk"
+        },
+        {
+          "id": 83370994073980,
+          "src": "/assets/products/414cf0c0d2b0c1e7b1d477b4.webp",
+          "alt": "Height-adjustable desk Flexcube professional corner desk"
+        },
+        {
+          "id": 83371001086332,
+          "src": "/assets/products/fe5eb7dcdf1073d8d7add910.webp",
+          "alt": "Height-adjustable desk Flexcube professional corner desk"
+        },
+        {
+          "id": 83371003249020,
+          "src": "/assets/products/200d1b8b7ac3dc82da67168e.webp",
+          "alt": "Height-adjustable desk Flexcube professional corner desk"
+        }
+      ]
+    },
+    {
+      "id": 15715611902332,
+      "handle": "hoehenverstellbarer-besprechungstisch",
+      "description": "Electrically height-adjustable conference table for ergonomic meetings and creative exchange. Choose from 4 surface finishes and 2 frame colors. Size 70x70cm. Infinitely adjustable height from 65-130cm at the touch of a button. Soft start/stop function and anti-collision protection. Motor with a 5-year warranty. With casters, the height increases to 70-135cm.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "frame",
+          "position": 2,
+          "values": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "name": "Roll",
+          "position": 3,
+          "values": [
+            "With wheels",
+            "Without wheels"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982067417468,
+          "title": "Black / Black / With wheels",
+          "options": [
+            "Black",
+            "Black",
+            "With wheels"
+          ],
+          "price": "828.90",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": "SW0000027",
+          "image": null
+        },
+        {
+          "id": 55982067450236,
+          "title": "Black / Black / Without wheels",
+          "options": [
+            "Black",
+            "Black",
+            "Without wheels"
+          ],
+          "price": "799.00",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067483004,
+          "title": "Black / White / With wheels",
+          "options": [
+            "Black",
+            "White",
+            "With wheels"
+          ],
+          "price": "828.90",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/6d79986d7045d3a6550e30d4.webp"
+        },
+        {
+          "id": 55982067515772,
+          "title": "Black / White / Without wheels",
+          "options": [
+            "Black",
+            "White",
+            "Without wheels"
+          ],
+          "price": "799.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/cc75b065799fcdca25fe33a7.webp"
+        },
+        {
+          "id": 55982067679612,
+          "title": "Real wood veneer walnut / Black / With wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "With wheels"
+          ],
+          "price": "978.90",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": "/assets/products/7dfb78f691d8e291282f5fab.webp"
+        },
+        {
+          "id": 55982067712380,
+          "title": "Real wood veneer walnut / Black / Without wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "Without wheels"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": "/assets/products/4e72ebaa395d568d75b5bd74.webp"
+        },
+        {
+          "id": 55982067745148,
+          "title": "Real wood veneer walnut / White / With wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "With wheels"
+          ],
+          "price": "978.90",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067777916,
+          "title": "Real wood veneer walnut / White / Without wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "Without wheels"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067810684,
+          "title": "White / Black / With wheels",
+          "options": [
+            "White",
+            "Black",
+            "With wheels"
+          ],
+          "price": "828.90",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067843452,
+          "title": "White / Black / Without wheels",
+          "options": [
+            "White",
+            "Black",
+            "Without wheels"
+          ],
+          "price": "799.00",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067876220,
+          "title": "White / White / With wheels",
+          "options": [
+            "White",
+            "White",
+            "With wheels"
+          ],
+          "price": "828.90",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/07e7bcf292d93be45c26a070.webp"
+        },
+        {
+          "id": 55982067908988,
+          "title": "White / White / Without wheels",
+          "options": [
+            "White",
+            "White",
+            "Without wheels"
+          ],
+          "price": "799.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/bf34b9497d844adc76c7166b.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 77936853680508,
+          "src": "/assets/products/6d79986d7045d3a6550e30d4.webp",
+          "alt": "Height-adjustable square conference table"
+        },
+        {
+          "id": 77936853713276,
+          "src": "/assets/products/cc75b065799fcdca25fe33a7.webp",
+          "alt": "Height-adjustable square conference table"
+        },
+        {
+          "id": 77936853877116,
+          "src": "/assets/products/7dfb78f691d8e291282f5fab.webp",
+          "alt": "Height-adjustable square conference table"
+        },
+        {
+          "id": 77936853909884,
+          "src": "/assets/products/4e72ebaa395d568d75b5bd74.webp",
+          "alt": "Height-adjustable square conference table"
+        },
+        {
+          "id": 77936854073724,
+          "src": "/assets/products/07e7bcf292d93be45c26a070.webp",
+          "alt": "Height-adjustable square conference table"
+        },
+        {
+          "id": 77936854106492,
+          "src": "/assets/products/bf34b9497d844adc76c7166b.webp",
+          "alt": "Height-adjustable square conference table"
+        }
+      ]
+    },
+    {
+      "id": 15715611836796,
+      "handle": "flexcube-hoehenverstellbarer-besprechungstisch",
+      "description": "Electrically height-adjustable conference table for ergonomic meetings and creative exchange. Choose from 4 surface finishes and 2 frame colors. Diameter 75 cm. Infinitely adjustable height from 65-130 cm at the touch of a button. Soft start/stop function and anti-collision protection. Motor with a 5-year warranty. With casters, the height increases to 70-135 cm.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer oak",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "frame",
+          "position": 2,
+          "values": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "name": "Roll",
+          "position": 3,
+          "values": [
+            "With wheels",
+            "Without wheels"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982066893180,
+          "title": "Black / Black / With wheels",
+          "options": [
+            "Black",
+            "Black",
+            "With wheels"
+          ],
+          "price": "858.90",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": "SW0000028",
+          "image": null
+        },
+        {
+          "id": 55982066925948,
+          "title": "Black / Black / Without wheels",
+          "options": [
+            "Black",
+            "Black",
+            "Without wheels"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982066958716,
+          "title": "Black / White / With wheels",
+          "options": [
+            "Black",
+            "White",
+            "With wheels"
+          ],
+          "price": "858.90",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/59a14c29b0c5a04093bc52d1.webp"
+        },
+        {
+          "id": 55982066991484,
+          "title": "Black / White / Without wheels",
+          "options": [
+            "Black",
+            "White",
+            "Without wheels"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/0867a7df3cebdf27ae312a39.webp"
+        },
+        {
+          "id": 55982067024252,
+          "title": "Real wood veneer oak / Black / With wheels",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "With wheels"
+          ],
+          "price": "978.90",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067057020,
+          "title": "Real wood veneer oak / Black / Without wheels",
+          "options": [
+            "Real wood veneer oak",
+            "Black",
+            "Without wheels"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067089788,
+          "title": "Real wood veneer oak / White / With wheels",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "With wheels"
+          ],
+          "price": "978.90",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/9c184faab7871cdbd8ca81f3.webp"
+        },
+        {
+          "id": 55982067122556,
+          "title": "Real wood veneer oak / White / Without wheels",
+          "options": [
+            "Real wood veneer oak",
+            "White",
+            "Without wheels"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/51cc1bc901210627614d8b8d.webp"
+        },
+        {
+          "id": 55982067155324,
+          "title": "Real wood veneer walnut / Black / With wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "With wheels"
+          ],
+          "price": "1028.90",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067188092,
+          "title": "Real wood veneer walnut / Black / Without wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "Black",
+            "Without wheels"
+          ],
+          "price": "999.00",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067220860,
+          "title": "Real wood veneer walnut / White / With wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "With wheels"
+          ],
+          "price": "1028.90",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/f177a30a09cf74c873540432.webp"
+        },
+        {
+          "id": 55982067253628,
+          "title": "Real wood veneer walnut / White / Without wheels",
+          "options": [
+            "Real wood veneer walnut",
+            "White",
+            "Without wheels"
+          ],
+          "price": "999.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/0bdce15a2e3f84b070324a64.webp"
+        },
+        {
+          "id": 55982067286396,
+          "title": "White / Black / With wheels",
+          "options": [
+            "White",
+            "Black",
+            "With wheels"
+          ],
+          "price": "858.90",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067319164,
+          "title": "White / Black / Without wheels",
+          "options": [
+            "White",
+            "Black",
+            "Without wheels"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": false,
+          "sku": null,
+          "image": null
+        },
+        {
+          "id": 55982067351932,
+          "title": "White / White / With wheels",
+          "options": [
+            "White",
+            "White",
+            "With wheels"
+          ],
+          "price": "858.90",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/919b53775433eabd7a54a779.webp"
+        },
+        {
+          "id": 55982067384700,
+          "title": "White / White / Without wheels",
+          "options": [
+            "White",
+            "White",
+            "Without wheels"
+          ],
+          "price": "829.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/4e70fab34df91706e8542f6a.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 78322164105596,
+          "src": "/assets/products/59a14c29b0c5a04093bc52d1.webp",
+          "alt": "Height-adjustable round conference table"
+        },
+        {
+          "id": 77936853188988,
+          "src": "/assets/products/0867a7df3cebdf27ae312a39.webp",
+          "alt": "Height-adjustable round conference table"
+        },
+        {
+          "id": 77936853287292,
+          "src": "/assets/products/9c184faab7871cdbd8ca81f3.webp",
+          "alt": "Height-adjustable round conference table"
+        },
+        {
+          "id": 77936853320060,
+          "src": "/assets/products/51cc1bc901210627614d8b8d.webp",
+          "alt": "Height-adjustable round conference table"
+        },
+        {
+          "id": 77936853418364,
+          "src": "/assets/products/f177a30a09cf74c873540432.webp",
+          "alt": "Height-adjustable round conference table"
+        },
+        {
+          "id": 77936853451132,
+          "src": "/assets/products/0bdce15a2e3f84b070324a64.webp",
+          "alt": "Height-adjustable round conference table"
+        },
+        {
+          "id": 77936853549436,
+          "src": "/assets/products/919b53775433eabd7a54a779.webp",
+          "alt": "Height-adjustable round conference table"
+        },
+        {
+          "id": 77936853582204,
+          "src": "/assets/products/4e70fab34df91706e8542f6a.webp",
+          "alt": "Height-adjustable round conference table"
+        }
+      ]
+    },
+    {
+      "id": 15715612000636,
+      "handle": "hoehenverstellbarer-wandtisch-65cm",
+      "description": "Electrically height-adjustable wall-mounted table. Its compact size makes it ideal for even the smallest spaces. Use it as a bistro/standing table for quick meetings or as a laptop workstation. Supports up to 60 kg. Choose from 4 surface finishes and 2 frame colors. Dimensions: 65 x 50 cm. Infinitely adjustable height from 65-130 cm at the touch of a button. Features a soft start/stop function and anti-collision protection. Motor comes with a 5-year warranty.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer oak",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "frame",
+          "position": 2,
+          "values": [
+            "Black",
+            "White"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982067941756,
+          "title": "Black / Black",
+          "options": [
+            "Black",
+            "Black"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000026",
+          "image": "/assets/products/c288cb126933d1434349f77e.webp"
+        },
+        {
+          "id": 55982067974524,
+          "title": "Black / White",
+          "options": [
+            "Black",
+            "White"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/a91ddbbfb82667dd26f1e26b.webp"
+        },
+        {
+          "id": 55982068007292,
+          "title": "Real wood veneer oak / Black",
+          "options": [
+            "Real wood veneer oak",
+            "Black"
+          ],
+          "price": "929.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/67ea5c15b297b0dc8a529329.webp"
+        },
+        {
+          "id": 55982068040060,
+          "title": "Real wood veneer oak / White",
+          "options": [
+            "Real wood veneer oak",
+            "White"
+          ],
+          "price": "929.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/7122dbb498689e79c3c4cc88.webp"
+        },
+        {
+          "id": 55982068072828,
+          "title": "Real wood veneer walnut / Black",
+          "options": [
+            "Real wood veneer walnut",
+            "Black"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/0e9f75ccd024f1bbaa223612.webp"
+        },
+        {
+          "id": 55982068105596,
+          "title": "Real wood veneer walnut / White",
+          "options": [
+            "Real wood veneer walnut",
+            "White"
+          ],
+          "price": "949.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/ba6ba3527e8e73e7dfcd6e64.webp"
+        },
+        {
+          "id": 55982068138364,
+          "title": "White / Black",
+          "options": [
+            "White",
+            "Black"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/59f76badb5845f098101ee34.webp"
+        },
+        {
+          "id": 55982068171132,
+          "title": "White / White",
+          "options": [
+            "White",
+            "White"
+          ],
+          "price": "849.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/14d58fbf0ad8976770f1e47c.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 78322178163068,
+          "src": "/assets/products/7122dbb498689e79c3c4cc88.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        },
+        {
+          "id": 77936854139260,
+          "src": "/assets/products/c288cb126933d1434349f77e.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        },
+        {
+          "id": 77936854172028,
+          "src": "/assets/products/a91ddbbfb82667dd26f1e26b.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        },
+        {
+          "id": 77936854204796,
+          "src": "/assets/products/67ea5c15b297b0dc8a529329.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        },
+        {
+          "id": 77936854270332,
+          "src": "/assets/products/0e9f75ccd024f1bbaa223612.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        },
+        {
+          "id": 77936854303100,
+          "src": "/assets/products/ba6ba3527e8e73e7dfcd6e64.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        },
+        {
+          "id": 77936854335868,
+          "src": "/assets/products/59f76badb5845f098101ee34.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        },
+        {
+          "id": 77936854368636,
+          "src": "/assets/products/14d58fbf0ad8976770f1e47c.webp",
+          "alt": "Height-adjustable wall table 65cm"
+        }
+      ]
+    },
+    {
+      "id": 15715611804028,
+      "handle": "flexcube-hoehenverstellbarer-wandtisch",
+      "description": "Electrically height-adjustable wall-mounted desk. Use it as a space-saving sit-stand desk or a height-adjustable bar counter for the office or home. Supports up to 100 kg. Choose from 4 surface finishes and 2 frame colors. Dimensions: 140 x 50 cm. Steplessly height-adjustable from 70-120 cm at the touch of a button. Features a soft start/stop function and anti-collision protection. Motors come with a 5-year warranty.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer oak",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "frame",
+          "position": 2,
+          "values": [
+            "Black",
+            "White"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982066631036,
+          "title": "Black / Black",
+          "options": [
+            "Black",
+            "Black"
+          ],
+          "price": "999.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000029",
+          "image": "/assets/products/14c7a9e6abf1c3effcd16952.webp"
+        },
+        {
+          "id": 55982066663804,
+          "title": "Black / White",
+          "options": [
+            "Black",
+            "White"
+          ],
+          "price": "999.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/9b3108d8ce6472c86e72b7ae.webp"
+        },
+        {
+          "id": 55982066696572,
+          "title": "Real wood veneer oak / Black",
+          "options": [
+            "Real wood veneer oak",
+            "Black"
+          ],
+          "price": "1149.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/70d7fa8f622984750181a01c.webp"
+        },
+        {
+          "id": 55982066729340,
+          "title": "Real wood veneer oak / White",
+          "options": [
+            "Real wood veneer oak",
+            "White"
+          ],
+          "price": "1149.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/db4af5d5f9c0ae59d92b7df5.webp"
+        },
+        {
+          "id": 55982066762108,
+          "title": "Real wood veneer walnut / Black",
+          "options": [
+            "Real wood veneer walnut",
+            "Black"
+          ],
+          "price": "1199.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/06fd1924d011374e3d7c88a1.webp"
+        },
+        {
+          "id": 55982066794876,
+          "title": "Real wood veneer walnut / White",
+          "options": [
+            "Real wood veneer walnut",
+            "White"
+          ],
+          "price": "1199.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/80c6d57d6b35465cdb4c194a.webp"
+        },
+        {
+          "id": 55982066827644,
+          "title": "White / Black",
+          "options": [
+            "White",
+            "Black"
+          ],
+          "price": "999.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/97d23451c7776f2f4ad5d88a.webp"
+        },
+        {
+          "id": 55982066860412,
+          "title": "White / White",
+          "options": [
+            "White",
+            "White"
+          ],
+          "price": "999.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/cebd701e63789fec20766850.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 78322192646524,
+          "src": "/assets/products/14c7a9e6abf1c3effcd16952.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762951537020,
+          "src": "/assets/products/6cf03a63c86a69f2caddd9fb.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762951504252,
+          "src": "/assets/products/0ec0523d0b891e8b5b51889b.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762951569788,
+          "src": "/assets/products/fde238b91e880678a5903388.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762772853116,
+          "src": "/assets/products/9b3108d8ce6472c86e72b7ae.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762774589820,
+          "src": "/assets/products/70d7fa8f622984750181a01c.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762846646652,
+          "src": "/assets/products/db4af5d5f9c0ae59d92b7df5.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762902352252,
+          "src": "/assets/products/06fd1924d011374e3d7c88a1.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762938921340,
+          "src": "/assets/products/80c6d57d6b35465cdb4c194a.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762939675004,
+          "src": "/assets/products/97d23451c7776f2f4ad5d88a.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        },
+        {
+          "id": 79762939806076,
+          "src": "/assets/products/cebd701e63789fec20766850.webp",
+          "alt": "Height-adjustable wall table 140cm"
+        }
+      ]
+    },
+    {
+      "id": 15882015244668,
+      "handle": "schreibtisch-klassik",
+      "description": "Timelessly elegant writing and conference table. Frame: Chrome-plated stainless steel. Height-adjustable feet. Worktop available in 4 finishes.",
+      "options": [
+        {
+          "name": "worktop",
+          "position": 1,
+          "values": [
+            "Black",
+            "Real wood veneer oak",
+            "Real wood veneer walnut",
+            "White"
+          ]
+        },
+        {
+          "name": "Size",
+          "position": 2,
+          "values": [
+            "160x80x75cm",
+            "180x80x75cm",
+            "200x80x75cm"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56331207934332,
+          "title": "Black / 160x80x75cm",
+          "options": [
+            "Black",
+            "160x80x75cm"
+          ],
+          "price": "498.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000032",
+          "image": "/assets/products/8d233240a689cd6e21ac2901.webp"
+        },
+        {
+          "id": 56331207967100,
+          "title": "Black / 180x80x75cm",
+          "options": [
+            "Black",
+            "180x80x75cm"
+          ],
+          "price": "548.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/8d233240a689cd6e21ac2901.webp"
+        },
+        {
+          "id": 56331207999868,
+          "title": "Black / 200x80x75cm",
+          "options": [
+            "Black",
+            "200x80x75cm"
+          ],
+          "price": "598.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/8d233240a689cd6e21ac2901.webp"
+        },
+        {
+          "id": 56331208032636,
+          "title": "Real wood veneer oak / 160x80x75cm",
+          "options": [
+            "Real wood veneer oak",
+            "160x80x75cm"
+          ],
+          "price": "738.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c907ff7f41fa4679f13ed67d.webp"
+        },
+        {
+          "id": 56331208065404,
+          "title": "Real wood veneer oak / 180x80x75cm",
+          "options": [
+            "Real wood veneer oak",
+            "180x80x75cm"
+          ],
+          "price": "808.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c907ff7f41fa4679f13ed67d.webp"
+        },
+        {
+          "id": 56331208098172,
+          "title": "Real wood veneer oak / 200x80x75cm",
+          "options": [
+            "Real wood veneer oak",
+            "200x80x75cm"
+          ],
+          "price": "898.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c907ff7f41fa4679f13ed67d.webp"
+        },
+        {
+          "id": 56331208130940,
+          "title": "Real wood veneer walnut / 160x80x75cm",
+          "options": [
+            "Real wood veneer walnut",
+            "160x80x75cm"
+          ],
+          "price": "778.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c4c80b75ab30a3fd5b2cdef8.webp"
+        },
+        {
+          "id": 56331208163708,
+          "title": "Real wood veneer walnut / 180x80x75cm",
+          "options": [
+            "Real wood veneer walnut",
+            "180x80x75cm"
+          ],
+          "price": "868.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c4c80b75ab30a3fd5b2cdef8.webp"
+        },
+        {
+          "id": 56331208196476,
+          "title": "Real wood veneer walnut / 200x80x75cm",
+          "options": [
+            "Real wood veneer walnut",
+            "200x80x75cm"
+          ],
+          "price": "938.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/c4c80b75ab30a3fd5b2cdef8.webp"
+        },
+        {
+          "id": 56331208229244,
+          "title": "White / 160x80x75cm",
+          "options": [
+            "White",
+            "160x80x75cm"
+          ],
+          "price": "498.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/60eec7e9d3f097cf62c08e92.webp"
+        },
+        {
+          "id": 56331208262012,
+          "title": "White / 180x80x75cm",
+          "options": [
+            "White",
+            "180x80x75cm"
+          ],
+          "price": "548.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/60eec7e9d3f097cf62c08e92.webp"
+        },
+        {
+          "id": 56331208294780,
+          "title": "White / 200x80x75cm",
+          "options": [
+            "White",
+            "200x80x75cm"
+          ],
+          "price": "598.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": "/assets/products/60eec7e9d3f097cf62c08e92.webp"
+        }
+      ],
+      "images": [
+        {
+          "id": 79099511177596,
+          "src": "/assets/products/8d233240a689cd6e21ac2901.webp",
+          "alt": "Desk Flexcube Classic"
+        },
+        {
+          "id": 79099552629116,
+          "src": "/assets/products/c907ff7f41fa4679f13ed67d.webp",
+          "alt": "Desk Flexcube Classic"
+        },
+        {
+          "id": 79099557609852,
+          "src": "/assets/products/c4c80b75ab30a3fd5b2cdef8.webp",
+          "alt": "Desk Flexcube Classic"
+        },
+        {
+          "id": 79099562656124,
+          "src": "/assets/products/60eec7e9d3f097cf62c08e92.webp",
+          "alt": "Desk Flexcube Classic"
+        }
+      ]
+    },
+    {
+      "id": 15715616457084,
+      "handle": "beistellmobel-mit-schublade",
+      "description": "Storage container in timeless white. Drawer with hole handle.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071218556,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "566.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000014",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936874258812,
+          "src": "/assets/products/1b27d64d2520fab6ed9c6994.webp",
+          "alt": "Side table with drawer"
+        },
+        {
+          "id": 77936874226044,
+          "src": "/assets/products/6d8bda2f3b8bd85831556262.webp",
+          "alt": "Side table with drawer"
+        },
+        {
+          "id": 77936874291580,
+          "src": "/assets/products/2a4d0a86a70863e0f8fead67.webp",
+          "alt": "Side table with drawer"
+        },
+        {
+          "id": 77936874324348,
+          "src": "/assets/products/a08328fcb15084d5b05847c8.webp",
+          "alt": "Side table with drawer"
+        },
+        {
+          "id": 77936874193276,
+          "src": "/assets/products/ccd043a68c17951b3553b1a7.webp",
+          "alt": "Side table with drawer"
+        }
+      ]
+    },
+    {
+      "id": 15715616424316,
+      "handle": "rollcontainer-mit-2-schubladen-und-ablagefach",
+      "description": "Rolling container in elegant taupe. Storage compartment, double drawer with hole handle.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071185788,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "570.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000016",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936874029436,
+          "src": "/assets/products/ba4965d7a04f43b528e99fbf.webp",
+          "alt": "Rolling container with 2 drawers and storage compartment"
+        },
+        {
+          "id": 77936874062204,
+          "src": "/assets/products/37b3df4347604b95a636a6df.webp",
+          "alt": "Rolling container with 2 drawers and storage compartment"
+        },
+        {
+          "id": 77936874094972,
+          "src": "/assets/products/5de69c3b69886f36540043d4.webp",
+          "alt": "Rolling container with 2 drawers and storage compartment"
+        },
+        {
+          "id": 77936874127740,
+          "src": "/assets/products/4923d859db95c994f5577692.webp",
+          "alt": "Rolling container with 2 drawers and storage compartment"
+        },
+        {
+          "id": 77936874160508,
+          "src": "/assets/products/b60ba78c25cde0b7b496023a.webp",
+          "alt": "Rolling container with 2 drawers and storage compartment"
+        },
+        {
+          "id": 77936873996668,
+          "src": "/assets/products/39e3033f91e99c226cec40f6.webp",
+          "alt": "Rolling container with 2 drawers and storage compartment"
+        }
+      ]
+    },
+    {
+      "id": 15715616817532,
+      "handle": "schreibtischcontainer-in-olivgruen-mit-3-schubladen",
+      "description": "Storage container in trendy olive green. 3 drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071579004,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "654.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000040",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936875995516,
+          "src": "/assets/products/ea656fd71ee2c0555e2e4108.webp",
+          "alt": "Desk container in olive green with 3 drawers"
+        },
+        {
+          "id": 77936876028284,
+          "src": "/assets/products/30cbbaa6e6323be28c1f5193.webp",
+          "alt": "Desk container in olive green with 3 drawers"
+        },
+        {
+          "id": 77936876061052,
+          "src": "/assets/products/7a4e9a5a9016607fbe6333d9.webp",
+          "alt": "Desk container in olive green with 3 drawers"
+        },
+        {
+          "id": 77936876093820,
+          "src": "/assets/products/9e3d4b1ea041c56af6aea9a3.webp",
+          "alt": "Desk container in olive green with 3 drawers"
+        },
+        {
+          "id": 77936875962748,
+          "src": "/assets/products/1f66d2f35c676c30adc5f454.webp",
+          "alt": "Desk container in olive green with 3 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715616326012,
+      "handle": "schreibtischcontainer-in-petrol-mit-3-schubladen",
+      "description": "Storage container in trendy petrol blue. 3 drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071087484,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "654.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000018",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936873505148,
+          "src": "/assets/products/8327012da3f17c85aabc0edd.webp",
+          "alt": "Petrol-colored desk container with 3 drawers"
+        },
+        {
+          "id": 77936873537916,
+          "src": "/assets/products/44bebbe58e314315469d0466.webp",
+          "alt": "Petrol-colored desk container with 3 drawers"
+        },
+        {
+          "id": 77936873570684,
+          "src": "/assets/products/6574260fdb13bdce0bf9769f.webp",
+          "alt": "Petrol-colored desk container with 3 drawers"
+        },
+        {
+          "id": 77936873603452,
+          "src": "/assets/products/7f6d029cc4f070ff9ff74a93.webp",
+          "alt": "Petrol-colored desk container with 3 drawers"
+        },
+        {
+          "id": 77936873472380,
+          "src": "/assets/products/de15f460ab9325390ebd0cff.webp",
+          "alt": "Petrol-colored desk container with 3 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715616358780,
+      "handle": "schreibtischcontainer-in-rot-mit-3-schubladen",
+      "description": "Storage container in trendy red. 3 drawers with handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071120252,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "666.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000017",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936873668988,
+          "src": "/assets/products/8112b2ce1502276f5ea7b09b.webp",
+          "alt": "Red desk container with 3 drawers"
+        },
+        {
+          "id": 77936873701756,
+          "src": "/assets/products/28c9f8008ab8580ab276690a.webp",
+          "alt": "Red desk container with 3 drawers"
+        },
+        {
+          "id": 77936873734524,
+          "src": "/assets/products/fc52a229a3d6bb6a9c9c44bd.webp",
+          "alt": "Red desk container with 3 drawers"
+        },
+        {
+          "id": 77936873767292,
+          "src": "/assets/products/07dbe2782f6fa6d0f706d9fc.webp",
+          "alt": "Red desk container with 3 drawers"
+        },
+        {
+          "id": 77936873636220,
+          "src": "/assets/products/a450fc4d08553c89840dd121.webp",
+          "alt": "Red desk container with 3 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715616293244,
+      "handle": "schreibtischcontainer-in-weiss-mit-2-schubladen",
+      "description": "Storage container in timeless white. 2 drawers with hole handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071054716,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "583.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000019",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936873341308,
+          "src": "/assets/products/79154306990f5555b878f2d6.webp",
+          "alt": "White desk container with 2 drawers"
+        },
+        {
+          "id": 77936873374076,
+          "src": "/assets/products/55e8549f60abdc6986b8c48b.webp",
+          "alt": "White desk container with 2 drawers"
+        },
+        {
+          "id": 77936873406844,
+          "src": "/assets/products/95071fff944573f37d443f56.webp",
+          "alt": "White desk container with 2 drawers"
+        },
+        {
+          "id": 77936873439612,
+          "src": "/assets/products/0e927bfa503ac346949eb82e.webp",
+          "alt": "White desk container with 2 drawers"
+        },
+        {
+          "id": 77936873308540,
+          "src": "/assets/products/57b86035ffd13d974f8935e4.webp",
+          "alt": "White desk container with 2 drawers"
+        }
+      ]
+    },
+    {
+      "id": 15715617079676,
+      "handle": "schreibtischcontainer-in-weiss-mit-2-schubladen-schwarzem-chrom",
+      "description": "Storage container with black chrome. 2 drawers with hole handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071742844,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "785.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000080",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936876913020,
+          "src": "/assets/products/6375a6f7657d7e0444d4ec19.webp",
+          "alt": "Desk container in white with 2 drawers – black chrome"
+        },
+        {
+          "id": 77936876945788,
+          "src": "/assets/products/35eac1247da22bc8ecab41e0.webp",
+          "alt": "Desk container in white with 2 drawers – black chrome"
+        },
+        {
+          "id": 77936876978556,
+          "src": "/assets/products/818326eb81c96cbde5603830.webp",
+          "alt": "Desk container in white with 2 drawers – black chrome"
+        },
+        {
+          "id": 77936877011324,
+          "src": "/assets/products/e96c2ab3ba18d0d5c3923aee.webp",
+          "alt": "Desk container in white with 2 drawers – black chrome"
+        },
+        {
+          "id": 77936876880252,
+          "src": "/assets/products/07c634596fe85d9657f09401.webp",
+          "alt": "Desk container in white with 2 drawers – black chrome"
+        }
+      ]
+    },
+    {
+      "id": 15715613999484,
+      "handle": "empfangstheke-in-schwarz-mit-niedrigen-und-hohenfachern",
+      "description": "Reception desk in timeless black.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069678460,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2158.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000024",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79040134775164,
+          "src": "/assets/products/8b67fd6baf8c6ce359d3bb91.webp",
+          "alt": "Reception desk in black with low and high compartments"
+        },
+        {
+          "id": 77936861610364,
+          "src": "/assets/products/97bee1739ec57d1a8406cb78.webp",
+          "alt": "Reception desk in black with low and high compartments"
+        },
+        {
+          "id": 77936861643132,
+          "src": "/assets/products/3e6c328d5c693d1e7153305b.webp",
+          "alt": "Reception desk in black with low and high compartments"
+        },
+        {
+          "id": 77936861577596,
+          "src": "/assets/products/013f4221587982b32ea403ae.webp",
+          "alt": "Reception desk in black with low and high compartments"
+        }
+      ]
+    },
+    {
+      "id": 15715613966716,
+      "handle": "empfangstheke-in-weiss-mit-3-broschuerenhaltern",
+      "description": "Reception desk with brochure holders for information material.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069645692,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1859.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000022",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79040118489468,
+          "src": "/assets/products/63130495419f3b295d12a706.webp",
+          "alt": "Reception desk in white with 3 brochure holders"
+        },
+        {
+          "id": 77936861512060,
+          "src": "/assets/products/b4ae4ef50bd894dcc9dcb205.webp",
+          "alt": "Reception desk in white with 3 brochure holders"
+        },
+        {
+          "id": 77936861544828,
+          "src": "/assets/products/3d7716bfcf72c9c9bdf06694.webp",
+          "alt": "Reception desk in white with 3 brochure holders"
+        },
+        {
+          "id": 77936861479292,
+          "src": "/assets/products/ad3434d44ed6af83af9e5859.webp",
+          "alt": "Reception desk in white with 3 brochure holders"
+        }
+      ]
+    },
+    {
+      "id": 15715613933948,
+      "handle": "empfangstheke-in-weiss-mit-3-broschuerenhaltern-rosegold-finish",
+      "description": "Reception desk in white with rose gold finish.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069612924,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2539.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000063",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79040143753596,
+          "src": "/assets/products/7db1fe0ca30b45fed5c4f280.webp",
+          "alt": "Reception desk in white with 3 brochure holders – rose gold finish"
+        },
+        {
+          "id": 77936861413756,
+          "src": "/assets/products/abdf81f0b3b8527ea588d1aa.webp",
+          "alt": "Reception desk in white with 3 brochure holders – rose gold finish"
+        },
+        {
+          "id": 77936861446524,
+          "src": "/assets/products/fe753c98886614d0abc533f7.webp",
+          "alt": "Reception desk in white with 3 brochure holders – rose gold finish"
+        },
+        {
+          "id": 77936861380988,
+          "src": "/assets/products/a26a00184e58955416db8b9f.webp",
+          "alt": "Reception desk in white with 3 brochure holders – rose gold finish"
+        }
+      ]
+    },
+    {
+      "id": 15715613901180,
+      "handle": "grosse-empfangstheke-in-dunkelgrau",
+      "description": "Spacious reception desk with plenty of storage space.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069580156,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2407.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000025",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79040385024380,
+          "src": "/assets/products/28f3e4d1e0349ef9dea7087e.webp",
+          "alt": "Large reception desk in dark grey"
+        },
+        {
+          "id": 77936861315452,
+          "src": "/assets/products/12b0fe1604bfe9ed3e806aca.webp",
+          "alt": "Large reception desk in dark grey"
+        },
+        {
+          "id": 77936861348220,
+          "src": "/assets/products/95b30c6921f2572f5cf0c5b7.webp",
+          "alt": "Large reception desk in dark grey"
+        },
+        {
+          "id": 77936861282684,
+          "src": "/assets/products/adb7c20c7e7689f741fbbf3b.webp",
+          "alt": "Large reception desk in dark grey"
+        }
+      ]
+    },
+    {
+      "id": 15715613868412,
+      "handle": "grosszuegige-empfangstheke-in-l-form",
+      "description": "Elegant reception area – corner counter in white.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069547388,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2755.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000020",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936861184380,
+          "src": "/assets/products/867a01b4490c4a0ffec77e82.webp",
+          "alt": "Spacious L-shaped reception desk"
+        },
+        {
+          "id": 77936861217148,
+          "src": "/assets/products/5c3992c5c83cf8ea022114d7.webp",
+          "alt": "Spacious L-shaped reception desk"
+        },
+        {
+          "id": 77936861249916,
+          "src": "/assets/products/1a5f35b7db92fad88a2b70a7.webp",
+          "alt": "Spacious L-shaped reception desk"
+        },
+        {
+          "id": 77936861151612,
+          "src": "/assets/products/39ea432b46bc0ea5d5b81d14.webp",
+          "alt": "Spacious L-shaped reception desk"
+        }
+      ]
+    },
+    {
+      "id": 15715613835644,
+      "handle": "kleine-empfangstheke-in-petrol-mit-2-fachern-fuer-warenprasentation",
+      "description": "Compact reception counter for product presentation.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069514620,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1218.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000021",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936861118844,
+          "src": "/assets/products/17c54704cd8e3fcdfc20cc74.webp",
+          "alt": "Small reception counter in petrol blue with 2 compartments for product presentation"
+        },
+        {
+          "id": 77936861053308,
+          "src": "/assets/products/d7c94c2420767e3558ef10fa.webp",
+          "alt": "Small reception counter in petrol blue with 2 compartments for product presentation"
+        },
+        {
+          "id": 77936861086076,
+          "src": "/assets/products/7796cb0088f4b22c74ac3302.webp",
+          "alt": "Small reception counter in petrol blue with 2 compartments for product presentation"
+        },
+        {
+          "id": 77936861020540,
+          "src": "/assets/products/cf70e93cbac5c4943e314d1e.webp",
+          "alt": "Small reception counter in petrol blue with 2 compartments for product presentation"
+        }
+      ]
+    },
+    {
+      "id": 15715613802876,
+      "handle": "kompakte-empfangstheke-in-l-form",
+      "description": "A classically elegant reception area in an L-shape.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069481852,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2015.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000023",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936860987772,
+          "src": "/assets/products/ce1ac21c927f7d8d18961209.webp",
+          "alt": "Compact L-shaped reception desk"
+        },
+        {
+          "id": 77936860922236,
+          "src": "/assets/products/f48689ad9c357bc96b92c04b.webp",
+          "alt": "Compact L-shaped reception desk"
+        },
+        {
+          "id": 77936860955004,
+          "src": "/assets/products/dda66d6fe15cb2be1edf45c9.webp",
+          "alt": "Compact L-shaped reception desk"
+        },
+        {
+          "id": 77936860889468,
+          "src": "/assets/products/494281ec88a328d6da35b803.webp",
+          "alt": "Compact L-shaped reception desk"
+        }
+      ]
+    },
+    {
+      "id": 15715613770108,
+      "handle": "kompakte-empfangstheke-in-chromschwarz",
+      "description": "Reception desk with frame in black chrome. Elegant L-shaped reception area.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982069449084,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2874.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000062",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936859840892,
+          "src": "/assets/products/cc890c6fdb3dd5524941508a.webp",
+          "alt": "Compact reception desk in chrome black"
+        },
+        {
+          "id": 77936859775356,
+          "src": "/assets/products/a55f4f0064f988087d737f51.webp",
+          "alt": "Compact reception desk in chrome black"
+        },
+        {
+          "id": 77936859808124,
+          "src": "/assets/products/bc9cd28b528477d0eaadd92e.webp",
+          "alt": "Compact reception desk in chrome black"
+        },
+        {
+          "id": 77936859742588,
+          "src": "/assets/products/92bb71734c460b8da8c958bd.webp",
+          "alt": "Compact reception desk in chrome black"
+        }
+      ]
+    },
+    {
+      "id": 15715616522620,
+      "handle": "garderobe-in-elegantem-dunkelgrau",
+      "description": "Spacious wardrobe in dark grey. 2 clothes rails, 4 double doors, 5 doors, recessed handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071284092,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "3877.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000071",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936874553724,
+          "src": "/assets/products/74e128e472370759fb267b5e.webp",
+          "alt": "Wardrobe in elegant dark grey"
+        },
+        {
+          "id": 77936874586492,
+          "src": "/assets/products/d8ecd7e5602df9c601d29e48.webp",
+          "alt": "Wardrobe in elegant dark grey"
+        },
+        {
+          "id": 77936874488188,
+          "src": "/assets/products/097c47ee06550308e932b98b.webp",
+          "alt": "Wardrobe in elegant dark grey"
+        },
+        {
+          "id": 77936874520956,
+          "src": "/assets/products/8db978d6c06bd912a512652d.webp",
+          "alt": "Wardrobe in elegant dark grey"
+        }
+      ]
+    },
+    {
+      "id": 15715616588156,
+      "handle": "garderobe-in-elegantem-hellgrau",
+      "description": "Stylish wardrobe in elegant light grey. 1 clothes rail, 1 double drawer, 3 flaps, hole handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071349628,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2369.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000081",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936874848636,
+          "src": "/assets/products/a943a027ab640b574d8e7c5e.webp",
+          "alt": "Wardrobe in elegant light grey"
+        },
+        {
+          "id": 77936874815868,
+          "src": "/assets/products/1eed11ed9380013b67cbad5d.webp",
+          "alt": "Wardrobe in elegant light grey"
+        },
+        {
+          "id": 77936874750332,
+          "src": "/assets/products/868fd34958cbe4e77f985c3c.webp",
+          "alt": "Wardrobe in elegant light grey"
+        },
+        {
+          "id": 77936874783100,
+          "src": "/assets/products/fb192597d4827b7f3191a008.webp",
+          "alt": "Wardrobe in elegant light grey"
+        }
+      ]
+    },
+    {
+      "id": 15715616489852,
+      "handle": "garderobe-in-elegantem-taupe",
+      "description": "Large wardrobe in elegant taupe. 2 clothes rails, 5 compartments with flaps, 1 double drawer, hole handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071251324,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "3735.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000070",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936874422652,
+          "src": "/assets/products/d86c51c0ec58dbae899e29a3.webp",
+          "alt": "Wardrobe in elegant taupe"
+        },
+        {
+          "id": 77936874455420,
+          "src": "/assets/products/f4ef1bd648c0293bc5b5a5e0.webp",
+          "alt": "Wardrobe in elegant taupe"
+        },
+        {
+          "id": 77936874357116,
+          "src": "/assets/products/c8b34fd983b6577edf30de91.webp",
+          "alt": "Wardrobe in elegant taupe"
+        },
+        {
+          "id": 77936874389884,
+          "src": "/assets/products/f9f1d5f2562cf6a06a259e14.webp",
+          "alt": "Wardrobe in elegant taupe"
+        }
+      ]
+    },
+    {
+      "id": 15715616555388,
+      "handle": "garderobe-in-klassischem-schwarz",
+      "description": "Elegant wardrobe in timeless black. 1 clothes rail, 6 flaps, handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071316860,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2816.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000073",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936874684796,
+          "src": "/assets/products/24fff7f14e4e5185261cab81.webp",
+          "alt": "Wardrobe in classic black"
+        },
+        {
+          "id": 77936874717564,
+          "src": "/assets/products/a687be4426de3745ad8ce4d0.webp",
+          "alt": "Wardrobe in classic black"
+        },
+        {
+          "id": 77936874619260,
+          "src": "/assets/products/79607b19c3163ef1f0a25626.webp",
+          "alt": "Wardrobe in classic black"
+        },
+        {
+          "id": 77936874652028,
+          "src": "/assets/products/286b9f7e5c31dc66c7212dc0.webp",
+          "alt": "Wardrobe in classic black"
+        }
+      ]
+    },
+    {
+      "id": 15715616653692,
+      "handle": "garderobe-in-trendigem-mint",
+      "description": "Compact wardrobe in trendy mint color. 1 clothes rail, 1 drawer, 1 flap, hole handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071415164,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1458.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000075",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936875078012,
+          "src": "/assets/products/9d3778c1bb88f2d5c208ab2d.webp",
+          "alt": "Wardrobe in trendy mint"
+        },
+        {
+          "id": 77936875110780,
+          "src": "/assets/products/a94164fa9d6974e03ff1a78b.webp",
+          "alt": "Wardrobe in trendy mint"
+        },
+        {
+          "id": 77936875012476,
+          "src": "/assets/products/bb337f47e1af4a86a8ae2704.webp",
+          "alt": "Wardrobe in trendy mint"
+        },
+        {
+          "id": 77936875045244,
+          "src": "/assets/products/a4c990fcac7de1239dbe1a07.webp",
+          "alt": "Wardrobe in trendy mint"
+        }
+      ]
+    },
+    {
+      "id": 15715616620924,
+      "handle": "garderobe-in-trendigem-petrol",
+      "description": "Versatile wardrobe in trendy petrol blue. 1 clothes rail, 1 drawer, 3 flaps, handles.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982071382396,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2311.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": "SW0000074",
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936874979708,
+          "src": "/assets/products/5d3d47e43c2cd22cf988eae1.webp",
+          "alt": "Wardrobe in trendy petrol blue"
+        },
+        {
+          "id": 77936874946940,
+          "src": "/assets/products/dcefa5712b2dee7fca5351ed.webp",
+          "alt": "Wardrobe in trendy petrol blue"
+        },
+        {
+          "id": 77936874881404,
+          "src": "/assets/products/e8683611abd660fb65351af9.webp",
+          "alt": "Wardrobe in trendy petrol blue"
+        },
+        {
+          "id": 77936874914172,
+          "src": "/assets/products/864f54fd05e4353b724630d1.webp",
+          "alt": "Wardrobe in trendy petrol blue"
+        }
+      ]
+    },
+    {
+      "id": 15991394566524,
+      "handle": "ecksideboard-entwurf-2",
+      "description": "Modern corner sideboard in mint with 2 flaps and hole handle, individually customizable.",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56781029147004,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1443.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 83350750331260,
+          "src": "/assets/products/3c0ca428ea68afbd6f164d22.jpg",
+          "alt": "Mint corner sideboard with 2 doors and hole handle – modern sideboard made to measure"
+        },
+        {
+          "id": 83350751347068,
+          "src": "/assets/products/a97ce340ae132cb4dfc0d5c3.jpg",
+          "alt": "Mint corner sideboard with 2 doors and hole handle – modern sideboard made to measure"
+        },
+        {
+          "id": 82234503266684,
+          "src": "/assets/products/51068af47b4f119375a4194d.webp",
+          "alt": "Mint corner sideboard with 2 doors and hole handle – modern sideboard made to measure"
+        },
+        {
+          "id": 82234503299452,
+          "src": "/assets/products/3e217a8908c1e725a4a2c959.webp",
+          "alt": "Mint corner sideboard with 2 doors and hole handle – modern sideboard made to measure"
+        }
+      ]
+    },
+    {
+      "id": 15991392010620,
+      "handle": "ecksideboard-entwurf-1",
+      "description": "Modular design corner sideboard in white with flap, drawers, double drawer and hole handle for functional elegance.",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56781025870204,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "3337.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 82508841517436,
+          "src": "/assets/products/9de6db95a4644bb21d13c613.jpg",
+          "alt": "Corner sideboard in white with flap, 3 drawers, double drawer and hole handle – modular design sideboard"
+        },
+        {
+          "id": 82508841484668,
+          "src": "/assets/products/595fb20c317667fb0e0683ec.jpg",
+          "alt": "Corner sideboard in white with flap, 3 drawers, double drawer and hole handle – modular design sideboard"
+        },
+        {
+          "id": 82234496516476,
+          "src": "/assets/products/783b0067ca8a2763c3229913.webp",
+          "alt": "Corner sideboard in white with flap, 3 drawers, double drawer and hole handle – modular design sideboard"
+        },
+        {
+          "id": 82234496549244,
+          "src": "/assets/products/7ff1cc11b42de3512eb74ff5.webp",
+          "alt": "Corner sideboard in white with flap, 3 drawers, double drawer and hole handle – modular design sideboard"
+        }
+      ]
+    },
+    {
+      "id": 15991395516796,
+      "handle": "ecksideboard-entwurf-3",
+      "description": "Corner sideboard, black, with open compartments – modular sideboard",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56781030424956,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1209.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 82774316614012,
+          "src": "/assets/products/461f14c0280d500ae0116fbe.jpg",
+          "alt": "Corner sideboard, black, with open compartments – modular sideboard"
+        },
+        {
+          "id": 82774319300988,
+          "src": "/assets/products/51b63a5331f2cd92927e04d1.jpg",
+          "alt": "Corner sideboard, black, with open compartments – modular sideboard"
+        },
+        {
+          "id": 82234507297148,
+          "src": "/assets/products/9b9f586659490bfbf093fdb2.webp",
+          "alt": "Corner sideboard, black, with open compartments – modular sideboard"
+        }
+      ]
+    },
+    {
+      "id": 15991397712252,
+      "handle": "ecksideboard-4",
+      "description": "Modular corner sideboard in taupe with open shelving, ideal for living room, office or decorative storage.",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56781033013628,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1710.50",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 83351071195516,
+          "src": "/assets/products/1d932056265bd98490cdf081.jpg",
+          "alt": "Corner sideboard in taupe with open shelves – modular sideboard for living room and office"
+        },
+        {
+          "id": 83351070015868,
+          "src": "/assets/products/caa130f850c9f06f182212b6.jpg",
+          "alt": "Corner sideboard in taupe with open shelves – modular sideboard for living room and office"
+        },
+        {
+          "id": 83351071228284,
+          "src": "/assets/products/bc518c06aa173fb2e660e23b.jpg",
+          "alt": "Corner sideboard in taupe with open shelves – modular sideboard for living room and office"
+        },
+        {
+          "id": 82234515095932,
+          "src": "/assets/products/0f23da52ec587e16a0b9a8cb.webp",
+          "alt": "Corner sideboard in taupe with open shelves – modular sideboard for living room and office"
+        }
+      ]
+    },
+    {
+      "id": 15991398728060,
+      "handle": "ecksideboard-entwurf-6",
+      "description": "Large modular corner sideboard in petrol with 4 double doors and handles for versatile storage space.",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56781034455420,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "2310.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 82508851577212,
+          "src": "/assets/products/3a957330744661b4b4a12e9a.jpg",
+          "alt": "Corner sideboard petrol with 4 double doors and handles – large modular storage sideboard"
+        },
+        {
+          "id": 82508850856316,
+          "src": "/assets/products/fcaf251d3e3549ec1967c60f.jpg",
+          "alt": "Corner sideboard petrol with 4 double doors and handles – large modular storage sideboard"
+        }
+      ]
+    },
+    {
+      "id": 15991400530300,
+      "handle": "ecksideboard-entwurf-7",
+      "description": "Large light grey Flexcube sideboard with 8 drawers, 4 flaps and handles for maximum organization.",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56781041598844,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "3180.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 83351096230268,
+          "src": "/assets/products/e3e658bdf355737d8f176293.jpg",
+          "alt": "Corner sideboard, light grey, with 8 drawers, 4 flaps and handles – large Flexcube sideboard"
+        },
+        {
+          "id": 83351102292348,
+          "src": "/assets/products/3057a21d3761c29c8e3903d5.jpg",
+          "alt": "Corner sideboard, light grey, with 8 drawers, 4 flaps and handles – large Flexcube sideboard"
+        },
+        {
+          "id": 82234534527356,
+          "src": "/assets/products/60052b7f6cbc634fb952085a.webp",
+          "alt": "Corner sideboard, light grey, with 8 drawers, 4 flaps and handles – large Flexcube sideboard"
+        },
+        {
+          "id": 82234534560124,
+          "src": "/assets/products/89e0a26ad00399adbb5b4b06.webp",
+          "alt": "Corner sideboard, light grey, with 8 drawers, 4 flaps and handles – large Flexcube sideboard"
+        }
+      ]
+    },
+    {
+      "id": 15991403708796,
+      "handle": "ecksideboard-entwurf-8",
+      "description": "Modern corner sideboard in olive green with practical drawers, double drawers and handles for stylish storage.",
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56781046251900,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "3087.00",
+          "compareAtPrice": null,
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 83351106486652,
+          "src": "/assets/products/f7f4148b9284749ea3ae7b03.jpg",
+          "alt": "Corner sideboard in olive green with drawers, double drawers and handles"
+        },
+        {
+          "id": 83351106519420,
+          "src": "/assets/products/ea479711a084210ec5436cee.jpg",
+          "alt": "Corner sideboard in olive green with drawers, double drawers and handles"
+        },
+        {
+          "id": 83351106552188,
+          "src": "/assets/products/1a9b394bb8e914f8245f749b.jpg",
+          "alt": "Corner sideboard in olive green with drawers, double drawers and handles"
+        },
+        {
+          "id": 82234546848124,
+          "src": "/assets/products/69f91805b91d8aa9e3a47b90.webp",
+          "alt": "Corner sideboard in olive green with drawers, double drawers and handles"
+        },
+        {
+          "id": 82234546880892,
+          "src": "/assets/products/6549bdc080398a1f00d2e2b9.webp",
+          "alt": "Corner sideboard in olive green with drawers, double drawers and handles"
+        }
+      ]
+    },
+    {
+      "id": 16110758003068,
+      "handle": "sale-kommode-190x40x101cm-ral-2003-pastellorange",
+      "description": "Sideboard on casters. Custom-made in RAL 2004 Pure Orange. Two drop-down doors. Handles with locks. Chrome-plated stainless steel frame, metal panels in RAL 2004 Pure Orange. Display model with minor signs of wear (scratches on the side). 50% discount. Fully assembled. Ready for collection from our showroom in Hünenberg ZG.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57412321739132,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "1894.00",
+          "compareAtPrice": "2914.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 84981540585852,
+          "src": "/assets/products/96af35fe2a25273d754f639b.jpg",
+          "alt": "SALE: Highboard dark grey/white 190x40x271cm"
+        },
+        {
+          "id": 84981512274300,
+          "src": "/assets/products/1a0e1e12eaeca235502a5c31.jpg",
+          "alt": "SALE: Highboard dark grey/white 190x40x271cm"
+        }
+      ]
+    },
+    {
+      "id": 16150422815100,
+      "handle": "sale-sideboard-77x40x107cm-schwarz",
+      "description": "Sideboard on casters. Custom-made in RAL 2004 Pure Orange. Two drop-down doors. Handles with locks. Chrome-plated stainless steel frame, metal panels in RAL 2004 Pure Orange. Display model with minor signs of wear (scratches on the side). 50% discount. Fully assembled. Ready for collection from our showroom in Hünenberg ZG.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57598952898940,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "534.00",
+          "compareAtPrice": "822.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85510042780028,
+          "src": "/assets/products/e84a7597b2deba7d139a0275.jpg",
+          "alt": "SALE: Highboard dark grey/white 190x40x271cm"
+        },
+        {
+          "id": 85510043304316,
+          "src": "/assets/products/375fb4780a77f79c7ecdae53.jpg",
+          "alt": "SALE: Highboard dark grey/white 190x40x271cm"
+        }
+      ]
+    },
+    {
+      "id": 16138337452412,
+      "handle": "occasion-profi-hohenverstellbarer-schreibtisch-140x80-weiss-t9",
+      "description": "Sideboard on casters. Custom-made in RAL 2004 Pure Orange. Two drop-down doors. Handles with locks. Chrome-plated stainless steel frame, metal panels in RAL 2004 Pure Orange. Display model with minor signs of wear (scratches on the side). 50% discount. Fully assembled. Ready for collection from our showroom in Hünenberg ZG.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57510210175356,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "399.00",
+          "compareAtPrice": "968.95",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85333862351228,
+          "src": "/assets/products/54dc0d0348e5d93765ca0601.jpg",
+          "alt": "SALE: Highboard dark grey/white 190x40x271cm"
+        }
+      ]
+    },
+    {
+      "id": 16138317824380,
+      "handle": "occasion-home-schreibtisch-160x80",
+      "description": "Sideboard on casters. Custom-made in RAL 2004 Pure Orange. Two drop-down doors. Handles with locks. Chrome-plated stainless steel frame, metal panels in RAL 2004 Pure Orange. Display model with minor signs of wear (scratches on the side). 50% discount. Fully assembled. Ready for collection from our showroom in Hünenberg ZG.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57510175801724,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "349.00",
+          "compareAtPrice": "849.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85333732950396,
+          "src": "/assets/products/39231591c8d0ae09fb5f6823.jpg",
+          "alt": "SALE: Highboard dark grey/white 190x40x271cm"
+        }
+      ]
+    },
+    {
+      "id": 16138330702204,
+      "handle": "sale-profi-hohenverstellbarer-schreibtisch-180x80-dunkelgrau-t5-6",
+      "description": "Sideboard on casters. Custom-made in RAL 2004 Pure Orange. Two drop-down doors. Handles with locks. Chrome-plated stainless steel frame, metal panels in RAL 2004 Pure Orange. Display model with minor signs of wear (scratches on the side). 50% discount. Fully assembled. Ready for collection from our showroom in Hünenberg ZG.",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57510201393532,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "399.00",
+          "compareAtPrice": "969.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85333803762044,
+          "src": "/assets/products/7dcf82305044633422679e08.jpg",
+          "alt": "SALE: Highboard dark grey/white 190x40x271cm"
+        }
+      ]
+    },
+    {
+      "id": 16138371006844,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-schwarz-nussbaum-140x80cm-t4",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57510261916028,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "349.00",
+          "compareAtPrice": "799.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85334402105724,
+          "src": "/assets/products/60f5f659bf7382de88ef849d.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 16138424091004,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-schwarz-nussbaum-140x80cm-t2",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57510387089788,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "449.00",
+          "compareAtPrice": "1056.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85335088398716,
+          "src": "/assets/products/8a732d5028bd1c5c6146ecba.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 16138376511868,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-weiss-nussbaum-140x80cm-t7-8",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57510270894460,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "449.00",
+          "compareAtPrice": "1056.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85334425633148,
+          "src": "/assets/products/8bba986ee568382fb233c204.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 16138452205948,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-weiss-nussbaum-140x80cm-t3",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 57510497223036,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "499.00",
+          "compareAtPrice": "1159.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 85335232741756,
+          "src": "/assets/products/2c9883f90079cc06103f0cd8.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 15715612393852,
+      "handle": "ecco-hoehenverstellbarer-schreibtisch-weiss-130x70cm",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 55982068695420,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "399.00",
+          "compareAtPrice": "789.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 77936854663548,
+          "src": "/assets/products/196b794f0eb0c2d75e4caad4.webp",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 77936854696316,
+          "src": "/assets/products/6ed69bc7a5a313af1f41450f.webp",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 15926804382076,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-weiss-135x70cm-kopie-1",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56507293827452,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "399.00",
+          "compareAtPrice": "789.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79863939367292,
+          "src": "/assets/products/3d9014bb9483be410fb06622.png",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 79863658447228,
+          "src": "/assets/products/8434a280455b087fcc99dd7e.png",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 15926050914684,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-weiss-135x70cm-kopie",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56503866687868,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "399.00",
+          "compareAtPrice": "789.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79847727628668,
+          "src": "/assets/products/ea027573f0d971164e8ab2d1.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 79847728021884,
+          "src": "/assets/products/65e3e209395307347b575305.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 15925095039356,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-weiss-eichefurnier-135x70cm",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56498889458044,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "499.00",
+          "compareAtPrice": "969.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79832113152380,
+          "src": "/assets/products/b03c8875965e30f112995086.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 79832113185148,
+          "src": "/assets/products/76222a16fc1990ced3f0f312.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 15926048883068,
+      "handle": "sale-ecco-hohenverstellbarer-schreibtisch-weiss-eichefurnier-135x70cm-kopie",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56503861772668,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "549.00",
+          "compareAtPrice": "1039.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 79847712063868,
+          "src": "/assets/products/47f5dd1a92ba54e88e67bee1.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 79847712031100,
+          "src": "/assets/products/6c4e8038fce095d834ea2ee8.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    },
+    {
+      "id": 15995033190780,
+      "handle": "sale-wandtisch-home-hohenverstellbar-65x50cm",
+      "description": "Manually height-adjustable desk Flexcube ECCO. Remaining stock. New and in original packaging. - Manually height-adjustable - No power connection required - Tabletop: Melamine-coated fiberboard. White - Size 135x70 cm - Frame: Powder-coated steel, white - Height-adjustable feet to compensate for uneven floors - Infinitely adjustable height from 73 – 114 cm - Maximum load 75 kg - Unassembled",
+      "options": [
+        {
+          "name": "Title ",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": 56795116470652,
+          "title": "Default Title",
+          "options": [
+            "Default Title"
+          ],
+          "price": "399.00",
+          "compareAtPrice": "849.00",
+          "available": true,
+          "sku": null,
+          "image": null
+        }
+      ],
+      "images": [
+        {
+          "id": 82465368408444,
+          "src": "/assets/products/fda171237234814d352ae36d.webp",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 82465368736124,
+          "src": "/assets/products/8a3c5f0890709ede8180de6e.webp",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 82465368899964,
+          "src": "/assets/products/20dbc7fce36f38acf5e276be.webp",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        },
+        {
+          "id": 82465370702204,
+          "src": "/assets/products/47a82bb51c721e0695dc2a5e.jpg",
+          "alt": "SALE: ECCO height-adjustable desk white 135x70cm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "source": "https://flexcube.ch/en/collections/alle-bestseller",
+  "retrieved_at": "2026-10-15T04:53:36.401664+00:00",
+  "collections": [
+    {
+      "key": "All",
+      "slug": "alle-bestseller",
+      "productIds": [
+        15715614851452,
+        15715614720380,
+        15715616784764,
+        15715614916988,
+        15715614753148,
+        15715614785916,
+        15715616686460,
+        15715614228860,
+        15715614327164,
+        15715614294396,
+        15715614425468,
+        15715615179132,
+        15715616391548
+      ]
+    },
+    {
+      "key": "Sideboards",
+      "slug": "sideboards",
+      "productIds": [
+        15715616686460,
+        15715614228860,
+        15715614327164,
+        15715614294396,
+        15715614425468,
+        15715614622076,
+        15715614491004,
+        15715616850300
+      ]
+    },
+    {
+      "key": "Lowboards",
+      "slug": "lowboards",
+      "productIds": [
+        15715615080828,
+        15715615375740,
+        15715616751996,
+        15715615506812,
+        15715615670652,
+        15715615179132,
+        15715615736188,
+        15715616948604
+      ]
+    },
+    {
+      "key": "Chests of drawers",
+      "slug": "kommoden",
+      "productIds": [
+        15715614851452,
+        15715614720380,
+        15715616784764,
+        15715614916988,
+        15715614753148,
+        15715614785916,
+        15715614687612,
+        15715616915836
+      ]
+    },
+    {
+      "key": "Shelves",
+      "slug": "regale",
+      "productIds": [
+        15715616719228,
+        15715616227708,
+        15715615867260,
+        15715615801724,
+        15715615998332,
+        15715615768956,
+        15715616096636,
+        15715617014140
+      ]
+    },
+    {
+      "key": "Tables",
+      "slug": "tische",
+      "productIds": [
+        15715611738492,
+        15715611705724,
+        15715612033404,
+        15715611771260,
+        15715611902332,
+        15715611836796,
+        15715612000636,
+        15715611804028,
+        15882015244668
+      ]
+    },
+    {
+      "key": "Pedestals",
+      "slug": "container",
+      "productIds": [
+        15715616457084,
+        15715616391548,
+        15715616424316,
+        15715616817532,
+        15715616326012,
+        15715616358780,
+        15715616293244,
+        15715617079676
+      ]
+    },
+    {
+      "key": "Reception desks",
+      "slug": "empfangstheken",
+      "productIds": [
+        15715613999484,
+        15715613966716,
+        15715613933948,
+        15715613901180,
+        15715613868412,
+        15715613835644,
+        15715613802876,
+        15715613770108
+      ]
+    },
+    {
+      "key": "Wardrobes",
+      "slug": "garderoben",
+      "productIds": [
+        15715616522620,
+        15715616588156,
+        15715616489852,
+        15715616555388,
+        15715616653692,
+        15715616620924
+      ]
+    },
+    {
+      "key": "Corner sideboard",
+      "slug": "ecksideboard",
+      "productIds": [
+        15991394566524,
+        15991392010620,
+        15991395516796,
+        15991397712252,
+        15991398728060,
+        15991400530300,
+        15991403708796
+      ]
+    },
+    {
+      "key": "Sale",
+      "slug": "sale",
+      "productIds": [
+        16110758003068,
+        16150422815100,
+        16138337452412,
+        16138317824380,
+        16138330702204,
+        16138371006844,
+        16138424091004,
+        16138376511868,
+        16138452205948,
+        15715612393852,
+        15926804382076,
+        15926050914684,
+        15925095039356,
+        15926048883068,
+        15995033190780
+      ]
+    }
+  ],
+  "newAssets": [
+    {
+      "file": "public/assets/collections/alle-bestseller.png",
+      "source": "https://flexcube.ch/cdn/shop/files/Bestseller_1_5fdfd002-4d22-4115-a4bb-df40e432e38b.png?width=384",
+      "sha256": "345c044075e5038868804e0626f6db308dfd5af4f562d144a8c6a3fa5af596af"
+    },
+    {
+      "file": "public/assets/product-rollcontainer-mit-2-schubladen-2.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Rollcontainermit2Schubladen-2.webp?width=900",
+      "sha256": "664ca71f43bc1d30fad2120d2c149506292d1e9d0dd6b9c0d290928ca731467c"
+    },
+    {
+      "file": "public/assets/collections/sideboards.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/sideboard-one.webp?width=384",
+      "sha256": "34b62a58d8650d95ee3a790b9e36a204120e689be6333d2d4836baefb0aa855d"
+    },
+    {
+      "file": "public/assets/product-sideboard-in-weiss-mit-2-klappen-1-schublade.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinWeissmit2Klappen_1Schublade-4_9f816d46-9db0-4ebb-bd00-9c43a8bbc5c2.webp?width=900",
+      "sha256": "70193db6c189a2de48b57cfcc99b800c6456ca4862d0147efa8393e6ff2d4ab6"
+    },
+    {
+      "file": "public/assets/product-sideboard-in-weiss-mit-4-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Sideboard_in_Weiss_mit_4_Klappen_-_2.webp?width=900",
+      "sha256": "c4aa942e61627e49dfded56432f30d3007a0b2dfdc27fa1f908a14cf839b4798"
+    },
+    {
+      "file": "public/assets/product-sideboard-in-weiss-mit-4-klappen-rosegold-finish.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SideboardinWeissmit4Klappen_Rosegold-Finish-4.webp?width=900",
+      "sha256": "22b2cde4a4e481e4205504bda084ac728a90617120bd1eed53710da39984be93"
+    },
+    {
+      "file": "public/assets/collections/lowboards.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/lowboard-new.webp?width=384",
+      "sha256": "8673b87f696103411cd8d2ff6cb806c3c01f3338c7557fc55d2c037c3b188ed3"
+    },
+    {
+      "file": "public/assets/product-lowboard-in-weiss-mit-2-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinWeissmit2Klappen-1.webp?width=900",
+      "sha256": "93f4ce86147cdd4ffd757ae3b206cfdc77a8577a0c48bd1a68c1c62cd185a459"
+    },
+    {
+      "file": "public/assets/product-lowboard-in-hellgrau-mit-2-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinHellgraumit2Klappen-1.webp?width=900",
+      "sha256": "3f7730b733adb62f9a174d9b908ede91252b8d56994cd208f9aa4c69343a3b31"
+    },
+    {
+      "file": "public/assets/product-lowboard-in-olivgruen-mit-2-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinOlivgrunmit2Klappen-2.webp?width=900",
+      "sha256": "16b8fc21bf924830346dc103e0c95444a1fbc78f5ed188143778fced7fd9899d"
+    },
+    {
+      "file": "public/assets/product-lowboard-in-petrol-mit-2-schubladen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinPetrolmit2Schubladen-1_3da84b40-fa97-4840-935e-f3fa6fa5c9e7.webp?width=900",
+      "sha256": "194c51f12bc66d93d7218fbc4ffabd58f366f778113a38ca9c8d83dab2108333"
+    },
+    {
+      "file": "public/assets/product-lowboard-in-rot-mit-3-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinRotmit3Klappen-1_867db891-e20c-4983-81c4-0e1c18fc7854.webp?width=900",
+      "sha256": "48bb4ee4a40d953dd5d12f0d08b0ad73e52a278d11707c18dfd94304ea5ec47c"
+    },
+    {
+      "file": "public/assets/product-lowboard-in-taupe-mit-2-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinTaupemit2Klappen-1_f48e1a75-487d-4dc4-86fa-4896de361d61.webp?width=900",
+      "sha256": "856a2615c3de55bd510d744dc9551958277ae789e2dc16112b963b3b0dd3a087"
+    },
+    {
+      "file": "public/assets/product-lowboard-in-taupe-mit-2-klappen-rosegold-finish.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/LowboardinTaupemit2Klappen_Rosegold-Finish-1.webp?width=900",
+      "sha256": "b4c4cb3911fea82bde9904bb976de7583c5d6aa307455a9ef7833992f5f87366"
+    },
+    {
+      "file": "public/assets/collections/kommoden.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/kommoden-new.webp?width=384",
+      "sha256": "4b564f38351ddf1a4eee1a382b4bca4eea347bc73993086a12ba52e6e752cb27"
+    },
+    {
+      "file": "public/assets/product-kommode-in-weiss-mit-3-schubladen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinWeissmit3Schubladen-5_8c55b199-d39f-420d-bba9-10ebfdc2968a.webp?width=900",
+      "sha256": "d2cdeb426385ad14d15797f7aeb1f969c8eb9c3eb60c43f06f8f0621d2da9ddc"
+    },
+    {
+      "file": "public/assets/product-kommode-in-weiss-mit-3-schubladen-schwarzem-chrom.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KommodeinWeissmit3Schubladen_SchwarzemChrom-5.webp?width=900",
+      "sha256": "950e3fb0ef36d0360ef3e4ddadd988b930782909fa89da9c7889ad24858c4875"
+    },
+    {
+      "file": "public/assets/collections/regale.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/regale-new.webp?width=384",
+      "sha256": "58d50146d3dee199a75a5b82a6c1a74cf3ce29293e1173a2249a74c05fc8bd62"
+    },
+    {
+      "file": "public/assets/product-regal-in-olivgruen-mit-2-schublden-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinOlivgrunmit2Schublden-Klappen-4.webp?width=900",
+      "sha256": "93e33a750229a5913c821e6ecfffee42f27063fdfc2d477ba899b29ee71f8c2e"
+    },
+    {
+      "file": "public/assets/product-regal-in-taupe-mit-2-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinTaupemit2Klappen-2.webp?width=900",
+      "sha256": "30c2cc774f7ea7fce6e802f0d7022a37245bb8f7952063aa952a0fcfda69341d"
+    },
+    {
+      "file": "public/assets/product-regal-in-petrol-mit-3-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinPetrolmit3Klappen-4.webp?width=900",
+      "sha256": "4393192e2424e0a06a6ada6e51df06c30f5f3e115470bf347bb3873b6b595a68"
+    },
+    {
+      "file": "public/assets/product-regal-in-weiss-mit-2-schubladen-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit2Schubladen-Klappen-4.webp?width=900",
+      "sha256": "0318ab0bd514be7dcbe2a82384222647a4feaaefd3d1a92db219f8c91c1d0222"
+    },
+    {
+      "file": "public/assets/product-regal-in-schwarz-mit-2-schublden-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinSchwarzmit2Schublden-Klappen-4.webp?width=900",
+      "sha256": "a53acc7fe4ec7975694e15aceea7a7c6d871410fc6f3b24d2de2929d7f743e21"
+    },
+    {
+      "file": "public/assets/product-regal-in-weiss-mit-vitrinenfunktion.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmitVitrinenfunktion-4.webp?width=900",
+      "sha256": "8654e6fa9f83051e511fa849640c1d01935ee5032b2bda0cda50ddef55929490"
+    },
+    {
+      "file": "public/assets/product-regal-in-weiss-mit-3-klappen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit3Klappen-5.webp?width=900",
+      "sha256": "4d0fe9e662708cb6a60bfb88cec2d4210af6a90e0109141a5a0e6d0e78bd8e02"
+    },
+    {
+      "file": "public/assets/product-regal-in-weiss-mit-3-klappen-rosegold-finish.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/RegalinWeissmit3Klappen_Rosegold-Finish-5.webp?width=900",
+      "sha256": "adf0aaacd627d6f704f1907b6cb1cff248232cca379b44f75fbdaed9cd1d4233"
+    },
+    {
+      "file": "public/assets/collections/tische.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/tiche-icon-1.webp?width=384",
+      "sha256": "964403a2925ddc5ae4ae1ba848a9688f0268ccf1037888af109e7fd94b7b17df"
+    },
+    {
+      "file": "public/assets/product-hoehenverstellbarer-schreibtisch-home.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Hohenverstellbarer_Schreibtisch_Flexcube_Home_-_Echtholz-Furnier_Eiche_-_1.webp?width=900",
+      "sha256": "7e6962bab7e43ea2d52505b46fbeec0f8f34e9daf69ea53d0e3ded0219cc86f8"
+    },
+    {
+      "file": "public/assets/product-hoehenverstellbarer-schreibtisch-profi.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Hohenverstellbarer_Schreibtisch_Flexcube_Profi_-_Schwarz_-_1.webp?width=900",
+      "sha256": "9b993b71c6de1b9e6dac8da7f94d2ab884182e056a80ae725197050631a3e8bf"
+    },
+    {
+      "file": "public/assets/product-besprechungstisch-flexcube-klassik.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/3-Schreibtisch-Flexcube-Klassik.webp?width=900",
+      "sha256": "ebdebd2f39d2d9acae1688a784e81be77ea060fce19618a7cfd26b6e33b17902"
+    },
+    {
+      "file": "public/assets/product-hoehenverstellbarer-schreibtisch-ecktisch.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/controllerA__2.webp?width=900",
+      "sha256": "a52706bbc0bdc6b55defce88cb9c6587ceef77feceac8691d823d0908fe27061"
+    },
+    {
+      "file": "public/assets/product-hoehenverstellbarer-besprechungstisch.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Hohenverstellbarer_Besprechungstisch_quadratisch_-_Weiss_-_Mit_Rollen_-_1.webp?width=900",
+      "sha256": "2eb687e1c172b6bfb616a450e710b9adaa1f4e926ca737d648ccdaf94f9fe377"
+    },
+    {
+      "file": "public/assets/product-flexcube-hoehenverstellbarer-besprechungstisch.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/pro-2.webp?width=900",
+      "sha256": "cea22253f3c0b11e2fa98a4657d13d51f043e27ce52caf1897407bd14ca87123"
+    },
+    {
+      "file": "public/assets/product-hoehenverstellbarer-wandtisch-65cm.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/pro-3.webp?width=900",
+      "sha256": "d93a005ae6433c018eee36121e180592527b295d9e79d43df13655ad5e90ef54"
+    },
+    {
+      "file": "public/assets/product-flexcube-hoehenverstellbarer-wandtisch.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/pro-5.webp?width=900",
+      "sha256": "4ebf7060e310f5c728cd30b64238a15dbb71651161eac27eda5269f56262113d"
+    },
+    {
+      "file": "public/assets/product-schreibtisch-klassik.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/black-b-rev.webp?width=900",
+      "sha256": "3ef714d3b9801392ef17189430ac70bfe2248e5af9d253367427062047e41ce0"
+    },
+    {
+      "file": "public/assets/collections/container.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/container-new.webp?width=384",
+      "sha256": "32067e0fc42aa320fcfa9cb19e25fff24f520f62085d8ca995a2193623147025"
+    },
+    {
+      "file": "public/assets/product-beistellmobel-mit-schublade.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/BeistellmobelmitSchublade-3.webp?width=900",
+      "sha256": "d99fec8b7cee09d32eed81f25118c21b8afb87e4ecce71fcb78ac98712ef7b59"
+    },
+    {
+      "file": "public/assets/product-rollcontainer-mit-2-schubladen-und-ablagefach.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Rollcontainermit2SchubladenundAblagefach-2.webp?width=900",
+      "sha256": "a46ab53c6282735e272029cf3b4b3b3690d9f2427b1e6bf71be9f8378af31caa"
+    },
+    {
+      "file": "public/assets/product-schreibtischcontainer-in-olivgruen-mit-3-schubladen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinOlivgrunmit3Schubladen-2.webp?width=900",
+      "sha256": "ffb969f0bf530f1b61ebed5d1009044deab28b2f6717af942d39e3fd211fd161"
+    },
+    {
+      "file": "public/assets/product-schreibtischcontainer-in-petrol-mit-3-schubladen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Schreibtischcontainer_in_Petrol_mit_3_Schubladen_-_2.webp?width=900",
+      "sha256": "3e88578718be6e956a8b12c582ca260a9eaec398b70daca002ff1f32364d5cbc"
+    },
+    {
+      "file": "public/assets/product-schreibtischcontainer-in-rot-mit-3-schubladen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinRotmit3Schubladen-2.webp?width=900",
+      "sha256": "76524531e2b2a018edb17202cf57cdfa1d711adffe0bf0f99fb28f7af6348426"
+    },
+    {
+      "file": "public/assets/product-schreibtischcontainer-in-weiss-mit-2-schubladen.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinWeissmit2Schubladen-2.webp?width=900",
+      "sha256": "dbcf7c72596e20ec6bc2ecbec93ab7a69eda0fb0ff4d803081976f84aa6befab"
+    },
+    {
+      "file": "public/assets/product-schreibtischcontainer-in-weiss-mit-2-schubladen-schwarzem-chrom.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/SchreibtischcontainerinWeissmit2Schubladen_SchwarzemChrom-2.webp?width=900",
+      "sha256": "49037cb2fac9d764b31552847793bcf3afefeb624e8b18804ed628997a511931"
+    },
+    {
+      "file": "public/assets/collections/empfangstheken.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/empang-new.webp?width=384",
+      "sha256": "8d143f59adf8553b1865f84ff332c451348dda4501f498679f9dcfd9f72e83a7"
+    },
+    {
+      "file": "public/assets/product-empfangstheke-in-schwarz-mit-niedrigen-und-hohenfachern.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-1.webp?width=900",
+      "sha256": "9d42197462dc9f28fb2eac2c2913a53860a28974b9f42f622e0c88837def8a43"
+    },
+    {
+      "file": "public/assets/product-empfangstheke-in-weiss-mit-3-broschuerenhaltern.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empang-image-2.webp?width=900",
+      "sha256": "6a0a63dc06fe45ac0651412f51c56c9c3487818daac12c59543e7b5bb45e6c85"
+    },
+    {
+      "file": "public/assets/product-empfangstheke-in-weiss-mit-3-broschuerenhaltern-rosegold-finish.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-3.webp?width=900",
+      "sha256": "c5cefb8becae0e9435ff640f61ee0253f92cc220bc252cdfd6bb102772d60a84"
+    },
+    {
+      "file": "public/assets/product-grosse-empfangstheke-in-dunkelgrau.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/empfang-4.webp?width=900",
+      "sha256": "c30adad5735a08c4b32be0b499a39cb3e363178c64725e244b3a59b4c8011cb4"
+    },
+    {
+      "file": "public/assets/product-grosszuegige-empfangstheke-in-l-form.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GrosszugigeEmpfangsthekeinL-Form-2.webp?width=900",
+      "sha256": "e2c48c962430d0d7ce6a76fe4a613837d18a2a780e08b405a738e62d1227d078"
+    },
+    {
+      "file": "public/assets/product-kleine-empfangstheke-in-petrol-mit-2-fachern-fuer-warenprasentation.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KleineEmpfangsthekeinPetrolmit2FachernfurWarenprasentation-4.webp?width=900",
+      "sha256": "4eb24fd45d59b3c8b9fc0c974f4f0e9af798b91f237c8fe116044100f0f436ce"
+    },
+    {
+      "file": "public/assets/product-kompakte-empfangstheke-in-l-form.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Kompakte_Empfangstheke_in_L-Form_-_4.webp?width=900",
+      "sha256": "0772a52af503154f58e05563ea8fe2975148da2532cf446800288c14bb0fb50b"
+    },
+    {
+      "file": "public/assets/product-kompakte-empfangstheke-in-chromschwarz.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/KompakteEmpfangsthekeinChromschwarz-4.webp?width=900",
+      "sha256": "57d0b02d5d80b0a714d098d073004ab2605482f7aed774ae61de68106de9d9a6"
+    },
+    {
+      "file": "public/assets/collections/garderoben.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/wardrobe-new.webp?width=384",
+      "sha256": "09ccd5f3dce806591fdbe2bc0276a74a2cba9a54cdb45c2e2dc6e36f46b9d81d"
+    },
+    {
+      "file": "public/assets/product-garderobe-in-elegantem-dunkelgrau.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemDunkelgrau-3.webp?width=900",
+      "sha256": "60db9482f65fe0417fcd982a8cc79dda2eed9743c3065f9f5ceeeaeddd49e803"
+    },
+    {
+      "file": "public/assets/product-garderobe-in-elegantem-hellgrau.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemHellgrau-4.webp?width=900",
+      "sha256": "2a34f9be77595322fa326f2f44017ae40f3d455ef93132f125b5164b8e710040"
+    },
+    {
+      "file": "public/assets/product-garderobe-in-elegantem-taupe.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinelegantemTaupe-3.webp?width=900",
+      "sha256": "0b651776060a811d5d4b1fb58959caca9d2989b8feb8dc4d06f2e5fe97a98d1c"
+    },
+    {
+      "file": "public/assets/product-garderobe-in-klassischem-schwarz.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeinklassischemSchwarz-3.webp?width=900",
+      "sha256": "51e4701621ff70a396dedb86b3b0442baf40e431624dfb0d0e275c1737b36e30"
+    },
+    {
+      "file": "public/assets/product-garderobe-in-trendigem-mint.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeintrendigemMint-3.webp?width=900",
+      "sha256": "d9e049e8f5e7dd6a339f95c1a00c06f51181b1fe567b16650472aa02a9aedeba"
+    },
+    {
+      "file": "public/assets/product-garderobe-in-trendigem-petrol.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/GarderobeintrendigemPetrol-4.webp?width=900",
+      "sha256": "97780e4c574bc5a9b7dca8c737840214f85b313cef9d38b82dd3240a44c9507b"
+    },
+    {
+      "file": "public/assets/collections/ecksideboard.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/Ecksideboard-3.webp?width=384",
+      "sha256": "0bc230e1640b03ac730782bc41181f79d0a6f460156a0cc76b66c5dd98303321"
+    },
+    {
+      "file": "public/assets/product-ecksideboard-entwurf-2.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/001_2.jpg?width=900",
+      "sha256": "640db2db12bc6f5ec156421b92de4ecf2a01340cb6970a20df196271a89317cf"
+    },
+    {
+      "file": "public/assets/product-ecksideboard-entwurf-1.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/009_1.jpg?width=900",
+      "sha256": "8311637ed456b96c43a32f5829592f82344a3aad8ecc50cb8ae9938cbcd8c294"
+    },
+    {
+      "file": "public/assets/product-ecksideboard-entwurf-3.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/003_v2_3.jpg?width=900",
+      "sha256": "f3293cba61fe0ae7a9921354855781621a44058a005ed1625bd6e8453b19a7d2"
+    },
+    {
+      "file": "public/assets/product-ecksideboard-4.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/004v3_1.jpg?width=900",
+      "sha256": "21791d84411866174efe7b15e96edef055cee27f6a40a7467e8e43f6aae01427"
+    },
+    {
+      "file": "public/assets/product-ecksideboard-entwurf-6.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/006_3.jpg?width=900",
+      "sha256": "dc912789de5c59f3350f3d0fcbd54f5491a3a305ceb486afef6372f08a9fa39f"
+    },
+    {
+      "file": "public/assets/product-ecksideboard-entwurf-7.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/008v2_3.jpg?width=900",
+      "sha256": "b84ed596b246deb8a4706e69f9542093c8105e1701bf09f7cc6767ded9faef20"
+    },
+    {
+      "file": "public/assets/product-ecksideboard-entwurf-8.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/011v2_4.jpg?width=900",
+      "sha256": "74e8371d24dbb032bf51c159e222dade65750cddf57b44a4ebded5ca03ba520e"
+    },
+    {
+      "file": "public/assets/collections/sale.webp",
+      "source": "https://flexcube.ch/cdn/shop/files/sale-new-1.webp?width=384",
+      "sha256": "e895fb7b377ee09d28ddd63e1db76f97af8685e63da16b93ae18ab6b7a78082d"
+    },
+    {
+      "file": "public/assets/product-sale-kommode-190x40x101cm-ral-2003-pastellorange.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/neu_matt.jpg?width=900",
+      "sha256": "1b73758719abded133eba11b59dc5d48e965b5db1c768ec905be6d132f9b6bf8"
+    },
+    {
+      "file": "public/assets/product-sale-sideboard-77x40x107cm-schwarz.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Front_1.jpg?width=900",
+      "sha256": "b04c58f102b0459c7b5b401d3b64f53eb4585552e4d54c20b956d56e26ebea16"
+    },
+    {
+      "file": "public/assets/product-occasion-profi-hohenverstellbarer-schreibtisch-140x80-weiss-t9.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Tisch9_ProfiweissmitGitterkorb_Platte140x80weiss.jpg?width=900",
+      "sha256": "1a2f924fea1c7e67e3a16864ca6f8a1aed2e537f2440e1b9458c9ff0749dee77"
+    },
+    {
+      "file": "public/assets/product-occasion-home-schreibtisch-160x80.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Tisch1_Homeschwarz_Platte160x80weiss.jpg?width=900",
+      "sha256": "6aba6c6085302d97b46bfd3f9410927bb95edea70b211303d28f1d106646c84c"
+    },
+    {
+      "file": "public/assets/product-sale-profi-hohenverstellbarer-schreibtisch-180x80-dunkelgrau-t5-6.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Tisch5_Profigrau_Platte180x80schwarz.jpg?width=900",
+      "sha256": "af0f55b77f54b2ab05041fc8fe4ecf71f5dd503e59dfa28269c2f06cf68a4738"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-schwarz-nussbaum-140x80cm-t4.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Tisch4_Eccoweiss_Platte140x80weiss.jpg?width=900",
+      "sha256": "7c0cd191dd12fc8fc47414d4dbd944d80f8c4b18f459937864cd819b9b6ce780"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-schwarz-nussbaum-140x80cm-t2.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Tisch2_Eccoschwarz_Platte140x80nussbaum.jpg?width=900",
+      "sha256": "d7d1cb93f86a58ba991af4503b56ec9fae718207ebd71f3a9d6c5544f4c2c03d"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-weiss-nussbaum-140x80cm-t7-8.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Tisch7_Eccoweiss_Platte140x80nussbaum.jpg?width=900",
+      "sha256": "39df0524ebc4bef956575585191dde213d66357e32182be13782dab0ab6d5563"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-weiss-nussbaum-140x80cm-t3.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Tisch3_Eccoweiss_Platte180x80nussbaum.jpg?width=900",
+      "sha256": "5b64a0fdcba9c4b405a620a5683dff1ea186acc60c15ee3637b2c37c296cfb82"
+    },
+    {
+      "file": "public/assets/product-ecco-hoehenverstellbarer-schreibtisch-weiss-130x70cm.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/ECCO_hohenverstellbarer_Schreibtisch_weiss_135x70cm_-_1.webp?width=900",
+      "sha256": "2099f17e05d4ad4ec36fbcb1d8b123235497230591561c71cc5ab722db53469e"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-weiss-135x70cm-kopie-1.png",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Bild7_b71a30f7-125e-425f-9ae5-bfa25d109000.png?width=900",
+      "sha256": "1fc3ab168e7328fb9e7f265809f092ca242f11dfc238fbf38fc98fde4eb6d348"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-weiss-135x70cm-kopie.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Desk_002.jpg?width=900",
+      "sha256": "d5cab779ec5fc0d39aad7180889db3b5d0c759284b57f6e9c2809902ea761dba"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-weiss-eichefurnier-135x70cm.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Desk_010.jpg?width=900",
+      "sha256": "d22fe12c86f25639578c64eb5b10d901d6b7a62ccd419f4fb4bcc9300b24795c"
+    },
+    {
+      "file": "public/assets/product-sale-ecco-hohenverstellbarer-schreibtisch-weiss-eichefurnier-135x70cm-kopie.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/Desk_014_bdcb2e4f-ca61-4c2c-bc47-c3f092e96e3d.jpg?width=900",
+      "sha256": "bc4b0e481967678ae5899028b244d9413f26528b9fa5ebec7d50d34e18c0d30b"
+    },
+    {
+      "file": "public/assets/product-sale-wandtisch-home-hohenverstellbar-65x50cm.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0935/4189/2476/files/65cm.webp?width=900",
+      "sha256": "9d9d3d56392069b1ae3b371859410501ff79731aee2d1d098c782cbc8347e5d5"
+    }
+  ]
+}

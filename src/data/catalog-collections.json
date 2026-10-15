@@ -1,0 +1,68 @@
+[
+  {
+    "key": "All",
+    "slug": "alle-bestseller",
+    "title": "전체 베스트셀러",
+    "image": "/assets/collections/alle-bestseller.png"
+  },
+  {
+    "key": "Sideboards",
+    "slug": "sideboards",
+    "title": "사이드보드",
+    "image": "/assets/collections/sideboards.webp"
+  },
+  {
+    "key": "Lowboards",
+    "slug": "lowboards",
+    "title": "낮은 수납장",
+    "image": "/assets/collections/lowboards.webp"
+  },
+  {
+    "key": "Chests of drawers",
+    "slug": "kommoden",
+    "title": "서랍장",
+    "image": "/assets/collections/kommoden.webp"
+  },
+  {
+    "key": "Shelves",
+    "slug": "regale",
+    "title": "선반",
+    "image": "/assets/collections/regale.webp"
+  },
+  {
+    "key": "Tables",
+    "slug": "tische",
+    "title": "테이블",
+    "image": "/assets/collections/tische.webp"
+  },
+  {
+    "key": "Pedestals",
+    "slug": "container",
+    "title": "이동식 서랍장",
+    "image": "/assets/collections/container.webp"
+  },
+  {
+    "key": "Reception desks",
+    "slug": "empfangstheken",
+    "title": "리셉션 데스크",
+    "image": "/assets/collections/empfangstheken.webp"
+  },
+  {
+    "key": "Wardrobes",
+    "slug": "garderoben",
+    "title": "옷장",
+    "image": "/assets/collections/garderoben.webp"
+  },
+  {
+    "key": "Corner sideboard",
+    "slug": "ecksideboard",
+    "title": "코너 수납장",
+    "image": "/assets/collections/ecksideboard.webp"
+  },
+  {
+    "key": "Sale",
+    "slug": "sale",
+    "title": "Sale",
+    "image": "/assets/collections/sale.webp"
+  }
+]

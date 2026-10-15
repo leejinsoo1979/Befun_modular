@@ -17,20 +17,20 @@ const sourceLoader = source.slice(source.indexOf(loaderStart), source.indexOf(lo
 const brandedLoader = 'function _0A(e,A){return gA(),wA("div",{id:"preloader",class:"befun-loader befun-loader--overlay",role:"status","aria-label":"불러오는 중"},[A[0]||(A[0]=uh(' + JSON.stringify(loaderMarkup) + ',1))])}';
 // Ship the same pinned display rate to the isolated native iframe and React shop.
 await writeFile(new URL('../pricing/currency.js', root), await readFile(new URL('../src/currency.js', import.meta.url), 'utf8'));
-// Share the green swatch across desktop, mobile and individual-panel palettes.
-// Starbucks-inspired deep green uses the existing custom-color material,
+// Share additional swatches across desktop, mobile and individual-panel palettes.
+// Deep green, yellow and orange use the existing custom-color material,
 // article/pricing and save/restore paths without inventing a stock component SKU.
 const paletteHook = 'e.oliveGreen="#6F6D4E",';
 const colorNamesHook = '"main_colors":{';
 for (const hook of [paletteHook, colorNamesHook]) {
   if (source.split(hook).length !== 2) {
-    throw new Error('The source panel palette changed; refusing an ambiguous green swatch patch.');
+    throw new Error('The source panel palette changed; refusing an ambiguous swatch patch.');
   }
 }
 let withGreen = source
   .replace(sourceLoader, brandedLoader)
-  .replace(paletteHook, paletteHook + 'e.green="#006241",')
-  .replace(colorNamesHook, colorNamesHook + '"#006241":{"en":"Green","de":"Grün","fr":"Vert"},');
+  .replace(paletteHook, paletteHook + 'e.green="#006241",e.yellow="#F7B500",e.orange="#E25303",')
+  .replace(colorNamesHook, colorNamesHook + '"#006241":{"en":"Green","de":"Grün","fr":"Vert"},"#F7B500":{"en":"Yellow","de":"Gelb","fr":"Jaune"},"#E25303":{"en":"Orange","de":"Orange","fr":"Orange"},');
 // Retain the native hover, eligibility, add-cell and undo paths. Add only the
 // desktop preview presentation, using the existing CSS2D button renderer.
 const appendingHooks = [

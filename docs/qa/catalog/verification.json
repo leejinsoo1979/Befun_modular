@@ -1,0 +1,108 @@
+{
+  "viewport": {
+    "width": 1512,
+    "height": 740
+  },
+  "collections": [
+    {
+      "slug": "alle-bestseller",
+      "products": 13,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "sideboards",
+      "products": 8,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "lowboards",
+      "products": 8,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "kommoden",
+      "products": 8,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "regale",
+      "products": 8,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "tische",
+      "products": 9,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "container",
+      "products": 8,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "empfangstheken",
+      "products": 8,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "garderoben",
+      "products": 6,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "ecksideboard",
+      "products": 7,
+      "firstImageLoaded": true
+    },
+    {
+      "slug": "sale",
+      "products": 15,
+      "firstImageLoaded": true
+    }
+  ],
+  "errors": [],
+  "metrics": {
+    ".site-header": {
+      "x": 0,
+      "y": 48,
+      "width": 1512,
+      "height": 76
+    },
+    ".fc-breadcrumb": {
+      "x": 48,
+      "y": 164,
+      "width": 1416,
+      "height": 20
+    },
+    "h1": {
+      "x": 48,
+      "y": 212,
+      "width": 702,
+      "height": 50.921875
+    },
+    ".fc-catalog-rating": {
+      "x": 762,
+      "y": 224.65625,
+      "width": 702,
+      "height": 25.59375
+    },
+    ".fc-catalog-categories>button": {
+      "x": 48,
+      "y": 306.921875,
+      "width": 160.28125,
+      "height": 171.28125
+    },
+    ".fc-product-card": {
+      "x": 48,
+      "y": 535.203125,
+      "width": 339.671875,
+      "height": 451.078125
+    }
+  },
+  "categoryReloadAndBack": true,
+  "productDetailReload": true,
+  "legacyRoute": true,
+  "stickyHeader": true,
+  "mobileNoPageOverflow": true,
+  "mobileRailSelection": true
+}

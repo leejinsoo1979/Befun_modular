@@ -1,10 +1,10 @@
-import {label, matchesSearch} from './localize';
-import {formatWon} from './currency';
+import {label} from './localize';
 import { lifestyleImages, communityScenes } from './homeLifestyle';
-import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowRight, ArrowLeft, Pause, Play, X, Check, ChevronDown, Search, SlidersHorizontal, Ruler, SwatchBook, Box, MessagesSquare, Truck, Wrench, ShieldCheck, Building2, Heart } from 'lucide-react';
+import React, { useEffect, useRef, useState } from 'react';
+import { ArrowRight, ArrowLeft, Pause, Play, X, Ruler, SwatchBook, Box, Heart } from 'lucide-react';
 import './home.css';
 import './home-lifestyle.css';
+import './home-identity.css';
 
 const asset = (name) => `/assets/${name}`;
 
@@ -20,30 +20,26 @@ export const categories = [
 ];
 
 const reasons = [
-  { title: '생활에 맞춰 바꾸는 모듈', image: 'why-flexcube-1.webp', text: '지금 필요한 가구가 내일도 쓸모 있도록. 모듈을 더하고 구성을 바꾸며 내 생활에 맞춰 쓰세요.' },
-  { title: '오래도록 변함없는 가치', ...lifestyleImages.couple, text: '시간이 지나도 멋스러운 디자인과 탄탄한 품질. 스위스 품질 기준에 따라 만들고, 필요한 부품만 따로 교체할 수 있어요.' },
-  { title: '취향을 담는 200여 가지 색상', image: 'why-flexcube-3.webp', text: '200여 가지 색상과 다양한 프레임 마감으로 나만의 조합을 완성하세요. 3D 화면에서 바로 확인할 수 있어요.' },
-  { title: '오래 쓰도록, 더 튼튼하게', ...lifestyleImages.studio, text: '정교한 제작과 좋은 소재, 교체 부품 공급까지. 다음 세대에도 물려줄 수 있는 가구를 만듭니다.' },
+  { title: '공간에 맞는 크기', image: 'why-flexcube-1.webp', text: '소파 옆의 낮은 수납장부터 벽을 채우는 선반까지. 너비·높이·깊이를 고르고 공간에 어울리는 비례를 확인하세요.' },
+  { title: '물건에 맞는 수납', ...lifestyleImages.couple, text: '보여주고 싶은 책과 오브제는 오픈 선반에. 정리해 두고 싶은 물건은 도어와 서랍 안에. 한 가구 안에서 조합하세요.' },
+  { title: '취향을 만드는 컬러', image: 'why-flexcube-3.webp', text: '패널 색상과 프레임 마감을 골라보세요. 한 가지 색으로 정돈하거나, 칸마다 다른 색을 더할 수 있습니다.' },
+  { title: '만들면서 확인하는 3D', ...lifestyleImages.studio, text: '돌려 보고, 가까이 보고, 다시 바꿔보세요. 선택한 구성과 원화 환산 금액을 같은 화면에서 확인합니다.' },
 ];
 
-const reviewItems = [
-  { name: 'Christian Jungk', source: 'Google', title: '가구도 만족스럽고 조립도 깔끔했어요.', text: '능숙하고 친절하게 응대해 주셨어요.', image: 'Kundenbild_Sideboard_dunkelgrau_a_la_USM.webp' },
-  { name: 'Dirk G.', source: 'Google', title: '', text: '주문 전 상담부터 친절하고 도움이 됐어요. 먼 거리인데도 약속한 시간에 정확히 배송해 주셨습니다.', image: 'Buro20210417_060328_002.webp' },
-  { name: 'Jörg Engel', source: 'Google', title: 'USM과 Befun 중 고민이라면', text: '기존에 USM을 쓰고 있었는데, 이번에는 Befun을 선택했어요.', image: 'Regal_mit_Pflanzen.webp' },
-  { name: 'Monika F.', source: 'TrustedShop', title: '주변에도 추천하고 싶어요', text: '질리지 않는 디자인에 품질도 좋아요. 기꺼이 추천합니다.', image: 'Kundenbild_Wohnen_1.webp' },
-  { name: 'Roman A.', source: 'TrustedShop', title: '딱 맞아요!', text: '공간에 딱 맞고 부품도 빠짐없이 왔어요. 조립에 시간이 좀 걸리지만 재미있었어요.', image: 'Glasregal_1_626KB.webp' },
-  { name: 'Nico Krahforst', source: 'Trustpilot', title: '고객 서비스에 만점을 주고 싶어요', text: '제품 품질도 훌륭하지만, 특히 고객 서비스가 인상적이었어요!', image: 'Unser_Buro_1764_KB.webp' },
-];
+const homeCategories = [
+  ['Sideboards', '거실의 책과 일상 소품을 한곳에'],
+  ['Shelves', '책과 오브제를 펼쳐 놓는 선반'],
+  ['Chests of drawers', '작은 물건까지 나누어 담는 서랍'],
+  ['Lowboards', '시야를 가리지 않는 낮은 수납'],
+  ['Tables', '일과 취미가 만나는 나만의 책상'],
+  ['Wardrobes', '옷과 가방을 정리하는 자리'],
+].map(([name, description]) => ({ ...categories.find((category) => category.name === name), description }));
 
-const services = [
-  [Ruler, '내 공간에 맞는 구성', '온라인에서 직접 만드는 나만의 가구'],
-  [SwatchBook, '다양한 RAL 색상', '200여 가지 색상'],
-  [Box, '무료 3D 공간 설계', '전문가와 함께 완성하는 공간'],
-  [MessagesSquare, '맞춤 상담', '프로젝트마다 전담 담당자 배정'],
-  [Building2, '공간 전체를 한 번에', '사무실·병원·상업 공간까지'],
-  [ShieldCheck, '스위스 제조사', '합리적인 가격에 만나는 품질'],
-  [Wrench, '전문 조립 서비스', '숙련된 Befun 팀의 현장 조립'],
-  [Truck, '빠른 배송', '원하는 장소까지 편리하게'],
+const configurationSteps = [
+  [Ruler, '크기를 정하세요.', '놓을 자리를 떠올리며 너비·높이·깊이를 선택하세요.'],
+  [Box, '칸의 쓰임을 고르세요.', '오픈 선반, 도어, 서랍. 담을 물건에 맞춰 모듈을 조합하세요.'],
+  [SwatchBook, '색과 프레임을 더하세요.', '패널 색상과 프레임 마감을 바꾸며 내 취향을 찾아보세요.'],
+  [Heart, '3D로 보고, 저장하세요.', '회전·확대하며 구성을 확인하고, 마음에 드는 디자인을 보관하세요.'],
 ];
 
 function ArrowButton({ children, onClick, light = false, outline = false, className = '', ...props }) {
@@ -90,73 +86,37 @@ export function Footer() {
 
 export default function Home({ onConfigure = () => {}, onBrowse = () => {}, onNavigate }) {
   const [activeReason, setActiveReason] = useState(0);
-  const [reviewSource, setReviewSource] = useState('전체 후기');
-  const [showAllReviews, setShowAllReviews] = useState(false);
   const [playing, setPlaying] = useState(true);
   const video = useRef(null);
   const community = useRef(null);
   const [contact, setContact] = useState(false);
-  const reviews = reviewItems.filter((x) => reviewSource === '전체 후기' || reviewSource === x.source).slice(0, showAllReviews ? 6 : 3);
   const toggleVideo = () => { if (video.current) { if (playing) video.current.pause(); else video.current.play().catch(() => {}); } setPlaying(!playing); };
-  return <main className="flex-home">
+  return <main className="flex-home befun-home">
     <section className="home-hero">
       <picture className="fc-hero-poster"><source media="(max-width: 767px)" srcSet={asset('hero-mobile.jpg')}/><img src={asset('hero-desktop.jpg')} alt="거실에 놓인 Befun 모듈 사이드보드" /></picture>
       <video ref={video} className="fc-hero-video" autoPlay muted playsInline loop preload="metadata" poster={asset('hero-desktop.jpg')}><source src={asset('hero-mobile.mp4')} type="video/mp4" media="(max-width: 767px)"/><source src={asset('hero-desktop.mp4')} type="video/mp4"/></video>
       <div className="fc-hero-shade" />
-      <div className="fc-hero-content"><p className="fc-eyebrow">스위스 기업이 선택한 모듈 가구</p><h1>내 공간에 맞추는 가구, Befun</h1><p className="fc-hero-tagline">좋은 디자인을 합리적인 가격으로</p><div className="fc-hero-buttons"><ArrowButton outline light onClick={() => onBrowse('All')}>베스트셀러 둘러보기</ArrowButton><ArrowButton light onClick={() => onConfigure()}>나만의 가구 만들기</ArrowButton></div></div>
+      <div className="fc-hero-content"><p className="fc-eyebrow">BEFUN · MODULAR FURNITURE</p><h1>공간에 맞게.<br/>취향대로.</h1><p className="fc-hero-tagline">크기와 색을 조합하는 나만의 모듈 가구.</p><div className="fc-hero-buttons"><ArrowButton light onClick={() => onConfigure()}>3D로 만들기</ArrowButton><ArrowButton outline light onClick={() => onBrowse('All')}>컬렉션 보기</ArrowButton></div></div>
       <button className="fc-video-toggle" aria-label={playing ? '배경 영상 일시정지' : '배경 영상 재생'} onClick={toggleVideo}>{playing ? <Pause size={19} fill="currentColor"/> : <Play size={19} fill="currentColor"/>}</button>
     </section>
+    <section className="befun-system" id="befun-system" tabIndex={-1} aria-labelledby="befun-system-title">
+      <div className="befun-system-copy"><p className="befun-kicker">01 / THE BEFUN SYSTEM</p><h2 id="befun-system-title">금속 프레임,<br/>컬러 패널.<br/><span>조합은 내 방식대로.</span></h2><p className="befun-system-description">Befun은 금속 프레임과 패널을 조합하는 모듈 가구입니다. 거실의 낮은 수납장부터 작업실의 높은 선반까지, 공간에 맞는 크기와 수납 방식, 색상을 직접 골라보세요.</p><div className="befun-system-specs"><div><small>SIZE</small><strong>너비 · 높이 · 깊이</strong></div><div><small>STORAGE</small><strong>오픈 · 도어 · 서랍</strong></div><div><small>FINISH</small><strong>패널 색상 · 프레임</strong></div></div></div>
+      <figure className="befun-system-figure"><img src={asset('sideboard-desktop-v2.webp')} alt="금속 프레임과 올리브 패널로 구성한 Befun 사이드보드" loading="lazy"/><figcaption><span>BEFUN SIDEBOARD / 구성 예시</span><button onClick={() => onBrowse('Sideboards')} aria-label="사이드보드 구성 둘러보기"><ArrowRight size={22}/></button></figcaption></figure>
+    </section>
 
+    <section className="fc-why"><div className="fc-section-heading"><div><p className="befun-kicker">02 / YOUR CHOICES</p><h2>내 가구를 정하는 기준.</h2><p className="fc-section-description">크기, 수납, 컬러를 고르면<br/>내 공간에 필요한 가구가 보입니다.</p></div><ArrowButton outline onClick={() => onConfigure()}>직접 조합해 보기</ArrowButton></div><div className="fc-reason-panels">{reasons.map((reason, index) => <button key={reason.title} className={`fc-reason-panel ${activeReason === index ? 'is-active' : ''}`} onMouseEnter={() => setActiveReason(index)} onFocus={() => setActiveReason(index)} onClick={() => setActiveReason(index)} aria-expanded={activeReason === index}><img src={asset(reason.image)} alt={reason.alt || reason.title} style={{objectPosition: reason.position}} loading="lazy"/><span className="fc-reason-shade"/><span className="fc-reason-number" style={{top: `${[28, 45, 31, 56][index]}%`}}>0{index + 1}</span><span className="fc-reason-content"><strong>{reason.title}</strong><span>{reason.text}</span></span><span className="fc-reason-label">{reason.title}</span></button>)}</div></section>
 
-    <section className="fc-why"><div className="fc-section-heading"><div><p>시간이 지나도 함께하는 가구</p><h2>Befun을 선택하는 이유</h2></div><ArrowButton outline onClick={() => onConfigure()}>내 취향대로 만들기</ArrowButton></div><div className="fc-reason-panels">{reasons.map((reason, index) => <button key={reason.title} className={`fc-reason-panel ${activeReason === index ? 'is-active' : ''}`} onMouseEnter={() => setActiveReason(index)} onFocus={() => setActiveReason(index)} onClick={() => setActiveReason(index)} aria-expanded={activeReason === index}><img src={asset(reason.image)} alt={reason.alt || reason.title} style={{objectPosition: reason.position}} loading="lazy"/><span className="fc-reason-shade"/><span className="fc-reason-number" style={{top: `${[28, 45, 31, 56][index]}%`}}>{index + 1}</span><span className="fc-reason-content"><strong>{reason.title}</strong><span>{reason.text}</span></span><span className="fc-reason-label">{reason.title}</span></button>)}</div></section>
+    <section className="fc-service-banner"><video autoPlay muted playsInline loop preload="none" poster={asset('service-video-poster.jpg')}><source src={asset('service-video.mp4')} type="video/mp4"/></video><div className="fc-banner-shade"/><div><p className="befun-kicker">OPEN. CLOSE. MAKE IT YOURS.</p><h2>보여주고 싶은 건 꺼내고.<br/>감추고 싶은 건 넣고.</h2><p>책과 오브제는 오픈 선반에, 생활용품은 도어 뒤에.<br/>같은 프레임 안에서 수납 방식을 조합해 보세요.</p><ArrowButton outline light onClick={() => onConfigure()}>수납 모듈 조합하기</ArrowButton></div></section>
 
-    <section className="fc-service-banner"><video autoPlay muted playsInline loop preload="none" poster={asset('service-video-poster.jpg')}><source src={asset('service-video.mp4')} type="video/mp4"/></video><div className="fc-banner-shade"/><div><h2>탄탄한 품질.<br/>세심한 서비스.</h2><p>사무실부터 병원, 법률 사무소까지. Befun은 스위스 품질 기준과 세심한 서비스로 일하기 좋은 공간을 만듭니다. 공간 전문가에게 부담 없이 무료로 상담받아 보세요.</p><ArrowButton outline light onClick={() => setContact(true)}>맞춤 상담받기</ArrowButton></div></section>
+    <section className="fc-range"><div className="fc-section-heading"><div><p className="befun-kicker">03 / FIND YOUR FURNITURE</p><h2>어디에 놓을 가구인가요?</h2><p className="fc-section-description">거실, 방, 나만의 작업실.<br/>필요한 가구의 형태부터 골라보세요.</p></div><ArrowButton outline onClick={() => onBrowse('All')}>구성 전체 보기</ArrowButton></div><div className="befun-category-grid">{homeCategories.map((category) => <button key={category.name} className="befun-category" onClick={() => onBrowse(category.name)}><div className="befun-category-image"><img src={asset(category.image)} alt={label(category.name)} loading="lazy"/><img className="befun-category-hover" src={asset(category.image.replace('-v2', '-hover-v2'))} alt="" loading="lazy"/></div><span className="befun-category-name">{label(category.name)}<ArrowRight size={21}/></span><small>{category.description}</small></button>)}</div></section>
 
-    <section className="fc-range"><div className="fc-section-heading"><div><p>어떤 가구를 찾으세요?</p><h2>자유롭게 조합하고, 오래 쓰는 <em>모듈 가구</em></h2></div></div><div className="fc-category-grid">{categories.map((category) => <button key={category.name} className={`fc-category fc-category-${category.key}`} onClick={() => onBrowse(category.name)}><img src={asset(category.image)} alt={label(category.name)} loading="lazy"/><img className="fc-category-hover" src={asset(category.image.replace('-v2', '-hover-v2'))} alt="" loading="lazy"/><span>{label(category.name)}<ArrowRight size={22}/></span></button>)}</div></section>
+    <section className="befun-howto" id="befun-howto" tabIndex={-1} aria-labelledby="befun-howto-title"><div className="fc-section-heading"><div><p className="befun-kicker">04 / MAKE YOUR BEFUN</p><h2 id="befun-howto-title">생각한 수납을,<br/>화면 속 가구로.</h2></div><p className="befun-howto-description">크기·수납·컬러를 바꿔가며<br/>3D와 원화 환산 금액을 함께 확인하세요.</p></div><ol className="befun-step-grid">{configurationSteps.map(([Icon, title, text], index) => <li key={title}><div className="befun-step-top"><span>0{index + 1}</span><Icon size={25} strokeWidth={1.35}/></div><h3>{title}</h3><p>{text}</p></li>)}</ol><div className="befun-howto-bottom"><p>저장한 디자인은 이 브라우저에서 다시 열어 편집할 수 있습니다.</p><ArrowButton light onClick={() => onConfigure()}>내 구성 시작하기</ArrowButton></div></section>
 
-    <section className="fc-reviews"><div className="fc-review-intro"><div><h2><span>50,000+</span><br/>스위스 기업의 선택, Befun</h2></div><div className="fc-review-score"><div><strong>4.9/5</strong><span className="fc-stars">★★★★★</span></div><p>독일과 스위스 고객의 실제 후기에서 평균 4.9점을 받았습니다.</p></div></div><div className="fc-review-filters" role="tablist" aria-label="후기 출처별 보기">{['전체 후기', 'Google', 'TrustedShop', 'Trustpilot'].map((source) => <button key={source} role="tab" aria-selected={source === reviewSource} onClick={() => { setReviewSource(source); setShowAllReviews(false); }}>{source === 'Google' && <b className="fc-google">G</b>}{source === 'TrustedShop' && <b className="fc-trusted">e</b>}{source === 'Trustpilot' && <b className="fc-trustpilot">★</b>}{source}</button>)}</div><div className="fc-review-grid">{reviews.map((review) => <article className="fc-review-card" key={review.name}><img className="fc-review-image" src={asset(review.image)} alt={`${review.name}님의 Befun 공간`} loading="lazy"/><div className="fc-review-body"><div className="fc-review-author"><span className="fc-review-avatar">{review.name[0]}</span><div><strong>{review.name} <Check size={14}/></strong><small>{review.source} · 구매 인증 후기</small></div></div><span className="fc-stars">★★★★★</span>{review.title && <h3>{review.title}</h3>}<p>{review.text}</p></div></article>)}</div><button className="fc-read-more" onClick={() => setShowAllReviews(!showAllReviews)}>{showAllReviews ? '접기' : '더 보기'}<ChevronDown size={19} style={{transform: showAllReviews ? 'rotate(180deg)' : 'none'}}/></button></section>
+    <section className="fc-community" id="befun-spaces" tabIndex={-1}><div className="fc-section-heading"><div><p className="befun-kicker">05 / AT HOME, AT WORK</p><h2>집과 작업실, 각자의 쓰임.</h2><p className="fc-section-description">음악을 듣는 거실, 책을 쌓는 방, 작업하는 책상 옆.<br/>Befun을 놓고 싶은 장면을 찾아보세요.</p></div><div className="fc-carousel-controls"><button aria-label="이전 공간 보기" onClick={() => community.current?.scrollBy({left: -450, behavior: 'smooth'})}><ArrowLeft/></button><button aria-label="다음 공간 보기" onClick={() => community.current?.scrollBy({left: 450, behavior: 'smooth'})}><ArrowRight/></button></div></div><div className="fc-community-track" ref={community}>{communityScenes.map(({image, alt, editorial}) => <button className="fc-community-card" key={image} onClick={() => onConfigure()}><img src={asset(image)} alt={alt} loading="lazy"/>{editorial && <small className="fc-campaign-label">라이프스타일 화보</small>}<span>내 공간의 가구 만들기 <ArrowRight size={19}/></span></button>)}</div></section>
 
-    <section className="fc-community"><div className="fc-section-heading"><div><p>공간에서 만나는 Befun</p><h2>이런 공간, 이런 취향</h2><p className="fc-section-description">감각적인 라이프스타일 화보부터 다양한 공간까지.<br/>취향에 맞춰 완성하는 Befun을 만나보세요.</p></div><div className="fc-carousel-controls"><button aria-label="이전 공간 보기" onClick={() => community.current?.scrollBy({left: -450, behavior: 'smooth'})}><ArrowLeft/></button><button aria-label="다음 공간 보기" onClick={() => community.current?.scrollBy({left: 450, behavior: 'smooth'})}><ArrowRight/></button></div></div><div className="fc-community-track" ref={community}>{communityScenes.map(({image, alt, editorial}, index) => <button className="fc-community-card" key={image} onClick={() => onConfigure({type: index % 2 ? 'shelf' : 'sideboard'})}><img src={asset(image)} alt={alt} loading="lazy"/>{editorial && <small className="fc-campaign-label">라이프스타일 화보</small>}<span>이렇게 꾸며보기 <ArrowRight size={19}/></span></button>)}</div></section>
-
-    <section className="fc-services"><div className="fc-section-heading"><div><p>Befun의 약속</p><h2>공간 설계부터 조립까지 한 번에</h2><p className="fc-section-description">처음부터 마무리까지 함께합니다</p></div></div><div className="fc-services-grid">{services.map(([Icon, title, text]) => <div key={title}><Icon size={34} strokeWidth={1.25}/><div><h3>{title}</h3><p>{text}</p></div></div>)}</div></section>
-    <section className="fc-contact"><h2>궁금한 점은 편하게 물어보세요</h2><p>공간과 취향에 맞춰 부담 없이 상담해 드립니다.</p><ArrowButton onClick={() => setContact(true)}>문의하기</ArrowButton></section>
+    <section className="befun-start" aria-label="가구 구성 시작하기"><p className="befun-kicker">YOUR SPACE. YOUR BEFUN.</p><h2>이제, 내 공간의 가구를<br/>만들어 볼까요?</h2><div className="befun-start-options"><button onClick={() => onConfigure()}><span><small>처음부터 내 방식대로</small><strong>3D로 직접 구성하기</strong></span><ArrowRight size={26}/></button><button onClick={() => onBrowse('All')}><span><small>마음에 드는 형태부터</small><strong>가구 구성 둘러보기</strong></span><ArrowRight size={26}/></button></div></section>
+    <section className="fc-contact" id="befun-contact" tabIndex={-1}><h2>어떤 수납이 필요한가요?</h2><p>놓을 공간과 담을 물건을 알려주세요.<br/>구성에 대해 궁금한 점은 이메일로 문의하실 수 있습니다.</p><ArrowButton onClick={() => setContact(true)}>구성 문의하기</ArrowButton></section>
     <Footer onConfigure={onConfigure} onBrowse={onBrowse} onNavigate={onNavigate}/>
-    {contact && <Modal title="무엇이든 물어보세요" onClose={() => setContact(false)}><p>계획 중인 공간을 알려주세요. 부담 없이 상담해 드릴게요.</p><div className="fc-contact-details"><a href="mailto:office@flexcube.ch">이메일 문의 <ArrowRight size={18}/></a><a href="tel:+41417844020">+41 41 784 40 20 <ArrowRight size={18}/></a></div><p>월–금 운영<br/>Holzhäusernstrasse 3, 6331 Hünenberg</p></Modal>}
+    {contact && <Modal title="Befun 구성 문의" onClose={() => setContact(false)}><p>공간 사진이나 대략적인 치수, 원하는 수납 방식을 함께 보내주세요.</p><div className="fc-contact-details"><a href="mailto:contact@befun.co.kr">contact@befun.co.kr <ArrowRight size={18}/></a></div></Modal>}
   </main>;
-}
-
-const fallbackProducts = [
-  { title: 'Sideboard in classic white', category: 'Sideboards', image: 'sideboard-desktop-v2.webp', type: 'sideboard', columns: 3, rows: 2 },
-  { title: 'Open shelving in black', category: 'Shelves', image: 'regal-desktop-v2.webp', type: 'shelf', columns: 3, rows: 4 },
-  { title: 'Chest of drawers in petrol', category: 'Chests of drawers', image: 'KommodeinPetrolmit4Schubladen2Klappen-5_b1d282bd-866a-427d-b452-e0f0ed949b69.webp', type: 'sideboard', columns: 2, rows: 3 },
-  { title: 'Lowboard in classic white', category: 'Lowboards', image: 'lowboard-desktop-v2.webp', type: 'lowboard', columns: 4, rows: 1 },
-  { title: 'Wardrobe in classic black', category: 'Wardrobes', image: 'GarderobeinklassischemSchwarz-4.webp', type: 'shelf', columns: 2, rows: 4 },
-  { title: 'Your workspace, your design', category: 'Tables', image: 'table-desktop-v2.webp', type: 'table', columns: 3, rows: 2 },
-  { title: 'A welcoming reception', category: 'Reception desks', image: 'reception-desktop-v2.webp', type: 'sideboard', columns: 4, rows: 3 },
-  { title: 'Mobile pedestal in white', category: 'Pedestals', image: 'container-desktop-v2.webp', type: 'sideboard', columns: 1, rows: 2 },
-  { title: 'Sideboard in olive green', category: 'Sideboards', image: 'SideboardinOlivgrunmit3Schubladen-Klappen-3.webp', type: 'sideboard', columns: 3, rows: 2 },
-  { title: 'Glass display cabinet', category: 'Shelves', image: 'Vitrine_Glas_Black_Chrome_8971KB.webp', type: 'shelf', columns: 2, rows: 3 },
-  { title: 'Modular shelf with plants', category: 'Shelves', image: 'Regal_mit_Pflanzen.webp', type: 'shelf', columns: 3, rows: 3 },
-  { title: 'Mobile home office', category: 'Tables', image: 'Mobiles_Home_Office.webp', type: 'table', columns: 3, rows: 2 },
-];
-
-export function Catalog({ onConfigure = () => {}, onBrowse = () => {}, initialCategory = 'All', onProduct, onNavigate }) {
-  const [category, setCategory] = useState(categories.some((x) => x.name === initialCategory) ? initialCategory : 'All');
-  const [sort, setSort] = useState('추천순');
-  const [query, setQuery] = useState('');
-  const [allProducts, setAllProducts] = useState(fallbackProducts);
-  const [favourites, setFavourites] = useState([]);
-  const [selected, setSelected] = useState(null);
-  useEffect(() => { if (categories.some((x) => x.name === initialCategory) || initialCategory === 'All') setCategory(initialCategory); }, [initialCategory]);
-  useEffect(() => { fetch('/assets/catalog.json').then((r) => r.ok ? r.json() : null).then((data) => { const list = Array.isArray(data) ? data : data?.products; if (list?.length) setAllProducts(list.map((p) => ({...p, category: p.category || (/chest/i.test(p.title) ? 'Chests of drawers' : /lowboard/i.test(p.title) ? 'Lowboards' : /sideboard/i.test(p.title) ? 'Sideboards' : /shelf|shelving/i.test(p.title) ? 'Shelves' : 'Modular furniture')}))); }).catch(() => {}); }, []);
-  const products = useMemo(() => {
-    const source = category !== 'All' && !allProducts.some((item) => item.category === category) ? fallbackProducts : allProducts;
-    const list = source.filter((item) => (category === 'All' || item.category === category) && matchesSearch(item.title,query));
-    if (sort === '이름순') list.sort((a,b) => label(a.title).localeCompare(label(b.title),'ko-KR'));
-    if (sort === '낮은 가격순') list.sort((a,b) => Number(a.price || 0) - Number(b.price || 0));
-    if (sort === '높은 가격순') list.sort((a,b) => Number(b.price || 0) - Number(a.price || 0));
-    return list;
-  }, [allProducts, category, query, sort]);
-  const productImage = (product) => product.image?.startsWith('http') || product.image?.startsWith('/') ? product.image : asset(product.image);
-  return <main className="flex-catalog"><div className="fc-catalog-top"><p className="fc-breadcrumb"><button onClick={() => onBrowse('home')}>홈</button><span>/</span> {category === 'All' ? '베스트셀러 전체 보기' : label(category)}</p><h1>{category === 'All' ? '베스트셀러 전체 보기' : label(category)}</h1><div className="fc-catalog-rating"><span>★★★★★</span><strong>4.9</strong><span>고객들이 인정한 품질</span></div><div className="fc-catalog-categories">{['All', ...categories.map((x) => x.name)].map((name) => <button key={name} className={name === category ? 'active' : ''} onClick={() => setCategory(name)}><img src={asset(categories.find((x) => x.name === name)?.image || 'sideboard-desktop-v2.webp')} alt=""/><span>{name === 'All' ? '베스트셀러 전체 보기' : label(name)}</span></button>)}</div></div><div className="fc-catalog-tools"><div><SlidersHorizontal size={19}/><span>필터</span><span className="fc-product-count">상품 {products.length}개</span></div><label className="fc-catalog-search"><Search size={18}/><input aria-label="가구 검색" placeholder="가구 검색" value={query} onChange={(e) => setQuery(e.target.value)}/></label><label className="fc-catalog-sort">정렬<select value={sort} onChange={(e) => setSort(e.target.value)}>{['추천순', '이름순', '낮은 가격순', '높은 가격순'].map((x) => <option key={x}>{x}</option>)}</select></label></div><div className="fc-catalog-products">{products.map((product, index) => <article className="fc-product-card" key={product.id || product.title}><div className="fc-product-image"><button className="fc-product-main" onClick={() => onProduct ? onProduct(product) : setSelected(product)}><img src={productImage(product)} alt={label(product.title)} loading="lazy"/></button>{index < 3 && <span className="fc-bestseller-label">BEST</span>}<button className={`fc-favourite ${favourites.includes(product.title) ? 'saved' : ''}`} aria-label={`${favourites.includes(product.title) ? '관심 해제' : '관심 등록'} ${label(product.title)}`} aria-pressed={favourites.includes(product.title)} onClick={() => setFavourites((old) => old.includes(product.title) ? old.filter((x) => x !== product.title) : [...old, product.title])}><Heart size={21} fill={favourites.includes(product.title) ? 'currentColor' : 'none'}/></button><button className="fc-product-quick" onClick={() => onConfigure(product)}>내 취향대로 만들기 <ArrowRight size={17}/></button></div><div className="fc-product-info"><button onClick={() => onProduct ? onProduct(product) : setSelected(product)}>{label(product.title)}</button><p>{label(product.category || 'Modular furniture')}</p>{product.price ? <p className="fc-product-price">{product.salePrice && <del>{formatWon(product.price)}</del>}<span>{formatWon(product.salePrice || product.price)}</span></p> : <p className="fc-product-price">직접 구성해 보세요</p>}<div className="fc-product-colors"><span style={{background:'#f7f5ed'}}/><span style={{background:'#252525'}}/><span style={{background:'#657064'}}/><span style={{background:'#9f4837'}}/><small>+200여 가지 색상</small></div></div></article>)}</div>{!products.length && <div className="fc-empty-products"><h2>검색 결과가 없어요</h2><p>다른 검색어를 입력하거나 베스트셀러를 둘러보세요.</p><ArrowButton onClick={() => {setQuery(''); setCategory('All');}}>전체 가구 보기</ArrowButton></div>}<section className="fc-catalog-cta"><h2>찾으시는 가구가 없나요?</h2><p>크기부터 색상까지, 원하는 모습으로 직접 만들어 보세요.</p><ArrowButton onClick={() => onConfigure()}>3D로 가구 만들기</ArrowButton></section><Footer onConfigure={onConfigure} onNavigate={onNavigate} onBrowse={(name) => { setCategory(name === 'All' ? 'All' : name); window.scrollTo({top:0, behavior:'smooth'}); }}/>{selected && <Modal title={label(selected.title)} onClose={() => setSelected(null)}><img className="fc-product-modal-image" src={productImage(selected)} alt={label(selected.title)}/><p>{label(selected.category || 'Modular furniture')} · 200여 가지 RAL 색상 선택 가능</p>{selected.price && <h3>{formatWon(selected.price)}</h3>}<p>3D 화면에서 크기와 색상, 모듈 구성을 원하는 대로 바꿔 보세요.</p><ArrowButton onClick={() => {setSelected(null); onConfigure(selected);}}>이 가구로 시작하기</ArrowButton></Modal>}</main>;
 }

@@ -9,6 +9,32 @@ export function localizeCurrency(source) {
     result = result.split(before).join(after);
   };
 
+  // Group only desktop display fields; preserve pricing and native actions.
+  const summaryStart = 'wA("div",YaA,[';
+  const summaryAction = 'r.marketStore.onlineShop?(gA(),wA("div",PaA,';
+  const summaryFrom = result.indexOf(summaryStart), summaryTo = result.indexOf(summaryAction, summaryFrom);
+  if (result.split(summaryStart).length !== 2 || summaryTo < summaryFrom) {
+    throw new Error('The original currency presentation changed: price summary');
+  }
+  const oldSummary = result.slice(summaryFrom + summaryStart.length, summaryTo);
+  for (const expression of ['lA(e.costB)', 'lA(n.getDiscountedTotal())']) {
+    if (oldSummary.split(expression).length !== 2) {
+      throw new Error(`The original currency presentation changed: ${expression}`);
+    }
+  }
+  const newSummary = 'x("div",SaA,[' +
+    'x("div",{class:"befun-price-secondary"},[' +
+      'r.marketStore.hasB2bDiscount?(gA(),wA("s",TaA,lA(r.marketStore.currencySymbol)+" "+lA(e.costB),1)):ge("",!0),' +
+      'r.marketStore.hasB2bDiscount?(gA(),wA("span",UaA,lA(r.marketStore.b2bDiscountText)+" 할인",1)):ge("",!0)]),' +
+    'x("span",kaA,lA(r.marketStore.currencySymbol)+" "+lA(n.getDiscountedTotal()),1),' +
+    'x("div",RaA,[x("span",GaA,lA(r.marketStore.taxIncluded?n.textByPathArr(["menu","taxes_included_sub"]):n.textByPathArr(["menu","taxes_excluded_sub"])),1)])]),';
+  replace(oldSummary, newSummary);
+  for (const [name, className] of [['YaA','befun-price-summary'],['SaA','befun-price-amounts'],['kaA','befun-price-total'],['TaA','befun-price-original'],['RaA','befun-price-meta'],['PaA','befun-price-action']]) {
+    const prefix = name === 'TaA' || name === 'PaA' ? `${name}={key:${name === 'TaA' ? '0' : '1'},${name === 'PaA' ? 'ref:"buyAnchor",' : ''}class:"` : `${name}={class:"`;
+    replace(prefix, prefix + className + ' ');
+  }
+  replace('UaA={key:0,class:"', 'UaA={key:1,class:"befun-price-discount ');
+
   replace('lA(r.marketStore.currencySymbol)', '"₩"', 15);
   const renderAmounts = [
     ['e.costB', 1],

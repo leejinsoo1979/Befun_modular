@@ -1,0 +1,180 @@
+.befun-home {
+  --befun-ink: #20231e;
+  --befun-paper: #f5f5ef;
+  --befun-line: #d9dcd3;
+  --befun-accent: #dce8d1;
+  color: var(--befun-ink);
+}
+
+.befun-home [id^="befun-"] { scroll-margin-top: 24px; }
+.befun-home .befun-kicker {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .12em;
+  line-height: 1.5;
+}
+.befun-home h2 { word-break: keep-all; }
+.befun-home .fc-hero-content { bottom: 100px; max-width: 1120px; }
+.befun-home .fc-hero-content h1 {
+  font-size: clamp(48px, 5.1vw, 84px);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -.055em;
+  word-break: keep-all;
+}
+.befun-home .fc-hero-content .fc-eyebrow { font-size: 12px; letter-spacing: .16em; }
+.befun-home .fc-hero-tagline { font-size: 18px; line-height: 1.8; font-style: normal; font-weight: 400; }
+.befun-home .fc-hero-buttons { margin-top: 30px; }
+.befun-home .fc-hero-shade { background: linear-gradient(90deg, rgb(0 0 0 / .56), rgb(0 0 0 / .05)), linear-gradient(0deg, rgb(0 0 0 / .28), transparent 80%); }
+
+.befun-home .befun-system {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6vw;
+  padding: 104px 48px;
+  background: var(--befun-paper);
+  align-items: center;
+}
+.befun-system-copy > .befun-kicker { margin: 0 0 30px; }
+.befun-home .befun-system h2 { font-size: clamp(36px, 3.55vw, 60px); line-height: 1.22; font-weight: 500; letter-spacing: -.055em; }
+.befun-system h2 span { color: #777e70; }
+.befun-system-description { max-width: 520px; margin: 28px 0 36px; font-size: 16px; line-height: 1.9; word-break: keep-all; color: #555c50; }
+.befun-system-specs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; padding-top: 22px; border-top: 1px solid #cbd0c4; }
+.befun-system-specs small { display: block; font-size: 10px; color: #767d70; letter-spacing: .1em; margin-bottom: 9px; }
+.befun-system-specs strong { display: block; font-size: 13px; font-weight: 500; white-space: nowrap; }
+.befun-system-figure { align-self: stretch; margin: 0; display: flex; flex-direction: column; min-width: 0; }
+.befun-system-figure > img { display: block; width: 100%; flex: 1; min-height: 0; max-height: 520px; aspect-ratio: 1.12; object-fit: cover; border-radius: 2px; }
+.befun-system-figure figcaption { display: flex; align-items: center; justify-content: space-between; padding-top: 17px; font-size: 10px; letter-spacing: .06em; color: #5c6455; }
+.befun-system-figure figcaption button { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid #aeb7a4; border-radius: 50%; color: inherit; background: transparent; transition: background .2s; }
+.befun-system-figure figcaption button:hover { background: var(--befun-accent); }
+.befun-home .fc-section-heading h2 { font-weight: 500; font-size: clamp(34px, 3.3vw, 56px); line-height: 1.25; letter-spacing: -.045em; }
+.befun-home .fc-section-heading > div > .befun-kicker { font-size: 12px; margin-bottom: 22px; }
+.befun-home .fc-section-description { color: #67705f; }
+.befun-home .fc-reason-panels { height: 650px; border-radius: 3px; }
+.befun-home .fc-reason-content { background: rgb(20 26 18 / .86); border-radius: 3px; max-width: 390px; }
+.befun-home .fc-reason-content > strong { font-size: 23px; font-weight: 500; }
+.befun-home .fc-reason-content > span { font-size: 15px; line-height: 1.85; }
+.befun-home .fc-reason-number { font-size: 13px; }
+.befun-home .fc-service-banner { min-height: 640px; }
+.befun-home .fc-service-banner > div:last-child { max-width: 1050px; padding-top: 255px; }
+.befun-home .fc-service-banner h2 { font-size: clamp(34px, 3.8vw, 64px); line-height: 1.3; font-weight: 500; letter-spacing: -.045em; }
+.befun-home .fc-service-banner .befun-kicker { margin: 0 0 22px; font-size: 11px; }
+.befun-home .fc-service-banner p:not(.befun-kicker) { font-size: 17px; line-height: 1.8; }
+.befun-home .fc-range { padding-bottom: 100px; }
+.befun-category-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 24px; row-gap: 42px; padding: 0 48px; }
+.befun-category { display: block; min-width: 0; border: 0; padding: 0; background: transparent; text-align: left; color: inherit; }
+.befun-category-image { position: relative; overflow: hidden; aspect-ratio: 1.3; background: #eeeee9; }
+.befun-category-image img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity .4s, transform .6s; }
+.befun-category-image .befun-category-hover { opacity: 0; }
+.befun-category:is(:hover, :focus-visible) .befun-category-hover { opacity: 1; }
+.befun-category:is(:hover, :focus-visible) img { transform: scale(1.025); }
+.befun-category-name { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 22px; font-weight: 500; padding-top: 18px; }
+.befun-category > small { display: block; padding-top: 8px; color: #67705f; font-size: 14px; line-height: 1.6; word-break: keep-all; }
+.befun-home .befun-howto { padding: 90px 48px 60px; color: #f4f4ed; background: var(--befun-ink); }
+.befun-howto .fc-section-heading { padding: 0; align-items: flex-end; margin-bottom: 50px; }
+.befun-howto .befun-kicker { color: #c4d1b8; }
+.befun-howto-description { font-size: 16px; color: #bdc3b6; line-height: 1.9; margin-bottom: 4px; }
+.befun-step-grid { list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; padding: 0; margin: 0; }
+.befun-step-grid li { border-top: 1px solid #56604d; padding-top: 22px; }
+.befun-step-top { display: flex; align-items: center; justify-content: space-between; color: #b6c9a4; }
+.befun-step-top > span { font-size: 14px; letter-spacing: .05em; }
+.befun-home .befun-step-grid h3 { font-size: 21px; font-weight: 500; letter-spacing: -.035em; margin: 38px 0 14px; line-height: 1.45; word-break: keep-all; }
+.befun-step-grid p { color: #bdc3b6; font-size: 14px; line-height: 1.85; word-break: keep-all; }
+.befun-howto-bottom { display: flex; align-items: center; justify-content: space-between; gap: 26px; margin-top: 52px; padding-top: 28px; border-top: 1px solid #56604d; }
+.befun-howto-bottom > p { color: #bdc3b6; font-size: 13px; line-height: 1.8; }
+.befun-home .fc-community { padding-top: 100px; }
+.befun-home .fc-community-card { border-radius: 3px; }
+.befun-home .befun-start { padding: 80px 48px 90px; background: var(--befun-paper); }
+.befun-home .befun-start h2 { font-size: clamp(36px, 4vw, 64px); font-weight: 500; letter-spacing: -.05em; line-height: 1.25; margin-top: 26px; }
+.befun-start-options { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 42px; }
+.befun-start-options > button { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 26px 30px; border: 1px solid #c7cdbf; background: transparent; text-align: left; color: inherit; transition: background .2s; }
+.befun-start-options > button:first-child { background: var(--befun-accent); border-color: #c2cfb5; }
+.befun-start-options > button:hover { background: #d1dec6; }
+.befun-start-options small { display: block; font-size: 13px; color: #66705e; margin-bottom: 10px; }
+.befun-start-options strong { font-size: 24px; font-weight: 500; letter-spacing: -.035em; line-height: 1.4; }
+.befun-home .fc-contact { background: white; padding-top: 90px; }
+.befun-home .fc-contact h2 { font-size: clamp(30px, 3vw, 48px); font-weight: 500; letter-spacing: -.045em; }
+.befun-home .fc-contact p { color: #67705f; font-size: 16px; line-height: 1.9; }
+.befun-home button:focus-visible { outline: 2px solid #788c66; outline-offset: 5px; }
+.befun-home section[tabindex="-1"]:focus { outline: none; }
+
+@media (min-width: 761px) and (max-width: 950px) {
+  .site-header:not(.config-header) nav { gap: 12px; margin-left: 0; }
+  .site-header:not(.config-header) nav > button { font-size: 13px; }
+  .site-header:not(.config-header) .header-actions { gap: 14px; }
+}
+
+@media (max-width: 1100px) and (min-width: 768px) {
+  .befun-home .befun-system { gap: 36px; padding: 80px 32px; }
+  .befun-system-specs { gap: 8px; }
+  .befun-system-specs strong { font-size: 11px; }
+  .befun-system-description { font-size: 15px; }
+  .befun-step-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .befun-home .befun-step-grid h3 { margin-top: 24px; }
+}
+
+@media (max-width: 767px) {
+  .befun-home [id^="befun-"] { scroll-margin-top: 24px; }
+  .befun-home .home-hero { min-height: 700px; height: 96svh; max-height: 960px; }
+  .befun-home .fc-hero-content { left: 22px; right: 22px; bottom: 96px; text-align: left; }
+  .befun-home .fc-hero-content h1 { font-size: clamp(34px, 8.8vw, 54px); line-height: 1.3; margin-top: 22px; }
+  .befun-home .fc-hero-content .fc-eyebrow { font-size: 10px; letter-spacing: .12em; }
+  .befun-home .fc-hero-tagline { font-size: 14px; line-height: 1.85; margin-top: 22px !important; word-break: keep-all; }
+  .befun-home .fc-hero-tagline br { display: none; }
+  .befun-home .fc-hero-buttons { flex-direction: column; align-items: stretch; gap: 12px; margin-top: 26px; }
+  .befun-home .fc-hero-buttons .fc-pill { min-height: 52px; justify-content: space-between; }
+  .befun-home .befun-system { grid-template-columns: 1fr; padding: 62px 22px 46px; gap: 34px; }
+  .befun-system-copy > .befun-kicker { margin-bottom: 24px; }
+  .befun-home .befun-system h2 { font-size: clamp(32px, 8.5vw, 44px); line-height: 1.25; }
+  .befun-system-description { font-size: 14px; line-height: 1.95; margin: 24px 0 28px; }
+  .befun-system-specs { gap: 9px; }
+  .befun-system-specs strong { font-size: 11px; }
+  .befun-system-specs small { font-size: 9px; }
+  .befun-system-figure > img { aspect-ratio: 1.15; max-height: none; }
+  .befun-system-figure figcaption { font-size: 9px; padding-top: 11px; }
+  .befun-home .fc-why { padding-top: 64px; padding-bottom: 58px; }
+  .befun-home .fc-section-heading { padding-left: 22px; padding-right: 22px; gap: 24px; align-items: flex-start; }
+  .befun-home .fc-section-heading h2 { font-size: 31px; line-height: 1.3; }
+  .befun-home .fc-section-heading > div > .befun-kicker { font-size: 10px; margin-bottom: 18px; }
+  .befun-home .fc-section-description { font-size: 14px; line-height: 1.85; margin-top: 18px; }
+  .befun-home .fc-reason-panels { height: auto; margin: 0 22px; }
+  .befun-home .fc-reason-panel.is-active { min-height: 115vw; }
+  .befun-home .fc-reason-content { bottom: 22px; width: calc(100% - 28px); padding: 18px; }
+  .befun-home .fc-reason-content > strong { font-size: 21px; }
+  .befun-home .fc-reason-content > span { font-size: 13px; line-height: 1.8; }
+  .befun-home .fc-service-banner { min-height: 600px; }
+  .befun-home .fc-service-banner > div:last-child { padding: 240px 22px 48px; }
+  .befun-home .fc-service-banner h2 { font-size: clamp(27px, 7vw, 42px); line-height: 1.4; }
+  .befun-home .fc-service-banner .befun-kicker { font-size: 9px; }
+  .befun-home .fc-service-banner p:not(.befun-kicker) { font-size: 14px; line-height: 1.9; }
+  .befun-home .fc-range { padding: 64px 0; }
+  .befun-category-grid { grid-template-columns: 1fr 1fr; column-gap: 14px; row-gap: 28px; padding: 0 22px; }
+  .befun-category-image { aspect-ratio: 1; }
+  .befun-category-name { font-size: 16px; padding-top: 14px; gap: 4px; }
+  .befun-category-name svg { width: 17px; flex-shrink: 0; }
+  .befun-category > small { font-size: 12px; line-height: 1.7; padding-top: 6px; }
+  .befun-home .befun-howto { padding: 62px 22px 42px; }
+  .befun-howto .fc-section-heading { padding: 0; gap: 24px; margin-bottom: 34px; }
+  .befun-howto-description { font-size: 14px; line-height: 1.9; }
+  .befun-step-grid { grid-template-columns: 1fr 1fr; column-gap: 22px; row-gap: 32px; }
+  .befun-step-top > span { font-size: 12px; }
+  .befun-home .befun-step-grid h3 { font-size: 18px; margin-top: 26px; margin-bottom: 11px; }
+  .befun-step-grid p { font-size: 12px; line-height: 1.85; }
+  .befun-howto-bottom { flex-direction: column; align-items: stretch; margin-top: 34px; gap: 20px; }
+  .befun-howto-bottom > p { font-size: 12px; }
+  .befun-howto-bottom .fc-pill { justify-content: space-between; }
+  .befun-home .fc-community { padding-top: 64px; }
+  .befun-home .befun-start { padding: 62px 22px; }
+  .befun-home .befun-start .befun-kicker { font-size: 10px; }
+  .befun-home .befun-start h2 { font-size: 33px; line-height: 1.3; }
+  .befun-start-options { grid-template-columns: 1fr; gap: 14px; margin-top: 30px; }
+  .befun-start-options > button { padding: 24px; }
+  .befun-start-options strong { font-size: 22px; }
+  .befun-home .fc-contact { padding: 64px 22px; }
+  .befun-home .fc-contact h2 { font-size: 29px; }
+  .befun-home .fc-contact p { font-size: 14px; line-height: 1.85; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .befun-home button, .befun-home img { transition: none; }
+}

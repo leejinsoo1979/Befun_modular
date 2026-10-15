@@ -2,7 +2,7 @@ import React,{useEffect,useRef} from 'react';
 export default function OriginalConfigurator({initialTemplate,onAddToCart,onSaved,onOpenSaved}){
  const frame=useRef(null),callbacks=useRef({onAddToCart,onSaved,onOpenSaved});callbacks.current={onAddToCart,onSaved,onOpenSaved};
  const id=initialTemplate?.referenceConfigId||initialTemplate?.originalId;
- const params=new URLSearchParams();params.set('render-revision','panel-reflections-4');if(new URLSearchParams(location.search).get('render-quality')==='original')params.set('render-quality','original');if(id)params.set('config',id);const avatarTest=new URLSearchParams(location.search).get('avatar-test');if(avatarTest==='video-error')params.set('avatar-test',avatarTest);
+ const params=new URLSearchParams();params.set('render-revision','collapsible-toolbar-1');if(new URLSearchParams(location.search).get('render-quality')==='original')params.set('render-quality','original');if(id)params.set('config',id);const avatarTest=new URLSearchParams(location.search).get('avatar-test');if(avatarTest==='video-error')params.set('avatar-test',avatarTest);
  useEffect(()=>{const handler=event=>{if(event.origin!==location.origin||event.source!==frame.current?.contentWindow||event.data?.source!=='flexcube-original')return;const {type,payload}=event.data;
   if(type==='saved')callbacks.current.onSaved?.(payload);
   if(type==='open-saved')callbacks.current.onOpenSaved?.();
