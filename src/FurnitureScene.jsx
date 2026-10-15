@@ -27,7 +27,7 @@ export default function FurnitureScene({config,selected,onSelect,frontsOpen,fron
   const observer=new ResizeObserver(resize);observer.observe(host.current);resize();
   let raf; const tick=()=>{controls.update();renderer.render(scene,camera);raf=requestAnimationFrame(tick);};tick();
   engine.current={scene,camera,controls,renderer,root};
-  current.current.onReady?.({image:()=>renderer.domElement.toDataURL('image/png'),export:()=>new GLTFExporter().parse(root,result=>downloadFile('flexcube-model.gltf',JSON.stringify(result),'model/gltf+json'),e=>console.error(e),{binary:false})});
+  current.current.onReady?.({image:()=>renderer.domElement.toDataURL('image/png'),export:()=>new GLTFExporter().parse(root,result=>downloadFile('befun-model.gltf',JSON.stringify(result),'model/gltf+json'),e=>console.error(e),{binary:false})});
   return()=>{cancelAnimationFrame(raf);observer.disconnect();controls.dispose();renderer.domElement.removeEventListener('pointerdown',down);renderer.domElement.removeEventListener('pointerup',up);scene.traverse(o=>{o.geometry?.dispose();if(o.material)(Array.isArray(o.material)?o.material:[o.material]).forEach(m=>m.dispose());});env.dispose();renderer.dispose();renderer.domElement.remove();engine.current=null;};
  },[]);
  useEffect(()=>{

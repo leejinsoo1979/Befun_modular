@@ -72,10 +72,10 @@ function sourceFurniture(T, scene, floor, rowCount) {
  return {assembly, configure};
 }
 
-function harness({variant = 'female', motion = true, reduced = false, rejectPlay = false, furnitureRows = null} = {}) {
+function harness({variant = 'female', motion = true, visible, reduced = false, rejectPlay = false, furnitureRows = null} = {}) {
  const T = engine(), videos = [], timerCallbacks = new Map(), elements = [];
  const storage = new Map([['furniture-saved-configuration', '{"preserve":"exactly"}'],
-  ['befun-viewer-avatar-v1', JSON.stringify({state: {avatar: variant, motion}, version: 0})]]);
+  ['befun-viewer-avatar-v1', JSON.stringify({state: {avatar: variant, motion, visible}, version: 0})]]);
  T.TextureLoader = class {
   load(url, loaded) {
    const image = {complete: true, width: url.includes('male-still') ? 496 : 1024,
@@ -100,10 +100,10 @@ function harness({variant = 'female', motion = true, reduced = false, rejectPlay
   assert.equal(type, 'video');
   const video = {...eventTarget(), currentTime: 0, readyState: 4, HAVE_CURRENT_DATA: 2,
    videoWidth: variant === 'male' ? 992 : 896, videoHeight: variant === 'male' ? 608 : 672,
-   paused: false, loadCount: 0, attributes: new Map(),
+   paused: true, playCount: 0, loadCount: 0, attributes: new Map(),
    setAttribute(key, value) {this.attributes.set(key, value);},
    removeAttribute(key) {this.attributes.delete(key); if (key === 'src') this.src = '';},
-   play() {this.paused = false; return rejectPlay ? Promise.reject(new Error('autoplay blocked')) : Promise.resolve();},
+   play() {this.playCount++; this.paused = false; return rejectPlay ? Promise.reject(new Error('autoplay blocked')) : Promise.resolve();},
    pause() {this.paused = true;}, load() {this.loadCount++;},
   };
   videos.push(video); return video;
@@ -483,5 +483,45 @@ test('bfcache restoration reinstalls one avatar and one render callback after di
   h.window.emit('pageshow', {persisted: true}); h.tick();
   assert.equal(h.app.renderCallbacks.length, 1); assert.equal(h.anchor.visible, false);
   assert.equal(h.scene.children.filter(object => object.name === 'liveavatar').length, 1);
+ } finally {h.close();}
+});
+
+test('hiding the avatar also hides every shadow, pauses playback and retains furniture and avatar preferences', async () => {
+ const h = harness({variant: 'male'}); await Promise.resolve();
+ try {
+  h.playing(); h.tick();
+  const root = h.scene.getObjectByName('liveavatar'), video = h.videos.at(-1);
+  const originalCamera = h.camera.position.toArray(), furniture = h.storage.get('furniture-saved-configuration');
+  h.controls.onVisibility(false); h.tick(2);
+  assert.equal(root.visible, false, 'body, wall shadow and foot-contact meshes share this hidden parent');
+  root.traverse(object => {if (object.isMesh) assert.equal(object.visible, false, object.name + ' renderable is hidden');});
+  assert.equal(h.anchor.visible, false, 'the original reference figure stays hidden');
+  assert.equal(video.paused, true);
+  assert.equal(h.state.visible, false);
+  assert.deepEqual(JSON.parse(h.storage.get('befun-viewer-avatar-v1')).state, {avatar: 'male', motion: true, visible: false});
+  h.document.emit('visibilitychange'); assert.equal(video.paused, true, 'returning to the tab cannot restart a hidden avatar');
+  video.emit('playing'); assert.equal(video.paused, true, 'late autoplay events remain paused');
+  video.emit('error'); h.tick(3); assert.equal(root.visible, false, 'late fallback cannot reveal the still or shadows');
+  h.controls.onVisibility(true); h.tick(4);
+  assert.equal(root.visible, true); assert.equal(video.paused, false);
+  assert.equal(h.state.variant, 'male'); assert.equal(h.state.motion, true);
+  assert.deepEqual(h.camera.position.toArray(), originalCamera);
+  assert.equal(h.storage.get('furniture-saved-configuration'), furniture);
+ } finally {h.close();}
+});
+
+test('hidden state survives a fresh install and page return without playing video', async () => {
+ const h = harness({visible: false}); await Promise.resolve();
+ try {
+  h.tick();
+  assert.equal(h.scene.getObjectByName('liveavatar').visible, false);
+  assert.equal(h.videos.at(-1).playCount, 0);
+  assert.equal(h.state.visible, false);
+  h.close(); h.window.emit('pageshow', {persisted: true}); await Promise.resolve(); h.tick(2);
+  assert.equal(h.scene.getObjectByName('liveavatar').visible, false);
+  assert.equal(h.videos.at(-1).playCount, 0);
+  h.controls.onVisibility(true);
+  assert.equal(h.scene.getObjectByName('liveavatar').visible, true);
+  assert.equal(h.videos.at(-1).playCount, 1);
  } finally {h.close();}
 });

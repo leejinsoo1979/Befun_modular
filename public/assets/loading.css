@@ -1,0 +1,11 @@
+.befun-loader{display:grid;place-items:center;box-sizing:border-box;width:100%;color:#20211e;background:#f1f1f2;font:14px/1.6 Jost,'DM Sans','Apple SD Gothic Neo',sans-serif}
+.befun-loader--page{min-height:65vh}
+.befun-loader--overlay{position:absolute;inset:0;z-index:100;min-height:100%}
+.befun-loader__identity{display:flex;flex-direction:column;align-items:center;gap:27px;transform:translateY(-12px)}
+.befun-loader .befun-loader__logo{display:block;width:128px;height:39px;max-width:none;object-fit:contain;opacity:.86}
+.befun-loader__line{position:relative;display:block;width:80px;height:2px;overflow:hidden;border-radius:2px;background:#20211e12}
+.befun-loader__line::after{content:'';position:absolute;inset:0 auto 0 0;width:32px;border-radius:inherit;background:#20211e;animation:befun-loading-sweep 1.65s cubic-bezier(.65,0,.35,1) infinite}
+.befun-loader--error{padding:28px;text-align:center}
+.config-main>.befun-loader{height:100%;min-height:0}
+@keyframes befun-loading-sweep{0%{transform:translateX(-34px);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateX(82px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.befun-loader__line::after{animation:none;left:24px;opacity:.55}}

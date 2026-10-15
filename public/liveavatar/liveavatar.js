@@ -10,7 +10,7 @@
  const FEMALE_SCALE=(1.67+HEEL_CONTACT_DROP)/1522,FEMALE_VIDEO_SCALE=(1.67+HEEL_CONTACT_DROP)/671,MALE_SCALE=(1.83+HEEL_CONTACT_DROP)/585;
  const maleFeetPromise=fetch('/liveavatar/male-foot-anchors.json').then(r=>r.json());
  let stopped=false,controller=null,startFrame=0;
- const restore=()=>{try{const saved=JSON.parse(localStorage.getItem(PREFERENCE)||'{}');return {variant:(saved.state?.avatar||saved.avatar)==='male'?'male':'female',motion:saved.state?.motion!==false};}catch{return {variant:'female',motion:true};}};
+ const restore=()=>{try{const saved=JSON.parse(localStorage.getItem(PREFERENCE)||'{}');return {variant:(saved.state?.avatar||saved.avatar)==='male'?'male':'female',motion:saved.state?.motion!==false,visible:(saved.state?.visible??saved.visible)!==false};}catch{return {variant:'female',motion:true,visible:true};}};
  function boot(){
   if(stopped)return;
   const app=window.app,anchor=app?.scene?.getObjectByName('referenceFigurePlane'),floor=app?.scene?.getObjectByName('floorPlane');
@@ -19,17 +19,38 @@
  }
  function install(app,anchor,floor){
   const T=window.v3d,prefs=restore(),reduced=matchMedia('(prefers-reduced-motion: reduce)'),root=new T.Group(),facing=new T.Group();
-  root.name='liveavatar';facing.name='liveavatar-upright';root.add(facing);app.scene.add(root);anchor.visible=false;
+  root.name='liveavatar';facing.name='liveavatar-upright';root.add(facing);app.scene.add(root);root.visible=prefs.visible;anchor.visible=false;
   const wall=app.scene.getObjectByName('wallShadowPlane'),light=app.scene.children.find(o=>o.isDirectionalLight&&o.castShadow),cameraPosition=new T.Vector3(),rootPosition=new T.Vector3(),lightPosition=new T.Vector3(),lightTarget=new T.Vector3();
-  const controls=window.LiveAvatarControls.mount({container:window.FXC_SHADOW_ROOT.querySelector('#v3d-container'),onVariant:setVariant,onMotion:setMotion});
+  const controls=window.LiveAvatarControls.mount({container:window.FXC_SHADOW_ROOT.querySelector('#v3d-container'),onVariant:setVariant,onMotion:setMotion,onVisibility:setVisibility});
   const calibration=window.LiveAvatarCalibration.create(app,T,floor);
   let measurement={ready:false,factor:1},lastCalibration=-Infinity;
   let current=null,disposed=false,generation=0,footAnchors=null,lastMetrics=0;
   maleFeetPromise.then(data=>{footAnchors=data;}).catch(()=>{});
-  function persist(){try{localStorage.setItem(PREFERENCE,JSON.stringify({state:{avatar:prefs.variant,motion:prefs.motion},version:0}));}catch{}}
-  function report(){controls.setState({variant:prefs.variant,motion:prefs.motion,mode:current?.mode||'loading',height:prefs.variant==='male'?1.83:1.67,reason:current?.reason||''});}
+  function persist(){try{localStorage.setItem(PREFERENCE,JSON.stringify({state:{avatar:prefs.variant,motion:prefs.motion,visible:prefs.visible},version:0}));}catch{}}
+  function report(){controls.setState({variant:prefs.variant,motion:prefs.motion,visible:prefs.visible,mode:current?.mode||'loading',height:prefs.variant==='male'?1.83:1.67,reason:current?.reason||''});}
   function setVariant(variant){if(!['female','male'].includes(variant)||variant===prefs.variant)return;prefs.variant=variant;persist();replace();}
   function setMotion(enabled){prefs.motion=enabled;persist();replace();}
+  function setVisibility(visible){
+   prefs.visible=!!visible;applyVisibility();persist();
+   if(prefs.visible&&!document.hidden)current?.play?.();else current?.video?.pause();
+   app.renderer.shadowMap.needsUpdate=true;report();
+  }
+  function applyVisibility(){
+   root.visible=prefs.visible;
+   if(!current)return;
+   const r=current,active=r.mode==='video'?r.motion:r.still;
+   let changed=false;
+   const set=(object,key,value)=>{if(object[key]!==value){object[key]=value;changed=true;}};
+   // Verge3D also caches individual renderables: hide each body/contact/shadow,
+   // rather than relying only on the parent group's visibility.
+   for(const contact of r.contacts||[])set(contact,'visible',prefs.visible);
+   for(const item of [r.still,r.motion])if(item){
+    const visible=prefs.visible&&item===active&&(item!==r.still||!!item.mesh.material.map.image);
+    set(item.mesh,'visible',visible);set(item.mesh,'castShadow',visible);
+    set(item.shadow,'visible',visible&&!!wall?.visible);
+   }
+   if(changed)app.renderer.shadowMap.needsUpdate=true;
+  }
   function packedShader(material,packed,depth=false){
    // Verge3D 4.1.1 omits this video-texture define. Decode RGB once; keep the mask linear.
    if(packed&&!depth)material.defines.DECODE_VIDEO_TEXTURE=1;
@@ -97,13 +118,13 @@
     resources.geometries.push(geometry);resources.materials.push(material);const mesh=new T.Mesh(geometry,material);mesh.name='liveavatar-foot-contact';mesh.rotation.x=-Math.PI/2;mesh.position.set((x-(male?248:515))*scale,.003,0);mesh.renderOrder=2;mesh.raycast=()=>{};facing.add(mesh);return mesh;
    });resources.contacts=contacts;
    const loader=new T.TextureLoader();const stillTexture=loader.load(ASSETS+(male?'male-still.png':'ivory-linen-woman.png'),()=>{
-    if(resources.disposed){stillTexture.dispose();return;}if(resources.still)resources.still.mesh.visible=resources.mode!=='video';
+    if(resources.disposed){stillTexture.dispose();return;}if(resources.still)resources.still.mesh.visible=prefs.visible&&resources.mode!=='video';
    },undefined,()=>{if(!resources.disposed){resources.reason='Image could not load';report();}});
    stillTexture.encoding=T.sRGBEncoding;stillTexture.minFilter=T.LinearFilter;stillTexture.magFilter=T.LinearFilter;resources.textures.push(stillTexture);
    resources.still=visibleMesh(stillTexture,male,false,resources);resources.still.mesh.visible=false;
-   if(stillTexture.image?.complete)resources.still.mesh.visible=true;
+   if(stillTexture.image?.complete)resources.still.mesh.visible=prefs.visible;
    function fallback(reason){if(resources.disposed)return;clearTimeout(resources.timeout);resources.video?.pause();resources.mode='still';resources.reason=reason;resources.playing=false;if(resources.motion){resources.motion.mesh.visible=false;resources.motion.shadow.visible=false;}
-    resources.still.mesh.visible=!!stillTexture.image;resources.still.shadow.visible=!!stillTexture.image;report();app.renderer.shadowMap.needsUpdate=true;
+    resources.still.mesh.visible=!!stillTexture.image;resources.still.shadow.visible=!!stillTexture.image;applyVisibility();report();app.renderer.shadowMap.needsUpdate=true;
    }
    resources.fallback=fallback;
    if(!prefs.motion||reduced.matches){fallback(reduced.matches?'Reduced motion':'Motion paused');report();return;}
@@ -112,11 +133,11 @@
    video.src=forceFailure?'/liveavatar/unavailable-test-video.mp4':ASSETS+(male?'male-motion-packed.mp4':'ivory-linen-motion-packed.mp4');
    const videoTexture=new T.VideoTexture(video);videoTexture.encoding=T.sRGBEncoding;videoTexture.minFilter=T.LinearFilter;videoTexture.magFilter=T.LinearFilter;videoTexture.generateMipmaps=false;resources.textures.push(videoTexture);resources.videoTexture=videoTexture;
    resources.motion=visibleMesh(videoTexture,male,true,resources);resources.motion.mesh.visible=false;
-   const playing=()=>{if(resources.disposed||token!==generation)return;clearTimeout(resources.timeout);resources.texel.value.set(1/video.videoWidth,1/video.videoHeight);resources.mode='video';resources.reason='';resources.playing=true;resources.still.mesh.visible=false;resources.still.shadow.visible=false;resources.motion.mesh.visible=true;resources.motion.shadow.visible=!!wall?.visible;report();};
+   const playing=()=>{if(resources.disposed||token!==generation)return;if(!prefs.visible)video.pause();clearTimeout(resources.timeout);resources.texel.value.set(1/video.videoWidth,1/video.videoHeight);resources.mode='video';resources.reason='';resources.playing=true;resources.still.mesh.visible=false;resources.still.shadow.visible=false;resources.motion.mesh.visible=true;resources.motion.shadow.visible=!!wall?.visible;applyVisibility();report();};
    const failed=()=>fallback('Video unavailable');
    video.addEventListener('playing',playing);video.addEventListener('error',failed);resources.listeners.push(()=>video.removeEventListener('playing',playing),()=>video.removeEventListener('error',failed));
-   resources.play=()=>{if(!resources.disposed&&prefs.motion&&!reduced.matches)video.play().catch(()=>fallback('Autoplay unavailable'));};
-   resources.timeout=setTimeout(()=>{if(resources.mode!=='video')fallback('Video loading timeout');},6500);resources.play();report();
+   resources.play=()=>{if(!resources.disposed&&prefs.visible&&prefs.motion&&!document.hidden&&!reduced.matches)video.play().catch(()=>fallback('Autoplay unavailable'));};
+   resources.timeout=setTimeout(()=>{if(resources.mode!=='video')fallback('Video loading timeout');},6500);resources.play();applyVisibility();report();
   }
   function release(){
    const r=current;if(!r)return;r.disposed=true;clearTimeout(r.timeout);r.listeners.forEach(fn=>fn());
@@ -124,12 +145,12 @@
    facing.clear();r.textures.forEach(t=>t.dispose());r.materials.forEach(m=>m.dispose());r.geometries.forEach(g=>g.dispose());current=null;
   }
   function update(dt,elapsed){
-   if(disposed||!current)return;const r=current;anchor.visible=false;
+   if(disposed||!current)return;const r=current;anchor.visible=false;applyVisibility();
    if(elapsed-lastCalibration>=.2){measurement=calibration.measure();lastCalibration=elapsed;root.scale.setScalar(measurement.factor);}
    const wallZ=wall?.position.z??-.1,clearance=wallZ+.53;root.position.set(anchor.position.x,floor.position.y,clearance);
    app.camera.getWorldPosition(cameraPosition);root.getWorldPosition(rootPosition);const dx=cameraPosition.x-rootPosition.x,dz=cameraPosition.z-rootPosition.z;
    if(dx*dx+dz*dz>1e-8)facing.rotation.set(0,Math.atan2(dx,dz),0);
-   if(r.mode==='video'&&r.video){
+   if(prefs.visible&&r.mode==='video'&&r.video){
     r.videoTexture.needsUpdate=r.video.readyState>=2;
     if(r.male&&footAnchors){const frame=Math.min(footAnchors.feet.length-1,Math.floor(r.video.currentTime*footAnchors.fps));r.motion.mesh.position.y=(footAnchors.feet[frame]-304)*MALE_SCALE-HEEL_CONTACT_DROP;r.decoded=frame;}
     app.renderer.shadowMap.needsUpdate=true;

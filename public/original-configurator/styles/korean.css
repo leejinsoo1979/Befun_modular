@@ -2,3 +2,64 @@
 :host,button,input,select,textarea{font-family:'DM Sans','Apple SD Gothic Neo','Malgun Gothic',sans-serif}
 :host{word-break:keep-all;overflow-wrap:break-word;line-break:strict}
 h1,h2,h3,p,button,label{word-break:keep-all;overflow-wrap:break-word}
+
+/* Keep the native design gallery button and tooltip; replace its photo stack. */
+[data-ph-capture-attribute-toolbar-action="templates"]>span:first-child{display:grid;place-items:center;box-sizing:border-box;width:44px;height:44px;border:1px solid #dededb;border-radius:50%;background:#fff;color:#71756f;box-shadow:0 2px 6px #00000008;transition:color .15s,background-color .15s,border-color .15s}
+[data-ph-capture-attribute-toolbar-action="templates"]>span:first-child img{display:none}
+[data-ph-capture-attribute-toolbar-action="templates"]>span:first-child::before{content:"";display:block;width:24px;height:24px;background:currentColor;-webkit-mask:url("/assets/design-gallery.svg") center/contain no-repeat;mask:url("/assets/design-gallery.svg") center/contain no-repeat}
+[data-ph-capture-attribute-toolbar-action="templates"]:hover>span:first-child{color:#171717;background:#f8f8f7;border-color:#b8bbb4}
+[data-ph-capture-attribute-toolbar-action="templates"]:focus-visible{outline:2px solid #171717;outline-offset:3px;border-radius:24px}
+@media(min-width:768px){[data-ph-capture-attribute-toolbar-action="templates"]{top:0;bottom:auto}}
+
+/* Expansion hotspots remain legible over both the preview and the floor. */
+.add-icon__content{width:32px;height:32px;min-width:32px;min-height:32px;border:1.5px solid #fff;background-color:#171717;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 4v12M4 10h12' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");background-size:20px 20px;box-shadow:0 2px 8px #0003;cursor:pointer}
+.add-icon__content:hover,.add-icon__content:focus-visible{background-color:#333;outline:2px solid #171717;outline-offset:2px}
+@media(pointer:coarse){.add-icon__content{width:36px;height:36px}}
+
+/* The canvas stays in place while each settings pane scrolls independently. */
+#app{height:100dvh;overflow:hidden;overscroll-behavior:none}
+#app>[class~="min-h-[100dvh]"]{height:100%;min-height:0;overflow:hidden}
+#app>[class~="min-h-[100dvh]"]>*{min-height:0;min-width:0}
+#app>[class~="min-h-[100dvh]"]>:has(#settingsMenuContent){height:100%;overflow:hidden}
+#app [class~="overflow-y-auto"]{min-height:0;overscroll-behavior-y:contain}
+#app [class~="overflow-y-auto"]:has(>#settingsMenuContent){flex:1}
+@media(max-width:767px){
+  #app>[class~="min-h-[100dvh]"]>:has(#v3d-container){flex-shrink:0}
+  #app>[class~="min-h-[100dvh]"]>:has(#settingsMenuContent){flex:1;height:auto}
+}
+
+/* Keep the local controls monochrome without changing furniture color swatches. */
+.bg-orange{background-color:#000}
+.hover\:bg-orange:hover,
+.hover\:bg-orange-600:hover,
+.lg\:hover\:bg-orange-600:hover{background-color:#262626}
+.active\:bg-orange-700:active,
+.lg\:active\:bg-orange-700:active{background-color:#404040}
+.disabled\:bg-orange\/40:disabled{background-color:rgb(0 0 0 / .4)}
+.border-orange,.hover\:border-orange:hover{border-color:#000}
+.border-b-orange{border-bottom-color:#000}
+.fill-orange,.hover\:fill-orange:hover{fill:#000}
+.text-orange,.\!text-orange,.fxc-link-orange{color:#000!important}
+.ring-orange{--tw-ring-color:#000}
+.noUi-connect{background:#000!important}
+.noUi-horizontal .noUi-tooltip{color:#000}
+.noUi-horizontal .noUi-handle:hover{border-color:#000}
+.selectedoptn,.selectedoptn.circleoptn .coloroptions{border-color:#000!important}
+.selectedoptn::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25 25'%3E%3Ccircle cx='12.5' cy='12.5' r='12' fill='%23000'/%3E%3Cpath d='M16.5 9.5L11 15l-2.5-2.5' fill='none' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+[fill="#D86C38" i],[fill="#D66C3F" i],[fill="#c85a2e" i]{fill:#000}
+[stroke="#c85a2e" i],[stroke="#d86c38" i],.stroke-\[\#c85a2e\],.\!stroke-\[\#c85a2e\],
+[class~="stroke-[rgb(200,90,46)]"]{stroke:#000!important}
+[class~="text-[#c85a2e]"],[class~="text-[rgb(200,90,46)]"]{color:#000!important}
+[class~="border-[#c85a2e]"],[class~="border-[rgb(200,90,46)]"]{border-color:#000}
+[class~="border-[rgba(200,90,46,0.2)]"]{border-color:#0003}
+[class~="bg-[#c85a2e]"]{background-color:#000}
+[class~="bg-[#fff4ee]"],[class~="bg-[rgb(253,237,229)]"],
+[class~="!bg-[rgb(253,240,232)]"]{background-color:#f1f1f2!important}
+[style*="color: rgb(192, 88, 40)"],[style*="color: rgb(200, 90, 46)"]{color:#000!important}
+[style*="background: rgb(200, 90, 46)"]{background:#000!important;box-shadow:0 2px 8px #0003!important}
+[style*="background: rgba(216, 108, 56,"]{background:#f1f1f2!important;border-color:#0003!important}
+.bg-light-orange{background-color:#f1f1f2}
+@media(max-width:767px){.max-md\:bg-light-orange{background-color:#f1f1f2}}
+@media(max-width:1023px){
+  .colorselections .selectedoptn .color-box,.colorselections .selectedoptn.color-box{box-shadow:0 0 0 .5vw #eeeae4,0 0 0 1vw #000}
+}
