@@ -5,9 +5,10 @@ import {label} from './localize';
 import {formatWon} from './currency';
 import {catalogCollections, collectionFor, collectionProducts} from './catalogData';
 import {initialVariant, productPrice} from './catalogProduct';
+import DeskLineupEntry from './DeskLineupEntry';
 import './catalog.css';
 
-export default function Catalog({initialCategory = 'All', onConfigure, onBrowse, onProduct, onNavigate}) {
+export default function Catalog({initialCategory = 'All', onConfigure, onBrowse, onProduct, onNavigate, onDeskConfigure}) {
  const collection = collectionFor(location.pathname.includes('/collections/') ? location.pathname : initialCategory);
  const [data, setData] = useState(null);
  const [error, setError] = useState(false);
@@ -61,6 +62,7 @@ export default function Catalog({initialCategory = 'All', onConfigure, onBrowse,
     {railEdges.right ? <button aria-label="다음 가구 카테고리" onClick={() => categoryRail.current.scrollBy({left:categoryRail.current.clientWidth * .7, behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})}><ChevronRight size={20}/></button> : null}
    </div></div>
   </div>
+  {collection.key === 'Tables' ? <DeskLineupEntry onOpen={onDeskConfigure}/> : null}
   {error ? <div className="fc-empty-products" role="alert"><p>상품을 불러오지 못했어요. 새로고침해 주세요.</p></div> :
    <div className="fc-catalog-products">
     {!data ? <p role="status">상품을 불러오는 중입니다.</p> : null}

@@ -6,7 +6,9 @@ import {label} from './localize';
 import {formatWon, rateDescription} from './currency';
 import {collectionFor} from './catalogData';
 import {initialVariant, optionLabel, productCartConfig, productPrice, templateForProduct, variantForOptions} from './catalogProduct';
+import {hasStandingDeskPreview} from './deskConfig';
 import './product-detail.css';
+import './desk-lineup.css';
 
 const tableDescriptions = {
  'hoehenverstellbarer-schreibtisch-home':'65–130cm 범위에서 전동으로 높이를 조절하는 홈 오피스 책상입니다. 부드러운 시작·정지와 충돌 방지 기능을 갖추고 있습니다. 모터 보증 기간은 5년입니다.',
@@ -20,7 +22,7 @@ const tableDescriptions = {
  'schreibtisch-klassik':'간결한 크롬 프레임의 클래식 책상입니다. 블랙·화이트와 천연 목재 무늬목 상판, 세 가지 크기를 선택할 수 있습니다.',
 };
 
-export default function ProductDetail({path, onConfigure, onBrowse, onAddToCart, onNavigate}) {
+export default function ProductDetail({path, onConfigure, onBrowse, onAddToCart, onNavigate, onDeskConfigure}) {
  const handle = decodeURIComponent(path.split('/').filter(Boolean).at(-1));
  const [result, setResult] = useState(null), [error, setError] = useState(false);
  const [variantId, setVariantId] = useState(null), [photo, setPhoto] = useState(null), [quantity, setQuantity] = useState(1);
@@ -74,6 +76,7 @@ export default function ProductDetail({path, onConfigure, onBrowse, onAddToCart,
     {variant?.sku ? <p className="pd-sku">품번 {variant.sku}</p> : null}
     <div className="pd-buy-row"><label>수량 <input type="number" min="1" max="99" step="1" value={quantity} onChange={event => setQuantity(Math.min(99, Math.max(1, Math.trunc(Number(event.target.value) || 1))))}/></label><button className="orange-button full-button" disabled={!variant?.available} onClick={() => onAddToCart(productCartConfig(product, variant, template), price, image, quantity)}>{variant?.available ? '장바구니 담기' : '품절'} <ShoppingCart size={18}/></button></div>
       {template ? <button className="outline-button full-button" onClick={() => onConfigure(template)}>커스터마이즈 <ArrowRight size={18}/></button> : null}
+    {hasStandingDeskPreview(product) && onDeskConfigure ? <div className="desk-product-preview"><button className="outline-button full-button" onClick={onDeskConfigure}>스탠딩 데스크 3D 보기 <ArrowRight size={18}/></button><p>3D 화면은 소재·폭·높이를 살펴보는 공통 모델입니다.<br/>이 상품의 구매 옵션은 위에서 선택하세요.</p></div> : null}
     <details className="pd-description" open><summary>상품 정보</summary>{detail.description ? detail.description.split('\n').map((line,index) => <p key={index}>{line}</p>) : <p>{label(product.title)}</p>}</details>
    </section>
   </div>
